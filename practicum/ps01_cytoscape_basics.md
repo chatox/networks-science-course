@@ -53,11 +53,11 @@ Open a graph shown co-occurrences of characters in Victor Hugo's "Les Misérable
 * File `lesmiserables.gml`
 * Find Valjean
 * Find Cosette and Marius
-* Look at this other visualization of the same data: https://bost.ocks.org/mike/miserables/
+* Look at this [other visualization of the same data](https://bost.ocks.org/mike/miserables/)
 
 ## 2.3. Import US companies co-ownership
 
-Open a [graph representing company co-ownership in the US](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm):
+Open a graph representing company co-ownership in the US:
 
 * File > Import > Network > File
 * Select `us_companies_ownership.csv`
