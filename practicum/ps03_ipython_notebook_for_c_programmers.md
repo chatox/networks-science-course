@@ -171,6 +171,9 @@ Dictionaries are created with curly braces `{` and `}`.
 
 ... perhaps I can use `personajes.txt` from GoT in EDA1.
 
+1. Write program to transform to another format
+2. Read from the other format
+
 # References
 
 * https://www.stormingrobots.com/prod/tutorial/C2Python.pdf
