@@ -142,7 +142,7 @@ Install ModuLand 2.0 (Tools > App Manager)
 
 ## 6.2. Use ModuLand
 
-Use  ModuLand 2.0 (Tools > ModuLand 2.0 > Run ...) on Les Misèrables
+Use ModuLand 2.0 (Tools > ModuLand 2.0 > Run ...) on Les Misèrables
 
 * Select any temporary folder if prompted
 * Use the "value" attribute (ModuLand requires an attribute for the weight)
@@ -156,3 +156,7 @@ Use ModuLand 2.0 on the Karate Club
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
 * Use "Edge betweenness" as the attribute
 * Run the module land, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
+
+# DELIVER (INDIVIDUALLY)
+
+At the end of the session, deliver an image file in .png format (File > Export as image) of the Karate Club network with nodes painted according to clusters. Please, do not deliver partially completed work, i.e.,
