@@ -45,6 +45,8 @@ Notice the number of nodes and edges of this sub-graph, it appears on the left p
 * Do the same for a less popular character "ENCHANTRESS"
 * Notice the number of nodes is much smaller but the number of edges is not proportionally as small. Why do you think this happens?
 
+Note that you can also select by other characteristics, such as degree, by creating a filter in the "Select" panel.
+
 # 2. Creating a network
 
 Now we will practice creating small networks.
