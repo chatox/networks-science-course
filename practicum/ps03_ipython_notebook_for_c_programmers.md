@@ -105,7 +105,7 @@ Python also offers to import only some functions from a module, e.g.:
 
 ## Conditional
 
-TBD
+TBA
 
 ## Printing
 
