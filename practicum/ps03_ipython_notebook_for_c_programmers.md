@@ -16,7 +16,7 @@ The particular version of Python we will use is Python 3, and in particular we w
 
 ## 1.2. Understanding the notebook
 
-You can name your notebook by clicking on "Untitled" on the top-left. Similarly to Google Docs documents, they notebooks are auto-saved. You can also save them with File > Save and Checkpoint, or with the "Save" icon in the toolbar.
+You can name your notebook by clicking on "Untitled" on the top-left. Similarly to Google Drive documents, notebooks are auto-saved. You can also save them with File > Save and Checkpoint, or with the "Save" icon in the toolbar.
 
 The green rectangle shows the current *cell*. Enter the following:
 
@@ -25,9 +25,9 @@ The green rectangle shows the current *cell*. Enter the following:
     p = 2 * pi * r
     print(p)
 
-Note that you must be careful not to introduce any space/indentation at the beginning of a line, because **indentation is important in Python**.
+For this example to work, you must be careful not to introduce any space/indentation at the beginning of a line, because **indentation is important in Python**.
 
-Execute that cell by pressing `Shift-Enter`. The result appears (the perimiter of a circumference of radius 3), and a new cell is created.
+Execute that cell by pressing `Shift-Enter`. The result appears (the perimeter of a circumference of radius 3), and a new cell is created.
 
 Type more code into the second cell:
 
@@ -39,17 +39,47 @@ As you can see, the variables are preserved from cell to cell.
 
 ## Filename
 
-In Python files are named `*.py` (for source files) or `*.ipynb` (for notebooks).
+In C, source files were named `*.c` or `*.h` for headers.
+
+In Python, files are named `*.py` (for source files) or `*.ipynb` (for notebooks).
 
 ## Numbers
 
 In Python you have basically the same operations as in C: `a+b`, `a-b`, `a*b`, `a/b`, `a%b`, and `a**b`; the last one means *a* to the power of *b*.
 
-Numbers can be float ... integer ...
+In Python you don't need to declare a variable type, so instead of `int x=10` you simply say `x=10`.
+
+The two main numeric types we will use are *int*, which are implemented typically using long integers, and *float*, which are implemented typically using double. You can convert between these types:
+
+    x = 1
+    y = 2
+    print(type(x))
+    print(type(y))
+    print(type(x+y))
+    print(type(x/y))
+
+Now try executing the same but changing `y=2` to `y=float(2)` or `y=2.0`. The second is a common way of forcing a number to be interpreted as a float. You can convert easily between types using functions `int()`, `float()`, `str()`, e.g., `x=(int)y` in C becomes `x=int(y)` in Python.
+
+## Printing and formatting
+
+Printing is done using the `print()` function, which from Python 3 onwards must use parenthesis (Python 2 allowed `print "hello"`, but in Python 3 you must say `print("hello")`). Note that `print()` generates a newline:
+
+    print("hello")
+
+The `print()` function accepts a single parameter. To format numbers, one must use the `%` operator. This operator takes a string containing formatting instructions (in the same way as `printf` in C), and a tuple with one element per formatting, examples:
+
+    fruit = "oranges"
+    amount = 16
+    print("Quantity of %s: %d" % (fruit, amount))
+
+    pi = 3.141592653589793
+    print("Pi with 4 decimals: %.4f" % pi)
 
 ## Strings
 
-In Python single and double quotes are the same, so you can just do `word = "hello"` or `word='hello'`. They are the same.
+In C single quotes were used to represent characters, while double quotes represented strings.
+
+In Python single and double quotes both represent strings, so you can just do `word = "hello"` or `word='hello'`. They are the same.
 
 For string constants, in C you would say:
 
@@ -59,19 +89,87 @@ In Python:
 
     c = "this is a phrase"
 
-## Types
+### String concatenation
 
-In Python you don't need to declare a variable type, so instead of `int x=10` you simply say `x=10`.
+In Python, strings are concatenated using `+`:
 
-You can convert easily between types using functions `int()`, `float()`, `str()`, e.g., `x=(int)y` in C becomes `x=int(y)` in Python.
+    z = "hello" + " " + "world"
+    print(z)
+
+### String splitting
+
+In Python, strings can be separated using `str.split(separator)`. The result is an array:
+
+    x = "hello this,is to be,separated"
+    print(x.split(","))
+
+### String joining
+
+In Python, an array of strings can be joined using `joiner.join(array)`:
+
+    y = ["these", "must", "be", "joined"]
+    print(",".join(y))
+
+## Arrays
+
+In C you would say:
+
+    char days[][10] = {"Monday", "Tuesday", ..., "Sunday"}
+
+In Python you say:
+
+    days = ["Monday", "Tuesday", ..., "Sunday"]
+
+As you can see, in Python, as in C, arrays are represented by brackets, and numbered from zero, for instance:
+
+    x = ["a", "b", "c", "d"]
+    print(x[2])
+
+Sub-arrays can be extracted easily using Python's slice notation, which in simplified form is `array[start:end]`, with both `start` and `end` optional (there are more options):
+
+    print(x[1:])     # ["b", "c", "d"]
+    print(x[1:3])    # ["b", "c"]
+    print(x[2:4])    # ["c", "d"]
+    print(x[:3])     # ["a", "b", "c"]
+
+The length of an array is obtained with `len(x)`.
+
+## Dictionaries
+
+Python has powerful expressions for managing dictionaries. Dictionaries are declared using `{ ... }` to distinguish them from arrays which use `[ ... ]`.
+
+    person = { "name": "Jack", "age": 21 }
+    print(person["name"])
+    print(person["age"])
+    print(person["phone"])   # Error
+
+Keys can be added simply by specifying them, or deleted using `del`:
+
+    person["yob"] = 1998
+    del person["age"]
+    print(person)
+
+## Booleans
+
+In C the `stdbool` library defined TRUE and FALSE.
+
+In Python these are built-in types `True` and `False`.
+
+## Null values
+
+In C a null pointer was represented by `NULL` which also has the value zero.
+
+In Python there is the built-in `None` which represents something inexistent or missing and has no value.
 
 ## Pointers
 
 In Python almost everything is a reference so no need to deal with pointers (yay!).
 
+# 2. Program structure
+
 ## Main function
 
-In Python and specially in IPython you do not need a main method. Whatever you type will be executed.
+In Python and specially in IPython you do not need a main method. Whatever you type will be executed once you type `shift-enter` or `control-enter`.
 
 ## Comments
 
@@ -87,6 +185,99 @@ In Python comments start with a `#` if it's a single line, and with `'''` if it'
 
 In Python there are no brackets, but indentation, and statements end with the end-of-line, not with a semicolon. All statements in a block must be indented.
 
+## Conditionals
+
+In C a conditional had the structure:
+
+    if(condition) {
+      printf(TRUE);
+    } else {
+      printf(FALSE);
+    }
+
+In Python this conditional is written as:
+
+    if condition:
+        print(True)
+    else:
+        print(False)
+
+Instead of `elsif`, in Python one uses `elif`:
+
+    a = 4
+    b = 40
+
+    if a < b:
+        print("a is less than b")
+    elif a == b:
+        print("a is equal to b")
+    elif a > b:
+        print("a is greater than b")
+    else:
+        print("Something is very wrong")
+
+## For loop (sequence of numbers)
+
+In C this prints 0..9:
+
+    for(int i=0; i<10; i++) {
+      print("%d\n", i);
+    }
+
+The equivalent in Python is:
+
+    for i in range(0,10):
+        print("%d" % i)
+
+The `range` function is compatible with the numbering used in array slices, so the first number is inclusive and the second number is exclusive. The following print the same:
+
+    # Using slice
+    print(x[1:3])
+
+    # Using range
+    for i in range(1,3):
+        print("x[%d]=%s" % (i, x[i]))
+
+## For loop (array)
+
+In Python one can also loop through an array:
+
+    days = ["Monday", "Tuesday", "Wednesday"]
+
+    for day in days:
+        print day
+
+## While loop
+
+Example in C:
+
+    int a = 10
+    while(a>0) {
+        printf("a=%d\n", a);
+        a--;
+    }
+
+Example in Python:
+
+    a = 10
+    while a > 0:
+        print(a)
+        a -= 1
+
+## Functions
+
+Function don't have a return type in Python, they assume the return type of the variable you return.
+
+    def factorial(x):
+        if x == 1:
+            return 1
+        else:
+            return x * factorial(x-1)
+
+    print("%d! == %d" % (6, factorial(6)))
+
+# 3. Reading files
+
 ## Modules
 
 In C you would say:
@@ -101,97 +292,73 @@ Python also offers to import only some functions from a module, e.g.:
 
     from module import function1, function2, function3
 
-# 3. Simple examples
+## The io module
 
-## Conditional
+In C you used the `stdio` module. In Python there is an `io` module.
 
-TBA
+We are going to test this module. First, create a file named `test.csv` containing a few lines of text. Place it in the same directory as the Python notebook. You can create it from within Jupyter's file selector by selecting "New > Text file ..." in the upper-right corner (not from within an open notebook, but from within the list of files.
 
-## Printing
+In this file, enter a list of comma-separated values like this:
 
-Newline ...
+    person,age,color
+    Myriam,24,red
+    John,21,blue
+    Hector,32,red
+    Jin,27,blue
 
-Formatting % ...
+Now, read this file with the following:
 
-## For loop
+    import io
 
-Example in C:
+    FILENAME = "test.csv"
 
-    for(int i=0; i<10; i++) {
-      print("%d\n", i);
-    }
+    with io.open(FILENAME) as file:
+        for line in file:
+            # Remove trailing newlines
+            line = line.rstrip()
 
-Equivalent in Python:
+            # Print
+            print("Read line '%s' of length %d characters" % (line, len(line)))
 
-    for i in range(0,10):
-        print("%d" % i)
+Now we have only read the lines, we need to split them using commas. However, it is much easier and error-proof to use a module for this.
 
-## While loop
+## The csv module
 
-Example in C:
+Python's csv module provides a powerful mechanism for parsing comma-separated files.
 
-    while(condition) {
-      do_something();
-    }
+    import io
+    import csv
 
-Example in Python:
+    FILENAME = "test.csv"
 
-    while condition:
-        do_something()
+    with io.open(FILENAME) as file:
+        reader = csv.DictReader(file, delimiter=',')
+        for row in reader:
+            print("%s is %d years old" % (row['name'], int(row['age'])))
 
-## Functions
+Note that you can also store the people being read in an array, and even the distinct values of a variable:
 
-Function don't have a return type in Python, they assume the return type of the variable you return.
+    people = []
+    colors_dict = {}
+    with io.open(FILENAME) as file:
+        reader = csv.DictReader(file, delimiter=',')
+        for row in reader:
+            people.append(row)
+            if row["color"] not in colors_dict:
+                colors_dict[row["color"]] = True
 
-Example in C:
+    colors = colors_dict.keys()
+    print(people)
+    print(colors)
 
-    int factorial(int num) {
-        ...
-        return result;
-    }
+Note that `people` is an array of dictionaries, `colors_dict` is a dictionary where keys are the colors seen, and `colors` is an array of strings, containing all the different colors seen.
 
-Example in Python:
+# DELIVER (individually)
 
-    def factorial(num):
-        ...
-        return result
+At the end of the session, deliver two files: `test.csv` and a clean Python notebook `test.ipynb` containing code to read the file and compute, for each different color, the average age of people having that color, for instance, in the example above, it should print:
 
-# 4. Arrays
-
-## Arrays and elements of Arrays
-
-Arrays are made with brackets `[` and `]`.
-
-## Array constants
-
-In C you would say:
-
-    char days[][10] = {"Monday", "Tuesday", ..., "Sunday"}
-
-In Python you say:
-
-    days = ["Monday", "Tuesday", ..., "Sunday"]
-
-## Array length
-
-...
-
-## Extracting and manipulating elements
-
-# 5. Dictionaries
-
-Dictionaries are created with curly braces `{` and `}`.
-
-....
-
-# 6. Using the module io to read a file
-
-... simple example (more in the next session) ...
-
-... perhaps I can use `personajes.txt` from GoT in EDA1.
-
-1. Write program to transform to another format
-2. Read from the other format
+    Average age of red: 28.00
+    Average age of blue: 24.00
 
 # References
 
