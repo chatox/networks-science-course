@@ -35,7 +35,7 @@ Type more code into the second cell:
 
     print(5*r)
 
-As you can see, the variables are preserved from cell to cell. 
+As you can see, the variables are preserved from cell to cell.
 
 # 2. Language basics: from C to Python
 
