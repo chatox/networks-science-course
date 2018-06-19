@@ -7,6 +7,8 @@ So far you have programmed mostly in C. During this course, we will use Python, 
 
 The particular version of Python we will use is Python 3, and in particular we will use IPython, its interactive version, through an environment named the Jupyter Notebook. Jupyter is a web-based application that can contain code, visualizations, and text.
 
+The rest of this document is a simple introduction to Python for C programmers. Remember that you learn by doing, so enter these commands into a new Python Notebook, play with variations, see what works and what does not work.
+
 # 1. Notebooks
 
 ## 1.1. Creating a notebook
@@ -16,7 +18,7 @@ The particular version of Python we will use is Python 3, and in particular we w
 
 ## 1.2. Understanding the notebook
 
-You can name your notebook by clicking on "Untitled" on the top-left. Similarly to Google Drive documents, notebooks are auto-saved. You can also save them with File > Save and Checkpoint, or with the "Save" icon in the toolbar.
+You can name your notebook by clicking on "Untitled" on the top-left. Similarly to cloud-based office applications, notebooks are auto-saved. You can also save them with File > Save and Checkpoint, or with the "Save" icon in the toolbar.
 
 The green rectangle shows the current *cell*. Enter the following:
 
@@ -27,13 +29,13 @@ The green rectangle shows the current *cell*. Enter the following:
 
 For this example to work, you must be careful not to introduce any space/indentation at the beginning of a line, because **indentation is important in Python**.
 
-Execute that cell by pressing `Shift-Enter`. The result appears (the perimeter of a circumference of radius 3), and a new cell is created.
+Execute that cell by pressing `Shift-Enter`. The result appears (the perimeter of a circumference of radius 3), and a new cell is created. You can also press `Control-Enter` if you do not want to create a new cell.
 
 Type more code into the second cell:
 
     print(5*r)
 
-As you can see, the variables are preserved from cell to cell.
+As you can see, the variables are preserved from cell to cell. 
 
 # 2. Language basics: from C to Python
 
@@ -47,7 +49,11 @@ In Python, files are named `*.py` (for source files) or `*.ipynb` (for notebooks
 
 In Python you have basically the same operations as in C: `a+b`, `a-b`, `a*b`, `a/b`, `a%b`, and `a**b`; the last one means *a* to the power of *b*.
 
-In Python you don't need to declare a variable type, so instead of `int x=10` you simply say `x=10`.
+In Python there is no `++` or `--` operators as in C, so if you want to increase a variable by one, you should do: `a += 1` (`a++` works in C, but not in Python).
+
+## Numeric types
+
+In Python you do not need to declare a variable type, not even if it is a number or a string. For example, instead of `int x=10` you simply say `x=10`.
 
 The two main numeric types we will use are *int*, which are implemented typically using long integers, and *float*, which are implemented typically using double. You can convert between these types:
 
