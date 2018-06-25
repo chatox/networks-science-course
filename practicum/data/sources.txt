@@ -7,3 +7,6 @@ http://syntagmatic.github.io/exposedata/marvel/
 
 disease-genes.csv
 http://www.pnas.org/content/104/21/8685
+
+movie_metadata.csv
+https://github.com/katie-truong
