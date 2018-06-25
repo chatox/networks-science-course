@@ -4,3 +4,6 @@ http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm
 
 hero-network.csv
 http://syntagmatic.github.io/exposedata/marvel/
+
+disease-genes.csv
+http://www.pnas.org/content/104/21/8685
