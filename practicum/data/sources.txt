@@ -10,3 +10,6 @@ http://www.pnas.org/content/104/21/8685
 
 movie_metadata.csv
 https://github.com/katie-truong
+
+EstamosPorTi.json.gz
+https://archive.org/details/EstamosporTIOohmm2018032618831Ids
