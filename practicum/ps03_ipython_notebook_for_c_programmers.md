@@ -33,7 +33,9 @@ Execute that cell by pressing `Shift-Enter`. The result appears (the perimeter o
 
 Type more code into the second cell:
 
-    print(5*r)
+```python
+print(5*r)
+```
 
 As you can see, the variables are preserved from cell to cell.
 
@@ -57,12 +59,14 @@ In Python you do not need to declare a variable type, not even if it is a number
 
 The two main numeric types we will use are *int*, which are implemented typically using long integers, and *float*, which are implemented typically using double. You can convert between these types:
 
-    x = 1
-    y = 2
-    print(type(x))
-    print(type(y))
-    print(type(x+y))
-    print(type(x/y))
+```python
+x = 1
+y = 2
+print(type(x))
+print(type(y))
+print(type(x+y))
+print(type(x/y))
+```
 
 Now try executing the same but changing `y=2` to `y=float(2)` or `y=2.0`. The second is a common way of forcing a number to be interpreted as a float. You can convert easily between types using functions `int()`, `float()`, `str()`, e.g., `x=(int)y` in C becomes `x=int(y)` in Python.
 
@@ -70,16 +74,20 @@ Now try executing the same but changing `y=2` to `y=float(2)` or `y=2.0`. The se
 
 Printing is done using the `print()` function, which from Python 3 onwards must use parenthesis (Python 2 allowed `print "hello"`, but in Python 3 you must say `print("hello")`). Note that `print()` generates a newline:
 
-    print("hello")
+```python
+print("hello")
+```
 
 The `print()` function accepts a single parameter. To format numbers, one must use the `%` operator. This operator takes a string containing formatting instructions (in the same way as `printf` in C), and a tuple with one element per formatting, examples:
 
-    fruit = "oranges"
-    amount = 16
-    print("Quantity of %s: %d" % (fruit, amount))
+```python
+fruit = "oranges"
+amount = 16
+print("Quantity of %s: %d" % (fruit, amount))
 
-    pi = 3.141592653589793
-    print("Pi with 4 decimals: %.4f" % pi)
+pi = 3.141592653589793
+print("Pi with 4 decimals: %.4f" % pi)
+```
 
 ## Strings
 
@@ -89,54 +97,72 @@ In Python single and double quotes both represent strings, so you can just do `w
 
 For string constants, in C you would say:
 
-    char c[] = "this is a phrase"
+```C
+char c[] = "this is a phrase"
+```
 
 In Python:
 
-    c = "this is a phrase"
+```python
+c = "this is a phrase"
+```
 
 ### String concatenation
 
 In Python, strings are concatenated using `+`:
 
-    z = "hello" + " " + "world"
-    print(z)
+```python
+z = "hello" + " " + "world"
+print(z)
+```
 
 ### String splitting
 
 In Python, strings can be separated using `str.split(separator)`. The result is an array:
 
-    x = "hello this,is to be,separated"
-    print(x.split(","))
+```python
+x = "hello this,is to be,separated"
+print(x.split(","))
+```
 
 ### String joining
 
 In Python, an array of strings can be joined using `joiner.join(array)`:
 
-    y = ["these", "must", "be", "joined"]
-    print(",".join(y))
+```python
+y = ["these", "must", "be", "joined"]
+print(",".join(y))
+```
 
 ## Arrays
 
 In C you would say:
 
-    char days[][10] = {"Monday", "Tuesday", ..., "Sunday"}
+```C
+char days[][10] = {"Monday", "Tuesday", ..., "Sunday"}
+```
 
 In Python you say:
 
-    days = ["Monday", "Tuesday", ..., "Sunday"]
+```python
+days = ["Monday", "Tuesday", ..., "Sunday"]
+```
 
 As you can see, in Python, as in C, arrays are represented by brackets, and numbered from zero, for instance:
 
-    x = ["a", "b", "c", "d"]
-    print(x[2])
+```python
+x = ["a", "b", "c", "d"]
+print(x[2])
+```
 
 Sub-arrays can be extracted easily using Python's slice notation, which in simplified form is `array[start:end]`, with both `start` and `end` optional (there are more options):
 
-    print(x[1:])     # ["b", "c", "d"]
-    print(x[1:3])    # ["b", "c"]
-    print(x[2:4])    # ["c", "d"]
-    print(x[:3])     # ["a", "b", "c"]
+```python
+print(x[1:])     # ["b", "c", "d"]
+print(x[1:3])    # ["b", "c"]
+print(x[2:4])    # ["c", "d"]
+print(x[:3])     # ["a", "b", "c"]
+```
 
 The length of an array is obtained with `len(x)`.
 
@@ -144,16 +170,20 @@ The length of an array is obtained with `len(x)`.
 
 Python has powerful expressions for managing dictionaries. Dictionaries are declared using `{ ... }` to distinguish them from arrays which use `[ ... ]`.
 
-    person = { "name": "Jack", "age": 21 }
-    print(person["name"])
-    print(person["age"])
-    print(person["phone"])   # Error
+```python
+person = { "name": "Jack", "age": 21 }
+print(person["name"])
+print(person["age"])
+print(person["phone"])   # Error
+```
 
 Keys can be added simply by specifying them, or deleted using `del`:
 
-    person["yob"] = 1998
-    del person["age"]
-    print(person)
+```python
+person["yob"] = 1998
+del person["age"]
+print(person)
+```
 
 ## Booleans
 
@@ -181,11 +211,13 @@ In Python and specially in IPython you do not need a main method. Whatever you t
 
 In Python comments start with a `#` if it's a single line, and with `'''` if it's multiple lines. Example:
 
+```
     # This is a single line comment
 
     ''' This is a comment
         that uses several lines
     '''
+```
 
 ## Brackets and semi-colons
 
@@ -210,77 +242,93 @@ In Python this conditional is written as:
 
 Instead of `elsif`, in Python one uses `elif`:
 
-    a = 4
-    b = 40
+```python
+a = 4
+b = 40
 
-    if a < b:
-        print("a is less than b")
-    elif a == b:
-        print("a is equal to b")
-    elif a > b:
-        print("a is greater than b")
-    else:
-        print("Something is very wrong")
+if a < b:
+    print("a is less than b")
+elif a == b:
+    print("a is equal to b")
+elif a > b:
+    print("a is greater than b")
+else:
+    print("Something is very wrong")
+```
 
 ## For loop (sequence of numbers)
 
 In C this prints 0..9:
 
-    for(int i=0; i<10; i++) {
-      print("%d\n", i);
-    }
+```C
+for(int i=0; i<10; i++) {
+  print("%d\n", i);
+}
+```
 
 The equivalent in Python is:
 
-    for i in range(0,10):
-        print("%d" % i)
+```python
+for i in range(0,10):
+    print("%d" % i)
+```
 
 The `range` function is compatible with the numbering used in array slices, so the first number is inclusive and the second number is exclusive. The following print the same:
 
-    # Using slice
-    print(x[1:3])
+```python
+# Using slice
+print(x[1:3])
 
-    # Using range
-    for i in range(1,3):
-        print("x[%d]=%s" % (i, x[i]))
+# Using range
+for i in range(1,3):
+    print("x[%d]=%s" % (i, x[i]))
+```
 
 ## For loop (array)
 
 In Python one can also loop through an array:
 
-    days = ["Monday", "Tuesday", "Wednesday"]
+```python
+days = ["Monday", "Tuesday", "Wednesday"]
 
-    for day in days:
-        print day
+for day in days:
+    print day
+```
 
 ## While loop
 
 Example in C:
 
-    int a = 10
-    while(a>0) {
-        printf("a=%d\n", a);
-        a--;
-    }
+```C
+int a = 10
+while(a>0) {
+    printf("a=%d\n", a);
+    a--;
+}
+```
 
 Example in Python:
 
-    a = 10
-    while a > 0:
-        print(a)
-        a -= 1
+```python
+a = 10
+while a > 0:
+    print(a)
+    a -= 1
+```
 
 ## Functions
 
 Function don't have a return type in Python, they assume the return type of the variable you return.
 
-    def factorial(x):
-        if x == 1:
-            return 1
-        else:
-            return x * factorial(x-1)
+```python
+def factorial(x):
+    if x == 1:
+        return 1
+    else:
+        return x * factorial(x-1)
 
-    print("%d! == %d" % (6, factorial(6)))
+print("%d! == %d" % (6, factorial(6)))
+```
 
 # 3. Reading files
 
@@ -288,15 +336,22 @@ Function don't have a return type in Python, they assume the return type of the 
 
 In C you would say:
 
-    #include <module.h>
+```C
+#include <module.h>
+```
 
 In Python this is done with:
 
-    import module
+```python
+import module
+```
+
 
 Python also offers to import only some functions from a module, e.g.:
 
-    from module import function1, function2, function3
+```python
+from module import function1, function2, function3
+```
 
 ## The io module
 
@@ -314,17 +369,19 @@ In this file, enter a list of comma-separated values like this:
 
 Now, read this file with the following:
 
-    import io
+```python
+import io
 
-    FILENAME = "test.csv"
+FILENAME = "test.csv"
 
-    with io.open(FILENAME) as file:
-        for line in file:
-            # Remove trailing newlines
-            line = line.rstrip()
+with io.open(FILENAME) as file:
+    for line in file:
+        # Remove trailing newlines
+        line = line.rstrip()
 
-            # Print
-            print("Read line '%s' of length %d characters" % (line, len(line)))
+        # Print
+        print("Read line '%s' of length %d characters" % (line, len(line)))
+```
 
 Now we have only read the lines, we need to split them using commas. However, it is much easier and error-proof to use a module for this.
 
@@ -332,30 +389,34 @@ Now we have only read the lines, we need to split them using commas. However, it
 
 Python's csv module provides a powerful mechanism for parsing comma-separated files.
 
-    import io
-    import csv
+```python
+import io
+import csv
 
-    FILENAME = "test.csv"
+FILENAME = "test.csv"
 
-    with io.open(FILENAME) as file:
-        reader = csv.DictReader(file, delimiter=',')
-        for row in reader:
-            print("%s is %d years old" % (row['name'], int(row['age'])))
+with io.open(FILENAME) as file:
+    reader = csv.DictReader(file, delimiter=',')
+    for row in reader:
+        print("%s is %d years old" % (row['name'], int(row['age'])))
+```
 
 Note that you can also store the people being read in an array, and even the distinct values of a variable:
 
-    people = []
-    colors_dict = {}
-    with io.open(FILENAME) as file:
-        reader = csv.DictReader(file, delimiter=',')
-        for row in reader:
-            people.append(row)
-            if row["color"] not in colors_dict:
-                colors_dict[row["color"]] = True
+```python
+people = []
+colors_dict = {}
+with io.open(FILENAME) as file:
+    reader = csv.DictReader(file, delimiter=',')
+    for row in reader:
+        people.append(row)
+        if row["color"] not in colors_dict:
+            colors_dict[row["color"]] = True
 
-    colors = colors_dict.keys()
-    print(people)
-    print(colors)
+colors = colors_dict.keys()
+print(people)
+print(colors)
+```
 
 Note that `people` is an array of dictionaries, `colors_dict` is a dictionary where keys are the colors seen, and `colors` is an array of strings, containing all the different colors seen.
 

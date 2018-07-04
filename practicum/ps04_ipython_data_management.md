@@ -19,11 +19,13 @@ Here are some code snippets that you may need.
 
 FILENAME should be a string containing the name of the file you're opening. The comma is the field delimiter, and the quote character is the character that is used to protected values that contain commas.
 
-    disorders = []
-    with io.open(FILENAME) as file:
-        reader = csv.DictReader(file, delimiter=',', quotechar='"')
-        for row in reader:
-            disorders.append(row)
+```python
+disorders = []
+with io.open(FILENAME) as file:
+    reader = csv.DictReader(file, delimiter=',', quotechar='"')
+    for row in reader:
+        disorders.append(row)
+```
 
 Now the list `disorders` contains a list of dictionaries. Each dictionary is a disease.
 
@@ -33,39 +35,49 @@ Remember to `import io` and `import csv` for this code to work.
 
 If you want to split a string into pieces, you can use the following. Suppose the variables `genes` contains a comma-separated list such as `CYP17A1, CYP17, P450C17`:
 
-    gene_list = genes.split(",")
-    for gene in gene_list:
-        gene = gene.strip()
-        ...
+```python
+gene_list = genes.split(",")
+for gene in gene_list:
+    gene = gene.strip()
+    ...
+```
 
 The `str.strip()` method removes whitespace and newlines from the beginning and end of the string, so it's equivalent to `str.lstrip().rstrip()`.
 
 You can also do this in one line of code, using the `map(f, v)` function, which results the result of applying function `f` to each element of list `v`:
 
-    gene_list = list(map(str.strip, disorder["Genes"].split(',')))
+```python
+gene_list = list(map(str.strip, disorder["Genes"].split(',')))
+```
 
 ## Intersection of two lists
 
 There are many ways of intersecting two lists in Python, one of the simplest ones is to convert them to sets, and then computing the set intersection using the built-in `&` operator:
 
-    def intersection(list1, list2):
-        return(list(set(list1) & set(list2)))
+```python
+def intersection(list1, list2):
+    return(list(set(list1) & set(list2)))
+```
 
 If you want to test if two lists have elements in common, you can check the length of its intersection (there are other ways). Remember the length of a list is obtained with `len()`:
 
-    if len(intersection(list1,list2)) > 0:
-        ...
+```python
+if len(intersection(list1,list2)) > 0:
+    ...
+```
 
 ## Create a file
 
 We will create tab-separated files to avoid confusing Cytoscape, we will also include a header with the names of the columns.
 
-    with io.open(FILEOUT_NAME, "w") as fileout:
-        writer = csv.writer(fileout, delimiter='\t', quotechar='"')
-        writer.writerow(["name1", "name2", "name3"])
-        for disorder in disorders:
-            ...
-            writer.writerow([value1, value2, value3])
+```python
+with io.open(FILEOUT_NAME, "w") as fileout:
+    writer = csv.writer(fileout, delimiter='\t', quotechar='"')
+    writer.writerow(["name1", "name2", "name3"])
+    for disorder in disorders:
+        ...
+        writer.writerow([value1, value2, value3])
+```
 
 Remember to create a variable `FILEOUT_NAME` with the name of the output file you want to create. Create clean code: define the file name and then use it, don't replace `FILEOUT_NAME` by a string constant inside the call to `open()`.
 
@@ -99,14 +111,16 @@ The bi-partite diseasome is hard to visualize as it mixes diseases and genes. We
 
 The following code lists all the diseases that have at least one gene in common:
 
-    for disorder1 in disorders:
-        gene_list_1 = ...
-        for disorder2 in disorders:
-            if disorder2["Name"] != disorder1["Name"]:
-                gene_list_2 = ...
-                common_genes = intersection(gene_list_1, gene_list_2)
-                if len(common_genes) > 0:
-                    print("Diseases '%s' and '%s' have genes in common" % (disorder1["Name"], disorder2["Name"]))
+```python
+for disorder1 in disorders:
+    gene_list_1 = ...
+    for disorder2 in disorders:
+        if disorder2["Name"] != disorder1["Name"]:
+            gene_list_2 = ...
+            common_genes = intersection(gene_list_1, gene_list_2)
+            if len(common_genes) > 0:
+                print("Diseases '%s' and '%s' have genes in common" % (disorder1["Name"], disorder2["Name"]))
+```
 
 Modify this code to generate a tab-separated file like this one:
 
