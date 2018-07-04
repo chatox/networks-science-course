@@ -103,14 +103,20 @@ with io.open(OUTPUT_FILENAME, 'w') as output_file:
 
 Remember to `import csv` at the beginning of the file. You may have to press `Shift-Enter` in the cell with the imports.
 
-5. Open this file in Cytoscape
+# 5. Open this file in Cytoscape
 
 TO DO CONTINUE
+
 TO DO CONTINUE
+
 TO DO CONTINUE
+
 TO DO CONTINUE
+
 TO DO CONTINUE
+
 TO DO CONTINUE
+
 TO DO CONTINUE 
 
 # DELIVER (individually)
