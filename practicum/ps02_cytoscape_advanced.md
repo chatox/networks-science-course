@@ -33,6 +33,8 @@ To import it into Cytoscape:
 
 Change the style to minimalistic, try to determine what is the disconnected component that is observed in the network.
 
+**Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Show Graphics Details" and "View > Hide Graphics Details." You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200.
+
 ## 1.2. Create sub-graphs
 
 * Search for the node named "BLACK PANTHER/T'CHAL" - the search box is on top of the display
