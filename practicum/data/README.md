@@ -3,6 +3,7 @@
 
 | Filename | Source |
 |----------|--------|
+| holidays-bcn-*.csv | [Barcelona City Council, 2018](http://ajuntament.barcelona.cat/calendarifestius/en/) |
 | karate.gml | [Zachary 1977](http://www-personal.umich.edu/~mejn/netdata/karate.zip) |
 | lesmiserables.gml | [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml) |
 | us_companies_ownership.csv | [Norlen et al. 2002](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |
