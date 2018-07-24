@@ -27,7 +27,7 @@ Simple CSV files of the form `source,target` can also be loaded using the `read_
 g = nx.read_edgelist(path="data/holidays-bcn-network.csv", delimiter=",")
 ```
 
-More complex CSV files are better parsed with the `csv` module; a graph can then be created programatically.
+More complex CSV files are better parsed with the `csv` module; a graph can then be created programmatically.
 
 ```python
 import io
