@@ -223,7 +223,7 @@ bet_cen = nx.betweenness_centrality(g, k=50)
 
 # DELIVER (individually)
 
-At the end of the session, deliver a PDF file containing, for the `hero-network.csv`:
+At the end of the session, deliver a PDF file containing, for a network (**PENDING: WHICH NETWORK? Not the same hero-network.csv**).
 
 * The 3 nodes with the larger degree.
 * A degree-rank plot
