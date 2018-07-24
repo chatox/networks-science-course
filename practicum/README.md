@@ -10,4 +10,4 @@ There are 10 practice sessions in this course. Handouts for each session start w
 
 Assignments, as a general rule, are done in pairs.
 
-There are 3 assignments in this course. Assignment descriptions start with "assignment_NN"
+There are 3 assignments in this course. Assignment descriptions start with "asNN".

@@ -448,7 +448,7 @@ ID,Name,Genes,OMIM ID,Chromosome,Class
 268,"Cardiomyopathy, dilated","MYH7, CMH1, MPD1",160760,14q12,Cardiovascular
 268,"Cardiomyopathy, dilated, 1A","LMNA, LMN1, EMD2, FPLD, CMD1A, HGPS, LGMD1B",150330,1q21.2,Cardiovascular
 268,"Cardiomyopathy, dilated, 1D","TNNT2, CMH2, CMD1D",191045,1q32,Cardiovascular
-268,"Cardiomyopathy, dilated, 1G, Tibial muscular dystrophy, tardive, 600334 TTN, CMD1G, TMD, LGMD2J",,188840,2q24.3,Cardiovascular
+268,"Cardiomyopathy, dilated, 1G","TTN, CMD1G",188840,2q24.3,Cardiovascular
 268,"Cardiomyopathy, dilated, 1I","DES, CMD1I",125660,2q35,Cardiovascular
 268,"Cardiomyopathy, dilated, 1J","EYA4, DFNA10, CMD1J",603550,6q23,Cardiovascular
 268,"Cardiomyopathy, dilated, 1L","SGCD, SGD, LGMD2F, CMD1L",601411,5q33,Cardiovascular
