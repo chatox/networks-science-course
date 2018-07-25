@@ -11,3 +11,5 @@
 | disease-genes.csv |  [Goh et al. 2008](http://www.pnas.org/content/104/21/8685), Table 1 |
 | movie_metadata.csv | [Troung 2016](https://github.com/katie-truong/Jupyter) |
 | EstamosPorTi.json.gz | [Gabriele  2018](https://archive.org/details/EstamosporTIOohmm2018032618831Ids) |
+| Florida-bay-food-web.gml | [Ulanowicz et al. 1997, Benson et al. 2016](https://snap.stanford.edu/data/Florida-bay.html) |
+| email-eu-core.txt | [Yin et al. 2017](https://snap.stanford.edu/data/email-Eu-core.html) |

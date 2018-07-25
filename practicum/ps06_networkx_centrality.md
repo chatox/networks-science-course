@@ -1,6 +1,6 @@
 # Practice Session 06: NetworkX and centrality
 
-In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package for running network algorithms.
+In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package.
 
 # 0. Reading and drawing in NetworkX
 
@@ -11,10 +11,12 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 gkar = nx.read_gml(path="data/karate.gml", label="id")
+print("Karate Club: |V|=%d, |E|=%d" % (gkar.order(), gkar.size()))
 nx.draw_spring(gkar, with_labels=True)
 plt.show()
 
 gmis = nx.read_gml(path="data/lesmiserables.gml", label="label")
+print("Les Misèrables: |V|=%d, |E|=%d" % (gmis.order(), gmis.size()))
 nx.draw_spring(gmis, with_labels=True)
 plt.show()
 ```
@@ -63,6 +65,7 @@ with io.open(DISORDER_FILE) as file:
                 g.add_edge(disorder_name, gene)
                 print("%s - %s" % (disorder_name, gene))
 
+print("Respiratory diseases/genes: |V|=%d, |E|=%d" % (g.order(), g.size()))
 # Draw the graph
 nx.draw_spring(g, with_labels=True)
 plt.show()
@@ -129,6 +132,8 @@ with io.open(INPUT_FILE) as file:
         hero1 = row[0]
         hero2 = row[1]
         g.add_edge(hero1, hero2)
+
+print("Hero network: |V|=%d, |E|=%d" % (g.order(), g.size()))
 ```
 
 To obtain its degree sequence, we will use an ordered dictionary, which also allows us to see the hero that is associated to each value. Add `from collections import OrderedDict` to the first cell in your notebook, and then do:
@@ -149,8 +154,8 @@ To plot its degree distribution, we will use the following:
 prob, bin_edges = np.histogram(degree_sequence, bins=range(1,np.max(degree_sequence)+2), density=True)
 plt.loglog(bin_edges[:-1], prob, '.', marker='x')
 plt.title("Probability density function")
-plt.xlabel("degree")
-plt.ylabel("probability")
+plt.xlabel("Degree")
+plt.ylabel("Probability")
 plt.show()
 ```
 
@@ -239,8 +244,8 @@ To plot the names in a scatterplot, you can use this code. You just need to fill
 
 ```python
 plt.loglog(x_values, y_values, '.')
-plt.xlabel('Degree')
-plt.ylabel('Betwenness Centrality')
+plt.xlabel("Degree")
+plt.ylabel("Betwenness Centrality")
 for i in range(len(x_values)):
     plt.text(x_values[i], y_values[i], labels[i])
 plt.show()
