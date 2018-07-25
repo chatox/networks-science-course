@@ -100,7 +100,7 @@ Now we will create the network on disk. Place this code on a new cell and execut
 ```python
 OUTPUT_FILENAME = "EstamosPorTi.csv"
 
-with io.open(OUTPUT_FILENAME, 'w') as output_file:
+with io.open(OUTPUT_FILENAME, "w") as output_file:
     writer = csv.writer(output_file, delimiter='\t', quotechar='"')
     writer.writerow(["Source", "Target", "Weight"])
     for key in count:
