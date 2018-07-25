@@ -228,7 +228,7 @@ bet_cen = nx.betweenness_centrality(g, k=50)
 
 # DELIVER (individually)
 
-At the end of the session, deliver a PDF file containing, for a network (**PENDING: WHICH NETWORK? Not the same hero-network.csv**).
+At the end of the session, deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for a network (**PENDING: WHICH NETWORK? Not the same hero-network.csv**).
 
 * The 3 nodes with the larger degree.
 * A degree-rank plot
@@ -238,7 +238,9 @@ At the end of the session, deliver a PDF file containing, for a network (**PENDI
 
 ## Extra points available
 
-For extra points, create a scatter plot containing the top nodes by degree (say, top 100). In the x axis place the degree of the node, and in the y axis the betweenness centrality of the node. Indicate the names of the node that deviates significantly from the diagonal, i.e., has a much larger betweenness centrality considering its degree. Which kind of node may have this characteristic in this specific graph, in which an edge connect two characters that appear together in a comic?
+For extra points, add a section "Extra points" to your document, and include a scatter plot containing the top nodes by degree (say, top 100). In the x axis place the degree of the node, and in the y axis the betweenness centrality of the node.
+
+Indicate the names of the node that deviates significantly from the diagonal, i.e., has a much larger betweenness centrality considering its degree. Which kind of node may have this characteristic in this specific graph, in which an edge connect two characters that appear together in a comic?
 
 To plot the names in a scatterplot, you can use this code. You just need to fill in the arrays x_values, y_values, and labels.
 

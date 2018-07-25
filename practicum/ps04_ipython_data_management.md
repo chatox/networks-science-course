@@ -163,6 +163,8 @@ At the end of the session, deliver an image file in .png format (File > Export a
 
 For extra points, group different variants of a disease, which are indicated by the presence of a comma (e.g., "Epilepsy, progressive myoclonic 2B" would be just "Epilepsy"). Note that there should be a single node per disease (i.e., just one "Epilepsy") and this node should contain the union of all genes of the different variants of this disease. Hence, two diseases will be connected if any of their variants have a gene in common.
 
+**Note 0:** if you go for the extra points, add "Diseases are grouped" as a text annotation at the top of your deliverable.
+
 **Note 1:** a list `c` that is the union of two lists `a,b` can be computed in Python with `c = list(set(a) | set(b))`.
 
 **Note 2:** if you go for the extra points, you have 24 hours after the end of this session to deliver. If later you deliver just the standard solution (without grouping), the standard penalty for late delivery will apply.

@@ -169,8 +169,8 @@ Run the ModuLand plug-in to create a clustering of this graph using the *Weight*
 
 At the end of the session, deliver a two-page PDF file.
 
-* On the first page, include an image of the directed network, and 2-3 lines with your observations.
-* On the second page, include an image of the undirected network, and 2-3 lines with your observations.
+* On the first page, include an image of the directed network (exported, not a screenshot), and 2-3 lines with your observations.
+* On the second page, include an image of the undirected network (exported, not a screenshot), and 2-3 lines with your observations.
 
 In your observations you can mention high-centrality nodes, the type of components you observe, and/or some aspects that you find relevant from the results of the network analyzer (e.g., number of nodes, edges, connected components, characteristic path lengths, average degrees, etc.). Do not include a screenshot of the results panel: describe what you see there using the numbers from the analysis and your own words.
 

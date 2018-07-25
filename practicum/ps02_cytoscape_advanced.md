@@ -97,4 +97,4 @@ Play with one of the small networks you created from a csv file:
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver an image file in .png format (File > Export as image) of the network you created and edited.
+At the end of the session, deliver a single image file in .png format (File > Export as image) of the network you created and edited.

@@ -159,4 +159,4 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver an image file in .png format (File > Export as image) of the Karate Club network with nodes painted according to clusters. Please, do not deliver partially completed work, i.e.,
+At the end of the session, deliver a single image file in .png format (File > Export as image) of the Karate Club network with nodes painted according to clusters. Please, do not deliver partially completed work.
