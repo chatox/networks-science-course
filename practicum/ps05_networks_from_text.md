@@ -53,7 +53,7 @@ The rest of the code stays the same.
 
 # 2. How to extract mentions
 
-What we need one is a function to extract mentions, so that if we give, for instance `RT @Jordi: check this post by @Xavier`, it returns the list `["Jordi", "Xavier"]`.
+What we need now is a function to extract mentions, so that if we give, for instance `RT @Jordi: check this post by @Xavier`, it returns the list `["Jordi", "Xavier"]`.
 
 This is such function:
 
@@ -120,17 +120,17 @@ Open the `EstamosPorTi-w2.csv` file in Cytoscape. The file is large so you may n
 
 Style the network:
 
-* Run "Tools > Network Analyzer > Network Analysis > Analyze Network ...". Remember to look at the general
-* Style nodes by setting their size to their in-degree (treat the network as directed).
-* Style edges by setting their width using the *Weight* attribute.
+* Run "Tools > Network Analyzer > Network Analysis > Analyze Network ..."
+* Style nodes by setting their size proportional to their in-degree (treat the network as directed).
+* Style edges by setting their width using the *weight* attribute.
 
-Look at the Results Panel of the network analyzer. There are interesting information here, particularly in the "Simple Parameters" and degree distribution tabs.
+Look at the Results Panel of the network analyzer. There is interesting information here, particularly in the "Simple Parameters" and degree distribution tabs.
 
 Run the ModuLand plug-in to create a clustering of this graph using the *weight* edge attribute.
 
 # 6. Create a co-mention network
 
-The co-mention network connects two account if they are both mentioned in the same tweet. The weight of the edge is the number of tweets in which the accounts are co-mentioned.
+The co-mention network connects two accounts if they are both mentioned in the same tweet. The weight of the edge is the number of tweets in which the accounts are co-mentioned.
 
 Create new code to generate the co-mention network by modifying the previous code (make a copy of those cells so you can keep your old code, too). First, you need a way of creating pairs of co-mentioned nodes while you read the input file; this is the relevant code snippet:
 

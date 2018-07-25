@@ -157,7 +157,7 @@ OUTPUT_FILE = "data/email-eu-core-kcore.csv"
 with io.open(OUTPUT_FILE, "w") as file:
     writer = csv.writer(file, delimiter=",", quotechar='"')
     writer.writerow(["Node", "Level"])
-    for node in node_to_kcore.keys():
+    for node in node_to_kcore:
         writer.writerow([node, node_to_kcore[node]])
 ```
 
