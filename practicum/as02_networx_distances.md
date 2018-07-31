@@ -105,35 +105,53 @@ If you issue `print(dist)` after running the algorithm, you should see this:
 You want the row number `node2id["Valjean"]` of the matrix `dist`. Save a mapping from character names to distances from Valjean as a CSV file, it should look like this:
 
 ```
-Name,DistFromValjean
-Myriel,1
-Napoleon,2
+Name,DistFromValjean,NewLabel
+Myriel,1,Myriel(1)
+Napoleon,2,Napoleon(2)
 ...
-MlleVaubois,2
-MotherPlutarch,3
+Valjean,0,Valjean(0)
+...
+MlleVaubois,2,MlleVaubois(2)
+MotherPlutarch,3,MotherPlutarch(3)
 ```
+
+Note that we have added a numerical attribute, with the distance from Valjean, and a new label.
 
 The ordering of this file does not matter.
 
 ## 2.2. Draw in Cytoscape
 
-Draw this network Cytoscape using the attribute you just created.
+Draw this network Cytoscape using the attributes you just created for color/style and for labeling nodes.
 
 # Part 3: compute diameter and effective diameter
 
+Now you need to create a vector with all pair-wise distances. Be careful (1) not to add self-loops, (2) not to add unreachable pairs with infinite distances, and (3) not to add the same edge twice. This vector (call it `distances`) should have length at most 2,926 *((|V|x|V|-|V|)/2)*.
+
+You can use `numpy.percentile` and `numpy.max`.
+
 # Part 4: draw a histogram of distances
+
+```python
+hist, bins = np.histogram(distances, density=True, bins=np.arange(np.min(distances), np.max(distances)+2, 1.0))
+plt.bar(bins[:-1], hist)
+```
+Remember to **include a title** and **label the axes** of this bar plot.
 
 # Deliver (groups of two)
 
 A .zip or .tar.gz file containing your report and code.
 
-The report should contain:
+The report should contain, for *Les Misérables*:
 
-1. The full distance matrix of *Les Misérables* (shrink font size so it fits in a page; do not use a low-quality or poorly cropped screenshot).
-1. A graph generated in Cytoscape in which each node is labeled and colored according to its distance from Valjean (e.g., Zephine should be "2: Zephine")
-1. The diameter (max), effective diameter (90% percentile), and median diameter (50% percentile), of both networks
+1. The full distance matrix (shrink font size so it fits in a page; do not use a low-quality or poorly cropped screenshot).
+1. A graph generated in Cytoscape in which each node is labeled and colored/styled according to its distance from Valjean (e.g., label of node "Zephine" should be "Zephine(2)")
+
+And for both *Les Misérables* and the *Email-EU-Core* network:
+
+1. The diameter (max), effective diameter (90% percentile), and median diameter (50% percentile) of both networks
 1. The distance histogram of both networks
+1. Your conclusion comparing the two distance histograms, in a couple of lines
 
-The code should contain the Python code (Python notebook) that you created (not copied).
+The code should contain the Python notebook that you created.
 
-**Both members of the group should learn Python**, as we will continue using Python throughout the course, hence, make sure you are not given non-Python tasks only in the division of work.
+The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
