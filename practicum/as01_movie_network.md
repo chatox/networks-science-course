@@ -1,4 +1,4 @@
-# Assignment 01: Movies
+# Assignment 01: Network generation and display
 
 ## Materials
 
