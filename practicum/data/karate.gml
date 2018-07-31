@@ -1,529 +1,416 @@
 Creator "Mark Newman on Fri Jul 21 12:39:27 2006"
-graph
-[
-  node
-  [
+graph [
+  node [
     id 1
   ]
-  node
-  [
+  node [
     id 2
   ]
-  node
-  [
+  node [
     id 3
   ]
-  node
-  [
+  node [
     id 4
   ]
-  node
-  [
+  node [
     id 5
   ]
-  node
-  [
+  node [
     id 6
   ]
-  node
-  [
+  node [
     id 7
   ]
-  node
-  [
+  node [
     id 8
   ]
-  node
-  [
+  node [
     id 9
   ]
-  node
-  [
+  node [
     id 10
   ]
-  node
-  [
+  node [
     id 11
   ]
-  node
-  [
+  node [
     id 12
   ]
-  node
-  [
+  node [
     id 13
   ]
-  node
-  [
+  node [
     id 14
   ]
-  node
-  [
+  node [
     id 15
   ]
-  node
-  [
+  node [
     id 16
   ]
-  node
-  [
+  node [
     id 17
   ]
-  node
-  [
+  node [
     id 18
   ]
-  node
-  [
+  node [
     id 19
   ]
-  node
-  [
+  node [
     id 20
   ]
-  node
-  [
+  node [
     id 21
   ]
-  node
-  [
+  node [
     id 22
   ]
-  node
-  [
+  node [
     id 23
   ]
-  node
-  [
+  node [
     id 24
   ]
-  node
-  [
+  node [
     id 25
   ]
-  node
-  [
+  node [
     id 26
   ]
-  node
-  [
+  node [
     id 27
   ]
-  node
-  [
+  node [
     id 28
   ]
-  node
-  [
+  node [
     id 29
   ]
-  node
-  [
+  node [
     id 30
   ]
-  node
-  [
+  node [
     id 31
   ]
-  node
-  [
+  node [
     id 32
   ]
-  node
-  [
+  node [
     id 33
   ]
-  node
-  [
+  node [
     id 34
   ]
-  edge
-  [
+  edge [
     source 2
     target 1
   ]
-  edge
-  [
+  edge [
     source 3
     target 1
   ]
-  edge
-  [
+  edge [
     source 3
     target 2
   ]
-  edge
-  [
+  edge [
     source 4
     target 1
   ]
-  edge
-  [
+  edge [
     source 4
     target 2
   ]
-  edge
-  [
+  edge [
     source 4
     target 3
   ]
-  edge
-  [
+  edge [
     source 5
     target 1
   ]
-  edge
-  [
+  edge [
     source 6
     target 1
   ]
-  edge
-  [
+  edge [
     source 7
     target 1
   ]
-  edge
-  [
+  edge [
     source 7
     target 5
   ]
-  edge
-  [
+  edge [
     source 7
     target 6
   ]
-  edge
-  [
+  edge [
     source 8
     target 1
   ]
-  edge
-  [
+  edge [
     source 8
     target 2
   ]
-  edge
-  [
+  edge [
     source 8
     target 3
   ]
-  edge
-  [
+  edge [
     source 8
     target 4
   ]
-  edge
-  [
+  edge [
     source 9
     target 1
   ]
-  edge
-  [
+  edge [
     source 9
     target 3
   ]
-  edge
-  [
+  edge [
     source 10
     target 3
   ]
-  edge
-  [
+  edge [
     source 11
     target 1
   ]
-  edge
-  [
+  edge [
     source 11
     target 5
   ]
-  edge
-  [
+  edge [
     source 11
     target 6
   ]
-  edge
-  [
+  edge [
     source 12
     target 1
   ]
-  edge
-  [
+  edge [
     source 13
     target 1
   ]
-  edge
-  [
+  edge [
     source 13
     target 4
   ]
-  edge
-  [
+  edge [
     source 14
     target 1
   ]
-  edge
-  [
+  edge [
     source 14
     target 2
   ]
-  edge
-  [
+  edge [
     source 14
     target 3
   ]
-  edge
-  [
+  edge [
     source 14
     target 4
   ]
-  edge
-  [
+  edge [
     source 17
     target 6
   ]
-  edge
-  [
+  edge [
     source 17
     target 7
   ]
-  edge
-  [
+  edge [
     source 18
     target 1
   ]
-  edge
-  [
+  edge [
     source 18
     target 2
   ]
-  edge
-  [
+  edge [
     source 20
     target 1
   ]
-  edge
-  [
+  edge [
     source 20
     target 2
   ]
-  edge
-  [
+  edge [
     source 22
     target 1
   ]
-  edge
-  [
+  edge [
     source 22
     target 2
   ]
-  edge
-  [
+  edge [
     source 26
     target 24
   ]
-  edge
-  [
+  edge [
     source 26
     target 25
   ]
-  edge
-  [
+  edge [
     source 28
     target 3
   ]
-  edge
-  [
+  edge [
     source 28
     target 24
   ]
-  edge
-  [
+  edge [
     source 28
     target 25
   ]
-  edge
-  [
+  edge [
     source 29
     target 3
   ]
-  edge
-  [
+  edge [
     source 30
     target 24
   ]
-  edge
-  [
+  edge [
     source 30
     target 27
   ]
-  edge
-  [
+  edge [
     source 31
     target 2
   ]
-  edge
-  [
+  edge [
     source 31
     target 9
   ]
-  edge
-  [
+  edge [
     source 32
     target 1
   ]
-  edge
-  [
+  edge [
     source 32
     target 25
   ]
-  edge
-  [
+  edge [
     source 32
     target 26
   ]
-  edge
-  [
+  edge [
     source 32
     target 29
   ]
-  edge
-  [
+  edge [
     source 33
     target 3
   ]
-  edge
-  [
+  edge [
     source 33
     target 9
   ]
-  edge
-  [
+  edge [
     source 33
     target 15
   ]
-  edge
-  [
+  edge [
     source 33
     target 16
   ]
-  edge
-  [
+  edge [
     source 33
     target 19
   ]
-  edge
-  [
+  edge [
     source 33
     target 21
   ]
-  edge
-  [
+  edge [
     source 33
     target 23
   ]
-  edge
-  [
+  edge [
     source 33
     target 24
   ]
-  edge
-  [
+  edge [
     source 33
     target 30
   ]
-  edge
-  [
+  edge [
     source 33
     target 31
   ]
-  edge
-  [
+  edge [
     source 33
     target 32
   ]
-  edge
-  [
+  edge [
     source 34
     target 9
   ]
-  edge
-  [
+  edge [
     source 34
     target 10
   ]
-  edge
-  [
+  edge [
     source 34
     target 14
   ]
-  edge
-  [
+  edge [
     source 34
     target 15
   ]
-  edge
-  [
+  edge [
     source 34
     target 16
   ]
-  edge
-  [
+  edge [
     source 34
     target 19
   ]
-  edge
-  [
+  edge [
     source 34
     target 20
   ]
-  edge
-  [
+  edge [
     source 34
     target 21
   ]
-  edge
-  [
+  edge [
     source 34
     target 23
   ]
-  edge
-  [
+  edge [
     source 34
     target 24
   ]
-  edge
-  [
+  edge [
     source 34
     target 27
   ]
-  edge
-  [
+  edge [
     source 34
     target 28
   ]
-  edge
-  [
+  edge [
     source 34
     target 29
   ]
-  edge
-  [
+  edge [
     source 34
     target 30
   ]
-  edge
-  [
+  edge [
     source 34
     target 31
   ]
-  edge
-  [
+  edge [
     source 34
     target 32
   ]
-  edge
-  [
+  edge [
     source 34
     target 33
   ]
