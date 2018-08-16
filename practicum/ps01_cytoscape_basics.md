@@ -63,7 +63,7 @@ Open a graph representing company co-ownership in the US:
 * Select `us_companies_ownership.csv`
 * Click OK (accept default import)
 * It might take a couple of minutes to open
-* Layout > Compound Spring Embedder
+* Layout > Compound Spring Embedder (might take ~10 minutes in some PCs)
 * Zoom in, Zoom out with the scroll wheel
 
 # 3. Editing node and edge styles
@@ -76,7 +76,7 @@ Go to the "Style" panel (top-left, between "Network" and "Select")
 
 ## 3.2. Name nodes
 
-* Create a "Passthrough mapping" for "name"
+* Create a "Passthrough mapping" for "name" in the label property
 * Remove the mapping (trash can icon)
 
 ## 3.3. Change shape of node
@@ -89,11 +89,11 @@ Go to the "Style" panel (top-left, between "Network" and "Select")
 * Mapping Type = Continuous Mapping
 * Column = Value
 * Change the "Current Mapping" by double clicking. You should see a window "Continuous Mapping Editor ..."
-* Create a mapping that gives a clear visual separation between thin and thick edges
+* Create a mapping that gives a clear visual separation between thin and thick edges, by editing the mapping so that it has a broader range of values
 
 ## 3.5. Add arrows (company ownership dataset)
 
-Look for "Target Arrow Shape" (no mapping)
+Look for "Target Arrow Shape".
 
 # 4. Create Layouts
 
@@ -126,7 +126,7 @@ Look at the results from the network analysis (you will need to go to "View > Sh
 
 Use these to style the network
 
-* Use continuous mapping for "size" and "fill color"
+* Use continuous mapping for "size" and "fill color". Note that size can only be changed if height and width are locked as properties.
 * Use "degree" for size
 * Use "betweenness centrality" for color
  * Try creating a mapping where small=blue, large=red (continuous mapping)
@@ -138,7 +138,7 @@ Cytoscape has "apps" that can be installed and used.
 
 ## 6.1. Install ModuLand
 
-Install ModuLand 2.0 (Tools > App Manager)
+Install ModuLand 2.0 (Tools > App Manager or in the "apps" option in the menu bar).
 
 ## 6.2. Use ModuLand
 
