@@ -42,6 +42,6 @@ The report should be an insightful, informative, readable, beautiful, clear, con
 
 The code should contain the Python code (Python notebook) that you used to pre-process the data for Cytoscape.
 
-The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
-
 **Both members of the group should learn Python**, as we will continue using Python throughout the course, hence, make sure you are not given non-Python tasks only in the division of work.
+
+The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**

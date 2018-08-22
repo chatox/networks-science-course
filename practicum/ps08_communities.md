@@ -53,12 +53,12 @@ Note that each run will generate a different graph. Execute this cell a few time
 
 # 3. Evaluate these communities
 
-We will use the [modularity](https://en.wikipedia.org/wiki/Modularity_(networks) measure. For this we need two quantities:
+We will use the [modularity](https://en.wikipedia.org/wiki/Modularity_%28networks%29) measure. For this we need two quantities:
 
-* The probability that an edge is in community *i*: `p[i]`
-* The probability that an edge has one end in community *i*: `a[i]`
+* The probability that an edge is completely inside community `i`: `prob_internal[i]`
+* The probability that an edge has one end in community `i`: `prob_has_one_end_in[i]`
 
-The modularity is expressed as the sum of `p[i] - a[i]^2`. In Python:
+The modularity is expressed as the sum of `prob_internal[i] - prob_has_one_end_in[i]^2`. In Python:
 
 ```python
 def compute_modularity(g, communities):
