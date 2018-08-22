@@ -77,7 +77,7 @@ If you issue `print(dist)` after initializing, you should see this:
 
 ## 1.3. Run the algorithm
 
-Now implement steps 8-16 of the pseudocode, it is straightforward but add a progress report to know whether the algorithm is running or not. While running your algorithm should print:
+Now implement steps 8-16 of the pseudocode, it is straightforward but it is a good idea to print some progress report to know whether the algorithm is running or not. While running your algorithm, the output should look like this:
 
 ```python
 k = 0/77 (0.0%)
@@ -117,7 +117,7 @@ MotherPlutarch,3,MotherPlutarch(3)
 
 Note that we have added a numerical attribute, with the distance from Valjean, and a new label.
 
-The ordering of this file does not matter.
+The ordering of columns on this file does not matter.
 
 ## 2.2. Draw in Cytoscape
 
