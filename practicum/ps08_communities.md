@@ -172,7 +172,7 @@ At the end of the session, deliver a zip file containing your Python notebook (r
 
 # Extra points
 
-For extra points, add a section "Extra points" to your document, and process `polblogs.gml` and `polblogs-leaning.csv`. These are left (*liberal*) and right (*conservative*) leaning blogs in the US in 2005 collected in a seminal paper by Lada Adamic and Natalie Glance.
+For extra points, add a section "Extra points" to your document, and process `polblogs.gml` and `polblogs-leaning.csv`. These are left (*liberal*) and right (*conservative*) leaning blogs in the US in 2004 collected in a seminal paper by Lada Adamic and Natalie Glance.
 
 First, visualize this graph using Cytoscape, painting blue/red the two leanings.
 
