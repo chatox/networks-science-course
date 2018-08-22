@@ -37,7 +37,7 @@ Change the style to minimalistic, try to determine what is the disconnected comp
 
 ## 1.2. Create sub-graphs
 
-* Search for the node named "BLACK PANTHER/T'CHAL" - the search box is on top of the display
+* Search for the node named "BLACK PANTHER/T'CHAL" - the search box is on top of the display. Depending on the OS (usually in Linux-based systems) you should add \ in the search in order to exclude special characters: "BLACK\ PANTHER/T'CHAL"
 * Click on the two-house icon on top, it means *neighbor*
 * Now you've selected one character and all his neighbors.
 * File > New > Network > From selected nodes, all edges
