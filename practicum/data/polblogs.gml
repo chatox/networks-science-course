@@ -1,3 +1,4 @@
+Creator "Lada Adamic on Tue Aug 15 2006 - Small fixes by ChaTo on Thu Aug 23 2018"
 graph [
   node [
     id 0
