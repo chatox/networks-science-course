@@ -117,7 +117,7 @@ Perform basic network analysis. Tools > Network Analyzer > Network Analysis > An
 
 ## 5.2. Look at analysis results
 
-Look at the results from the network analysis (you will need to go to "View > Show results panel" -- if it doesn't show up, try hiding and showing the results panel)
+Look at the results from the network analysis (you will need to go to "View > Show results panel" -- if it does not show up, try hiding and showing the results panel)
 
 * Look at distributes of node degrees between Karate Club and Les Misèrables
 * Look at distributions of shortest path lengths between Karate Club and Les Misèrables
@@ -159,4 +159,4 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver a one-page report in PDF containing a single image (use File > Export as image and then insert it in your document) of the Karate Club network with nodes painted according to clusters.
+At the end of the session, deliver a one-page report in PDF containing a single image of the Karate Club network with nodes painted according to clusters. Use File > Export as image, and then insert the image in your document.

@@ -42,7 +42,7 @@ for gene in gene_list:
     ...
 ```
 
-The `str.strip()` method removes whitespace and newlines from the beginning and end of the string, so it's equivalent to `str.lstrip().rstrip()`.
+The `str.strip()` method removes white space and newlines from the beginning and end of the string, so it's equivalent to `str.lstrip().rstrip()`.
 
 You can also do this in one line of code, using the `map(f, v)` function, which results the result of applying function `f` to each element of list `v`:
 
