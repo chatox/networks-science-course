@@ -13,7 +13,7 @@ The rest of this document is a simple introduction to Python for C programmers. 
 
 ## 1.1. Creating a notebook
 
-* In Unix, you can run "ipython3 notebook".
+* In Unix, you can run "ipython3 notebook" or "jupyter notebook".
 * Then, create a new Python 3 notebook.
 
 ## 1.2. Understanding the notebook
@@ -398,7 +398,7 @@ FILENAME = "test.csv"
 with io.open(FILENAME) as file:
     reader = csv.DictReader(file, delimiter=',')
     for row in reader:
-        print("%s is %d years old" % (row['name'], int(row['age'])))
+        print("%s is %d years old" % (row['person'], int(row['age'])))
 ```
 
 Note that you can also store the people being read in an array, and even the distinct values of a variable:
