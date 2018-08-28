@@ -157,7 +157,7 @@ Add text annotations (secondary button > add > text annotation) to the first, se
 
 # DELIVER (individually)
 
-At the end of the session, deliver an image file in .png format (File > Export as image) of the disease-disease network you created, styled, and annotated.
+At the end of the session, deliver a one-page report in PDF containing an image of the disease-disease network you created, styled, and annotated.
 
 ## Extra points available
 

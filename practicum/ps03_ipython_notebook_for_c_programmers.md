@@ -72,7 +72,7 @@ Now try executing the same but changing `y=2` to `y=float(2)` or `y=2.0`. The se
 
 ## Printing and formatting
 
-Printing is done using the `print()` function, which from Python 3 onwards must use parenthesis (Python 2 allowed `print "hello"`, but in Python 3 you must say `print("hello")`). Note that `print()` generates a newline:
+Printing is done using the `print()` function, which from Python 3 onward must use parenthesis (Python 2 allowed `print "hello"`, but in Python 3 you must say `print("hello")`). Note that `print()` generates a newline:
 
 ```python
 print("hello")
