@@ -2,7 +2,7 @@
 
 ## Practice sessions
 
-Practice sessions are conducted in a computer lab and, as a general rule, are delivered individually at the end of each session.
+Practice sessions are conducted in a computer lab and, as a general rule, are delivered individually within 24 hours of the end of the session.
 
 There are 09 practice sessions in this course. Handouts for each session start with *psNN* and describe the activities that the students must perform during the practice session.
 
