@@ -14,3 +14,4 @@
 | Florida-bay-food-web.gml | [Ulanowicz et al. 1997, Benson et al. 2016](https://snap.stanford.edu/data/Florida-bay.html) |
 | email-eu-core.txt | [Yin et al. 2017](https://snap.stanford.edu/data/email-Eu-core.html) |
 | polblogs.gml + polblogs-leaning.csv | [Adamic and Glance 2005](https://doi.org/10.1145/1134271.1134277) |
+| stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184) |
