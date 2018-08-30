@@ -165,7 +165,7 @@ Repeat the spring layout as many times as needed until you clearly see the cut, 
 
 At the end of the session, deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed). Include also a PDF file containing:
 
-* The original Karate Club with the ground-truth factions
+* Your visualization in NetworkX of the original Karate Club with the ground-truth factions
 * The modularity obtained using the ground-truth and the Girvan-Newman algorithm, and your 1-2 lines commentary on those modularity values.
 * The plot with the visualization of the removed edges
 * A table with the nodes indicating what is their ground-truth component, and their component in the Girvan-Newman algorithm (you will need to manually determine whether resulting component 0 is original component A and 1 is B, or viceversa). Highlight the nodes that moved to a different component: they should be a small minority.
