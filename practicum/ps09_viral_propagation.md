@@ -1,40 +1,19 @@
 
+Load labels from `stocks_62_names.txt` into a variable `id2name`, which should be a dictionary. Load edges from `stocks_62_pearson.net` into a variable `edges` which should be a list of 3-element lists.
+
+Then use these to create a graph:
 
 ```python
-import csv
-import io
-import networkx as nx
-import matplotlib.pyplot as plt
-import random
-
-FILENAME_NAMES = "stocks_62_names.txt"
-FILENAME_GRAPH = "stocks_62_pearson.net"
-
-id2name = {}
-
-with io.open(FILENAME_NAMES) as file_names:
-    reader = csv.reader(file_names, delimiter=' ', quotechar='"')
-    for stock in reader:
-        id2name[stock[0]] = stock[1]
-        
-#print(id2name)
-
-edges = []
-
-with io.open(FILENAME_GRAPH) as file_graph:
-    reader = csv.reader(file_graph, delimiter=' ', quotechar='"')
-    for edge in reader:
-        edges.append(edge)
-        
-#print(edges)
-
 g = nx.Graph()
 for edge in edges:
     g.add_edge(edge[0], edge[1], weight=float(edge[2]))
 g = nx.relabel_nodes(g, id2name)
     
 print("Stocks network: |V|=%d, |E|=%d" % (g.order(), g.size()))
+print("E.g., weight from %s to %s: %.3f" % ("ORCL", "AIG", g.get_edge_data("ORCL", "AIG")["weight"]))
 ```
+
+Draw this graph:
 
 ```python
 def draw_weighted_graph(graph, weight_attr_name, node_colors, label_color, pos=False):
@@ -52,6 +31,8 @@ def draw_weighted_graph(graph, weight_attr_name, node_colors, label_color, pos=F
 pos = draw_weighted_graph(g, weight_attr_name='weight', node_colors=['green' for u in g.nodes()], label_color='white')
 ```
 
+Now simulate independent cascades. The following code shows how to walk this graph:
+
 ```python
 def dump_weighted_graph(graph, weight_attr_name):
     for node in graph.nodes():
@@ -62,6 +43,11 @@ def dump_weighted_graph(graph, weight_attr_name):
 #dump_weighted_graph(g, weight_attr_name='weight')
 ```
 
+The algorithm should be: 
+
+EXPLAIN
+
+Your code should look like:
 
 ```python
 def simulate_independent_cascade(graph, starting_node, weight_attr_name, weight_multiplier):
