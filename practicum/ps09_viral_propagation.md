@@ -1,5 +1,15 @@
 
-Load labels from `stocks_62_names.txt` into a variable `id2name`, which should be a dictionary. Load edges from `stocks_62_pearson.net` into a variable `edges` which should be a list of 3-element lists.
+Load labels from `stocks_62_names.txt` into a variable `id2name`, which should be a dictionary:
+
+```python
+{'0': 'AA', '1': 'AEP', '2':, ..., '61': 'XRX'}
+```
+
+Load edges from `stocks_62_pearson.net` into a variable `edges` which should be a list of 3-element lists:
+
+```python
+[['0', '1', '0.211...'], ['0', '2', '0.306...'], ..., ['60', '61', '0.331...']]
+```
 
 Then use these to create a graph:
 
@@ -11,6 +21,13 @@ g = nx.relabel_nodes(g, id2name)
     
 print("Stocks network: |V|=%d, |E|=%d" % (g.order(), g.size()))
 print("E.g., weight from %s to %s: %.3f" % ("ORCL", "AIG", g.get_edge_data("ORCL", "AIG")["weight"]))
+```
+
+This should print:
+
+```
+Stocks network: |V|=62, |E|=1891
+E.g., weight from ORCL to AIG: 0.428
 ```
 
 Draw this graph:
