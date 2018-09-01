@@ -97,7 +97,7 @@ You should obtain a value of 0.3582 for the division of the Karate Club into the
 
 # 3. Implement betweenness-based clustering algorithm
 
-Next we will implement a simple betwenness-based algorithm named after Girvan and Newman. Basically we remove the edge with the largest edge betweenness until the graph is disconnected.
+Next we will implement a simple betweenness-based algorithm named after Girvan and Newman. Basically we remove the edge with the largest edge betweenness until the graph is disconnected.
 
 **Note: this algorithm is already implemented in the references, although in a different way. If you copy-paste the algorithm from the reference, you will get a zero grade in this session. Instead, implement it following the steps here.**
 
@@ -163,7 +163,7 @@ Repeat the spring layout as many times as needed until you clearly see the cut, 
 
 # DELIVER (individually)
 
-At the end of the session, deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed). Include also a PDF file containing:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed). Include also a PDF file containing:
 
 * Your visualization in NetworkX of the original Karate Club with the ground-truth factions
 * The modularity obtained using the ground-truth and the Girvan-Newman algorithm, and your 1-2 lines commentary on those modularity values.
@@ -172,11 +172,11 @@ At the end of the session, deliver a zip file containing your Python notebook (r
 
 # Extra points
 
-For extra points, add a section "Extra points" to your document, and process `polblogs.gml` and `polblogs-leaning.csv`. These are left (*liberal*) and right (*conservative*) leaning blogs in the US in 2004 collected in a seminal paper by Lada Adamic and Natalie Glance.
+For extra points, add a section "Extra points" to your report, and process `polblogs.gml` and `polblogs-leaning.csv`. These are left (*liberal*) and right (*conservative*) leaning blogs in the US in 2004 collected in a seminal paper by Lada Adamic and Natalie Glance.
 
 First, visualize this graph using Cytoscape, painting blue/red the two leanings.
 
-Next, process this using NetworkX. You need to select its largest connected component. Assumming you loaded it in variable `gpol`, this is done by doing:
+Next, process this using NetworkX. You need to select its largest connected component. Assuming you loaded it in variable `gpol`, this is done by doing:
 
 ```python
 gpol_largest = max(nx.connected_component_subgraphs(gpol), key=len)
@@ -187,7 +187,7 @@ Include the following in your "Extra points" section:
 * The ground-truth modularity using the given leaning, considering only the largest connected component.
 * The number of nodes in each component after applying the Girvan-Newman algorithm.
 
-You will notice that the results might be very insatisfactory and the graph is divided into a component having almost all the nodes and a component having almost none. Why do you think this happens? Indicate this in your report.
+You will notice that the results might be very unsatisfactory and the graph is divided into a component having almost all the nodes and a component having almost none. Why do you think this happens? Indicate this in your report.
 
 # References
 
