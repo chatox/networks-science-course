@@ -79,7 +79,7 @@ for mention in mentions:
 We are going to count how many times a mention happen. To do this, we will keep a dictionary:
 
 ```python
-counts = {}
+count = {}
 ```
 
 Each key in the dictionary will be a tuple `(author, mention)` where `author` is the username of the person who writes the message, and `mention` the username of someone who is mentioned in the message. To update the dictionary, use this code while you are reading the input file:
