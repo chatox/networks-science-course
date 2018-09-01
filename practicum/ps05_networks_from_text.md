@@ -31,7 +31,7 @@ import gzip
 
 INPUT_FILENAME = "EstamosPorTi.json.gz"
 
-with gzip.open(INPUT_FILENAME, "rt") as input_file:
+with gzip.open(INPUT_FILENAME, "rt", encoding="utf-8") as input_file:
     for line in input_file:
         tweet = json.loads(line)
         author = tweet["user"]["screen_name"]
@@ -44,7 +44,7 @@ If instead you want to open it in uncompressed, first `gunzip` the file and then
 ```python
 INPUT_FILENAME = "EstamosPorTi.json"
 
-with io.open(INPUT_FILENAME, "r") as input_file:
+with io.open(INPUT_FILENAME, "r", encoding="utf-8") as input_file:
 ```
 
 The rest of the code stays the same.
@@ -79,7 +79,7 @@ for mention in mentions:
 We are going to count how many times a mention happen. To do this, we will keep a dictionary:
 
 ```python
-counts = {}
+count = {}
 ```
 
 Each key in the dictionary will be a tuple `(author, mention)` where `author` is the username of the person who writes the message, and `mention` the username of someone who is mentioned in the message. To update the dictionary, use this code while you are reading the input file:
