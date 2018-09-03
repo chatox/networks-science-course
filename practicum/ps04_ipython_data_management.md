@@ -85,7 +85,7 @@ Remember to create a variable `FILEOUT_NAME` with the name of the output file yo
 
 ## Create a diseasome.csv file
 
-Create an IPython notebook that can create this tab-separated file. Store it as `diseasome.csv`:
+Create an IPython notebook that can create this tab-separated file (in the gene column use the first listed gene). Store it as `diseasome.csv`:
 
     disorder          class       gene
     17,20-lyase ...   Endocrine   CYP17A1
