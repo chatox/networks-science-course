@@ -1,2 +1,3 @@
 .fuse_hidden*
 .swp
+.~lock*
