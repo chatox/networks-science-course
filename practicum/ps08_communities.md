@@ -95,7 +95,7 @@ def compute_modularity(g, communities):
 
 You should obtain a value of 0.3582 for the division of the Karate Club into the communities defined in `node2faction`.
 
-# 3. Implement betweenness-based clustering algorithm
+# 4. Implement betweenness-based clustering algorithm
 
 Next we will implement a simple betweenness-based algorithm named after Girvan and Newman. Basically we remove the edge with the largest edge betweenness until the graph is disconnected.
 
@@ -121,7 +121,7 @@ gkar_partitioned = partition_by_edge_betweenness(gkar)
 nx.draw_spring(gkar_partitioned)
 ```
 
-# 4. Evaluate the betweenness-based method
+# 5. Evaluate the betweenness-based method
 
 Now you need to create a new variable `node2faction_alt` containing this new division of nodes into factions.
 
@@ -137,7 +137,7 @@ If you print `node2faction_alt` the result should look similar to this:
 
 Compute the modularity of this partition.
 
-# 5. Visualize the removed edges
+# 6. Visualize the removed edges
 
 Use the following code to divide the edges into those that were removed and those that were kept:
 
