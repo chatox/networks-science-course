@@ -30,7 +30,7 @@ There are 3 assignments in this course. Assignment descriptions start with "asNN
 |--------------------------------------|----------|
 | [AS01](as01_cytoscape_movie.md)      | Create a movie network from a movie database |
 | [AS02](as02_distances_diameter.md)   | Find distances and the diameter in a network |
-| AS03 | TBA |
+| [AS03](as03_pagerank.md)             | Compute PageRank with the graph in secondary memory |
 
 # Guidelines for submitting your work
 
