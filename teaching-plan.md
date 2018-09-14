@@ -35,19 +35,21 @@ The course will be delivered in Python, hence it is recommended but not mandator
 
 * Why studying networks
 * Basics concepts of graph theory
-* Degree and degree correlations
-* Characterization of complex networks
-* Storage of large graphs
-* Bipartite graphs
-* Basic graph algorithms
-* Centrality
+* Random networks
+* Scale-free networks
+* Preferential attachment
+* Other network growth models
+* Link formation mechanisms
+* Homophily and assortativity
+* Hubs and authorities
+* PageRank
+* Link-based centrality
 * Network flows
 * Dense sub-graphs
-* Clustering and communities
+* Hierarchical clustering
 * Spectral graph clustering
 * Spreading phenomena
-* Network formation models
-* Mining evolving graphs
+* Immunization
 
 ## Methodology
 
@@ -59,6 +61,13 @@ There are three group projects (groups of two students), which integrate the tec
 
 # Bibliography
 
-The course partially follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University:
+The first half of the course follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University:
 
 * "[Network Science](http://networksciencebook.com/)" (2016) by Albert-László Barabási
+
+Additional contents of the course come from:
+
+* "[Networks, Crowds, and Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/)" (2010) by Easley and Kleinberg.
+* "[AMAzING](http://www.math.cmu.edu/~ctsourak/amazing.html)" (2003) tutorial by Frieze, Gionis, and Tsourakakis.
+
+Other sources are listed in their respective slides.

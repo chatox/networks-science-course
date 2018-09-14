@@ -20,6 +20,11 @@
 | TT17. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | TBA                |  |
 | TT18. Immunization                    |                                                                                                          | TBA                |  |
 
+Note that the odp files (LibreOffice) include solutions, while the pdf files do not include them.
+Use this while studying: do not look at the solutions until you have tried to solve the problem yourself.
+
+# Credits
+
 Theory topics TT01-TT07 closely follow "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási.
 In other cases, the sources are indicated either at the beginning or in the footer of the slides.
 Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
