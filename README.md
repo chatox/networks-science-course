@@ -8,12 +8,12 @@ Public materials for the Networks Science course of the bachelor degree on Mathe
 
 ## Contents of this repository
 
-* [Teaching plan](teaching-plan.md): course contents for theory sessions.
-* [Practicum](practicum/): activities for practical sessions.
 * [Theory](theory/): slides for the theory part.
+* [Practicum](practicum/): activities for practical sessions.
 
 Material specific to UPF students:
 
+* [Teaching plan](teaching-plan.md): course contents for theory sessions.
 * [Evaluation rules](upf-2018-evaluation.md) for course at UPF.
 * [Calendar](upf-2018-calendar.md) for course at UPF.
 

@@ -20,4 +20,14 @@
 |                  | TT15. Spectral graph clustering       |
 | T9               | **Second in-class test: TT08-TT15**   |
 |                  | TT17. Spreading phenomena             |
-|                  | TT18. Immunization                    |                                                                                                          | TBA                |  |
+| T10              | TT18. Immunization                    |
+|                  | TT19. Advanced topic TBA              |
+| T11              | Questions/exercises/exam preparation  |             
+
+Calendar restrictions with respect to practice sessions:
+
+* By the end of T7 we must have seen degree distributions
+* By the end of T7 we must have seen centrality measures
+* By the end of T7 we must have seen k-core decomposition (**this is a tight constraint**)
+* By the end of T9 we must have seen some clustering method
+* By the end of T10 we must have seen spreading phenomena
