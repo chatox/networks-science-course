@@ -234,7 +234,7 @@ At the end of the session, deliver a zip file containing your Python notebook (r
 * A degree-rank plot
 * An inverse CDF of degree with a fitted line
 * The 3 nodes with the larger betweenness centrality.
-* The 3 nodes with the larger eigenvector centrality.
+* The 3 nodes with the larger eigenvector centrality (PageRank).
 
 ## Extra points available
 
@@ -247,7 +247,7 @@ To plot the names in a scatterplot, you can use this code. You just need to fill
 ```python
 plt.loglog(x_values, y_values, '.')
 plt.xlabel("Degree")
-plt.ylabel("Betwenness Centrality")
+plt.ylabel("Betweenness Centrality")
 for i in range(len(x_values)):
     plt.text(x_values[i], y_values[i], labels[i])
 plt.show()
