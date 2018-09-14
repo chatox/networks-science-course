@@ -20,7 +20,9 @@
 | TT17. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | TBA                |  |
 | TT18. Immunization                    |                                                                                                          | TBA                |  |
 
-Note that the odp files (LibreOffice) include solutions, while the pdf files do not include them.
+These slides were made with LibreOffice and the [TexMaths](https://extensions.libreoffice.org/extensions/texmaths-1) extension, which allows to easily enter and edit LaTeX equations that are embedded as images in the slides.
+
+Note that the source files include solutions, while the PDF files do not include them.
 Use this while studying: do not look at the solutions until you have tried to solve the problem yourself.
 
 # Credits
