@@ -15,6 +15,7 @@ Public materials for the Networks Science course of the bachelor degree on Mathe
 Material specific to UPF students:
 
 * [Evaluation rules](upf-2018-evaluation.md) for course at UPF.
+* [Calendar](upf-2018-calendar.md) for course at UPF.
 
 ## Acknowledgments
 

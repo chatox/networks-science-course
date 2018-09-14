@@ -9,11 +9,11 @@ Continuous evaluation will be based in the following elements:
 * C: Average grade in the 2 in-class tests: 20%
 * D: Grade in the exam: 30%
 
-To pass the course under continuous evaluation, the following must be true:
+To pass the course under continuous evaluation, all of the following must be true:
 
-1. The average of A and B is 4.0 or larger
-1. The average of C and D is 4.0 or larger
-1. The average of A, B, C, and D is 5.0 or larger
+1. 0.6 A + 0.4 B >= 4.0
+1. 0.4 C + 0.6 D >= 4.0
+1. 0.3 A + 0.2 B + 0.2 C + 0.3 D >= 5.0
 
 ## Getting a grade in the practical sessions
 
@@ -23,6 +23,8 @@ To obtain a grade in the practical session, you must:
 * Deliver your work within 24 hours of the end of the practical session
 * If your work is delivered after more than 24 hours but less than 48 hours, it will have a -2 points deduction
 * After 48 hours, work will not be accepted
+
+Extra points will be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions.
 
 Automatically the lowest grade in the practice sessions will be discarded, which allows you to skip one session and still get the maximum grade.
 
@@ -39,6 +41,10 @@ To obtain a grade in the assignments, you must:
 * After 24 hours, work will not be accepted
 
 Not delivering an assignment means a zero grade in that assignment.
+
+Your assignment should end with the following statement: *We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.*
+
+Please note that it is often easy for the instructors to know if you have copied parts of your work from an external source, as we have done the same online searches that you will do, plus coding styles are very evident for someone with experience.
 
 ## Getting a grade in the in-class tests or exam
 
