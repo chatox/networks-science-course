@@ -31,3 +31,9 @@ Calendar restrictions with respect to practice sessions:
 * By the end of T7 we must have seen k-core decomposition (**this is a tight constraint**)
 * By the end of T9 we must have seen some clustering method
 * By the end of T10 we must have seen spreading phenomena
+
+# Calendar for assignments
+
+* Assignment 01: 29 October 2018
+* Assignment 02: 23 November 2018
+* Assignment 03: 14 December 2018
