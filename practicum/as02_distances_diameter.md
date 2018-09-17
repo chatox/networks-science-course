@@ -145,12 +145,14 @@ The report should contain, for *Les Misérables*:
 
 1. The full distance matrix (shrink font size so it fits in a page; do not use a low-quality or poorly cropped screenshot).
 1. A graph generated in Cytoscape in which each node is labeled and colored/styled according to its distance from Valjean (e.g., label of node "Zephine" should be "Zephine(2)")
+1. Your brief (1-2 paragraphs) commentary on this distance matrix and graph.
 
 And for both *Les Misérables* and the *Email-EU-Core* network:
 
 1. The diameter (max), effective diameter (90% percentile), and median diameter (50% percentile) of both networks
-1. The distance histogram of both networks
-1. Your conclusion comparing the two distance histograms, in a couple of lines
+1. The distance histograms of both networks
+1. Your brief (1-2 paragraphs) commentary on each distance histogram
+1. Your conclusion (1-2 paragraphs) comparing the two distance histograms, in a couple of lines
 
 The code should contain the Python notebook that you created.
 

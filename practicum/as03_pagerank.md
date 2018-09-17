@@ -103,7 +103,15 @@ Note that you still have to iterate through the entire file, so even if you know
 
 Finally, compute the gain of every host as *(Normal PageRank) / (No spam PageRank)*.
 
-Among the top hosts you might find a mixture of spam and non-spam sites, because spammers also point to legitimate sites to disguise their actions. However, you will also observe at least 2 prostitution/escorts sites in the top 10, these websites probably paid for the spammers to point to them.
+Among the top hosts you might find a mixture of "spammy" (business that tend to rely on spam) and "normal" sites, because spammers also point to legitimate sites to disguise their actions.
+
+# 7. Compute one variant of PageRank
+
+Implement at least one variant of PageRank. Some ideas follow, feel free to experiment with your own:
+
+1. Restarting to a certain subset of nodes (e.g., .gov.uk or .ac.uk sites)
+1. Dividing by log of degree instead of degree
+1. Not dividing by degree
 
 # Deliver (groups of two)
 
@@ -115,11 +123,13 @@ The report should contain:
 
 1. The list of top-20 sites by PageRank
 1. The list of top-20 sites by No-spam-PageRank
-1. Your comment on the similarities/differences between the two lists above
+1. Your comment (1-2 paragraphs) on the similarities/differences between the two lists above
 1. The list of top-20 sites containing `.co.uk` by PageRank
 1. The list of top-20 sites containing `.co.uk` by No-spam-PageRank
-1. Your comment on the similarities/differences between the two lists above
+1. Your comment (1-2 paragraphs) on the similarities/differences between the two lists above
 1. The list of top-20 sites by spam gain
-1. Your comment on the list of sites by spam gain
+1. Your comment (1-2 paragraphs) on the list of sites by spam gain
+1. The list of top-20 sites by your variant of PageRank
+1. Your comment (1-2 paragraphs) on the list of top sites by your variant of PageRank
 
 The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
