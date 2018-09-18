@@ -61,7 +61,7 @@ There are three group projects (groups of two students), which integrate the tec
 
 # Evaluation
 
-See [upf-2008-evaluation.md](upf-2008-evaluation.md)
+See [evaluation rules](upf-2018-evaluation.md)
 
 # Bibliography
 
