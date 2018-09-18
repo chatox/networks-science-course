@@ -24,8 +24,8 @@
 | T7               | TT12. Network flows                   | 22 slides + 1 short exercise |      |
 |                  | TT13. Dense sub-graphs                | 24 slides + 2 exercises      |      |
 | T8               | TT14. Hierarchical clustering         | 30 slides + 3 short exercises|      |
-|                  | TT15. Spectral graph clustering       | 45 slides + 1 exercise       |      |
-| T9               | **Second in-class test: TT08-TT15**   |                              | 20 Nov (G1), 22 Nov (G2)  |
+|                  | TT15. Spectral graph clustering       | 45 slides + 1 exercise       | (can be moved to DM course) |
+| T9               | **Second in-class test: TT08-TT15**   |                              | 20 Nov (G1), 22 Nov (G2)    |
 |                  | TT16. Epidemics                       | 32 slides + 2 exercises      |      |
 | T10              | TT17. Information cascades            | TBA                          |      |
 |                  | TT18. Spreading phenomena             | TBA                          |      |
