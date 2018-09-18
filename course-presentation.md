@@ -59,6 +59,10 @@ In seminar sessions, students can work individually or in small groups in perfor
 
 There are three group projects (groups of two students), which integrate the techniques seen in the seminar sessions. There are three practice sessions for instructors to solve student questions regarding these projects.
 
+# Evaluation
+
+See [upf-2008-evaluation.md](upf-2008-evaluation.md)
+
 # Bibliography
 
 The first half of the course follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University:
