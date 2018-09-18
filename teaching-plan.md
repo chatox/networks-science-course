@@ -26,7 +26,7 @@ At the end of the course, the students would have acquired:
 
 The course requires:
 
-1. Skills in programming and datas structures.
+1. Skills in programming and data structures.
 2. Knowledge of basic linear algebra methods
 
 The course will be delivered in Python, hence it is recommended but not mandatory to have a background in Python.
