@@ -55,7 +55,7 @@ The course will be delivered in Python, hence it is recommended but not mandator
 
 The course is structured around theory classes in which the topics of the course are introduced.
 
-In seminar sessions, students can work individually or in small groups in performing network analysis tasks. At the end of each session, each student reports his/her findings individually through an image or a 1-2 pages report.
+In seminar sessions, students can work individually or in small groups in performing network analysis tasks. At the end of each session, each student reports his/her findings individually with a 1-2 pages report.
 
 There are three group projects (groups of two students), which integrate the techniques seen in the seminar sessions. There are three practice sessions for instructors to solve student questions regarding these projects.
 
