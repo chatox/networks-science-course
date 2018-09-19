@@ -17,7 +17,7 @@
 | TT13. Dense sub-graphs                | K-core decomposition; Goldberg's algorithm; Charikar's algorithm                                         | 24 slides + 2 exercises       | [pdf](pdf/tt13_dense_subgraphs.pdf) [odp](tt13_dense_subgraphs.odp)       |
 | TT14. Hierarchical clustering         | Partitioning methods (Girvan-Newman); Agglomerative methods; Modularity                                  | 30 slides + 3 short exercises | [pdf](pdf/tt14_hierarchical_clustering.pdf) [odp](tt14_hierarchical_clustering.odp) |
 | TT15. Spectral graph clustering       | Graph embeddings; Communities via graph embeddings                                                       | 45 slides + 1 exercise        | [pdf](pdf/tt15_spectral_clustering.pdf) [odp](tt15_spectral_clustering.odp) |
-| TT16. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 32 slides + 2 exercises       | [pdf](pdf/tt16_epidemics.pdf) [odp](tt16_epidemics.pdf) |
+| TT16. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 32 slides + 2 exercises       | [pdf](pdf/tt16_epidemics.pdf) [odp](tt16_epidemics.odp) |
 | TT17. Information cascades            | Examples; Contagion models; Linear threshold model; Independent cascade model                            | TBA       |  |
 | TT18. Immunization                    |                                                                                                          | TBA                |  |
 
