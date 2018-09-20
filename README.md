@@ -21,5 +21,4 @@ Material specific to UPF students:
 
 The course, particularly the first half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
 
-
-I am thankful to the course's teaching assistants (2018), PhD students Alexander Gomez and Alexandra Matreata at UPF.
+I am thankful to the course's teaching assistants (2018), PhD students Alexander Gomez and Alexandra Matreata at UPF, and the feedback from Vicenç Gómez on an early version of this course.
