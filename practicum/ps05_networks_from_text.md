@@ -165,7 +165,7 @@ Use "Layout > Prefuse Force Directed Layout > All Nodes > Weight" to create a la
 
 Run the ModuLand plug-in to create a clustering of this graph using the *Weight* attribute as weight.
 
-# DELIVER (in pairs)
+# DELIVER (individually or in pairs)
 
 At the end of the session, deliver a two-page PDF file.
 
