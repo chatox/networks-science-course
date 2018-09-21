@@ -167,8 +167,6 @@ For extra points, group different variants of a disease, which are indicated by 
 
 **Note 1:** a list `c` that is the union of two lists `a,b` can be computed in Python with `c = list(set(a) | set(b))`.
 
-**Note 2:** if you go for the extra points, you have 24 hours after the end of this session to deliver. If later you deliver just the standard solution (without grouping), the standard penalty for late delivery will apply.
-
 # References
 
 Goh, K. I., Cusick, M. E., Valle, D., Childs, B., Vidal, M., & Barabási, A. L. (2007). [The human disease network](http://www.pnas.org/content/104/21/8685). Proceedings of the National Academy of Sciences, 104(21), 8685-8690.
