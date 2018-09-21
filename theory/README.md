@@ -4,7 +4,7 @@
 |---------------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------|----------|
 |                                       | **Introduction**      |  |  |
 | TT01. Why studying networks           | Personal intro; Networks in biology, sociology, communications; Organization of course                   | 32 slides                     | [pdf](pdf/tt01_complex_networks.pdf) [odp](tt01_complex_networks.odp) |
-| TT02. Basics concepts of graph theory | Graphs, trees, forests; Directed/undirected graphs; Weighted/unweighted graphs; Degree, adjacency, paths | 39 slides                     | [pdf](pdf/tt02_graph_theory_basics.pdf) [odp](tt02_graph_theory_basics.odp) |
+| TT02. Basics concepts of graph theory | Graphs, trees, forests; Directed/undirected graphs; Weighted/unweighted graphs; Degree, adjacency, paths | 36 slides + 2 short exercises | [pdf](pdf/tt02_graph_theory_basics.pdf) [odp](tt02_graph_theory_basics.odp) |
 |                                       | **Network formation models**      |  |  |
 | TT03. Random networks                 | The ER model; Degree distribution; Distances; Clustering coefficient                                     | 42 slides + 1 exercise        | [pdf](pdf/tt03_random_networks.pdf) [odp](tt03_random_networks.odp)         
 | TT04. Scale-free networks             | Degree distribution; The meaning of scale-free; Average degree, average distance; The friendship paradox | 32 slides + 1 exercise        | [pdf](pdf/tt04_scale_free_networks.pdf) [odp](tt04_scale_free_networks.odp)        |
