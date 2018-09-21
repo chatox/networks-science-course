@@ -159,4 +159,10 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver a one-page report in PDF containing a single image of the Karate Club network with nodes painted according to clusters. Use File > Export as image, and then insert the image in your document.
+At the end of the session, deliver a report in PDF containing three images:
+
+* an image of the network from Les Misérables, styled in any way you want,
+* an image of the network from US Companies, styled in any way you want, and
+* an image of the Karate Club network with nodes painted according to clusters.
+
+Use File > Export as image, and then insert the images in your document.
