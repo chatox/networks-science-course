@@ -23,8 +23,7 @@
 |                                       | **Dynamic processes in networks**      |  |  |
 | TT16. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 32 slides + 2 exercises       | [pdf](pdf/tt16_epidemics.pdf) [odp](tt16_epidemics.odp) |
 | TT17. Information cascades            | Crowds; Herding; A sequential model of cascades                                                          | 28 slides + 1 exercise        | [pdf](pdf/tt17_information_cascades.pdf) [odp](tt17_information_cascades.odp) |
-| TT18. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | TBA       |  |
-| TT18. Immunization                    |                                                                                                          | TBA                |  |
+| TT18. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 24 slides + 1 exercise        | [pdf](pdf/tt18_spreading_phenomena.pdf) [odp](tt18_spreading_phenomena.odp) |
 
 These slides were made with LibreOffice and the [TexMaths](https://extensions.libreoffice.org/extensions/texmaths-1) extension, which allows to easily enter and edit LaTeX equations that are embedded as images in the slides.
 
