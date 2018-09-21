@@ -6,7 +6,7 @@ Practice sessions are conducted in a computer lab and, as a general rule, are de
 
 There are 09 practice sessions in this course. Handouts for each session start with *psNN* and describe the activities that the students must perform during the practice session.
 
-At the end of each handout there is a description of what you should deliver.
+At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your teaching assistant ("*profesor/a de prácticas*") any questions you may have.
 
 | Session                                             | Contents |
 |-----------------------------------------------------|----------|
@@ -22,7 +22,7 @@ At the end of each handout there is a description of what you should deliver.
 
 ## Assignments
 
-Assignments, as a general rule, are done in pairs.
+Assignments, as a general rule, are done in pairs and in your own time. There is, however, a lab session dedicated to the assignment, usually but not always close to the delivery date, in which the teaching assistant (*profesor/a de prácticas*) will answer any questions you may have. Feel free to also post questions in the course forum.
 
 There are 3 assignments in this course. Assignment descriptions start with "asNN".
 
@@ -36,7 +36,15 @@ There are 3 assignments in this course. Assignment descriptions start with "asNN
 
 Each practice session and assignment specifies what you should submit. Read it carefully to ensure that you are including everything that was asked.
 
-Identify the authorship and date of each report with a paragraph on the first page (or with a cover page for longer reports), including the report's title or purpose, the author name(s) and e-mail(s), and the date in which the report was completed. Include the same as a comment at the top of each source code file you deliver.
+Identify the authorship and date of each report with a paragraph on the first page (or with a cover page for longer reports), including:
+
+* the report's title or purpose,
+* the author name(s) and e-mail(s), and
+* the date in which the report was completed.
+
+Include a comment with the same information at the top of each source code file you deliver.
+
+## We expect nothing less than top-quality work
 
 Check your code and results as many times as needed to ensure they are correct. State clearly your assumptions and limitations.
 
