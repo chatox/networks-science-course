@@ -424,8 +424,10 @@ Note that `people` is an array of dictionaries, `colors_dict` is a dictionary wh
 
 At the end of the session, deliver a zip file containing the file `test.csv`, and a clean Python notebook `test.ipynb` containing code to read the file and compute, for each different color, the average age of people having that color, for instance, in the example above, it should print:
 
-    Average age of red: 28.00
-    Average age of blue: 24.00
+```
+Average age of red: 28.00
+Average age of blue: 24.00
+```
 
 # References
 
