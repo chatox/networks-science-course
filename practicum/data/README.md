@@ -1,11 +1,15 @@
-# How to download
+# Datasets of networks
 
-Datasets can be downloaded from GitHub's web interface.
+This is a small list of datasets used during the [practicum or assignments](../README.md) of the Networks Science course. It is not intended to be a full repository of datasets. See links at the bottom of this file.
+
+## How to download
+
+To download from GitHub's web interface:
 
 * For large files, browse to the dataset and click on "Download" (on the top-right corner).
 * For small files, browse to the dataset and click on "Raw" (on the top-right corner) and then "Save as ..." in your browser.
 
-# Sources for datasets in this directory
+## Sources for datasets in this directory
 
 | Filename | Source |
 |----------|--------|
@@ -21,3 +25,11 @@ Datasets can be downloaded from GitHub's web interface.
 | email-eu-core.txt | [Yin et al. 2017](https://snap.stanford.edu/data/email-Eu-core.html) |
 | polblogs.gml + polblogs-leaning.csv | [Adamic and Glance 2005](https://doi.org/10.1145/1134271.1134277) |
 | stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184), Chapter 10 |
+
+## Repositories of network datasets
+
+* [Network Repository](http://networkrepository.com/)
+* [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/)
+* [UCI Network Data Repository](https://networkdata.ics.uci.edu/resources.php)
+* [AMiner Datasets for Social Network Analysis](https://aminer.org/data-sna)
+* [Mark Newman's Network Datasets](http://www-personal.umich.edu/~mejn/netdata/)
