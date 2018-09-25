@@ -20,15 +20,19 @@ This file was obtained from the [Tweet ID Catalog](https://www.docnow.io/catalog
 
 To recover the entire tweet, a process commonly known as *re-hydration* needs to be used, which involves querying an API from Twitter, giving the tweet-id, and obtaining the tweet. This can be done with a little bit of programming or using a software such as [Hydrator](https://github.com/docnow/hydrator#readme).
 
-# 1. How to read the tweets
-
-We do not need to uncompress this file (it is about 132 MB uncompressed, but only 11 MB compressed).
+# 0. Imports
 
 ```python
 import io
 import json
 import gzip
+```
 
+# 1. How to read the tweets
+
+We do not need to uncompress this file (it is about 132 MB uncompressed, but only 11 MB compressed).
+
+```python
 INPUT_FILENAME = "EstamosPorTi.json.gz"
 
 with gzip.open(INPUT_FILENAME, "rt", encoding="utf-8") as input_file:

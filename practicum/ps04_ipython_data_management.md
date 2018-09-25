@@ -15,6 +15,12 @@ The initial dataset `disease-genes.csv` contains the following columns:
 
 Here are some code snippets that you may need.
 
+Imports:
+
+```python
+import io
+```
+
 ## Reading a CSV file
 
 FILENAME should be a string containing the name of the file you're opening. The comma is the field delimiter, and the quote character is the character that is used to protected values that contain commas.

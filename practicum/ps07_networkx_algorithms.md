@@ -4,6 +4,15 @@ In this session we will use [NetworkX](https://networkx.github.io/) for implemen
 
 # 0. Materials
 
+Imports:
+
+```python
+import io
+import csv
+import networkx as nx
+import matplotlib.pyplot as plt
+```
+
 We will use the `email-eu-core.txt` network, which is a list of space-delimited edges.
 
 ```python

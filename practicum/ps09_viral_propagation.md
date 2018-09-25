@@ -6,8 +6,14 @@ We will simulate a toy version of a "market crash" caused by the collapse of the
 
 # 0. Materials
 
-We will use a network that describes correlations between the stock prices of 62 public companies in the US. The nodes are in the file `stocks_62_names.txt`, and the correlations in `stocks_62_pearson.net`.
+We will use a network that describes correlations between the stock prices of 62 public companies in the US. This is in the `data/` directory: nodes are in the file `stocks_62_names.txt`, and correlations in `stocks_62_pearson.net`.
 
+Imports:
+
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+```
 
 # 1. Load node labels and edges
 
@@ -146,7 +152,6 @@ Node: AEP Average infected: 39.220
 ...
 Node: XRX Average infected: 42.290
 ```
-
 
 # DELIVER (individually)
 

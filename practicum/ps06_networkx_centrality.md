@@ -4,12 +4,16 @@ In this session we will learn to use [NetworkX](https://networkx.github.io/), a 
 
 # 0. Reading and drawing in NetworkX
 
-For reading a GML file, you use the `read_gml` method and indicate what is the name of the attribute that you want to use as a label for the nodes.
+Imports:
 
 ```python
 import networkx as nx
 import matplotlib.pyplot as plt
+```
 
+For reading a GML file, you use the `read_gml` method and indicate what is the name of the attribute that you want to use as a label for the nodes.
+
+```python
 gkar = nx.read_gml(path="data/karate.gml", label="id")
 print("Karate Club: |V|=%d, |E|=%d" % (gkar.order(), gkar.size()))
 nx.draw_spring(gkar, with_labels=True)

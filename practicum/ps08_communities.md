@@ -4,7 +4,14 @@ In this session we will use [NetworkX](https://networkx.github.io/) for implemen
 
 # 0. Materials
 
-You will need Zachary's Karate Club (`karate.gml`), and a file describing which student went to which group after the club splitted (`karate-factions.csv`). The latter will serve as ground truth for our community detection methods.
+From the `data/` directory, you will need Zachary's Karate Club (`karate.gml`), and a file describing which student went to which group after the club splitted (`karate-factions.csv`). The latter will serve as ground truth for our community detection methods.
+
+Imports:
+
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+```
 
 # 1. Load the two ground-truth communities in Zachary's Karate Club
 
