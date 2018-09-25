@@ -30,7 +30,7 @@ These slides were made with LibreOffice and the [TexMaths](https://extensions.li
 Note that the source files include solutions, while the PDF files do not include them.
 Use this while studying: do not look at the solutions until you have tried to solve the problem yourself.
 
-# Credits
+# Sources/credits
 
 Theory topics TT01-TT07 closely follow "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási.
 In other cases, the sources are indicated either at the beginning or in the footer of the slides.
