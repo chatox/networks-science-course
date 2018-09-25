@@ -2,6 +2,8 @@
 
 ## Materials for this Session
 
+(See [how to download](data/README.md) in the README of the data/ directory)
+
 * Marvel Universe Social Graph: `hero-network.csv`
 
 ## Contents

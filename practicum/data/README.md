@@ -1,3 +1,9 @@
+# How to download
+
+Datasets can be downloaded from GitHub's web interface.
+
+* For large files, browse to the dataset and click on "Download" (on the top-right corner).
+* For small files, browse to the dataset and click on "Raw" (on the top-right corner) and then "Save as ..." in your browser.
 
 # Sources for datasets in this directory
 

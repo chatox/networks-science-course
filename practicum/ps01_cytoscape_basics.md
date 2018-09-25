@@ -2,6 +2,8 @@
 
 ## Materials for this session
 
+(See [how to download](data/README.md) in the README of the data/ directory)
+
 * Cytoscape *version 3.6.1*
 * File "karate.gml" (in data/)
 * File "lesmiserables.gml" (in data/)
