@@ -8,8 +8,9 @@ Public materials for the Networks Science course of the bachelor degree on Mathe
 
 ## Contents of this repository
 
-* [Theory](theory/): slides for the theory part.
-* [Practicum](practicum/): activities for practical sessions.
+* [Theory](theory/README.md): slides for the theory part.
+* [Practicum](practicum/README.md): activities for practical sessions.
+* [Datasets](practicum/data/README.md): to be used during practical sessions.
 
 Material specific to UPF students:
 
