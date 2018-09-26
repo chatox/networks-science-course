@@ -7,7 +7,7 @@
 
 # Calendar for theory sessions 2018
 
-For details on the contents of these sessions, see [theory/](theory/README.md).
+For details on the contents of these sessions, see [theory](../theory/README.md).
 
 | Session(s)       | Topics                                | Notes |
 |------------------|---------------------------------------|-------|
