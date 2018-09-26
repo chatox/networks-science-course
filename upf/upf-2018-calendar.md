@@ -1,5 +1,5 @@
 
-# Calendar for assignments 2018
+# <img src="upf_logo.png" align="right" width="80"/>Calendar for assignments 2018
 
 * Assignment 01: 30 October 2018
 * Assignment 02: 23 November 2018

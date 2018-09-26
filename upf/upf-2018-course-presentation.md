@@ -1,4 +1,4 @@
-# 24233 – Introduction to Networks Science
+# <img src="upf_logo.png" align="right" width="80"/>24933 – Introduction to Networks Science
 
 ## Presentation
 
