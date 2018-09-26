@@ -33,3 +33,4 @@ To download from GitHub's web interface go to the [data](./) directory.
 * [UCI Network Data Repository](https://networkdata.ics.uci.edu/resources.php)
 * [AMiner Datasets for Social Network Analysis](https://aminer.org/data-sna)
 * [Mark Newman's Network Datasets](http://www-personal.umich.edu/~mejn/netdata/)
+* [Gephi datasets](https://github.com/gephi/gephi/wiki/Datasets)
