@@ -157,7 +157,7 @@ Use ModuLand 2.0 on the Karate Club
 
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
 * Use "Edge betweenness" as the attribute
-* Run the module land, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
+* Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
 
 # DELIVER (INDIVIDUALLY)
 
