@@ -4,7 +4,7 @@
 
 (See [how to download](data/README.md) in the README of the data/ directory)
 
-* Cytoscape *version 3.6.1*
+* [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
 * File "karate.gml" (in data/)
 * File "lesmiserables.gml" (in data/)
 * File "us_companies_ownership.csv" (in data/)
