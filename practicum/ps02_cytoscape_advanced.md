@@ -4,7 +4,8 @@
 
 (See [how to download](data/README.md) in the README of the data/ directory)
 
-* Marvel Universe Social Graph: `hero-network.csv`
+* Marvel Universe Social Graph: [hero-network.csv](data/hero-network.csv)
+* Barcenola holidays data: [holidays-bcn-network.csv](data/holidays-bcn-network.csv) and [holidays-bcn-node-attributes.csv](data/holidays-bcn-node-attributes.csv)
 
 ## Contents
 
@@ -99,4 +100,9 @@ Play with one of the small networks you created from a csv file:
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver a one-page report containing a single image of the network you created and edited.
+At the end of the session, deliver a report containing:
+
+* an image of the hero network,
+* an image of a sub-graph of the hero network,
+* an image of the small network you created and styled.
+
