@@ -4,7 +4,7 @@ This is a small list of datasets used during the [practicum or assignments](../R
 
 ## How to download
 
-To download from GitHub's web interface:
+To download from GitHub's web interface go to the [data](./) directory.
 
 * For large files, browse to the dataset and click on "Download" (on the top-right corner).
 * For small files, browse to the dataset and click on "Raw" (on the top-right corner) and then "Save as ..." in your browser.
@@ -33,3 +33,4 @@ To download from GitHub's web interface:
 * [UCI Network Data Repository](https://networkdata.ics.uci.edu/resources.php)
 * [AMiner Datasets for Social Network Analysis](https://aminer.org/data-sna)
 * [Mark Newman's Network Datasets](http://www-personal.umich.edu/~mejn/netdata/)
+* [Gephi datasets](https://github.com/gephi/gephi/wiki/Datasets)

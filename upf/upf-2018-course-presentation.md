@@ -65,13 +65,14 @@ See [evaluation rules](upf-2018-evaluation.md)
 
 # Bibliography
 
-The first half of the course follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University:
+:books: Books:
 
-* "[Network Science](http://networksciencebook.com/)" (2016) by Albert-László Barabási
-
-Additional contents of the course come from:
-
+* "[Network Science](http://networksciencebook.com/)" (2016) by Albert-László Barabási. The first half of the course follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University.
 * "[Networks, Crowds, and Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/)" (2010) by Easley and Kleinberg.
+* "[Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/)" (2018) by Dmitry Zinoviev.
+
+:link: Additional contents of the course come from:
+
 * "[AMAzING](http://www.math.cmu.edu/~ctsourak/amazing.html)" (2003) tutorial by Frieze, Gionis, and Tsourakakis.
 
 Other sources are listed in their respective slides.

@@ -4,10 +4,10 @@
 
 (See [how to download](data/README.md) in the README of the data/ directory)
 
-* Cytoscape *version 3.6.1*
-* File "karate.gml" (in data/)
-* File "lesmiserables.gml" (in data/)
-* File "us_companies_ownership.csv" (in data/)
+* [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
+* File "[karate.gml](data/karate.gml)" 
+* File "[lesmiserables.gml](data/lesmiserables.gml)" 
+* File "[us_companies_ownership.csv](data/us_companies_ownership.csv)"
 
 ## Contents of this session
 
@@ -20,22 +20,12 @@
 
 ## 1. About Cytoscape
 
-### What is Cytoscape?
-
-An open source software platform for visualizing complex networks and integrating these with any type of attribute data.
-
-### Sources for learning Cytoscape
-
-#### Tutorials
+[Cytoscape](http://www.cytoscape.org/) is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. These are two recommended tutorials on Cytoscape:
 
 * [Cytoscape tutorial](https://github.com/cytoscape/cytoscape-tutorials/wiki)
 * [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0)
 
-#### Test datasets
-
-* [SNAP](https://snap.stanford.edu/data/)
-* [Network Repository](http://networkrepository.com/)
-* [Gephi Datasets](https://github.com/gephi/gephi/wiki/Datasets)
+For test datasets, see [data/](data/README.md)
 
 # 2. Importing a network
 
@@ -157,7 +147,7 @@ Use ModuLand 2.0 on the Karate Club
 
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
 * Use "Edge betweenness" as the attribute
-* Run the module land, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
+* Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
 
 # DELIVER (INDIVIDUALLY)
 

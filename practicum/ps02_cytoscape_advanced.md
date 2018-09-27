@@ -4,7 +4,8 @@
 
 (See [how to download](data/README.md) in the README of the data/ directory)
 
-* Marvel Universe Social Graph: `hero-network.csv`
+* Marvel Universe Social Graph: [hero-network.csv](data/hero-network.csv)
+* Barcelona holidays data: [holidays-bcn-network.csv](data/holidays-bcn-network.csv) and [holidays-bcn-node-attributes.csv](data/holidays-bcn-node-attributes.csv)
 
 ## Contents
 
@@ -77,7 +78,7 @@ Now, use the "type of holiday" attribute to determine the color of nodes. Use st
 
 ## 2.2. Create a new network
 
-Now, create a network on your own. Include around 10 nodes, and one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends or characters in a TV series, and some attribute for the type of character.
+Now, create a network on your own. Include at least 10 nodes, and at least one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends, a network of characters in a movie, TV series, or novel, a network of musicians and music bands, or sportsmen/sportswomen and teams, or anything you find interesting. 
 
 ## 2.3. Creating inside the application
 
@@ -99,4 +100,12 @@ Play with one of the small networks you created from a csv file:
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver a one-page report containing a single image of the network you created and edited.
+Deliver a report containing:
+
+* an image of the hero network,
+* an image of the sub-graph of the hero network you extracted,
+* an image of the Barcelona holidays data, and
+* an image of the new network you created and styled.
+
+Feel free to include brief comments inside or between the images, explaining what we see there.
+
