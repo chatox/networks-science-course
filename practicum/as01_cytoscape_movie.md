@@ -2,7 +2,7 @@
 
 ## Materials
 
-For this assignment you need the file `movie_metadata.csv` which contains information about 5,000 movies.
+For this assignment you need the file [movie_metadata.csv](data/movie_metadata.csv) which contains information about 5,000 movies.
 
 ## Task
 
