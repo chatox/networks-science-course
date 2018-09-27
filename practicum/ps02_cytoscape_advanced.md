@@ -78,7 +78,7 @@ Now, use the "type of holiday" attribute to determine the color of nodes. Use st
 
 ## 2.2. Create a new network
 
-Now, create a network on your own. Include around 10 nodes, and one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends or characters in a TV series, and some attribute for the type of character.
+Now, create a network on your own. Include at least 10 nodes, and at least one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends, a network of characters in a movie, TV series, or novel, a network of musicians and music bands, or sportsmen/sportswomen and teams, or anything you find interesting. 
 
 ## 2.3. Creating inside the application
 
