@@ -105,7 +105,7 @@ Deliver a report containing:
 * an image of the hero network,
 * an image of the sub-graph of the hero network you extracted,
 * an image of the Barcelona holidays data, and
-* an image of the small network you created and styled.
+* an image of the new network you created and styled.
 
-Feel free to include small comments inside or between the images.
+Feel free to include brief comments inside or between the images, explaining what we see there.
 
