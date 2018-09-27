@@ -43,6 +43,14 @@ We will use the [Floyd-Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E
 
 **Do not copy-paste an implementation found online or you will get a zero grade.**
 
+Imports that you will need:
+
+```Python
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+```
+
 ## 1.1. Create a mapping from labels to node ids
 
 Note that the algorithm uses a matrix in which rows and columns go from *0* to *|V|-1*. The size of the graph `g`, *|V|*, is simply `g.order()`.
@@ -60,7 +68,7 @@ Create an initialize a matrix (steps 1-7 of pseudocode above).
 
 * An empty *n x m* matrix is created with `matrix = np.empty(n,m)`
 * A matrix *matrix* can be filled with the number *number* using `matrix.fill(number)`
-* Infinity is the constant `numpy.inf`
+* Infinity is the constant `np.inf`
 * An iterator over edges (two-element tuples) is created with `g.edges()`. The source of the edge is the first element `edge[0]` and the destination of the edge is the second element `edge[1]`. Both are strings/labels that you need to convert to identifiers.
 
 If you issue `print(dist)` after initializing, you should see this:
@@ -127,7 +135,7 @@ Draw this network Cytoscape using the attributes you just created for color/styl
 
 Now you need to create a vector with all pair-wise distances. Be careful (1) not to add self-loops, (2) not to add unreachable pairs with infinite distances, and (3) not to add the same edge twice. This vector (call it `distances`) should have length at most 2,926 *((|V|x|V|-|V|)/2)*.
 
-You can use `numpy.percentile` and `numpy.max`.
+You can use `np.percentile` and `np.max`.
 
 # Part 4: draw a histogram of distances
 
