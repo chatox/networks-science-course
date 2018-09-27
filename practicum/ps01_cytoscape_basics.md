@@ -26,16 +26,10 @@ An open source software platform for visualizing complex networks and integratin
 
 ### Sources for learning Cytoscape
 
-#### Tutorials
-
 * [Cytoscape tutorial](https://github.com/cytoscape/cytoscape-tutorials/wiki)
 * [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0)
 
-#### Test datasets
-
-* [SNAP](https://snap.stanford.edu/data/)
-* [Network Repository](http://networkrepository.com/)
-* [Gephi Datasets](https://github.com/gephi/gephi/wiki/Datasets)
+For test datasets, see [data/README.md](data)
 
 # 2. Importing a network
 
