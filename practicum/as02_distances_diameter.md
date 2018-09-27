@@ -2,7 +2,7 @@
 
 ## Materials
 
-For this assignment you need the file `lesmiserables.gml` which contains the social network of *Les Misérables* and  `email-eu-core.txt` which contains a social network of e-mails.
+For this assignment you need the file [lesmiserables.gml](data/lesmiserables.gml) which contains the social network of *Les Misérables* and  [email-eu-core.txt](data/email-eu-core.txt) which contains a social network of e-mails.
 
 ## Task
 
@@ -39,7 +39,7 @@ We will use the [Floyd-Warshall algorithm](https://en.wikipedia.org/wiki/Floyd%E
     15   end for
     16 end for
 
-**Do not copy-paste an implementation found online**. If you do so, it will be counted as plagiarism and get a zero grade. Instead, directly translate from the provided pseudocode, we are providing step-by-step instructions next.
+:warning: **Do not copy-paste an implementation found online**. If you do so, it will be counted as plagiarism and get a zero grade. Instead, directly translate from the provided pseudocode, we are providing step-by-step instructions next.
 
 **Do not copy-paste an implementation found online or you will get a zero grade.**
 
