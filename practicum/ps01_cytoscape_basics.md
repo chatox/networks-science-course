@@ -5,8 +5,8 @@
 (See [how to download](data/README.md) in the README of the data/ directory)
 
 * [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
-* File "[karate.gml](data/karate.gml)" 
-* File "[lesmiserables.gml](data/lesmiserables.gml)" 
+* File "[karate.gml](data/karate.gml)"
+* File "[lesmiserables.gml](data/lesmiserables.gml)"
 * File "[us_companies_ownership.csv](data/us_companies_ownership.csv)"
 
 ## Contents of this session
@@ -79,7 +79,7 @@ Go to the "Style" panel (top-left, between "Network" and "Select")
 
 * Click on "Edge" on bottom left (between "Node" and "Network")
 * Mapping Type = Continuous Mapping
-* Column = Value
+* Column = Value (this will work in *Les Misérables* which has a value column)
 * Change the "Current Mapping" by double clicking. You should see a window "Continuous Mapping Editor ..."
 * Create a mapping that gives a clear visual separation between thin and thick edges, by editing the mapping so that it has a broader range of values
 
@@ -130,14 +130,14 @@ Cytoscape has "apps" that can be installed and used.
 
 ## 6.1. Install ModuLand
 
-Install ModuLand 2.0 (Tools > App Manager or in the "apps" option in the menu bar).
+Install ModuLand 2.0 (Apps > App Manager or in the "apps" option in the menu bar).
 
 ## 6.2. Use ModuLand
 
-Use ModuLand 2.0 (Tools > ModuLand 2.0 > Run ...) on Les Misèrables
+Use ModuLand 2.0 (Apps > ModuLand 2.0 > Run ...) on Les Misèrables
 
 * Select any temporary folder if prompted
-* Use the "value" attribute (ModuLand requires an attribute for the weight)
+* ModuLand requires an attribute for the weight: use the "value" attribute (in *Les Misérables*)
 * Once you run it, a new network will be created AND the old network will have a new attribute in the nodes
 * Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on "Module color." You might have to pick the color for each group
 
@@ -146,7 +146,7 @@ Use ModuLand 2.0 (Tools > ModuLand 2.0 > Run ...) on Les Misèrables
 Use ModuLand 2.0 on the Karate Club
 
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
-* Use "Edge betweenness" as the attribute
+* Use "Edge betweenness" as the attribute for the weight
 * Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
 
 # DELIVER (INDIVIDUALLY)
