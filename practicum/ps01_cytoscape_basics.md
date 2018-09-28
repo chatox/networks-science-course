@@ -151,7 +151,7 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-At the end of the session, deliver a report in PDF containing three images:
+Deliver a report in PDF containing three images:
 
 * an image of the network from Les Misérables, styled in any way you want,
 * an image of the network from US Companies, styled in any way you want, and
