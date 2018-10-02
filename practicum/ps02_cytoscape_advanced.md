@@ -64,6 +64,8 @@ First we import the network:
 
 * Import as a network `holidays-bcn-network.csv`
 * Remember to set the advanced options for "," as a separator and to *not* use the first row as column names.
+* Select for column 1: "Source Node" (it's a green disc)
+* Select for column 2: "Target node" (it's a red target)
 
 Now we import the node attribute:
 
@@ -74,7 +76,7 @@ Now we import the node attribute:
 * The first column (the holiday name) should be the key.
 * The second column (the holiday type) should be an attribute; name this attribute "type of holiday"
 
-Now, use the "type of holiday" attribute to determine the color of nodes. Use style, fill-color, and a discrete mapping. You will have to manually select a color for each of the three types of holidays.
+Now, use the "type of holiday" attribute to determine the shape and color of nodes. Use style, shape, fill-color, and discrete mappings. You will have to manually select a color for each of the three types of holidays. Make sure the month names are ellipses, the holidays are rectangles, and 4 colors are used (one color for the month name, and one different color for each holiday type). Manually arrange months in chronological order.
 
 ## 2.2. Create a new network in a CSV file
 
@@ -86,17 +88,11 @@ Creating a small network inside the application is easy: File > New > Network > 
 
 * To add nodes, right click on the display and create a new nodes.
 * To add edges, select two nodes by holding "shift" while you click on them, then right click on the display and then Add > Edge containing the selected nodes.
+* Deleting nodes/edges is easy, practice this
+* Learn to edit node names (should change this visibly)
+* Learn to edit interactions (should change this visibly)
 
 Create a small graph of 4-5 nodes and 2-3 connections.
-
-# 3. Editing a network
-
-Play with one of the small networks you created from a csv file:
-
-* Delete edges
-* Add edges
-* Edit node names (should change this visibly)
-* Edit interactions (should change this visibly)
 
 # DELIVER (INDIVIDUALLY)
 
@@ -106,5 +102,6 @@ Deliver a report in PDF containing:
 * an image of each of the two sub-graphs of the hero network you extracted,
 * an image of the Barcelona holidays data, and
 * an image of the new network you created on a CSV file and styled.
+* an image of the new network you created directly on the application.
 
 Include brief comments before each image, explaining what we see there.
