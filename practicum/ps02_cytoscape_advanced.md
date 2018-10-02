@@ -76,9 +76,9 @@ Now we import the node attribute:
 
 Now, use the "type of holiday" attribute to determine the color of nodes. Use style, fill-color, and a discrete mapping. You will have to manually select a color for each of the three types of holidays.
 
-## 2.2. Create a new network
+## 2.2. Create a new network in a CSV file
 
-Now, create a network on your own. Include at least 10 nodes, and at least one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends, a network of characters in a movie, TV series, or novel, a network of musicians and music bands, or sportsmen/sportswomen and teams, or anything you find interesting. 
+Now, create a network on your own in a CSV file. Include at least 10 nodes, and at least one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends, a network of characters in a movie, TV series, or novel, a network of musicians and music bands, or sportsmen/sportswomen and teams, or anything you find interesting.
 
 ## 2.3. Creating inside the application
 
@@ -103,9 +103,8 @@ Play with one of the small networks you created from a csv file:
 Deliver a report in PDF containing:
 
 * an image of the hero network,
-* an image of the sub-graph of the hero network you extracted,
+* an image of each of the two sub-graphs of the hero network you extracted,
 * an image of the Barcelona holidays data, and
-* an image of the new network you created and styled.
+* an image of the new network you created on a CSV file and styled.
 
 Include brief comments before each image, explaining what we see there.
-
