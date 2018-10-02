@@ -100,12 +100,12 @@ Play with one of the small networks you created from a csv file:
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report containing:
+Deliver a report in PDF containing:
 
 * an image of the hero network,
 * an image of the sub-graph of the hero network you extracted,
 * an image of the Barcelona holidays data, and
 * an image of the new network you created and styled.
 
-Feel free to include brief comments inside or between the images, explaining what we see there.
+Include brief comments before each image, explaining what we see there.
 
