@@ -69,7 +69,7 @@ See [evaluation rules](upf-2018-evaluation.md)
 
 * "[Network Science](http://networksciencebook.com/)" (2016) by Albert-László Barabási. The first half of the course follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University.
 * "[Networks, Crowds, and Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/)" (2010) by Easley and Kleinberg.
-* "[Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/)" (2018) by Dmitry Zinoviev.
+* "[Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/)" (2018) by Dmitry Zinoviev. Also [available as an e-book](https://upfinder.upf.edu/iii/encore/record/C__Rb1557007?lang=cat) for UPF students.
 
 :link: Additional contents of the course come from:
 
