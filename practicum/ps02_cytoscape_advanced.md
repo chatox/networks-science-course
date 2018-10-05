@@ -107,7 +107,7 @@ Deliver a report in PDF containing:
 1. an image of the hero network,
 1. an image of each of the two sub-graphs of the hero network you extracted,
 1. an image of the Barcelona holidays data,
-1. a table with the contents of the CSV file you created (not a screenshot),
+1. two tables with the contents of the CSV files you created (not screenshots),
 1. an image of the new network you created and styled based on this CSV file, and
 1. an image of the new network you created directly on the application.
 
