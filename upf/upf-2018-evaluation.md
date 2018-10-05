@@ -24,6 +24,8 @@ To obtain a grade in the practical session, you must:
 * If your work is delivered after more than 24 hours but less than 48 hours, it will have a -2 points deduction
 * After 48 hours, work will not be accepted
 
+Saturdays, Sundays, and holidays do not count in the 24/48 hours counts.
+
 Extra points will be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions.
 
 Automatically the lowest grade in the practice sessions will be discarded, which allows you to skip one session and still get the maximum grade.
