@@ -199,4 +199,5 @@ At the end of the session, deliver a zip file containing your Python notebook (r
 
 # References
 
+* [Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/) (2018) by Dmitry Zinoviev. Also [available as an e-book](https://upfinder.upf.edu/iii/encore/record/C__Rb1557007?lang=cat) for UPF students.
 * [NetworkX documentation](https://networkx.github.io/)
