@@ -31,8 +31,8 @@ To import it into Cytoscape:
 * Select `hero-network.csv`
 * Advanced Options ...: indicate the delimiter is a tabulator (**TAB**).
   * :warning: If you use the default delimiter, a comma, you will mistakenly get too many nodes (as node names include commas inside) and Cytoscape may hang for a long time or crash.
-* Select for column 1: "Source" (it's a green disc)
-* Select for column 2: "Target" (it's a red target)
+* Column 1 should be "Source" (it's a green disc)
+* Column 2 should be "Target" (it's a red target)
 * OK
 
 Change the style to minimalistic, try to determine what is the disconnected component that is observed in the network.
@@ -99,10 +99,11 @@ Create a small graph of 4-5 nodes and 2-3 connections.
 
 Deliver a report in PDF containing:
 
-* an image of the hero network,
-* an image of each of the two sub-graphs of the hero network you extracted,
-* an image of the Barcelona holidays data, and
-* an image of the new network you created on a CSV file and styled.
-* an image of the new network you created directly on the application.
+1. an image of the hero network,
+1. an image of each of the two sub-graphs of the hero network you extracted,
+1. an image of the Barcelona holidays data,
+1. a table with the contents of the CSV file you created (not a screenshot),
+1. an image of the new network you created and styled based on this CSV file, and
+1. an image of the new network you created directly on the application.
 
 Include brief comments before each image, explaining what we see there.
