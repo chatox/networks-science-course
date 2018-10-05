@@ -201,3 +201,5 @@ You will notice that the results might be very unsatisfactory and the graph is d
 * [Barabási's Python Notebook for community detection](https://www.dropbox.com/s/8cz75z3rbsbcem3/communities.ipynb?dl=0)
 * [Adamic and Glance 2005](https://doi.org/10.1145/1134271.1134277)
 * [NetworkX documentation](https://networkx.github.io/)
+* [Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/) (2018) by Dmitry Zinoviev. Also [available as an e-book](https://upfinder.upf.edu/iii/encore/record/C__Rb1557007?lang=cat) for UPF students.
+
