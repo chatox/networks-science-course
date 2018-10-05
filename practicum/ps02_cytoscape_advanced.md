@@ -29,7 +29,8 @@ To import it into Cytoscape:
 
 * File > Import > Network > File ...
 * Select `hero-network.csv`
-* Advanced Options ...: indicate the delimiter is a tabulator (**TAB**). If you indicate the delimiter is a comma you will mistakenly get too many nodes (as node names include commas inside) and probably a memory error.
+* Advanced Options ...: indicate the delimiter is a tabulator (**TAB**).
+ * :warning: If you use the default delimiter, a comma, you will mistakenly get too many nodes (as node names include commas inside) and Cytoscape may hang for a long time or crash.
 * Select for column 1: "Source" (it's a green disc)
 * Select for column 2: "Target" (it's a red target)
 * OK
