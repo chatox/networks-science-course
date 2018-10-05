@@ -37,11 +37,11 @@ To import it into Cytoscape:
 
 Change the style to minimalistic, try to determine what is the disconnected component that is observed in the network.
 
-**Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Show Graphics Details" and "View > Hide Graphics Details." You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200.
-
 ## 1.2. Create sub-graphs
 
-* Search for the node named "BLACK PANTHER/T'CHAL" - the search box is on top of the display. Depending on the OS (usually in Linux-based systems) you should add \ in the search in order to exclude special characters: "BLACK\ PANTHER/T'CHAL"
+* Search for the node named "BLACK PANTHER/T'CHAL"
+  * Option 1: use the search box is on top of the display. Depending on the OS (usually in Linux-based systems) you should add \ in the search in order to exclude special characters: "BLACK\ PANTHER/T'CHAL"
+  * Option 2: find this node in the node table, select it, and then use the secondary button to indicate "Select nodes from selected rows"
 * Click on the two-house icon on top, it means *neighbor*
 * Now you've selected one character and all his neighbors.
 * File > New > Network > From selected nodes, all edges
@@ -52,6 +52,9 @@ Notice the number of nodes and edges of this sub-graph, it appears on the left p
 * Notice the number of nodes is much smaller but the number of edges is not proportionally as small. Why do you think this happens?
 
 Note that you can also select by other characteristics, such as degree, by creating a filter in the "Select" panel.
+
+**Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Show Graphics Details" and "View > Hide Graphics Details." You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200. Be careful: this will block your computer when dealing with large networks such as the hero network.
+
 
 # 2. Creating a network
 
