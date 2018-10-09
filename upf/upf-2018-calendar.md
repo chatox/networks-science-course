@@ -15,10 +15,10 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |                  | TT02. Basics concepts of graph theory |       |
 | T2               | TT03. Random networks                 |       |
 | T3               | TT04. Scale-free networks             |       |
-|                  | TT05. Preferential attachment         |       |
-| T4               | TT06. Other network growth models     |       |
-|                  | TT07. Link formation mechanisms       |       |
-| T5               | **First in-class test: TT01-TT07**    | 17 Oct (G1); 19 Oct (G2) |
+| T4               | TT05. Preferential attachment         |       |
+|                  | TT06. Other network growth models     |       |
+| T5               | **First in-class test: TT01-TT06**    | 17 Oct (G1); 19 Oct (G2) |
+|                  | TT07. Link formation mechanisms       | (can be moved to DM course) |
 |                  | TT08. Homophily and assortativity     |       |
 | T6               | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
