@@ -13,8 +13,8 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |------------------|---------------------------------------|-------|
 | T1               | TT01. Why studying networks           |       |
 |                  | TT02. Basics concepts of graph theory |       |
-| T2 + T3          | TT03. Random networks                 |       |
-|                  | TT04. Scale-free networks             |       |
+| T2               | TT03. Random networks                 |       |
+| T3               | TT04. Scale-free networks             |       |
 |                  | TT05. Preferential attachment         |       |
 | T4               | TT06. Other network growth models     |       |
 |                  | TT07. Link formation mechanisms       |       |

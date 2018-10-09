@@ -1,13 +1,13 @@
 # Practice Session 03: Python for C Programmers
 
-So far you have programmed mostly in C. During this course, we will use Python, which you will find much more suitable for data and graph management tasks. Most of the time we will be using Python to:
+During this course, we will use Python, which you will find much more suitable for data and graph management tasks than C and other languages. Most of the time we will be using Python to:
 
 * Read from files to create a graph that Cytoscape can read.
 * Run an algorithm over a graph.
 
 The particular version of Python we will use is Python 3, and in particular we will use IPython, its interactive version, through an environment named the Jupyter Notebook. Jupyter is a web-based application that can contain code, visualizations, and text.
 
-The rest of this document is a simple introduction to Python for C programmers. Remember that you learn by doing, so enter these commands into a new Python Notebook, play with variations, see what works and what does not work.
+The rest of this document is a simple introduction to Python for C programmers. Remember that you learn by doing, so enter these commands into a new Python Notebook, and **play with variations, see what works and what does not work**. The deliverable is small in comparison with the activities, which are here mostly to help you learn Python. 
 
 # 1. Notebooks
 
@@ -422,7 +422,7 @@ Note that `people` is an array of dictionaries, `colors_dict` is a dictionary wh
 
 # DELIVER (individually)
 
-At the end of the session, deliver a zip file containing the file `test.csv`, and a clean Python notebook `test.ipynb` containing code to read the file and compute, for each different color, the average age of people having that color, for instance, in the example above, it should print:
+Deliver a zip file containing the file `test.csv`, and a clean Python notebook `test.ipynb` containing code to read the file and compute, for each different color, the average age of people having that color, for instance, in the example above, it should print:
 
 ```
 Average age of red: 28.00
