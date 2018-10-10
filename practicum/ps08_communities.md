@@ -106,7 +106,7 @@ You should obtain a value of 0.3582 for the division of the Karate Club into the
 
 Next we will implement a simple betweenness-based algorithm named after Girvan and Newman. Basically we remove the edge with the largest edge betweenness until the graph is disconnected.
 
-**Note: this algorithm is already implemented in the references, although in a different way. If you copy-paste the algorithm from the reference, you will get a zero grade in this session. Instead, implement it following the steps here.**
+**:warning: Note: this algorithm is already implemented in the references, although in a different way. If you copy-paste the algorithm from the reference, you will get a zero grade in this session. Instead, implement it following the steps here.**
 
 ```python
 def partition_by_edge_betweenness(g):
