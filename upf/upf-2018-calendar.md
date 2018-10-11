@@ -16,22 +16,27 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 | T2               | TT03. Random networks                 |       |
 | T3               | TT04. Scale-free networks             |       |
 | T4               | TT05. Preferential attachment         |       |
-|                  | TT06. Other network growth models     |       |
 | T5               | **First in-class test: TT01-TT04**    | 17 Oct (G1); 19 Oct (G2) |
-|                  | TT07. Link formation mechanisms       | (can be moved to DM course) |
-|                  | TT08. Homophily and assortativity     |       |
+|                  | TT06. Other network growth models     |       |
 | T6               | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
 |                  | TT11. Link-based centrality           |       |
 | T7               | TT12. Network flows                   |       |
 |                  | TT13. Dense sub-graphs                |       |
 | T8               | TT14. Hierarchical clustering         |       |
-|                  | TT15. Spectral graph clustering       | (can be moved to DM course) |
 | T9               | **Second in-class test: TT05-TT12**   | 20 Nov (G1), 22 Nov (G2)    |
 |                  | TT16. Epidemics                       |       |
 | T10              | TT17. Information cascades            |       |
 |                  | TT18. Spreading phenomena             |       |
 | T11              | Questions/exercises/exam preparation  |       |
+
+Moved to DM course:
+
+| Session(s)       | Topics                                | Notes |
+|------------------|---------------------------------------|-------|
+|                  | TT07. Link formation mechanisms       | (can be moved to DM course) |
+| T6               | TT08. Homophily and assortativity     | (can be moved to DM course) |
+|                  | TT15. Spectral graph clustering       | (can be moved to DM course) |
 
 Calendar restrictions with respect to practice sessions:
 
