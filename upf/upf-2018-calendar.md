@@ -35,7 +35,7 @@ Moved to DM course:
 | Session(s)       | Topics                                | Notes |
 |------------------|---------------------------------------|-------|
 |                  | TT07. Link formation mechanisms       | (can be moved to DM course) |
-| T6               | TT08. Homophily and assortativity     | (can be moved to DM course) |
+|                  | TT08. Homophily and assortativity     | (can be moved to DM course) |
 |                  | TT15. Spectral graph clustering       | (can be moved to DM course) |
 
 Calendar restrictions with respect to practice sessions:
