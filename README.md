@@ -1,8 +1,8 @@
-# Networks Science Course
+# Network Science Course
 
 Instructor: [Carlos Castillo](http://chato.cl/research)
 
-These are materials for an undergraduate Networks Science course of the bachelor degree on Mathematical Engineering on Data Science at Universitat Pompeu Fabra.
+These are materials for an undergraduate Network Science course of the bachelor degree on Mathematical Engineering on Data Science at Universitat Pompeu Fabra.
 
 :construction: **This is under construction.** The course will take place for the first time in September-December 2018. Course materials should not be considered final until the end of the course.
 
