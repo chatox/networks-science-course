@@ -429,6 +429,8 @@ Average age of red: 28.00
 Average age of blue: 24.00
 ```
 
+Note that obviously this should handle an arbitrary number of colors, not just "red" and "blue". You should also use `%.2f` as the formatting specifier in print to get numbers with two decimals.
+
 # References
 
 * https://www.stormingrobots.com/prod/tutorial/C2Python.pdf
