@@ -96,7 +96,7 @@ bet_cen = nx.betweenness_centrality(g, k=50)
 
 # DELIVER (individually)
 
-At the end of the session, deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for a network (:construction: **WHICH NETWORK**):
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for a network (:construction: **WHICH NETWORK**):
 
 * The 3 nodes with the larger degree.
 * The 3 nodes with the larger betweenness centrality.

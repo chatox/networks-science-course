@@ -7,7 +7,7 @@ During this course, we will use Python, which you will find much more suitable f
 
 The particular version of Python we will use is Python 3, and in particular we will use IPython, its interactive version, through an environment named the Jupyter Notebook. Jupyter is a web-based application that can contain code, visualizations, and text.
 
-The rest of this document is a simple introduction to Python for C programmers. Remember that you learn by doing, so enter these commands into a new Python Notebook, and **play with variations, see what works and what does not work**. The deliverable is small in comparison with the activities, which are here mostly to help you learn Python. 
+The rest of this document is a simple introduction to Python for C programmers. Remember that you learn by doing, so enter these commands into a new Python Notebook, and **play with variations, see what works and what does not work**. The deliverable is small in comparison with the activities, which are here mostly to help you learn Python.
 
 # 1. Notebooks
 

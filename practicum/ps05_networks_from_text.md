@@ -171,7 +171,7 @@ Run the ModuLand plug-in to create a clustering of this graph using the *Weight*
 
 # DELIVER (individually or in pairs)
 
-At the end of the session, deliver a two-page PDF file.
+Deliver a two-page PDF file.
 
 * On the first page, include an image of the directed network (exported, not a screenshot), and 2-3 lines with your observations.
 * On the second page, include an image of the undirected network (exported, not a screenshot), and 2-3 lines with your observations.
