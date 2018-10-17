@@ -18,9 +18,9 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 | T4               | TT05. Preferential attachment         |       |
 | T5               | **First in-class test: TT01-TT04**    | 17 Oct (G1); 19 Oct (G2) |
 |                  | TT06. Other network growth models     |       |
-| T6               | TT09. Hubs and authorities            |       |
+| T6+T7            | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
-| T7               | TT11. Link-based centrality           |       |
+|                  | TT11. Link-based centrality           |       |
 | T8               | TT12. Network flows                   |       |
 | T9               | TT13. Dense sub-graphs                |       |
 | T9               | **Second in-class test: TT05-TT12**   | 20 Nov (G1), 22 Nov (G2)    |
