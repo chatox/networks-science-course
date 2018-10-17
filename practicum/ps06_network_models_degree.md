@@ -172,7 +172,7 @@ cdf_y = np.array(range(len(degree_sequence)))/len(degree_sequence)
 plt.loglog(cdf_x, 1-cdf_y, 'b-')
 plt.loglog(cdf_x, list(map(lambda x: x**linmodel[0] * np.exp(linmodel[1]), cdf_x)))
 plt.title("Inverse cumulative distribution function")
-plt.xlabel("x")
+plt.xlabel("x")density
 plt.ylabel("P(degree >= x)")
 plt.legend(['Cx^(%.1f)' % linmodel[0], 'Observed'])
 plt.show()
@@ -185,7 +185,7 @@ Note that if *log(y) = a log(x) + b*, then *y = x^a e^b*, and that the displacem
 Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for the ER and BA networks you have created:
 
 * A probability density function (PDF) plot
-* An inverse cumulative densitity function (CDF) of degree with a fitted line
+* An inverse cumulative density function (CDF) of degree with a fitted line
 * Your commentary on these
 
 # References
