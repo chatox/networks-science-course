@@ -1,4 +1,4 @@
-# Practice Session 07: Algorithms in NetworkX
+# Practice Session 07: Connected components and k-core decomposition
 
 In this session we will use [NetworkX](https://networkx.github.io/) for implementing two simple algorithms.
 
