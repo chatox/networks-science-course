@@ -17,6 +17,13 @@ import matplotlib.pyplot as plt
 
 :construction: To be available
 
+Draw the graph:
+
+```python
+nx.draw_spring(g, with_labels=True)
+plt.show()
+```
+
 # 2. Generate an ER graph
 
 :construction: To be available
