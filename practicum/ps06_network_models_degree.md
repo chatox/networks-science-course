@@ -1,8 +1,10 @@
-# Practice Session 06: NetworkX and centrality
+# Practice Session 06: Graph generation and degree computation
+
+:construction: **NOTE: THIS PRACTICE IS BEING EDITED/REVIEWED**
 
 In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package.
 
-# 0. Reading and drawing in NetworkX
+# 0. Imports
 
 Imports:
 
@@ -11,73 +13,19 @@ import networkx as nx
 import matplotlib.pyplot as plt
 ```
 
-For reading a GML file, you use the `read_gml` method and indicate what is the name of the attribute that you want to use as a label for the nodes.
+# 1. Generate a small graph
 
-```python
-gkar = nx.read_gml(path="data/karate.gml", label="id")
-print("Karate Club: |V|=%d, |E|=%d" % (gkar.order(), gkar.size()))
-nx.draw_spring(gkar, with_labels=True)
-plt.show()
+:construction: To be available
 
-gmis = nx.read_gml(path="data/lesmiserables.gml", label="label")
-print("Les Misèrables: |V|=%d, |E|=%d" % (gmis.order(), gmis.size()))
-nx.draw_spring(gmis, with_labels=True)
-plt.show()
-```
+# 2. Generate an ER graph
 
-The number of nodes in a graph can be obtained with `g.order()` and the number of edges with `g.size()`.
+:construction: To be available
 
-Simple CSV files of the form `source,target` can also be loaded using the `read_edgelist` function:
+# 3. Generate a BA graph
 
-```python
-g = nx.read_edgelist(path="data/holidays-bcn-network.csv", delimiter=",")
-```
+:construction: To be available
 
-More complex CSV files are better parsed with the `csv` module; a graph can then be created programmatically.
-
-```python
-import io
-import csv
-import re
-
-import networkx as nx
-import matplotlib.pyplot as plt
-
-DISORDER_FILE="data/disease-genes.csv"
-DISORDER_CLASS="Respiratory"
-
-# Create an empty graph
-g = nx.Graph()
-
-with io.open(DISORDER_FILE) as file:
-    reader = csv.DictReader(file, delimiter=',', quotechar='"')
-    for row in reader:
-        disorder_class = row["Class"]
-
-        # Select a specific class of disorder
-        if disorder_class == DISORDER_CLASS:
-
-            # Parse name and gene list
-            disorder_name = row["Name"]
-            disorder_genes = list(map(str.strip, row["Genes"].split(",")))
-            for gene in disorder_genes:
-
-                # Shorten the disorder name
-                disorder_name = re.sub(",.*$", "", disorder_name)
-
-                # Add the edge to the graph and report to screen
-                g.add_edge(disorder_name, gene)
-                print("%s - %s" % (disorder_name, gene))
-
-print("Respiratory diseases/genes: |V|=%d, |E|=%d" % (g.order(), g.size()))
-# Draw the graph
-nx.draw_spring(g, with_labels=True)
-plt.show()
-```
-
-The purpose of NetworkX is not really to draw graphs, for that there is Cytoscape and other tools. Instead, its purpose is to run algorithms on graphs.
-
-# 1. Degree sequence and histogram for a small graph
+# 4. Degree sequence and histogram for a small graph
 
 Load the graph from *Zachary's Karate Club* in variable `g`. We will now plot its degree sequence.
 
@@ -122,7 +70,7 @@ plt.xticks(bin_edges_minus_last)
 plt.show()
 ```
 
-# 2. Degree distribution for a large graph
+# 5. Degree distribution for a large graph
 
 Now let's load a larger network: `hero-network.csv`:
 
@@ -163,7 +111,7 @@ plt.ylabel("Probability")
 plt.show()
 ```
 
-Observe two things in this plot. First, for smaller degrees we do not observe a power law. Second, for larger degrees the distribution is a bit *messy* because of the sparse observations. This is a fairly typical situation, so following [Adamic 2002]((http://www.labs.hp.com/research/idl/papers/ranking/ranking.html), we will use the inverse cumulative distribution function (inverse CDF) instead of the probability density function (PDF).
+Observe two things in this plot. First, for smaller degrees we do not observe a power law. Second, for larger degrees the distribution is a bit *messy* because of the sparse observations. This is a fairly typical situation, so following [Adamic 2002](http://www.labs.hp.com/research/idl/papers/ranking/ranking.html), we will use the inverse cumulative distribution function (inverse CDF) instead of the probability density function (PDF).
 
 ```python
 cdf_x = sorted(degree_sequence)
@@ -219,43 +167,13 @@ plt.show()
 
 Note that if *log(y) = a log(x) + b*, then *y = x^a e^b*, and that the displacement along the y axis of the fitted line is because the last plot includes the entire degree sequence and not just the selected values. In any case, what we care about is the slope.
 
-# 3. Compute centrality
-
-You can calculate various centrality metrics using NetworkX:
-
-```python
-# This should take a couple of minutes
-eig_cen = nx.eigenvector_centrality(g)
-# k is the number of pivots; larger k means more precision
-bet_cen = nx.betweenness_centrality(g, k=50)
-```
-
 # DELIVER (individually)
 
-At the end of the session, deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for a network (**PENDING: WHICH NETWORK? Not the same hero-network.csv**).
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for the ER and BA networks you have created:
 
-* The 3 nodes with the larger degree.
-* A degree-rank plot
-* An inverse CDF of degree with a fitted line
-* The 3 nodes with the larger betweenness centrality.
-* The 3 nodes with the larger eigenvector centrality (PageRank).
-
-## Extra points available
-
-For extra points, add a section "Extra points" to your document, and include a scatter plot containing the top nodes by degree (say, top 100). In the x axis place the degree of the node, and in the y axis the betweenness centrality of the node.
-
-Indicate the names of the node that deviates significantly from the diagonal, i.e., has a much larger betweenness centrality considering its degree. Which kind of node may have this characteristic in this specific graph, in which an edge connect two characters that appear together in a comic?
-
-To plot the names in a scatterplot, you can use this code. You just need to fill in the arrays x_values, y_values, and labels.
-
-```python
-plt.loglog(x_values, y_values, '.')
-plt.xlabel("Degree")
-plt.ylabel("Betweenness Centrality")
-for i in range(len(x_values)):
-    plt.text(x_values[i], y_values[i], labels[i])
-plt.show()
-```
+* A probability density function (PDF) plot
+* An inverse cumulative densitity function (CDF) of degree with a fitted line
+* Your commentary on these
 
 # References
 

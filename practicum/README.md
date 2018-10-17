@@ -15,9 +15,9 @@ At the end of each handout there is a description of what you should deliver. Pl
 | [PS03](ps03_ipython_notebook_for_c_programmers.md)  | Basic Python programming for C programmers |
 | [PS04](ps04_ipython_data_management.md)             | Python: data management of networks data |
 | [PS05](ps05_networks_from_text.md)                  | Python and Cytoscape: creating a network using textual data |
-| [PS06](ps06_network_centrality.md)                  | NetworkX: basics and centrality computations |
-| [PS07](ps07_networkx_algorithms.md)                 | NetworkX: finding connected components and k-cores |
-| [PS08](ps08_communities.md)                         | NetworkX: implementing a simple community-detection algorithm |
+| [PS06](ps06_network_models_degree.md)               | NetworkX: graph generation and degree computations |
+| [PS07](ps07_centrality.md)                          | NetworkX: computing centrality |
+| [PS08](ps08_components_k_cores.md)                  | NetworkX: finding connected components and k-cores |
 | [PS09](ps09_viral_propagation.md)                   | NetworkX: simulating the spread of a virus |
 
 ## Assignments

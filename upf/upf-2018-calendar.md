@@ -18,12 +18,11 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 | T4               | TT05. Preferential attachment         |       |
 | T5               | **First in-class test: TT01-TT04**    | 17 Oct (G1); 19 Oct (G2) |
 |                  | TT06. Other network growth models     |       |
-| T6               | TT09. Hubs and authorities            |       |
+| T6+T7            | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
 |                  | TT11. Link-based centrality           |       |
-| T7               | TT12. Network flows                   |       |
-|                  | TT13. Dense sub-graphs                |       |
-| T8               | TT14. Hierarchical clustering         |       |
+| T8               | TT12. Network flows                   |       |
+| T9               | TT13. Dense sub-graphs                |       |
 | T9               | **Second in-class test: TT05-TT12**   | 20 Nov (G1), 22 Nov (G2)    |
 |                  | TT16. Epidemics                       |       |
 | T10              | TT17. Information cascades            |       |
@@ -34,9 +33,10 @@ Moved to DM course:
 
 | Session(s)       | Topics                                | Notes |
 |------------------|---------------------------------------|-------|
-|                  | TT07. Link formation mechanisms       | (can be moved to DM course) |
-|                  | TT08. Homophily and assortativity     | (can be moved to DM course) |
-|                  | TT15. Spectral graph clustering       | (can be moved to DM course) |
+|                  | TT07. Link formation mechanisms       |       |
+|                  | TT08. Homophily and assortativity     |       |
+|                  | TT14. Hierarchical clustering         |       |
+|                  | TT15. Spectral graph clustering       |       |
 
 Calendar restrictions with respect to practice sessions:
 
