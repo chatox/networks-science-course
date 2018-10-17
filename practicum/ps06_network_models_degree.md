@@ -27,7 +27,13 @@ import matplotlib.pyplot as plt
 
 # 4. Degree sequence and histogram for a small graph
 
-Load the graph from *Zachary's Karate Club* in variable `g`. We will now plot its degree sequence.
+Load the graph from *Zachary's Karate Club* in variable `g`:
+
+```python
+g = nx.read_gml(path="data/karate.gml", label="id")
+```
+
+We will now plot its degree sequence.
 
 ```python
 # Obtain degree sequence
