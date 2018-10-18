@@ -23,11 +23,11 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |                  | TT11. Link-based centrality           |       |
 | T8               | TT12. Network flows                   |       |
 | T9               | TT13. Dense sub-graphs                |       |
-| T9               | **Second in-class test: TT05-TT12**   | 20 Nov (G1), 22 Nov (G2)    |
+| T10               | **Second in-class test: TT05-TT12**   | 20 Nov (G1), 22 Nov (G2)    |
 |                  | TT16. Epidemics                       |       |
-| T10              | TT17. Information cascades            |       |
+| T11              | TT17. Information cascades            |       |
 |                  | TT18. Spreading phenomena             |       |
-| T11              | Questions/exercises/exam preparation  |       |
+| T12              | Questions/exercises/exam preparation  |       |
 
 Moved to DM course:
 
@@ -42,6 +42,5 @@ Calendar restrictions with respect to practice sessions:
 
 * By the end of T7 we must have seen degree distributions
 * By the end of T7 we must have seen centrality measures
-* By the end of T7 we must have seen k-core decomposition (**this is a tight constraint**)
-* By the end of T9 we must have seen some clustering method
+* By the end of T9 we must have seen k-core decomposition (**this is a tight constraint**)
 * By the end of T10 we must have seen spreading phenomena
