@@ -6,11 +6,13 @@ For this assignment you need the file [movie_metadata.csv](data/movie_metadata.c
 
 ## Task
 
-The task is to create two graphs:
+The task is to write Python code that creates CSV files. The CSV files should describe graphs, including connections and attributes.
 
 1. A movie-movie graph in which two movies are connected if they share the same director or one actor.
 
 2. An actor-actor graph in which two actors or actresses are connected if they appeared in the same movie.
+
+Then, you will open these CSV files from Cytoscape to visualize them.
 
 ## Mandatory attributes
 
@@ -40,7 +42,7 @@ A .zip or .tar.gz file containing your report and code.
 
 The report should be an insightful, informative, readable, beautiful, clear, concise two-pages document in PDF with images from Cytoscape and your findings. Be creative. Feel free to focus on a sub-category of movies or actors if you have some interesting finding to report on them.
 
-The code should contain the Python code (Python notebook) that you used to pre-process the data for Cytoscape.
+The code should contain the Python code (Python notebook) that you wrote.
 
 **Both members of the group should learn Python**, as we will continue using Python throughout the course, hence, make sure you are not given non-Python tasks only in the division of work.
 
