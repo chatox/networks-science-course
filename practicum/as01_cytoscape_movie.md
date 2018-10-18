@@ -6,13 +6,19 @@ For this assignment you need the file [movie_metadata.csv](data/movie_metadata.c
 
 ## Task
 
-The task is to write Python code that creates CSV files. The CSV files should describe graphs, including connections and attributes.
+The task is to write Python code, in a Jupyter Notebook, that reads the `movie_metadata.csv` file and creates four CSV files.
 
-1. A movie-movie graph in which two movies are connected if they share the same director or one actor.
+1. The first CSV file should describe the *movie-movie graph* in which two movies are connected if they share the same director or one actor.
 
-2. An actor-actor graph in which two actors or actresses are connected if they appeared in the same movie.
+2. The second CSV file should describe the *actor-actor graph* in which two actors or actresses are connected if they appeared in the same movie.
+
+3. The third CSV file should describe *movie attributes*
+
+4. The fourth CSV file should describe *actor attributes*
 
 Then, you will open these CSV files from Cytoscape to visualize them.
+
+This is similar to what you did in one of the practices, but instead of creating the CSV files by hand, you create them using Python.
 
 ## Mandatory attributes
 
@@ -24,7 +30,7 @@ For sizes of movies, you can use their `imdb_score` (a proxy for quality), `num_
 
 ### Actor attributes
 
-Actor colors represent their dominant genre (the most common genre in the list of genres of the movies they appear on). Note that to compute actor colors you need all genres of the movies, not just the first genre.
+Actor colors represent their dominant genre (the most common genre in the list of genres of the movies they appear on). Note that to compute actor colors you need all genres of each movie, not just their first genre.
 
 For sizes of actors/actresses you can use their number of likes in Facebook, or the number of movies in which they have acted.
 
@@ -32,7 +38,7 @@ For sizes of actors/actresses you can use their number of likes in Facebook, or 
 
 You can also include edge attributes, e.g., thicker edges for links connecting actors who collaborate in many movies.
 
-You can use different node shapes for different clusters obtained using clustering.
+You can use different node shapes for different clusters obtained using clustering (using the ModuLand plug-in).
 
 Feel free to also create graphs mixing movies and actors, or to create sub-graphs that illustrate something specific (e.g., the sub-graph of all horror movies, or all comedy movies).
 
@@ -42,7 +48,7 @@ A .zip or .tar.gz file containing your report and code.
 
 The report should be an insightful, informative, readable, beautiful, clear, concise two-pages document in PDF with images from Cytoscape and your findings. Be creative. Feel free to focus on a sub-category of movies or actors if you have some interesting finding to report on them.
 
-The code should contain the Python code (Python notebook) that you wrote.
+The code should be the Python notebook (.ipynb file) that you wrote.
 
 **Both members of the group should learn Python**, as we will continue using Python throughout the course, hence, make sure you are not given non-Python tasks only in the division of work.
 
