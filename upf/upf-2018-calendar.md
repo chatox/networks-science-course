@@ -1,9 +1,9 @@
 
 # <img src="upf_logo.png" align="right" width="80"/>Calendar for assignments 2018
 
-* Assignment 01: 30 October 2018
-* Assignment 02: 23 November 2018
-* Assignment 03: 14 December 2018
+* Assignment 01: 30 October 2018, 22:00 hrs.
+* Assignment 02: 23 November 2018, 22:00 hrs.
+* Assignment 03: 14 December 2018, 22:00 hrs.
 
 # Calendar for theory sessions 2018
 
