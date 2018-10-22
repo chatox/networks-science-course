@@ -171,7 +171,11 @@ Run the ModuLand plug-in to create a clustering of this graph using the *Weight*
 
 # DELIVER (individually or in pairs)
 
-Deliver a two-page PDF file.
+Deliver a zip file containing your code and report.
+
+The code should be your Python notebook (a `.ipynb` file).
+
+The report should be a two-page PDF file.
 
 * On the first page, include an image of the directed network (exported, not a screenshot), and 2-3 lines with your observations.
 * On the second page, include an image of the undirected network (exported, not a screenshot), and 2-3 lines with your observations.

@@ -163,7 +163,11 @@ Add text annotations (secondary button > add > text annotation) to the first, se
 
 # DELIVER (individually)
 
-Deliver a one-page report in PDF containing an image of the disease-disease network you created, styled, and annotated.
+Deliver a zip file including your report and code.
+
+The report should be ideally 1 or 2 pages (but feel free to include up to 4 pages if needed) in PDF containing an image of the disease-disease network you created, styled, and annotated. Optionally, include your diseasome graph.
+
+The code should be your `.ipynb` file.
 
 ## Extra points available
 
