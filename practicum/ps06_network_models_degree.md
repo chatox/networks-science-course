@@ -1,197 +1,148 @@
 # Practice Session 06: Graph generation and degree computation
 
-:construction: **NOTE: THIS PRACTICE IS BEING EDITED/REVIEWED**
-
 In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package.
 
 # 0. Imports
 
-Imports:
-
 ```python
 import networkx as nx
 import matplotlib.pyplot as plt
+import numpy as np
 ```
 
 # 1. Generate a small graph
 
-:construction: To be available
+We will start by creating a small graph. This is easily done programmatically in Python.
 
-Draw the graph:
+* To create a graph, you use either `networkx.Graph` or `networkx.DiGraph`, which return an undirected an directed graph respectively.
+* To add a node to a graph *g*, you use `g.add_node(u)`, where *u* is the name of the graph.
+* To add an edge to a graph *g*, you use `g.add_edge(u, v)`, where *u* is the name of the source of the edge, and *v* the name of the destination of the edge.
+
+Example:
 
 ```python
-nx.draw_spring(g, with_labels=True)
-plt.show()
+g = nx.Graph()
+g.add_node(0)
+g.add_node(1)
+g.add_edge(0, 1)
+```
+
+Practice by creating a small connected graph of 5-10 nodes. To draw the graph, you can use:
+
+```python
+nx.draw_networkx(g)
+```
+
+You can have more control over the visualization of the graph, such as setting the figure size, removing the axis, using a particular layout algorithm, or changing the node size or color:
+
+```python
+plt.figure(figsize=(3,3))
+plt.axis('off')
+pos=nx.spring_layout(g)
+nx.draw_networkx(g, pos, with_labels=True, node_size=500, node_color='yellow')
 ```
 
 # 2. Generate an ER graph
 
-:construction: To be available
+To generate an ER graph, you need a function to perform Bernoulli trials. Use the following function, which return `True` with probability *p*, and `False` with probability *1-p*:
+
+```python
+def flip_coin(p):
+    if np.random.random() < p:
+        return True
+    else:
+        return False
+```
+
+Now, write function `generate_random_graph(N, p)`, that:
+
+* Create an empty graph
+* Adds N nodes to this graph
+* For each pair *(u,v)* of nodes:
+  * With probability *p*, add an edge between *u* and *v*
+
+The *N* nodes in this graph will be numbered from *0* and *N-1*. In Python, to iterate between `i=0` and `i=N-1`, you do:
+
+```python
+for i in range(0, N):
+    ...
+```
+
+Your function should be called with `g = generate_random_graph(N, p)`. Use this function to generate and visualize a few graphs (do some tests with 100 nodes or so and *p=0.005*, *p=0.01*, *p=0.02*, etc.)
+
+Create another function `print_er_statistics(g,p)` that given an ER graph and a probability *p* prints its actual average degree *&lt;k&gt;* and its expected average degree *p(N-1)*. The degree of node *u* in graph *g* is `g.degree(u)`. The number of nodes of the graph *g* is `len(g.nodes())`.
 
 # 3. Generate a BA graph
 
-:construction: To be available
-
-# 4. Degree sequence and histogram for a small graph
-
-Load the graph from *Zachary's Karate Club* in variable `g`:
+Create an auxiliary function that selects *m* target nodes in a graph *m*, with probabilities proportional to the degrees of the nodes. Below is a skeleton
 
 ```python
-g = nx.read_gml(path="data/karate.gml", label="id")
+def select_targets(g, m):
+
+    # Check if feasible
+    if len(g.nodes()) < m:
+        return ValueError('Graph has less than m nodes')
+
+    # Compute sum of degree
+    sum_degree = 0
+
+    # YOUR CODE HERE: SUM OF DEGREE
+
+    if sum_degree == 0:
+        return ValueError('Graph as no edges')
+
+    # Compute probabilities
+    probabilities = []
+    for i in g.nodes():
+        # YOUR CODE HERE: PROBABILITY OF SELECTING NODE i
+        # Use probabilities.append(...)
+
+    # Sample with replacement
+    selected = np.random.choice(g.nodes(), size=m, replace=False, p=probabilities)
+
+    return selected
 ```
 
-We will now plot its degree sequence.
+(The function `numpy.random.choice` in the above function is used to sample without replacement *m* elements from an array of nodes.)
 
-```python
-# Obtain degree sequence
-degree_dict = dict(g.degree())
-print(degree_dict)
-degree_sequence = sorted(degree_dict.values(), reverse=True)
-print(degree_sequence)
+Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that should do the following:
 
-plt.loglog(degree_sequence,'b-',marker='o')
-plt.title("Degree rank plot")
-plt.ylabel("degree")
-plt.xlabel("rank")
-plt.show()
-```
+* Create an empty graph
+* Add nodes numbered from *0* to *m<sub>0</sub> - 1* to the graph
+* Link node *0* to nodes *1, 2, 3, ..., m<sub>0</sub> - 1*
+* Add nodes numbered from *m<sub>0</sub>* to *N - 1* to the graph
+  * Link each node *u* to *m* targets selected using the procedure above. Remember to select the targets **before** adding the new node to the graph.
 
-Next, we will plot its degree histogram. For this, we will use a function in `numpy` named `histogram`. Add this to the first cell of your notebook and run it:
-
-```python
-import numpy as np
-```
-
-Now you can use the following code to create the histogram. Normally the `numpy.histogram` function uses its own bins for histograms, but we are giving our own. We are also ensuring all degrees have their own bin, remember the `range` function excludes the last element of the range, plus the bins are the upper limit of each bucket, this is why we use *+2*.
-
-We also have to remove the last bin in the end to make both lists (bins and frequencies) the same size.
-
-```python
-freq, bin_edges = np.histogram(degree_sequence, bins=range(1, np.max(degree_sequence)+2))
-print(degree_sequence)
-print(freq)
-
-print(bin_edges)
-bin_edges_minus_last = bin_edges[:-1]
-print(bin_edges_minus_last)
-
-plt.bar(bin_edges_minus_last, freq)
-plt.title("Degree histogram")
-plt.ylabel("Number of nodes")
-plt.xlabel("Degree")
-plt.xticks(bin_edges_minus_last)
-plt.show()
-```
-
-# 5. Degree distribution for a large graph
-
-Now let's load a larger network: `hero-network.csv`:
-
-```python
-INPUT_FILE = "data/hero-network.csv"
-g = nx.Graph()
-
-with io.open(INPUT_FILE) as file:
-    reader = csv.reader(file, delimiter='\t', quotechar='"')
-    for row in reader:
-        hero1 = row[0]
-        hero2 = row[1]
-        g.add_edge(hero1, hero2)
-
-print("Hero network: |V|=%d, |E|=%d" % (g.order(), g.size()))
-```
-
-To obtain its degree sequence, we will use an ordered dictionary, which also allows us to see the hero that is associated to each value. Add `from collections import OrderedDict` to the first cell in your notebook, and then do:
-
-```python
-degree_dict = dict(g.degree())
-degree_ordered = OrderedDict(sorted(degree_dict.items(), key=lambda x: x[1], reverse=True))
-print(degree_ordered)
-degree_sequence = list(degree_ordered.values())
-print(degree_sequence)
-```
-
-Now, plot its degree rank plot using the code we have seen above.
-
-To plot its degree distribution, we will use the following:
-
-```python
-prob, bin_edges = np.histogram(degree_sequence, bins=range(1,np.max(degree_sequence)+2), density=True)
-plt.loglog(bin_edges[:-1], prob, '.', marker='x')
-plt.title("Probability density function")
-plt.xlabel("Degree")
-plt.ylabel("Probability")
-plt.show()
-```
-
-Observe two things in this plot. First, for smaller degrees we do not observe a power law. Second, for larger degrees the distribution is a bit *messy* because of the sparse observations. This is a fairly typical situation, so following [Adamic 2002](http://www.labs.hp.com/research/idl/papers/ranking/ranking.html), we will use the inverse cumulative distribution function (inverse CDF) instead of the probability density function (PDF).
-
-```python
-cdf_x = sorted(degree_sequence)
-cdf_y = np.array(range(len(degree_sequence)))/len(degree_sequence)
-
-plt.loglog(cdf_x, 1-cdf_y, 'b-')
-plt.title("Inverse cumulative distribution function")
-plt.xlabel("x")
-plt.ylabel("P(degree >= x)")
-plt.show()
-```
-
-Next, we will select the central portion of this plot, by discarding degrees that are too low: we want to obtain a power law for the middle part of the distribution. In this case, we will discard values smaller than 30:
-
-```python
-degree_sequence_central = [d for d in degree_sequence if d >= 30]
-```
-
-Now we will fit a line to the inverse CDF plot. To ensure we obtain a line, we will first transform the data using `log()`, and then use `numpy.polyfit` to fit a polynomial of degree 1 (i.e., a line) to the data:
-
-```python
-cdf_x = sorted(degree_sequence_central)
-cdf_y = np.array(range(len(degree_sequence_central)))/len(degree_sequence_central)
-
-x_values = np.log(cdf_x)
-y_values = np.log(1-cdf_y)
-linmodel = np.polyfit(x_values, y_values, deg=1)
-print(linmodel)
-pred_y_values = list(map(lambda x: linmodel[0]*x + linmodel[1], x_values))
-
-plt.plot(x_values, pred_y_values, 'r-')
-plt.plot(x_values, y_values, 'b-')
-plt.legend(['Line with slope %.1f' % linmodel[0], 'Observed'])
-plt.title("Inverse cumulative distribution function (log-transformed)")
-plt.xlabel("log(x)")
-plt.ylabel("log(P(degree >= x))")
-plt.show()
-```
-
-Now, we can return to the original data:
-
-```python
-cdf_x = sorted(degree_sequence)
-cdf_y = np.array(range(len(degree_sequence)))/len(degree_sequence)
-plt.loglog(cdf_x, 1-cdf_y, 'b-')
-plt.loglog(cdf_x, list(map(lambda x: x**linmodel[0] * np.exp(linmodel[1]), cdf_x)))
-plt.title("Inverse cumulative distribution function")
-plt.xlabel("x")density
-plt.ylabel("P(degree >= x)")
-plt.legend(['Cx^(%.1f)' % linmodel[0], 'Observed'])
-plt.show()
-```
-
-Note that if *log(y) = a log(x) + b*, then *y = x^a e^b*, and that the displacement along the y axis of the fitted line is because the last plot includes the entire degree sequence and not just the selected values. In any case, what we care about is the slope.
+Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>0</sub>=2, m=1*.
 
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing, for the ER and BA networks you have created:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a report in PDF containing:
 
-* A probability density function (PDF) plot
-* An inverse cumulative density function (CDF) of degree with a fitted line
-* Your commentary on these
+* On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005*
+  * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
+  * Include a brief commentary on these ER graphs at the beginning or at the end of this page
+* On the third page, 2 preferential attachment (BA) graphs with *N=2000, m0=5, m=1* and *N=2000, m0=2, m=2*.
+* In all the graph drawings of your report use options `with_labels=False, node_size=10`
+
+You can use the following function to plot the degree distributions:
+
+```python
+def plot_degree_distribution(g):
+    degree_dict = dict(g.degree())
+    degree_ordered = OrderedDict(sorted(degree_dict.items(), key=lambda x: x[1], reverse=True))
+    degree_sequence = list(degree_ordered.values())
+    prob, bin_edges = np.histogram(degree_sequence, bins=range(1,np.max(degree_sequence)+2), density=True)
+    plt.loglog(bin_edges[:-1], prob, '.', marker='x')
+    plt.title("Probability density function")
+    plt.xlabel("degree")
+    plt.ylabel("probability")
+    plt.show()
+```
 
 # References
 
+* [NetworkX documentation](https://networkx.github.io/)
 * [Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/) (2018) by Dmitry Zinoviev. Also [available as an e-book](https://upfinder.upf.edu/iii/encore/record/C__Rb1557007?lang=cat) for UPF students.
 * [Social network analysis with NetworkX](https://blog.dominodatalab.com/social-network-analysis-with-networkx/) by Manojit Nandi
 * [NetworkX: Network analysis with Python](https://www.cl.cam.ac.uk/~cm542/teaching/2010/stna-pdfs/stna-lecture8.pdf) by Salvatore Scellato
-* [NetworkX documentation](https://networkx.github.io/)
-* [Zipf, Power-laws, and Pareto - a ranking tutorial](http://www.labs.hp.com/research/idl/papers/ranking/ranking.html) by Lada Adamic (2002)
