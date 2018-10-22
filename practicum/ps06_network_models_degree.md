@@ -1,8 +1,10 @@
-# Practice Session 06: Graph generation and degree computation
+# Practice Session 06: Graph generation
 
 In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package.
 
-# 0. Imports
+# 0. Preliminaries
+
+## 0.1. Imports
 
 ```python
 import networkx as nx
@@ -10,9 +12,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 ```
 
-# 1. Generate a small graph
+## 0.2. Creating a small graph
 
-We will start by creating a small graph. This is easily done programmatically in Python.
+Small graphs can be easily created programmatically in Python with NetworkX.
 
 * To create a graph, you use either `networkx.Graph` or `networkx.DiGraph`, which return an undirected an directed graph respectively.
 * To add a node to a graph *g*, you use `g.add_node(u)`, where *u* is the name of the graph.
@@ -27,7 +29,7 @@ g.add_node(1)
 g.add_edge(0, 1)
 ```
 
-Practice by creating a small connected graph of 5-10 nodes. To draw the graph, you can use:
+To draw the graph, you can use:
 
 ```python
 nx.draw_networkx(g)
@@ -42,7 +44,7 @@ pos=nx.spring_layout(g)
 nx.draw_networkx(g, pos, with_labels=True, node_size=500, node_color='yellow')
 ```
 
-# 2. Generate an ER graph
+# 1. Generate an ER graph
 
 To generate an ER graph, you need a function to perform Bernoulli trials. Use the following function, which return `True` with probability *p*, and `False` with probability *1-p*:
 
@@ -72,7 +74,7 @@ Your function should be called with `g = generate_random_graph(N, p)`. Use this 
 
 Create another function `print_er_statistics(g,p)` that given an ER graph and a probability *p* prints its actual average degree *&lt;k&gt;* and its expected average degree *p(N-1)*. The degree of node *u* in graph *g* is `g.degree(u)`. The number of nodes of the graph *g* is `len(g.nodes())`.
 
-# 3. Generate a BA graph
+# 2. Generate a BA graph
 
 Create an auxiliary function that selects *m* target nodes in a graph *m*, with probabilities proportional to the degrees of the nodes. Below is a skeleton
 
@@ -122,7 +124,7 @@ Deliver a zip file containing your Python notebook (remove unnecessary elements,
 * On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005*
   * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
   * Include a brief commentary on these ER graphs at the beginning or at the end of this page
-* On the third page, 2 preferential attachment (BA) graphs with *N=2000, m0=5, m=1* and *N=2000, m0=2, m=2*.
+* On the third page, 2 preferential attachment (BA) graphs with *N=2000, m<sub>0</sub>=5, m=1* and *N=2000, m<sub>0</sub>=2, m=2*.
 * In all the graph drawings of your report use options `with_labels=False, node_size=10`
 
 You can use the following function to plot the degree distributions:
