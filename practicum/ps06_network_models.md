@@ -1,6 +1,8 @@
 # Practice Session 06: Graph generation
 
-In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package.
+In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package, and we will write code to create random graphs and preferential attachment graphs.
+
+:warning: These graphs generators are implemented in the NetworkX library and in other places online. Do not copy those implementations: they reproduce the same kinds of graph but follow a design that is different from what we describe here.
 
 # 0. Preliminaries
 
