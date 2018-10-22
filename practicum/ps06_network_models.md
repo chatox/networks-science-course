@@ -60,10 +60,10 @@ def flip_coin(p):
 
 Now, write function `generate_random_graph(N, p)`, that:
 
-* Create an empty graph
+* Creates an empty graph
 * Adds N nodes to this graph
 * For each pair *(u,v)* of nodes:
-  * With probability *p*, add an edge between *u* and *v*
+  * With probability *p*, adds an edge between *u* and *v*
 
 The *N* nodes in this graph will be numbered from *0* and *N-1*. In Python, to iterate between `i=0` and `i=N-1`, you do:
 
@@ -78,7 +78,7 @@ Create another function `print_er_statistics(g,p)` that given an ER graph and a 
 
 # 2. Generate a BA graph
 
-Create an auxiliary function that selects *m* target nodes in a graph *m*, with probabilities proportional to the degrees of the nodes. Below is a skeleton
+Start by creating an auxiliary function that selects *m* target nodes in a graph *g*, with probabilities proportional to the degrees of the nodes. Below is a skeleton
 
 ```python
 def select_targets(g, m):
