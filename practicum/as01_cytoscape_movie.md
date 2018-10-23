@@ -20,6 +20,8 @@ Then, you will open these CSV files from Cytoscape to visualize them.
 
 This is similar to what you did in one of the practices, but instead of creating the CSV files by hand, you create them using Python.
 
+:warning: If the movie-movie network takes a long time to load, does not load at all, or crashes Cytoscape, it is very likely that you made a mistake during its generation. Check your output to make sure that you are connecting movies only if they share an actor. Check that you are dealing correctly with cases in which one of the actors is empty, i.e., do not connect movies if their intersection is just an empty actor.
+
 ## Mandatory attributes
 
 ### Movie attributes
