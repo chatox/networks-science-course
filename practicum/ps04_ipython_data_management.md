@@ -153,6 +153,8 @@ Now, for the columns you have to indicate their role, and rename the attribute c
 5. `class1`: Source Node Attribute - rename to "class"
 6. `class2`: Target Node Attribute - rename to "class"
 
+:warning: If the network takes a long time to load or does not load in Cytoscape, it is very likely that you made a mistake during the generation of the graph. Double-check the output of your code to make sure that every pair of diseases you are including in the CSV file actually shares at least one gene.
+
 ## Style and add simple annotations
 
 Use ellipses/ovals as node shapes, with sizes representing the number of genes associated to each disease.
