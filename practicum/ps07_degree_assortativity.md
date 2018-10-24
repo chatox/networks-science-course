@@ -128,7 +128,7 @@ First set the values of *C* and *gamma* by trial and error, until you have a lin
 
 To obtain a better approximation of *gamma*, use [Hill's estimator](https://en.wikipedia.org/wiki/Power_law#Maximum_likelihood). This estimator is computed as *gamma = 1 + n / sum(log(xi/xmin))*. In this equation:
 
-* *xmin* is the minimum value from which the power-law should be expected. Obtain it by looking at the degree distribution plot.
+* *xmin* is the minimum value from which the power-law should be expected. Obtain it by looking at the point in the degree distribution plot in which the probability starts to decrease.
 * *xi* are all the values of the degree larger or equal to *xmin*.
 * *n* is the number of nodes having degree larger or equal to *xmin*.
 
