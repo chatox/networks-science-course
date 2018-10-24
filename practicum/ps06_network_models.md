@@ -85,7 +85,7 @@ def select_targets(g, m):
 
     # Check if feasible
     if len(g.nodes()) < m:
-        return ValueError('Graph has less than m nodes')
+        raise ValueError('Graph has less than m nodes')
 
     # Compute sum of degree
     sum_degree = 0
@@ -93,7 +93,7 @@ def select_targets(g, m):
     # YOUR CODE HERE: SUM OF DEGREE
 
     if sum_degree == 0:
-        return ValueError('Graph as no edges')
+        raise ValueError('Graph as no edges')
 
     # Compute probabilities
     probabilities = []
