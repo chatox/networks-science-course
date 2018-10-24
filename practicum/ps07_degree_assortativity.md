@@ -1,4 +1,4 @@
-# Practice Session 07: Empirical degree distributions
+# Practice Session 07: Degree distribution and degree correlations
 
 In this session we will process some existing networks using [NetworkX](https://networkx.github.io/), a Python package.
 
@@ -6,7 +6,11 @@ In this session we will process some existing networks using [NetworkX](https://
 
 ## 0.1 Datasets
 
-You will need the hero network (`hero-network.csv`), a network of Internet autonomous systems (`internet-as-20060622.gml`, label attribute `label`), and a network of collaborations between astrophysicists (`astro-ph.gml`, label attribute `label`).
+You will need the following files:
+
+* the hero network (`hero-network.csv`),
+* a network of Internet autonomous systems (`internet-as-20060622.gml`, label attribute `label`), and
+* a network of collaborations between astrophysicists (`astro-ph.gml`, label attribute `label`).
 
 ## 0.2 Imports
 
