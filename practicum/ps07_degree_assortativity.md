@@ -69,7 +69,7 @@ for node in all_nodes:
 subgraph = g.subgraph(high_degree_nodes)
 print("Extracted a subgraph of %d nodes" % len(subgraph))
 
-# Draw the sub-graph
+# Draw the sub-graph (tip: place this code in another cell)
 plt.figure(figsize=(10,10))
 plt.axis('off')
 pos = nx.spring_layout(subgraph)
