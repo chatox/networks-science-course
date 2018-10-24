@@ -26,6 +26,7 @@ To download from GitHub's web interface go to: the [data/](https://github.com/ch
 | polblogs.gml + polblogs-leaning.csv | [Adamic and Glance 2005](https://doi.org/10.1145/1134271.1134277) |
 | stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184), Chapter 10 |
 | internet-as-20060622.gml | [Newman 2013](http://www-personal.umich.edu/~mejn/netdata/) |
+| astro-ph.gml | [Newman 2001](http://www.pnas.org/content/98/2/404.short) |
 
 ## Repositories of network datasets
 
