@@ -126,7 +126,7 @@ plt.show()
 
 First set the values of *C* and *gamma* by trial and error, until you have a line that passes through the center of the right portion of the degree distribution.
 
-To obtain a better approximation of *gamma*, use Hill's estimator. This estimator is computed as *gamma = 1 + n / sum(log(xi/xmin))*. In this equation:
+To obtain a better approximation of *gamma*, use [Hill's estimator](https://en.wikipedia.org/wiki/Power_law#Maximum_likelihood). This estimator is computed as *gamma = 1 + n / sum(log(xi/xmin))*. In this equation:
 
 * *xmin* is the minimum value from which the power-law should be expected. Obtain it by looking at the degree distribution plot.
 * *xi* are all the values of the degree larger or equal to *xmin*.
