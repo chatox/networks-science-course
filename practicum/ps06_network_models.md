@@ -90,16 +90,16 @@ def select_targets(g, m):
     # Compute sum of degree
     sum_degree = 0
 
-    # YOUR CODE HERE: SUM OF DEGREE
+    # YOUR CODE HERE: COMPUTE SUM OF DEGREE OF NODES
 
     if sum_degree == 0:
         raise ValueError('Graph as no edges')
 
     # Compute probabilities
     probabilities = []
-    for i in g.nodes():
-        # YOUR CODE HERE: PROBABILITY OF SELECTING NODE i
-        # Use probabilities.append(...)
+    for u in g.nodes():
+        # YOUR CODE HERE: COMPUTE PROBABILITY OF SELECTING NODE u
+        # THEN APPEND IT TO probabilities USING probabilities.append(...)
 
     # Sample with replacement
     selected = np.random.choice(g.nodes(), size=m, replace=False, p=probabilities)
