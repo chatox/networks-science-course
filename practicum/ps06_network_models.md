@@ -127,6 +127,7 @@ Deliver a zip file containing your Python notebook (remove unnecessary elements,
   * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
   * Include a brief commentary on these ER graphs at the beginning or at the end of this page
 * On the third page, 2 preferential attachment (BA) graphs with *N=2000, m<sub>0</sub>=5, m=1* and *N=2000, m<sub>0</sub>=2, m=2*.
+  * For each graph, include its drawing and its degree distribution.
 * In all the graph drawings of your report use options `with_labels=False, node_size=10`
 
 You can use the following function to plot the degree distributions:
