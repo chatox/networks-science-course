@@ -1,10 +1,16 @@
-# Practice Session 07: Loading graphs and computing centrality
+# Practice Session 07: Empirical degree distributions
 
-:construction: **NOTE: THIS PRACTICE IS BEING EDITED/REVIEWED**
+:construction: THIS IS UNDER CONSTRUCTION
 
-In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package.
+In this session we will process some existing networks using [NetworkX](https://networkx.github.io/), a Python package.
 
 # 0. Reading and drawing in NetworkX
+
+TO-DO:
+
+* Add instructions to read hero-network.csv
+* Study 3 networks: hero, internet, astro
+* For each network, extract degree distribution, fit manually and using Hill, plot degree-degree correlation, conclude something
 
 Imports:
 
