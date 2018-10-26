@@ -24,7 +24,7 @@ This is similar to what you did in one of the practices, but instead of creating
 
 :warning: If there are too many edges, most likely you made a mistake. Check some pairs of movies at the beginning, middle, end of the *movie-movie* graph and see if they are really related in the movie metadata file.
 
-:bulb: If there are too many nodes for Cytoscape to do the layout, they you can focus on a smaller category of movies. You can create a file `movie-movie-selected.csv` having only, e.g., movies that have a budget or gross earnings of more than a certain amount, or movies that are older or newer than a certain date, or movies that have a certain genre, or any sub-set of movies that is small enough for Cytoscape to visualize it.
+:bulb: If there are too many nodes for Cytoscape to visualize (layout), they you should focus on a smaller category of movies. You can create a file `movie-movie-selected.csv` having only, e.g., movies that have a budget or gross earnings of more than a certain amount, or movies that are older or newer than a certain date, or movies that have a certain genre, or any sub-set of movies that is small enough for Cytoscape to visualize it.
 
 ## Mandatory attributes
 
