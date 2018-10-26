@@ -22,6 +22,10 @@ This is similar to what you did in one of the practices, but instead of creating
 
 :warning: If the movie-movie network takes a long time to load, does not load at all, or crashes Cytoscape, it is very likely that you made a mistake during its generation. Check your output to make sure that you are connecting movies only if they share an actor. Check that you are dealing correctly with cases in which one of the actors is empty, i.e., do not connect movies if their intersection is just an empty actor.
 
+:warning: If there are too many edges, most likely you made a mistake. Check some pairs of movies at the beginning, middle, end of the *movie-movie* graph and see if they are really related in the movie metadata file.
+
+:bulb: If there are too many nodes for Cytoscape to do the layout, they you can focus on a smaller category of movies. You can create a file `movie-movie-selected.csv` having only, e.g., movies that have a budget of more than a certain amount, movies that are older or newer than a certain date, or any sub-set of movies that is small enough for Cytoscape to visualize it.
+
 ## Mandatory attributes
 
 ### Movie attributes
