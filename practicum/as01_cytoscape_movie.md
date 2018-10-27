@@ -8,23 +8,19 @@ For this assignment you need the file [movie_metadata.csv](data/movie_metadata.c
 
 The task is to write Python code, in a Jupyter Notebook, that reads the `movie_metadata.csv` file and creates four CSV files.
 
-1. The first CSV file should describe the *movie-movie graph* in which two movies are connected if they share the same director or one actor.
+1. The first CSV file, `movie-movie-edges.csv`, should describe the *movie-movie graph* in which two movies are connected if they share the same director or one actor. It should have a minimum of two columns (`movie1` and `movie2`), but you can include additional columns representing attributes of the relationship between the two movies (e.g., number of actors in common).
 
-2. The second CSV file should describe the *actor-actor graph* in which two actors or actresses are connected if they appeared in the same movie.
+2. The second CSV file, `actor-actor-edges.csv`, should describe the *actor-actor graph* in which two actors or actresses are connected if they appeared in the same movie. It should have a minimum of two columns (`actor1` and `actor2`), but you can include additional columns representing attributes of the relationship between the two actors (e.g., number of movies in common).
 
-3. The third CSV file should describe *movie attributes*
+3. The third CSV file, `movie-attributes.csv`, should describe *movie attributes*. The first column should be the movie name, and the remaining columns some attributes of each movie.
 
-4. The fourth CSV file should describe *actor attributes*
+4. The fourth CSV file, `actor-attributes.csv`, should describe *actor attributes*. The first column should be the actor/actress name and the remaining columns some attributes of each actor.
 
-Then, you will open these CSV files from Cytoscape to visualize them.
+Then, you will open these CSV files from Cytoscape to visualize them, importing the `*-edges.csv` files as graphs, and the `*-attributes.csv` as tables. This is similar to what you did in one of the practices, but instead of creating the CSV files by hand, you create them using Python.
 
-This is similar to what you did in one of the practices, but instead of creating the CSV files by hand, you create them using Python.
+:warning: **Check your output to make sure that you are connecting movies only if they have the same director or share an actor**. If the movie-movie network takes a long time to load, does not load at all, or crashes Cytoscape, it is very likely that you made a mistake during its generation. Check some pairs of movies at the beginning, middle, end of the *movie-movie* graph and see if they are really related in the movie metadata file. Check that you are dealing correctly with cases in which one of the actors is empty, i.e., do not connect movies if their intersection is just one actor whose name is empty.
 
-:warning: If the movie-movie network takes a long time to load, does not load at all, or crashes Cytoscape, it is very likely that you made a mistake during its generation. Check your output to make sure that you are connecting movies only if they share an actor. Check that you are dealing correctly with cases in which one of the actors is empty, i.e., do not connect movies if their intersection is just an empty actor.
-
-:warning: If there are too many edges, most likely you made a mistake. Check some pairs of movies at the beginning, middle, end of the *movie-movie* graph and see if they are really related in the movie metadata file.
-
-:bulb: If there are too many nodes for Cytoscape to visualize (layout), they you should focus on a smaller category of movies. You can create a file `movie-movie-selected.csv` having only, e.g., movies that have a budget or gross earnings of more than a certain amount, or movies that are older or newer than a certain date, or movies that have a certain genre, or any sub-set of movies that is small enough for Cytoscape to visualize it.
+:bulb: **If there are too many nodes for Cytoscape to visualize (layout), then you should focus on a sub-group of movies**. You can create a file `movie-movie-selected-edges.csv` having only edges connecting two movies that have a certain characteristic, or edges in which at least one of the two movies has a certain characteristic. This characteristic may be, for instance, having a budget or gross earnings of more than a certain amount, being older or newer than a certain year, belonging to a certain genre, containing a certain key word in their title, or featuring a certain director or actor/actress. Select any sub-set of movies that is large enough to be interesting but small enough for Cytoscape to visualize it.
 
 ## Mandatory attributes
 
