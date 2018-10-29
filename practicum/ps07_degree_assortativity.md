@@ -148,10 +148,10 @@ First, create a dictionary from degrees to lists of nodes having that degree:
 degree_to_nodes = {}
 for node in g.nodes():
     degree = g.degree(node)
-    # If the degree of this node has not been seen,
-    # initialize degree_to_nodes[degree] = []
-    # Then, append this node to degree_to_nodes[degree]
+    # YOUR CODE HERE
 ```
+
+Remember that if this is the degree of a node has not be seen, you need to initialize `degree_to_nodes[degree] = []` before appending `node` to `degree_to_nodes[degree]`.
 
 Second, create arrays *x* and *y*. Array *x* should contain all degrees for which there are nodes that have at least one neighbor. Array *y* should contain the macro-average of the degree of the neighbors of those nodes.
 
