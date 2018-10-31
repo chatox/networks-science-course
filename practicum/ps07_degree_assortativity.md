@@ -70,8 +70,9 @@ for node in all_nodes:
         high_degree_nodes.append(node)
 
 # Extract the sub-graph of those nodes
+print("Extracting using %d node ids" % len(high_degree_nodes))
 subgraph = g.subgraph(high_degree_nodes)
-print("Extracted a subgraph of %d nodes" % len(subgraph))
+print("Extracted a subgraph of %d nodes" % subgraph.order())
 
 # Draw the sub-graph (tip: place this code in another cell)
 plt.figure(figsize=(10,10))
