@@ -27,7 +27,6 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |                  | TT16. Epidemics                       |       |
 | T11              | TT17. Information cascades            |       |
 |                  | TT18. Spreading phenomena             |       |
-| T12              | Questions/exercises/exam preparation  |       |
 
 Moved to DM course:
 
