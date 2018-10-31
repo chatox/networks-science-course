@@ -23,7 +23,7 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |                  | TT11. Link-based centrality           |       |
 | T8               | TT12. Network flows                   |       |
 | T9               | TT13. Dense sub-graphs                |       |
-| T10               | **Second in-class test: TT05-TT12**   | 20 Nov (G1), 22 Nov (G2)    |
+| T10              | **Second in-class test: TT06-TT13**   | 20 Nov (G1), 22 Nov (G2)    |
 |                  | TT16. Epidemics                       |       |
 | T11              | TT17. Information cascades            |       |
 |                  | TT18. Spreading phenomena             |       |
