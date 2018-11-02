@@ -65,7 +65,7 @@ This is such function:
 import re
 
 def extract_mentions(text):
-    return re.findall("@([a-zA-Z0-9]{5,20})", text)
+    return re.findall("@([a-zA-Z0-9_]{5,20})", text)
 ```
 
 Note that the `import re` command must be at the beginning of the file, together with the other imports. You may need to execute the cell that contains the import by pressing `Shift-Enter` on it.
@@ -118,7 +118,7 @@ with io.open(OUTPUT_FILENAME, "w") as output_file:
 
 Remember to `import csv` at the beginning of the file. You may have to press `Shift-Enter` in the cell with the imports.
 
-Create two files: one `EstamosPorTi.csv` containing all edges, and one `EstamosPorTi-w2.csv` containing all edges appearing twice or more.
+Create two files: one `EstamosPorTi.csv` containing all edges, and one `EstamosPorTi-w2.csv` containing all edges having count greater or equal than 2.
 
 # 2. Open the directed mention network in Cytoscape
 
@@ -186,4 +186,6 @@ The report should be a two-page PDF file.
 
 In your observations you can mention high-centrality nodes, the type of components you observe, and/or some aspects that you find relevant from the results of the network analyzer (e.g., number of nodes, edges, connected components, characteristic path lengths, average degrees, etc.). Do not include a screenshot of the results panel: describe what you see there using the numbers from the analysis and your own words.
 
-*Tip*: use an online document editor to work on this, it will make collaborating easy.
+*Tip 1*: use an online document editor to work on this, it will make collaborating easy.
+
+*Tip 2*: to count nodes in Cytoscape, hold shift while clicking and select the nodes. In the lower-right corner you should see a count of nodes and edges.
