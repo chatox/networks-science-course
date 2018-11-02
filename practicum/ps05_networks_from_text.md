@@ -10,7 +10,7 @@ In the **undirected co-mention network**, we will say that there is a link of we
 
 # 0. Input: a collection of tweets
 
-The input material you will use is a file named `EstamosPorTi.json.gz`. This is a gzip-compressed file, which you can de-compress using the `gunzip` command. The file contain about 16,800 messages ("tweets") posted between October 1st, 2017, and October 24th, 2017, and using the hashtag `#EstamosPorTi`. Background information on this collection is available on [the Internet Archive](https://archive.org/details/EstamosporTIOohmm2018032618831Ids).
+The input material you will use is a file named `EstamosPorTi.json.gz` available in the [data/](data/) directory. This is a gzip-compressed file, which you can de-compress using the `gunzip` command. The file contain about 16,800 messages ("tweets") posted between October 1st, 2017, and October 24th, 2017, and using the hashtag `#EstamosPorTi`. Background information on this collection is available on [the Internet Archive](https://archive.org/details/EstamosporTIOohmm2018032618831Ids).
 
 The tweets are in a format known as [JSON](https://en.wikipedia.org/wiki/JSON#Example). Python's JSON library takes care of translating it into a dictionary.
 
