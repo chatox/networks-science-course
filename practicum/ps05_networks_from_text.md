@@ -8,21 +8,19 @@ In the **directed mention network**, we will say that there is a link of weight 
 
 In the **undirected co-mention network**, we will say that there is a link of weight *w* between accounts *x* and *y*, if both accounts have been mentioned together in *w* tweets.
 
-# 0. Input: a collection of tweets
+# 0. Preliminaries
+
+## 0.1. Input file: a collection of tweets
 
 The input material you will use is a file named `EstamosPorTi.json.gz` available in the [data/](data/) directory. This is a gzip-compressed file, which you can de-compress using the `gunzip` command. The file contain about 16,800 messages ("tweets") posted between October 1st, 2017, and October 24th, 2017, and using the hashtag `#EstamosPorTi`. Background information on this collection is available on [the Internet Archive](https://archive.org/details/EstamosporTIOohmm2018032618831Ids).
 
 The tweets are in a format known as [JSON](https://en.wikipedia.org/wiki/JSON#Example). Python's JSON library takes care of translating it into a dictionary.
 
-## How this file was obtained
-
-This file was obtained from the [Tweet ID Catalog](https://www.docnow.io/catalog/). This is a website that provides several collections of tweets, however, they only provide the identifier of the tweet, known as a tweet-id.
+**How was this file obtained?** This file was obtained from the [Tweet ID Catalog](https://www.docnow.io/catalog/). This is a website that provides several collections of tweets, however, they only provide the identifier of the tweet, known as a tweet-id.
 
 To recover the entire tweet, a process commonly known as *re-hydration* needs to be used, which involves querying an API from Twitter, giving the tweet-id, and obtaining the tweet. This can be done with a little bit of programming or using a software such as [Hydrator](https://github.com/docnow/hydrator#readme).
 
-# 0. Preliminaries
-
-## 0.1. Imports
+## 0.2. Imports
 
 ```python
 import io
@@ -30,7 +28,7 @@ import json
 import gzip
 ```
 
-## 0.2. How to read the tweets
+## 0.3. How to read the tweets
 
 We do not need to uncompress this file (it is about 132 MB uncompressed, but only 11 MB compressed).
 
@@ -57,7 +55,7 @@ The rest of the code stays the same.
 
 *Tip*: place all the `import` commands in a single cell at the top of your notebook.
 
-## 0.3. How to extract mentions
+## 0.4. How to extract mentions
 
 What we need now is a function to extract mentions, so that if we give, for instance `RT @Jordi: check this post by @Xavier`, it returns the list `["Jordi", "Xavier"]`.
 
@@ -80,7 +78,7 @@ for mention in mentions:
     print("%s mentioned %s" % (author, mention))
 ```
 
-## 0.4. Aggregating
+## 0.5. How to count mentions
 
 To count how many times a mention happen, you will keep a dictionary:
 
