@@ -175,7 +175,7 @@ Run the ModuLand plug-in to create a clustering of this graph using the *Weight*
 
 :bulb: This practice might be a bit longer than other practices so we are allowing it to be done in pairs. Other practices are individually delivered unless specified otherwise.
 
-Deliver a zip file containing your code and report.
+Deliver a zip file containing your code, report, and the CSV files you generated.
 
 The code should be your Python notebook (a `.ipynb` file).
 
