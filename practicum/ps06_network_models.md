@@ -19,7 +19,7 @@ import numpy as np
 Small graphs can be easily created programmatically in Python with NetworkX.
 
 * To create a graph, you use either `networkx.Graph` or `networkx.DiGraph`, which return an undirected an directed graph respectively.
-* To add a node to a graph *g*, you use `g.add_node(u)`, where *u* is the name of the graph.
+* To add a node to a graph *g*, you use `g.add_node(u)`, where *u* is the name of the node.
 * To add an edge to a graph *g*, you use `g.add_edge(u, v)`, where *u* is the name of the source of the edge, and *v* the name of the destination of the edge.
 
 Example:
@@ -130,7 +130,7 @@ Deliver a zip file containing your Python notebook (remove unnecessary elements,
   * For each graph, include its drawing and its degree distribution.
 * In all the graph drawings of your report use options `with_labels=False, node_size=10`
 
-You can use the following function to plot the degree distributions:
+You can use the following function to plot the degree distributions (remember to add: from collections import OrderedDict):
 
 ```python
 def plot_degree_distribution(g):
