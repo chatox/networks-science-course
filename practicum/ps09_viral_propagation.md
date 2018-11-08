@@ -155,9 +155,9 @@ Node: XRX Average infected: 42.290
 
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed). Include also a PDF file containing:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a single .ipynb file with multiple cells), and a PDF file containing:
 
-* A table with the nodes sorted from the most viral (largest average cascade size) to the least viral (smallest average cascade size), including the name of the stock and its average cascade size.
+* A table with the nodes sorted from the most viral (largest average cascade size) to the least viral (smallest average cascade size), including the name of the stock and its average cascade size. Do not include a screenshot of a table, include the table well formatted inside the document.
 * 3 infection graphs (showing in red the companies that "collapsed" and in green the companies that "survived") for the most viral starting point, and 3 infection graph for the least viral.
 
 # Extra points
