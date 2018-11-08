@@ -121,7 +121,7 @@ Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>
 
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a report in PDF containing:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a **single .ipynb file** with multiple cells), and a report in PDF containing:
 
 * On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005*
   * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
