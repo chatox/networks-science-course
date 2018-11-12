@@ -21,10 +21,11 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 | T6+T7            | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
 |                  | TT11. Link-based centrality           |       |
-| T8               | TT12. Network flows                   |       |
-| T9               | TT13. Dense sub-graphs                |       |
-| T10              | **Second in-class test: TT06-TT13**   | 20 Nov (G1), 22 Nov (G2)    |
+| T8+T9            | TT12. Network flows                   |       |
+|                  | TT13. Dense sub-graphs                |       |
 |                  | TT16. Epidemics                       |       |
+| T10              | **Second in-class test: TT09-TT13**   | 20 Nov (G1), 22 Nov (G2)    |
+|                  | TT16. Epidemics (cont.)               |       |
 | T11              | TT17. Information cascades            |       |
 |                  | TT18. Spreading phenomena             |       |
 
