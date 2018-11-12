@@ -19,7 +19,7 @@ import numpy as np
 Small graphs can be easily created programmatically in Python with NetworkX.
 
 * To create a graph, you use either `networkx.Graph` or `networkx.DiGraph`, which return an undirected an directed graph respectively.
-* To add a node to a graph *g*, you use `g.add_node(u)`, where *u* is the name of the graph.
+* To add a node to a graph *g*, you use `g.add_node(u)`, where *u* is the name of the node.
 * To add an edge to a graph *g*, you use `g.add_edge(u, v)`, where *u* is the name of the source of the edge, and *v* the name of the destination of the edge.
 
 Example:
@@ -121,7 +121,7 @@ Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>
 
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a report in PDF containing:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a **single .ipynb file** with multiple cells), and a report in PDF containing:
 
 * On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005*
   * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
@@ -130,7 +130,7 @@ Deliver a zip file containing your Python notebook (remove unnecessary elements,
   * For each graph, include its drawing and its degree distribution.
 * In all the graph drawings of your report use options `with_labels=False, node_size=10`
 
-You can use the following function to plot the degree distributions:
+You can use the following function to plot the degree distributions (remember to add: from collections import OrderedDict):
 
 ```python
 def plot_degree_distribution(g):

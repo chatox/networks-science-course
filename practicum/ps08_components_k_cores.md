@@ -188,7 +188,7 @@ Now in the *Node Table* you should see that each node has associated a level. Us
 
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a single .ipynb file with multiple cells), and a PDF file containing:
 
 * A description of the connected component sizes of the email graph.
  * Is there a giant connected component, if yes, what is its size as a percentage of the total number of nodes?

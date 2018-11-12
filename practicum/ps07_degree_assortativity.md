@@ -196,7 +196,7 @@ Perform the same operations as with the Internet graph with the astrophysicists 
 
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed), and a PDF file containing:
+Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a single .ipynb file with multiple cells), and a PDF file containing:
 
 * For the hero network:
   * A drawing of the two subgraphs you extracted
