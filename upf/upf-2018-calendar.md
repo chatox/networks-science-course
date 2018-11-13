@@ -46,6 +46,6 @@ Calendar restrictions with respect to practice sessions:
 * By the end of T9 we must have seen k-core decomposition (**this is a tight constraint**)
 * By the end of T10 we must have seen spreading phenomena
 
-# Calender for exams 2018
+# Calendar for exams 2018
 
 The exam will be on 2018-12-21 from 15:00 to 17:00 and covers all the theory sessions we have seen in the course.
