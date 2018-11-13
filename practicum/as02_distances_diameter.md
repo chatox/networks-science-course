@@ -94,7 +94,7 @@ k = 2/77 (2.6%)
 k = 77/77 (100.0%)
 ```
 
-If you issue `print(dist)` after running the algorithm, you should see this:
+If you issue `print(dist)` after running the algorithm, you should see something like this:
 
 ```python
 [[ 0.  1.  1. ...,  3.  3.  4.]
@@ -105,6 +105,8 @@ If you issue `print(dist)` after running the algorithm, you should see this:
  [ 3.  4.  3. ...,  3.  0.  4.]
  [ 4.  5.  4. ...,  3.  4.  0.]]
 ```
+
+How to check that your matrix is correct? Examine the graph and do by hand a few distance calculations between nodes. Then, compare what you obtain by looking at the graph with what the matrix says. The matrix should have in position *(i,j)* the undirected distance between the node with id *i* and the node with id *j*.
 
 # Part 2: extract distances from Valjean
 
