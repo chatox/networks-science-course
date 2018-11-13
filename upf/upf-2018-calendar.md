@@ -21,13 +21,13 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 | T6+T7            | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
 |                  | TT11. Link-based centrality           |       |
-| T8+T9            | TT12. Network flows                   |       |
+| T8               | TT12. Network flows                   |       |
 |                  | TT13. Dense sub-graphs                |       |
-|                  | TT16. Epidemics                       |       |
-| T10              | **Second in-class test: TT09-TT13**   | 20 Nov (G1), 22 Nov (G2)    |
-|                  | TT16. Epidemics (cont.)               |       |
-| T11              | TT17. Information cascades            |       |
-|                  | TT18. Spreading phenomena             |       |
+| T9               | **Second in-class test: TT09-TT13 (up to k-core)**   | 20 Nov (G1), 22 Nov (G2)    |
+|                  | TT13. Dense sub-graphs (cont.)        |       |
+| T10              | TT16. Epidemics                       |       |
+| T11              | TT18. Spreading phenomena             |       |
+| EXAM             | **Exam: TT01-TT06, TT09-TT13, TT16, TT18**                   |       |
 
 Moved to DM course:
 
@@ -37,6 +37,7 @@ Moved to DM course:
 |                  | TT08. Homophily and assortativity     |       |
 |                  | TT14. Hierarchical clustering         |       |
 |                  | TT15. Spectral graph clustering       |       |
+|                  | TT17. Information cascades            |       |
 
 Calendar restrictions with respect to practice sessions:
 
