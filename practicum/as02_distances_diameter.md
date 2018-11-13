@@ -131,7 +131,7 @@ The ordering of columns on this file does not matter.
 
 ## 2.2. Draw in Cytoscape
 
-Draw this network Cytoscape using the attributes you just created for color/style and for labeling nodes.
+Draw this network Cytoscape using the `DistFromValjean` attribute as color or size, and `NewLabel` as the label for the nodes.
 
 # Part 3: compute diameter and effective diameter
 
