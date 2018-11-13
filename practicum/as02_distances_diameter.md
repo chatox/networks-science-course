@@ -135,7 +135,7 @@ Draw this network Cytoscape using the attributes you just created for color/styl
 
 Now you need to create a vector with all pair-wise distances. Be careful (1) not to add self-loops, (2) not to add unreachable pairs with infinite distances, and (3) not to add the same edge twice. This vector (call it `distances`) should have length at most 2,926 *((|V|x|V|-|V|)/2)*.
 
-You can use `np.percentile` and `np.max`.
+For computing diameter you can use `np.max` and for computing effective diameter (90%) you can use `np.percentile`.
 
 # Part 4: draw a histogram of distances
 
@@ -147,9 +147,11 @@ Remember to **include a title** and **label the axes** of this bar plot.
 
 # Deliver (groups of two)
 
-A .zip or .tar.gz file containing your report and code.
+A .zip or .tar.gz file containing your code and your report in PDF.
 
-The report should contain, for *Les Misérables*:
+The code should be a single Python notebook (not multiple notebooks), in .ipynb format.
+
+The report should be a PDF file (not .docx, not .odt). It should contain, for *Les Misérables*:
 
 1. The full distance matrix (shrink font size so it fits in a page; do not use a low-quality or poorly cropped screenshot).
 1. A graph generated in Cytoscape in which each node is labeled and colored/styled according to its distance from Valjean (e.g., label of node "Zephine" should be "Zephine(2)")
@@ -161,7 +163,5 @@ And for both *Les Misérables* and the *Email-EU-Core* network:
 1. The distance histograms of both networks
 1. Your brief (1-2 paragraphs) commentary on each distance histogram
 1. Your conclusion (1-2 paragraphs) comparing the two distance histograms, in a couple of lines
-
-The code should contain the Python notebook that you created.
 
 The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
