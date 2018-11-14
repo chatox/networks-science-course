@@ -137,3 +137,12 @@ The report should contain:
 1. Your comment (1-2 paragraphs) on the list of top sites by your variant of PageRank
 
 The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
+
+## Extra points available
+
+If you would like to go for extra points (+2, so your maximum grade can be a 12 in this assignment), include a Cytoscape drawing of a sample of hosts (e.g., the top ones by PageRank, or the top ones by degree), and painting in one color the nodes that are spam, and in another color the nodes that are nonspam.
+
+Include in your sample at least a few hundred hosts; as many as possible without crashing Cytoscape or having to wait an unreasonable amount of time for the layout to be completed.
+
+Remember that the `subgraph` function in NetworkX allows you to select a sub-graph given a list of nodes.
+
