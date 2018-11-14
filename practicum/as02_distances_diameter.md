@@ -108,6 +108,15 @@ If you issue `print(dist)` after running the algorithm, you should see something
 
 How to check that your matrix is correct? Examine the graph and do by hand a few distance calculations between nodes. Then, compare what you obtain by looking at the graph with what the matrix says. The matrix should have in position *(i,j)* the undirected distance between the node with id *i* and the node with id *j*.
 
+Remember you can draw the graph by doing:
+
+```python
+plt.figure(figsize=(5,5))
+nx.draw_networkx(g)
+```
+
+Then, you can do `id1 = node2id["..."]` and `id2 = node2id["..."]` for two of the characters, and check if `dist[id1, id2]` is what you see when you draw the graph. This manual verification is doable in this small network but in larger networks will not be possible in general.
+
 # Part 2: extract distances from Valjean
 
 ## 2.1. Extract a row of the table and save to disk
