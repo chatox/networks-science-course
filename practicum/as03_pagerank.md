@@ -107,10 +107,11 @@ Among the top hosts you might find a mixture of "spammy" (business that tend to 
 
 # 7. Compute one variant of PageRank
 
-Implement at least one variant of PageRank. Three ideas follow, but feel free to experiment with your own:
+Implement at least one variant of PageRank; feel free to experiment with your own, here are some ideas:
 
-1. Restarting to a certain subset of nodes (e.g., .gov.uk or .ac.uk sites)
-1. Dividing by log of degree (or some other transformation) instead of degree
+1. Taking into account the weight in the edges, normalizing the weights so that the sum of out-weights of a node is 1.0
+1. Restarting to a certain subset of nodes (e.g., only to .gov.uk or .ac.uk sites)
+1. Dividing by log (or some other transformation) of the degree, instead of degree
 1. Ignoring nodes having an anomalously large out-degree
 
 # Deliver (groups of two)
