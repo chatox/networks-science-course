@@ -173,6 +173,6 @@ And for both *Les Misérables* and the *Email-EU-Core* network:
 1. The diameter (max), effective diameter (90% percentile), and median diameter (50% percentile) of both networks
 1. The distance histograms of both networks
 1. Your brief (1-2 paragraphs) commentary on each distance histogram
-1. Your conclusion (1-2 paragraphs) comparing the two distance histograms, in a couple of lines
+1. Your conclusion (1-2 paragraphs) comparing the two distance histograms
 
 The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
