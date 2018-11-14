@@ -145,7 +145,7 @@ For computing diameter you can use `np.max` and for computing effective diameter
 hist, bins = np.histogram(distances, density=True, bins=np.arange(np.min(distances), np.max(distances)+2, 1.0))
 plt.bar(bins[:-1], hist)
 ```
-Remember to **include a title** and **label the axes** of this bar plot.
+Remember to **include a title** and **label the axes** of this bar plot. In a histogram where the quantities are normalized, i.e., depicting a probability density function, the standard label for the y-axis is "probability".
 
 # Deliver (groups of two)
 
