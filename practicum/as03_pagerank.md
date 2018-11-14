@@ -107,7 +107,7 @@ Among the top hosts you might find a mixture of "spammy" (business that tend to 
 
 # 7. Compute one variant of PageRank
 
-Implement at least one variant of PageRank. Two ideas follow, but feel free to experiment with your own:
+Implement at least one variant of PageRank. Three ideas follow, but feel free to experiment with your own:
 
 1. Restarting to a certain subset of nodes (e.g., .gov.uk or .ac.uk sites)
 1. Dividing by log of degree (or some other transformation) instead of degree
@@ -129,6 +129,7 @@ The report should contain:
 1. Your comment (1-2 paragraphs) on the similarities/differences between the two lists above
 1. The list of top-20 sites by spam gain
 1. Your comment (1-2 paragraphs) on the list of sites by spam gain
+1. A brief description of your variant of PageRank
 1. The list of top-20 sites by your variant of PageRank
 1. Your comment (1-2 paragraphs) on the list of top sites by your variant of PageRank
 
