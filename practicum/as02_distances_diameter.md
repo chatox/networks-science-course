@@ -135,7 +135,7 @@ Draw this network Cytoscape using the `DistFromValjean` attribute as color or si
 
 # Part 3: compute diameter and effective diameter
 
-Now you need to create a vector with all pair-wise distances. Be careful (1) not to add self-loops, (2) not to add unreachable pairs with infinite distances, and (3) not to add the same edge twice. This vector (call it `distances`) should have length at most 2,926 *((|V|x|V|-|V|)/2)*.
+Now you need to create a vector with all pair-wise distances. Be careful (1) not to add self-loops, (2) not to add unreachable pairs with infinite distances, and (3) not to add the same edge twice. This vector (call it `distances`) should have length at most 2,926 *((N x N - N)/2)*.
 
 For computing diameter you can use `np.max` and for computing effective diameter (90%) you can use `np.percentile`.
 
