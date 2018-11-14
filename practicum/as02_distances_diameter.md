@@ -66,7 +66,7 @@ Create a dictionary, name it `node2id`, that for every node in the graph `g` con
 
 Create an initialize a matrix (steps 1-7 of pseudocode above).
 
-* An empty *n x m* matrix is created with `matrix = np.empty(n,m)`
+* An empty *n x m* matrix is created with `dim = (n,m)` and then `matrix = np.empty(dim)`
 * A matrix *matrix* can be filled with the number *number* using `matrix.fill(number)`
 * Infinity is the constant `np.inf`
 * An iterator over edges (two-element tuples) is created with `g.edges()`. The source of the edge is the first element `edge[0]` and the destination of the edge is the second element `edge[1]`. Both are strings/labels that you need to convert to identifiers.
