@@ -140,7 +140,7 @@ The ordering of columns on this file does not matter.
 
 ## 2.2. Draw in Cytoscape
 
-Draw this network Cytoscape using the `DistFromValjean` attribute as color or size, and `NewLabel` as the label for the nodes.
+Draw this network Cytoscape using the `DistFromValjean` attribute as color or size, and `NewLabel` as the label for the nodes. You will need to import first the `.gml` file as a network, and then your `.csv` file as a table.
 
 # Part 3: compute diameter and effective diameter
 
