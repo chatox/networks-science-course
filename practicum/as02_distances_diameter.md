@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 
 ## 1.1. Create a mapping from labels to node ids
 
-Note that the algorithm uses a matrix in which rows and columns go from *0* to *|V|-1*. The size of the graph `g`, *|V|*, is simply `g.order()`.
+Note that the algorithm uses a matrix in which rows and columns go from *0* to *N-1*. The size of the graph `g`, *N*, is simply `g.order()`.
 
 Create a dictionary, name it `node2id`, that for every node in the graph `g` contains a number between `0` and `g.order()-1`. If you issue `print(node2id)`, you should see this:
 
