@@ -85,7 +85,7 @@ If you issue `print(dist)` after initializing, you should see this:
 
 ## 1.3. Run the algorithm
 
-Now implement steps 8-16 of the pseudocode, it is straightforward but it is a good idea to print some progress report to know whether the algorithm is running or not. While running your algorithm, the output should look like this:
+Now implement steps 8-16 of the pseudocode, it is straightforward but it is a good idea to print some progress report to know whether the algorithm is running or not. While running your algorithm, the output should look similar to this (here I have added a step numbered 77 even if the loop goes from 0 to 76, just to be able to print the satisfactory "100.0%"):
 
 ```python
 k = 0/77 (0.0%)
