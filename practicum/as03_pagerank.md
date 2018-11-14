@@ -117,7 +117,9 @@ Implement at least one variant of PageRank. Three ideas follow, but feel free to
 
 A .zip or .tar.gz file containing your code and report.
 
-The code should contain the Python notebook that you created. In this practice it is important that you **do not duplicate code**. Use functions instead.
+The code should contain the Python notebook that you created: just one notebook with multiple cells, not multiple notebooks.
+
+:warning: **Do not duplicate code: use functions instead.**
 
 The report should contain:
 
