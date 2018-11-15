@@ -63,7 +63,7 @@ Now, write function `generate_random_graph(N, p)`, that:
 1. Creates an empty graph
 1. Adds N nodes to this graph
 1. For each pair *(u,v)* of nodes:
-  * With probability *p*, adds an edge between *u* and *v*
+   1. With probability *p*, adds an edge between *u* and *v*
 1. Returns the graph
 
 The *N* nodes in this graph will be numbered from *0* and *N-1*. In Python, to iterate between `i=0` and `i=N-1`, you do:
@@ -116,9 +116,9 @@ Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that:
 1. Adds nodes numbered from *0* to *m<sub>0</sub> - 1* to the graph
 1. Links node *0* to nodes *1, 2, 3, ..., m<sub>0</sub> - 1*
 1. For every node *u* numbered from *m<sub>0</sub>* to *N - 1* 
-  1. Select *m* targets for this node using `select_targets`
-  1. Add node *u* (remember to select targets **before** adding the node *u*)
-  1. Lnk each node *u* to each of the *m* targets 
+   1. Select *m* targets for this node using `select_targets`
+   1. Add node *u* (remember to select targets **before** adding the node *u*)
+   1. Lnk each node *u* to each of the *m* targets 
 1. Returns the graph
 
 Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>0</sub>=2, m=1*.
