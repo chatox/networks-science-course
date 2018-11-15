@@ -127,12 +127,12 @@ Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>
 
 Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a **single .ipynb file** with multiple cells), and a report in PDF containing:
 
-* On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005*
+* On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005, 0.01*
   * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
   * Include a brief commentary on these ER graphs at the beginning or at the end of this page
 * On the third page, 2 preferential attachment (BA) graphs with *N=2000, m<sub>0</sub>=5, m=1* and *N=2000, m<sub>0</sub>=2, m=2*.
   * For each graph, include its drawing and its degree distribution.
-* In all the graph drawings of your report use options `with_labels=False, node_size=10`
+* In all the graph drawings of your report use options `with_labels=False, node_size=10` (you can play with different values for `node_size`)
 
 You can use the following function to plot the degree distributions (remember to add: `from collections import OrderedDict`):
 
