@@ -60,10 +60,11 @@ def flip_coin(p):
 
 Now, write function `generate_random_graph(N, p)`, that:
 
-* Creates an empty graph
-* Adds N nodes to this graph
-* For each pair *(u,v)* of nodes:
+1. Creates an empty graph
+1. Adds N nodes to this graph
+1. For each pair *(u,v)* of nodes:
   * With probability *p*, adds an edge between *u* and *v*
+1. Returns the graph
 
 The *N* nodes in this graph will be numbered from *0* and *N-1*. In Python, to iterate between `i=0` and `i=N-1`, you do:
 
@@ -109,13 +110,14 @@ def select_targets(g, m):
 
 (The function `numpy.random.choice` in the above function is used to sample without replacement *m* elements from an array of nodes.)
 
-Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that should do the following:
+Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that:
 
-* Create an empty graph
-* Add nodes numbered from *0* to *m<sub>0</sub> - 1* to the graph
-* Link node *0* to nodes *1, 2, 3, ..., m<sub>0</sub> - 1*
-* Add nodes numbered from *m<sub>0</sub>* to *N - 1* to the graph
+1. Creates an empty graph
+1. Adds nodes numbered from *0* to *m<sub>0</sub> - 1* to the graph
+1. Links node *0* to nodes *1, 2, 3, ..., m<sub>0</sub> - 1*
+1. Adds nodes numbered from *m<sub>0</sub>* to *N - 1* to the graph
   * Link each node *u* to *m* targets selected using the procedure above. Remember to select the targets **before** adding the new node to the graph.
+1. Returns the graph
 
 Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>0</sub>=2, m=1*.
 
