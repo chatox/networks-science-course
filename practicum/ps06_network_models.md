@@ -115,8 +115,10 @@ Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that:
 1. Creates an empty graph
 1. Adds nodes numbered from *0* to *m<sub>0</sub> - 1* to the graph
 1. Links node *0* to nodes *1, 2, 3, ..., m<sub>0</sub> - 1*
-1. Adds nodes numbered from *m<sub>0</sub>* to *N - 1* to the graph
-  * Link each node *u* to *m* targets selected using the procedure above. Remember to select the targets **before** adding the new node to the graph.
+1. For every node *u* numbered from *m<sub>0</sub>* to *N - 1* 
+  1. Select *m* targets for this node using `select_targets`
+  1. Add node *u* (remember to select targets **before** adding the node *u*)
+  1. Lnk each node *u* to each of the *m* targets 
 1. Returns the graph
 
 Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>0</sub>=2, m=1*.
@@ -132,7 +134,7 @@ Deliver a zip file containing your Python notebook (remove unnecessary elements,
   * For each graph, include its drawing and its degree distribution.
 * In all the graph drawings of your report use options `with_labels=False, node_size=10`
 
-You can use the following function to plot the degree distributions (remember to add: from collections import OrderedDict):
+You can use the following function to plot the degree distributions (remember to add: `from collections import OrderedDict`):
 
 ```python
 def plot_degree_distribution(g):
