@@ -154,7 +154,7 @@ for node in g.nodes():
 
 Remember that if this is the degree of a node has not be seen, you need to initialize `degree_to_nodes[degree] = []` before appending `node` to `degree_to_nodes[degree]`.
 
-Second, create arrays *x* and *y*. Array *x* should contain all degrees for which there are nodes that have at least one neighbor. Array *y* should contain the macro-average of the degree of the neighbors of those nodes.
+Second, create arrays *x* and *y*. Array *x* should contain all degrees greater than zero for which there are nodes with that degree. Array *y* should contain the macro-average of the degree of the neighbors of those nodes.
 
 ```python
 x = []
