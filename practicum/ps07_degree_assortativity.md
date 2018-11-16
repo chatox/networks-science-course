@@ -114,7 +114,7 @@ To plot the degree distribution, use the following code:
 ```python
 # Obtain a histogram; this requires two additional bins
 # to the left and right (hence the +2)
-prob, bin_edges = np.histogram(degrees, bins=range(1,np.max(degrees)+2), normed=True)
+prob, bin_edges = np.histogram(degrees, bins=range(1,np.max(degrees)+2), density=True)
 
 # Plot in log-log the degree distribution with crosses
 plt.loglog(bin_edges[:-1], prob, '.', marker='x')
