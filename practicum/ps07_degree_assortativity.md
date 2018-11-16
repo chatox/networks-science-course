@@ -177,8 +177,8 @@ Third, create a scatterplot and conclude from it if the network is assortative o
 ```python
 plt.loglog(x, y, '.')
 plt.title("Degree Correlation")
-plt.ylabel("degre of node")
-plt.xlabel("average degree of neighbors")
+plt.xlabel("Degree of node")
+plt.ylabel("Average degree of neighbors")
 plt.show()
 ```
 
