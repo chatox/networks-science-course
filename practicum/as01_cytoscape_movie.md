@@ -48,7 +48,7 @@ Feel free to also create graphs mixing movies and actors, or to create sub-graph
 
 A .zip or .tar.gz file containing your report, your code, and the data files you generated.
 
-The report should be an insightful, informative, readable, beautiful, clear, concise document in PDF with images from Cytoscape and your findings. Be creative. Feel free to focus on a sub-category of movies or actors if you have some interesting finding to report on them. The recommended length for the report is 2 pages and the maximum 5 pages.
+The report should be an insightful, informative, readable, beautiful, clear, concise document in PDF with images from Cytoscape and your findings. Be creative. Feel free to focus on a sub-category of movies or actors if you have some interesting finding to report on them. The recommended length for the report is 2 pages and the maximum 5 pages. If you used colors, indicate what is the meaning of each color (a legend).
 
 The code should be the Python notebook (.ipynb file) that you wrote.
 
