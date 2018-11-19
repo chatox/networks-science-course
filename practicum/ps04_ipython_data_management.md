@@ -169,7 +169,7 @@ Add text annotations (secondary button > add > text annotation) to the first, se
 
 Deliver a zip file including your report and code.
 
-The report should be ideally 1 or 2 pages (but feel free to include up to 4 pages if needed) in PDF containing an image of the disease-disease network you created, styled, and annotated. Optionally, include your diseasome graph.
+The report should be ideally 1 or 2 pages (but feel free to include up to 4 pages if needed) in PDF containing an image of the disease-disease network you created, styled, and annotated. If you used colors, indicate what is the meaning of each color (a legend). Optionally, include your diseasome graph.
 
 The code should be your `.ipynb` file.
 
