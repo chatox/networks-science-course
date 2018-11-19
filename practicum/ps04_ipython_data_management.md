@@ -91,12 +91,14 @@ Remember to create a variable `FILEOUT_NAME` with the name of the output file yo
 
 ## Create a diseasome.csv file
 
-Create an IPython notebook that can create this tab-separated file (in the gene column use the first listed gene). Store it as `diseasome.csv`:
+Create an IPython notebook that can create this tab-separated file. If a disease involves *k* genes, there should be *k* rows starting with that disorder name, one for each gene. Store it as `diseasome.csv`:
 
-    disorder          class       gene
-    17,20-lyase ...   Endocrine   CYP17A1
-    17,20-lyase ...   Endocrine   CYP17
-    17,20-lyase ...   Endocrine   P450C17
+    disorder          class          gene
+    Alpers syndrome   Neurological   POLG
+    Alpers syndrome   Neurological   POLG1
+    Hepatic adenoma   Cancer         TCF1
+    Hepatic adenoma   Cancer         HNF1A
+    Hepatic adenoma   Cancer         MODY3
     ...
 
 ## Import this file in Cytoscape
