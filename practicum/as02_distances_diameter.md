@@ -59,8 +59,9 @@ Create a dictionary, name it `node2id`, that for every node in the graph `g` con
 
 ```Python
 {'Myriel': 0, 'Napoleon': 1, ... 'MlleVaubois': 75, 'MotherPlutarch': 76}
-
 ```
+
+Check that in `nodeid` there should be as many keys as there are nodes in the graph, and the values should go from *0* to *g.order()-1* without repetitions.
 
 ## 1.2. Create the distance matrix
 
