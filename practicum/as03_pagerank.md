@@ -64,7 +64,7 @@ Perform the following:
 * For `iterations` iterations:
    * Read the graph and for every link from *source* to *destination*:
       * Add to `pagerank_aux[destination]` the value `pagerank[source]/degree`, where *degree* is the out-degree of the source node (i.e, its number of out-links).
-   * Set the vector *pagerank = alpha x pagerank_aux + (1-alpha) x (1/N)*.
+   * Set *pagerank* of every node to *alpha x pagerank_aux + (1-alpha) x (1/N)*.
    * Set `pagerank_aux` to 0
 
 Remember: do not keep the graph in memory, because that will limit the size of the graphs your code can handle. At every iteration you must read the file again.
