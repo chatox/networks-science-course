@@ -166,7 +166,7 @@ The code should be a single Python notebook (not multiple notebooks), in .ipynb 
 The report should be a PDF file (not .docx, not .odt). It should contain, for *Les Misérables*:
 
 1. The full distance matrix.
-   * You can print it in the notebook, then copy-paste and edit in your document, or export it to a .txt file.
+   * You can print it in the notebook, then copy it from there; or you can export it to a .txt file, open it with a text editor, and copy it from there. Then, you have to paste it in your report.
    * Shrink font size so it fits in a page: do not use a low-quality or poorly cropped screenshot. Make sure there is something that can be seen in the matrix. If numbers cannot be read, try other font faces, or replace the numbers by colors, or replace zeroes by blanks, or somehow make sure at least something about the distance matrix is understandable, even if not perfectly readable.
 1. A graph generated in Cytoscape in which each node is labeled and colored/styled according to its distance from Valjean (e.g., label of node "Zephine" should be "Zephine(2)")
 1. Your brief (1-2 paragraphs) commentary on this distance matrix and graph.
