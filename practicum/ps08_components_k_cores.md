@@ -174,17 +174,19 @@ with io.open(OUTPUT_FILE, "w") as file:
         writer.writerow([node, node_to_kcore[node]])
 ```
 
-# 2e. Visualize these in Cytoscape
+# 2e. Visualize this in Cytoscape
 
 :bulb: In Cytoscape you can load the graph as directed or undirected, it does not matter.
 
-Import the `email-eu-core.txt` graph into Cytoscape:
+To create this visualization, you must import two files (A) and (B) into the same network collection, given that the table (B) has properties that apply to the graph (A).
+
+(A) Import the `email-eu-core.txt` graph into Cytoscape:
 
 1. Use the import network function
 2. In the advanced options, select *space* as a separator an **un-tick** *Use first line as column names*
 3. *Column 1* should be source node, *Column 2* should be target node.
 
-Import the `email-eu-core-kcore.csv` file into Cytoscape:
+(B) Import the `email-eu-core-kcore.csv` file into Cytoscape:
 
 1. Use the import table function
 2. In the advanced options, select *comma* as a separator and **tick** *Use first line as column names*
