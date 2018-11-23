@@ -31,7 +31,7 @@ g = h.to_undirected()
 print("E-mails: |V|=%d, |E|=%d" % (g.order(), g.size()))
 ```
 
-This loads the graph as an undirected graph.
+:warning: Note we are loading the graph as an undirected graph.
 
 You can take a quick look at this graph (it may take a minute):
 
