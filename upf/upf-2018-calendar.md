@@ -25,9 +25,9 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |                  | TT13. Dense sub-graphs                |       |
 | T9               | **Second in-class test: TT09-TT13 (up to k-core)**   | 20 Nov (G1), 22 Nov (G2)    |
 |                  | TT13. Dense sub-graphs (cont.)        |       |
-| T10              | TT16. Epidemics                       |       |
-| T11              | TT18. Spreading phenomena             |       |
-| EXAM             | **Exam: TT01-TT06, TT09-TT13, TT16, TT18**                   |       |
+| T10              | TT16. Spreading phenomena             |       |
+| T11              | TT18. Epidemics                       |       |
+| EXAM             | **Exam: TT01-TT06, TT09-TT13, TT16, TT18**                   | [11 Dec](https://www.upf.edu/web/etic/graus_tic_1t) (both groups)      |
 
 Moved to DM course:
 
@@ -43,9 +43,5 @@ Calendar restrictions with respect to practice sessions:
 
 * By the end of T7 we must have seen degree distributions
 * By the end of T7 we must have seen centrality measures
-* By the end of T9 we must have seen k-core decomposition (**this is a tight constraint**)
+* By the end of T9 we must have seen k-core decomposition
 * By the end of T10 we must have seen spreading phenomena
-
-# Calendar for exams 2018
-
-The exam will be on 2018-12-21 from 15:00 to 17:00 and covers all the theory sessions we have seen in the course.

@@ -21,9 +21,9 @@
 | TT14. Hierarchical clustering         | Partitioning methods (Girvan-Newman); Agglomerative methods; Modularity                                  | 30 slides + 3 short exercises | [pdf](pdf/tt14_hierarchical_clustering.pdf) [odp](tt14_hierarchical_clustering.odp) |
 | TT15. Spectral graph clustering       | Graph embeddings; Communities via graph embeddings                                                       | 45 slides + 1 exercise        | [pdf](pdf/tt15_spectral_clustering.pdf) [odp](tt15_spectral_clustering.odp) |
 |                                       | **Dynamic processes in networks**      |  |  |
-| TT16. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 32 slides + 2 exercises       | [pdf](pdf/tt16_epidemics.pdf) [odp](tt16_epidemics.odp) |
+| TT16. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 24 slides + 1 exercise        | [pdf](pdf/tt16_spreading_phenomena.pdf) [odp](tt16_spreading_phenomena.odp) |
 | TT17. Information cascades            | Crowds; Herding; A sequential model of cascades                                                          | 28 slides + 1 exercise        | [pdf](pdf/tt17_information_cascades.pdf) [odp](tt17_information_cascades.odp) |
-| TT18. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 24 slides + 1 exercise        | [pdf](pdf/tt18_spreading_phenomena.pdf) [odp](tt18_spreading_phenomena.odp) |
+| TT18. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 32 slides + 2 exercises       | [pdf](pdf/tt18_epidemics.pdf) [odp](tt18_epidemics.odp) |
 
 These slides were made with LibreOffice and the [TexMaths](https://extensions.libreoffice.org/extensions/texmaths-1) extension, which allows to easily enter and edit LaTeX equations that are embedded as images in the slides.
 
