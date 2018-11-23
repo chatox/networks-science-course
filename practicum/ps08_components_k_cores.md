@@ -194,6 +194,8 @@ To create this visualization, you must import two files (A) and (B) into the sam
 
 Now in the *Node Table* you should see that each node has associated a level. Use the column *Level* for fill color with a continuous mapping. Change the default colors of the mapping to something that makes sense (in general, darker for more deep levels) and is not the default.
 
+**Hint**: in Cytoscape by default you will have the giant component followed by all the singletons in an horizontal line. As a consequence,  in the image in your report the giant component will be smaller. In Cytoscape you can move the singletons with the mouse so that they are either on the side of the giant component forming a vertical line, or surrounding the giant connected component; this will allow you to have a more visible graph when you export.
+
 # DELIVER (individually)
 
 Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a single .ipynb file with multiple cells), and a PDF file containing:
