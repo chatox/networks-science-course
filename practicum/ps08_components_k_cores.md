@@ -186,7 +186,7 @@ To create this visualization, you must import two files (A) and (B) into the sam
 2. In the advanced options, select *space* as a separator an **un-tick** *Use first line as column names*
 3. *Column 1* should be source node, *Column 2* should be target node.
 
-(B) Import the `email-eu-core-kcore.csv` file into Cytoscape:
+(B) Import the `email-eu-core-kcore.csv` file into Cytoscape, into the same collection as the graph (A):
 
 1. Use the import table function
 2. In the advanced options, select *comma* as a separator and **tick** *Use first line as column names*
