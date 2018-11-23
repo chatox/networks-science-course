@@ -17,17 +17,21 @@ We will use the `email-eu-core.txt` network, which is a list of space-delimited 
 
 ```python
 INPUT_FILE = "data/email-eu-core.txt"
-g = nx.Graph()
+h = nx.Graph()
 
 with io.open(INPUT_FILE) as file:
     reader = csv.reader(file, delimiter=' ', quotechar='"')
     for row in reader:
         p1 = row[0]
         p2 = row[1]
-        g.add_edge(p1, p2)
+        h.add_edge(p1, p2)
+
+g = h.to_undirected()
 
 print("E-mails: |V|=%d, |E|=%d" % (g.order(), g.size()))
 ```
+
+This loads the graph as an undirected graph.
 
 You can take a quick look at this graph (it may take a minute):
 
@@ -36,7 +40,7 @@ nx.draw_spring(g, with_labels=True)
 plt.show()
 ```
 
-# 1. Determining the number of connected components
+# 1. Determining the number of (weakly) connected components
 
 For this we are going to proceed in steps:
 
@@ -55,7 +59,7 @@ First, assign the starting node to the identifier in the dictionary. To assign a
 
 Second, for each neighbor, if that neighbor is not assigned, call the function `assign_recursive`. For this you need the following:
 
-* To iterate through the neighbors of a node, you do `for neighbor in nx.all_neighbors(g, starting_node):`. Note that *neighbor* will be a string containing the id of the node.
+* To iterate through the neighbors of a node, you do `for neighbor in nx.all_neighbors(g, starting_node):` or `for neighbor in g.neighbors(starting_node):`. Note that *neighbor* will be a string containing the id of the node.
 * To check if a string *str* is a key in the dictionary *dict*, ask `if str in dict`
 
 ## 1b. Iterate through all nodes
