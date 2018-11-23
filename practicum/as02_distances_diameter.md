@@ -4,6 +4,8 @@
 
 For this assignment you need the file [lesmiserables.gml](data/lesmiserables.gml) which contains the social network of *Les Misérables* and  [email-eu-core.txt](data/email-eu-core.txt) which contains a social network of e-mails.
 
+Both should be considered as *undirected* graphs.
+
 ## Task
 
 The task is to:
@@ -165,9 +167,7 @@ The code should be a single Python notebook (not multiple notebooks), in .ipynb 
 
 The report should be a PDF file (not .docx, not .odt). It should contain, for *Les Misérables*:
 
-1. The full distance matrix.
-   * You can print it in the notebook, then copy it from there; or you can export it to a .txt file, open it with a text editor, and copy it from there. Then, you have to paste it in your report.
-   * Shrink font size so it fits in a page: do not use a low-quality or poorly cropped screenshot. Make sure there is something that can be seen in the matrix. If numbers cannot be read, try other font faces, or replace the numbers by colors, or replace zeroes by blanks, or somehow make sure at least something about the distance matrix is understandable, even if not perfectly readable.
+1. The full distance matrix (see below).
 1. A graph generated in Cytoscape in which each node is labeled and colored/styled according to its distance from Valjean (e.g., label of node "Zephine" should be "Zephine(2)")
 1. Your brief (1-2 paragraphs) commentary on this distance matrix and graph.
 
@@ -179,3 +179,15 @@ And for both *Les Misérables* and the *Email-EU-Core* network:
 1. Your conclusion (1-2 paragraphs) comparing the two distance histograms
 
 The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
+
+## Visualizing the matrix
+
+Your report should include the matrix of distances for *Les Misérables* only.
+
+Option 1: print it in the notebook, then copy it from there and paste it in your report.
+
+Option 2: export it to a .txt file, open it with a text editor, and copy it from there, then paste it in your report.
+
+If you use options 1 or 2, shrink the font size so it fits in a page: do not use a low-quality or poorly cropped screenshot. Make sure there is something that can be seen in the matrix. If numbers cannot be read, try other font faces, or replace the numbers by colors, or replace zeroes by blanks, or somehow make sure at least something about the distance matrix is understandable, even if not perfectly readable.
+
+Option 3: use `plt.imshow(matrix)` and `plt.colorbar()` to generate a visual representation of the matrix. Ensure the figure size is large enough so it looks nicely in your report. See the [imshow documentation](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.imshow.html).
