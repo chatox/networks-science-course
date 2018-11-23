@@ -190,4 +190,4 @@ Your report should include the matrix of distances for *Les Misérables* only.
 
 If you use options 1 or 2, shrink the font size so it fits in a page: do not use a low-quality or poorly cropped screenshot. Make sure there is something that can be seen in the matrix. If numbers cannot be read, try other font faces, or replace the numbers by colors, or replace zeroes by blanks, or somehow make sure at least something about the distance matrix is understandable, even if not perfectly readable.
 
-**Option 3:** use `plt.imshow(matrix)` and `plt.colorbar()` to generate a visual representation of the matrix. Ensure the figure size is large enough so it looks nicely in your report. See the [imshow documentation](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.imshow.html).
+**Option 3:** use `plt.imshow(matrix)` and `plt.colorbar()` to generate a visual representation of the matrix; see the [imshow documentation](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.imshow.html). Ensure the figure size is large enough so it looks nicely in your report. 
