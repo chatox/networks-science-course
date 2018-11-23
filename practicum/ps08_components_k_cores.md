@@ -176,6 +176,8 @@ with io.open(OUTPUT_FILE, "w") as file:
 
 # 2e. Visualize these in Cytoscape
 
+:bulb: In Cytoscape you can load the graph as directed or undirected, it does not matter.
+
 Import the `email-eu-core.txt` graph into Cytoscape:
 
 1. Use the import network function
