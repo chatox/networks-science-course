@@ -32,6 +32,6 @@ Use this while studying: do not look at the solutions until you have tried to so
 
 # Sources/credits
 
-Theory topics TT01-TT07 closely follow "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási.
+Theory topics TT01-TT07 and TT18 closely follow "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási.
 In other cases, the sources are indicated either at the beginning or in the footer of the slides.
 Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
