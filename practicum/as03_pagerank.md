@@ -98,13 +98,15 @@ print(is_spam)
 
 Now, run non-spam PageRank. For this, simply ignore any link in which either the source or the destination is a known spam host. You can query this with `if src not in is_spam` and `if dest not in is_spam` (in your code, name `src` the host-id of the source of the link, `dest` the host-id of the destination of the link).
 
+This will change the degree of the nodes: the degree should not consider the links that are being ignored.
+
 Note that you still have to iterate through the entire file, so even if you know that, e.g., the current line in the file is a spam host, you still have to read that line so the file pointer can advance.
 
 # 6. Compute spam gain
 
 Finally, compute the gain of every host as *(Normal PageRank) / (No spam PageRank)*.
 
-Among the top hosts you might find a mixture of "spammy" (business that tend to rely on spam) and "normal" sites, because spammers also point to legitimate sites to disguise their actions.
+Among the top hosts you might find a mixture of "spammy" (business that look ilegitimate or that tend to rely on spam such as gambling, pornography, counterfeits, and scams) and "normal" sites (i.e., websites that look legitimate), because spammers also point to legitimate sites to disguise their actions.
 
 # 7. Compute one variant of PageRank
 
