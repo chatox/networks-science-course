@@ -9,10 +9,12 @@ For this assignment we will use the [WEBSPAM-UK2007](http://chato.cl/webspam/dat
 * The list of host names in  [uk-2007-05.hostnames.txt.gz](http://chato.cl/webspam/datasets/uk2007/links/uk-2007-05.hostnames.txt.gz)
 * The links between hosts in  [uk-2007-05.hostgraph_weighted.graph-txt.gz](http://chato.cl/webspam/datasets/uk2007/links/uk-2007-05.hostgraph_weighted.graph-txt.gz)
 
+
+
 Additionally, we will use these files (uncompressed) that contain labels for the hosts:
 
 * The file `WEBSPAM-UK2007-SET1-labels.txt` inside [webspam-uk2007-set1-1.0.tar.gz](http://chato.cl/webspam/datasets/uk2007/webspam-uk2007-set1-1.0.tar.gz)
-* The file `WEBSPAM-UK2007-SET2-labels.txt` inside [webspam-uk2007-set2-1.0.tar.gz](http://chato.cl/webspam/datasets/uk2007/webspam-uk2007-set1-2.0.tar.gz)
+* The file `WEBSPAM-UK2007-SET2-labels.txt` inside [webspam-uk2007-set2-1.0.tar.gz](http://chato.cl/webspam/datasets/uk2007/webspam-uk2007-set2-1.0.tar.gz)
 
 ## Task
 
