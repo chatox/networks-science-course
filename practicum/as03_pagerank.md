@@ -83,7 +83,7 @@ The top-3 commercial hosts (i.e., containing `.co.uk` in their hostname) should 
 
 # 4. Read a list of spam hosts
 
-Now, read a list of known spam hosts from the files `WEBSPAM-UK2007-SET1-labels.txt` and `WEBSPAM-UK2007-SET1-labels.txt` (merge both lists).
+Now, read a list of known spam hosts from the files `WEBSPAM-UK2007-SET1-labels.txt` and `WEBSPAM-UK2007-SET2-labels.txt` (merge both lists).
 
 We will consider as spam only the ones that have `spam` next to their host-id.
 
