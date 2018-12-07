@@ -16,14 +16,14 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 | T2               | TT03. Random networks                 |       |
 | T3               | TT04. Scale-free networks             |       |
 | T4               | TT05. Preferential attachment         |       |
-| T5               | **First in-class test: TT01-TT04**    | 17 Oct (G1); 19 Oct (G2) |
+| T5               | **First in-class test: TT01-TT04**    | [ES](ex01-es.pdf), [EN](ex01-en.pdf) |
 |                  | TT06. Other network growth models     |       |
 | T6+T7            | TT09. Hubs and authorities            |       |
 |                  | TT10. PageRank                        |       |
 |                  | TT11. Link-based centrality           |       |
 | T8               | TT12. Network flows                   |       |
 |                  | TT13. Dense sub-graphs                |       |
-| T9               | **Second in-class test: TT09-TT13 (up to k-core)**   | 20 Nov (G1), 22 Nov (G2)    |
+| T9               | **Second in-class test: TT09-TT13 (up to k-core)**   | [ES](ex02-es.pdf), [EN](ex02-en.pdf)
 |                  | TT13. Dense sub-graphs (cont.)        |       |
 | T10              | TT16. Spreading phenomena             |       |
 | T11              | TT18. Epidemics                       |       |
