@@ -27,7 +27,7 @@ For details on the contents of these sessions, see [theory](../theory/README.md)
 |                  | TT13. Dense sub-graphs (cont.)        |       |
 | T10              | TT16. Spreading phenomena             |       |
 | T11              | TT18. Epidemics                       |       |
-| EXAM             | **Exam: TT01-TT06, TT09-TT13, TT16, TT18**                   | [11 Dec](https://www.upf.edu/web/etic/graus_tic_1t) (both groups)      |
+| EXAM             | **Exam: TT01-TT06, TT09-TT13, TT16, TT18**                   | EXFF: [ES](exFF-es.pdf), [EN](exFF-en.pdf) |
 
 Moved to DM course:
 
