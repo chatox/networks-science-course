@@ -6,6 +6,8 @@ These are materials for an undergraduate Network Science course of the bachelor 
 
 The materials on this page correspond to the course that took place for the first time in September-December 2018.
 
+*"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*
+
 ## Contents of this repository
 
 * [Theory](theory/README.md): slides for the theory part.
