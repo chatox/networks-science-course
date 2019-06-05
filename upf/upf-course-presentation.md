@@ -1,5 +1,7 @@
 # <img src="upf_logo.png" align="right" width="80"/>24933 – Introduction to Networks Science
 
+Course presentation for the 2018 edition.
+
 ## Presentation
 
 Graphs are a fundamental data type that is present in a large number of applications. Networks science studies a number of graphs arising in biology, communication, transport, and many diverse areas. In particular, the analysis of social networks and activity traces brings the promise of obtaining insights that are of great importance to sociologists, psychologists, and communication scholars. There are, however, numerous algorithmic challenges on working with large graphs.
@@ -61,7 +63,7 @@ There are three group projects (groups of two students), which integrate the tec
 
 # Evaluation
 
-See [evaluation rules](upf-2018-evaluation.md)
+See [evaluation rules](upf-evaluation.md)
 
 # Bibliography
 

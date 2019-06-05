@@ -16,9 +16,9 @@ The materials on this page correspond to the course that took place for the firs
 
 Material specific to UPF students:
 
-* [Course presentation](upf/upf-2018-course-presentation.md): general aspects of the course at UPF ("*plan docente*").
-* [Evaluation rules](upf/upf-2018-evaluation.md) for course at UPF.
-* [Calendar](upf/upf-2018-calendar.md) for course at UPF.
+* [Course presentation](upf/upf-course-presentation.md): general aspects of the course at UPF ("*plan docente*").
+* [Evaluation rules](upf/upf-evaluation.md) for course at UPF.
+* [Calendar](upf/upf-calendar.md) for course at UPF.
 * Exams: [first partial](upf/ex01-en.pdf), [second partial](upf/ex02-en.pdf), [final](upf/exFF-en.pdf).
 
 ## Acknowledgments
