@@ -4,7 +4,7 @@ Instructor: [Carlos Castillo](http://chato.cl/research)
 
 These are materials for an undergraduate Network Science course of the bachelor degree on Mathematical Engineering on Data Science at Universitat Pompeu Fabra.
 
-The materials on this page correspond to the course in September-December 2019. Materials from previous editions can be found in other branches of the repository for the course.
+The materials on this page correspond to the course in September-December 2019, and should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
 *"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*
 
@@ -13,13 +13,14 @@ The materials on this page correspond to the course in September-December 2019. 
 * :chart_with_upwards_trend: [Theory](theory/README.md): slides for the theory part.
 * :computer: [Practicum](practicum/README.md): activities for practical sessions.
 * :file_folder: [Datasets](practicum/data/README.md): to be used during practical sessions.
+* :pencil: [Exams](exams/README.md) from previous and current year.
 
 Material specific to UPF students:
 
 * :scroll: [Course presentation](upf/upf-course-presentation.md): general aspects of the course at UPF ("*plan docente*").
 * :mortar_board: [Evaluation rules](upf/upf-evaluation.md) for course at UPF.
 * :calendar: [Calendar](upf/upf-calendar.md) for course at UPF.
-* :pencil: Exams: [first partial](upf/ex01-en.pdf), [second partial](upf/ex02-en.pdf), [final](upf/exFF-en.pdf).
+
 
 ## Acknowledgments
 
