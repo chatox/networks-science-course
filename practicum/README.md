@@ -36,7 +36,7 @@ There are 3 assignments in this course. Assignment descriptions start with "asNN
 
 Each practice session and assignment specifies what you should submit. Read it carefully to ensure that you are including everything that was asked.
 
-Identify the authorship and date of each report with a paragraph on the first page (or with a cover page for longer reports), including:
+Identify the authorship and date of each report with a paragraph on the first page including:
 
 * the report's title or purpose,
 * the author name(s) and e-mail(s), and
@@ -44,12 +44,14 @@ Identify the authorship and date of each report with a paragraph on the first pa
 
 Include a comment with the same information at the top of each source code file you deliver.
 
+:warning: Do not exceed the maximum number of pages indicated in each practice/assignment.
+
 ## We expect nothing less than top-quality work
 
 Check your code and results as many times as needed to ensure they are correct. State clearly your assumptions and limitations.
 
 Be precise: number sections hierarchically (1, 1.1, 1.1.1), number every figure, table, and equation, and refer to sections, figures, tables, and equations by their number. Do not include ambiguous statements or plots without a scale.
 
-Be careful with the presentation of your work. For instance, do not use low-quality screenshots, or poorly cropped screenshots showing toolbars and window borders. Instead, export and save high-quality images from each application.
+:warning: Be careful with the presentation of your work. For instance, do not use low-quality screenshots, or poorly cropped screenshots showing toolbars and window borders. Instead, export and save high-quality images from each application.
 
 As a data scientist your reports and code should be (among other things) correct, understandable, pristine, and pleasant to look at. Ensure you set aside enough time to review, improve, and polish your work. Get used to produce top-quality work and it will become a habit.
