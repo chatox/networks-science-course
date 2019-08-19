@@ -14,7 +14,7 @@ There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm e
 | | *First midterm exam:* TT01-TT04 | 5 (1h) | |
 | TT06. Other network growth models     | No growth or no preference; Sub/super-linear preferences; Fitness; Aging                                 | 5 (1h)        | [pdf](pdf/tt06_other_growth_models.pdf) [odp](tt06_other_growth_models.odp)        |
 |                                       | **Structural patterns in networks**      |  |  |
-| TT07. Hubs and authorities            | In-link counting; HITS                                                                                   | 6 (1.5h)        | [pdf](pdf/tt07_hubs_authorities.pdf) [odp](tt07_hubs_authorities.odp)        |
+| TT07. Hubs and authorities            | In-link counting; HITS                                                                                   | 6 (1h)        | [pdf](pdf/tt07_hubs_authorities.pdf) [odp](tt07_hubs_authorities.odp)        |
 | TT08. PageRank                        | Simplified PageRank; PageRank; Liquid/viscous democracy                                                  | 6-7 (1.5h) | [pdf](pdf/tt08_pagerank.pdf) [odp](tt08_pagerank.odp)       |
 | TT09. Link-based centrality           | Closeness; Betweenness                                                                                   | 7 (1h)       | [pdf](pdf/tt09_closeness_betweenness.pdf) [odp](tt09_closeness_betweenness.odp)       |
 | TT10. Network flows                   | Min-cut / max-flow problems; Approximate min-cut                                                         | 8 (1h)  | [pdf](pdf/tt10_network_flows.pdf) [odp](tt10_network_flows.odp)  |
