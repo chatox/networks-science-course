@@ -118,21 +118,25 @@ with io.open(OUTPUT_FILENAME, "w") as output_file:
 
 Remember to `import csv` at the beginning of the file. You may have to press `Shift-Enter` in the cell with the imports.
 
-Create two files: one `EstamosPorTi.csv` containing all edges, and one `EstamosPorTi-w2.csv` containing all edges having count greater or equal than 2.
+Create two files: one `EstamosPorTi.csv` containing all edges, and one `EstamosPorTi-min-weight-2.csv` containing all edges having count greater or equal than 2.
+
+[**DELIVER**] Include these CSV files in the zip file containing your deliverable.
 
 # 2. Open the directed mention network in Cytoscape
 
-Open the `EstamosPorTi-w2.csv` file in Cytoscape. The file is large so you may need to "View > Show Graphics Details" and "View > Hide Graphics Details".
+Open the `EstamosPorTi-min-weight-2.csv` file in Cytoscape. The file is large so you may need to "View > Show Graphics Details" and "View > Hide Graphics Details".
 
 Style the network:
 
 * Run "Tools > Network Analyzer > Network Analysis > Analyze Network ..."
 * Style nodes by setting their size proportional to their in-degree (treat the network as directed).
-* Style edges by setting their width using the *weight* attribute.
+* Style edges by setting their width and color (darker=more) using the *weight* attribute.
 
 Look at the Results Panel of the network analyzer. There is interesting information here, particularly in the "Simple Parameters" and degree distribution tabs.
 
 Run the ModuLand plug-in to create a clustering of this graph using the *weight* edge attribute.
+
+[**REPORT**] Include this graph in your report.
 
 # 3. Create the undirected co-mention network
 
@@ -151,7 +155,7 @@ for mention1 in mentions:
                 co_mentions[key] = 1
 ```
 
-Second, you need to write this to a file `EstamosPorTi-CoMentions.csv` using the CSV writer, as we did before; this is the relevant code snippet:
+Second, you need to write this to a file `EstamosPorTi-co-mentions.csv` using the CSV writer, as we did before; this is the relevant code snippet:
 
 ```python
 for key in co_mentions:
@@ -161,9 +165,11 @@ for key in co_mentions:
     writer.writerow([mentioned1, mentioned2, weight])
 ```
 
+[**DELIVER**] Include this CSV file in the zip file containing your deliverable.
+
 # 4. Open the undirected co-mention network in Cytoscape
 
-Open the `EstamosPorTi-CoMentions.csv` file in Cytoscape.
+Open the `EstamosPorTi-co-mentions.csv` file in Cytoscape.
 
 Style the network so that line widths are larger for edges with large weights, and node sizes are larger for nodes with large degrees. Remember you need to run the network analyzer first.
 
@@ -171,20 +177,27 @@ Use "Layout > Prefuse Force Directed Layout > All Nodes > Weight" to create a la
 
 Run the ModuLand plug-in to create a clustering of this graph using the *Weight* attribute as weight.
 
+[**REPORT**] Include this graph in your report.
+
 # DELIVER (individually or in pairs)
 
 :bulb: This practice might be a bit longer than other practices so we are allowing it to be done in pairs. Other practices are individually delivered unless specified otherwise.
 
-Deliver a zip file containing your code, report, and the CSV files you generated.
+Deliver a zip file containing:
 
-The code should be your Python notebook (a `.ipynb` file).
-
-The report should be a two-page PDF file.
-
-* On the first page, include an image of the directed network (exported, not a screenshot), and 2-3 lines with your observations.
-* On the second page, include an image of the undirected network (exported, not a screenshot), and 2-3 lines with your observations.
-
-In your observations you can mention high-centrality nodes, the type of components you observe, and/or some aspects that you find relevant from the results of the network analyzer (e.g., number of nodes, edges, connected components, characteristic path lengths, average degrees, etc.). Do not include a screenshot of the results panel: describe what you see there using the numbers from the analysis and your own words.
+* Your code as a Python notebook (a `.ipynb` file).
+   * Remove all unnecessary elements
+   * Add comments when needed
+   * Use a single file with multiple cells.
+* Any files marked [**DELIVER**].
+* A two-page PDF file containing:
+   * On the first page, an image of the directed network (exported, not a screenshot), and 2-3 lines with your observations.
+   * On the second page, an image of the undirected network (exported, not a screenshot), and 2-3 lines with your observations.
+   * In your observations you can mention:
+      * high-centrality nodes,
+      * the type of components you observe, and/or
+      * some aspects that you find relevant from the results of the network analyzer (e.g., number of nodes, edges, connected components, characteristic path lengths, average degrees, etc.).
+   * Do not include a screenshot of the results panel: describe what you see there using the numbers from the analysis and your own words.
 
 *Tip 1*: use an online document editor to work on this, it will make collaborating easy.
 

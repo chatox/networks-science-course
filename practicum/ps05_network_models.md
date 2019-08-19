@@ -46,6 +46,23 @@ pos=nx.spring_layout(g)
 nx.draw_networkx(g, pos, with_labels=True, node_size=500, node_color='yellow')
 ```
 
+## 0.3 Plotting degree distributions
+
+The following function might be useful to plot degree distributions that are necessary for the report (remember to add: `from collections import OrderedDict`):
+
+```python
+def plot_degree_distribution(g):
+    degree_dict = dict(g.degree())
+    degree_ordered = OrderedDict(sorted(degree_dict.items(), key=lambda x: x[1], reverse=True))
+    degree_sequence = list(degree_ordered.values())
+    prob, bin_edges = np.histogram(degree_sequence, bins=range(1,np.max(degree_sequence)+2), density=True)
+    plt.loglog(bin_edges[:-1], prob, '.', marker='x')
+    plt.title("Probability density function")
+    plt.xlabel("degree")
+    plt.ylabel("probability")
+    plt.show()
+```
+
 # 1. Generate an ER graph
 
 To generate an ER graph, you need a function to perform Bernoulli trials. Use the following function, which return `True` with probability *p*, and `False` with probability *1-p*:
@@ -76,6 +93,8 @@ for i in range(0, N):
 Your function should be called with `g = generate_random_graph(N, p)`. Use this function to generate and visualize a few graphs (do some tests with 100 nodes or so and *p=0.005*, *p=0.01*, *p=0.02*, etc.)
 
 Create another function `print_er_statistics(g,p)` that given an ER graph and a probability *p* prints its actual average degree *&lt;k&gt;* and its expected average degree *p(N-1)*. The degree of node *u* in graph *g* is `g.degree(u)`. The number of nodes of the graph *g* is `len(g.nodes())`.
+
+[**REPORT**] Draw five graphs with *N=800* and *p=0.0005, 0.001, 0.002, 0.005, 0.01*. For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree. Include one brief commentary for all the ER graphs, you do not need to comment on each of the five graphs individually.
 
 # 2. Generate a BA graph
 
@@ -123,31 +142,21 @@ Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that:
 
 Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>0</sub>=2, m=1*.
 
+[**REPORT**] Draw 2 preferential attachment (BA) graphs with *N=2100, m<sub>0</sub>=5, m=1* and *N=2000, m<sub>0</sub>=2, m=2*. For each graph, include their drawing and their degree distribution, plus a brief commentary for each of the two graphs.
+
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a **single .ipynb file** with multiple cells), and a report in PDF containing:
+Deliver a zip file containing:
 
-* On the first two pages, 5 random (ER) graphs with *N=1000* and *p=0.0005, 0.001, 0.002, 0.005, 0.01*
-  * For each graph, include its drawing, its degree distribution, its average degree, and its expected average degree.
-  * Include a brief commentary on these ER graphs at the beginning or at the end of this page
-* On the third page, 2 preferential attachment (BA) graphs with *N=2000, m<sub>0</sub>=5, m=1* and *N=2000, m<sub>0</sub>=2, m=2*.
-  * For each graph, include its drawing and its degree distribution.
-* In all the graph drawings of your report use options `with_labels=False, node_size=10` (you can play with different values for `node_size`)
+* Your code as a Python notebook (a `.ipynb` file).
+   * Remove all unnecessary elements
+   * Add comments when needed
+   * Use a single file with multiple cells.
+* A three-page PDF report containing elements marked [**REPORT**]:
+   * On pages one and two, the 5 random (ER) graphs.
+   * On page three, the 2 preferential attachment (BA) graphs.
 
-You can use the following function to plot the degree distributions (remember to add: `from collections import OrderedDict`):
-
-```python
-def plot_degree_distribution(g):
-    degree_dict = dict(g.degree())
-    degree_ordered = OrderedDict(sorted(degree_dict.items(), key=lambda x: x[1], reverse=True))
-    degree_sequence = list(degree_ordered.values())
-    prob, bin_edges = np.histogram(degree_sequence, bins=range(1,np.max(degree_sequence)+2), density=True)
-    plt.loglog(bin_edges[:-1], prob, '.', marker='x')
-    plt.title("Probability density function")
-    plt.xlabel("degree")
-    plt.ylabel("probability")
-    plt.show()
-```
+Tip: In all the graph drawings of your report use options `with_labels=False, node_size=10` (you can play with different values for `node_size`)
 
 # References
 

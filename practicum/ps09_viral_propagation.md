@@ -153,16 +153,25 @@ Node: AEP Average infected: 39.220
 Node: XRX Average infected: 42.290
 ```
 
+[**REPORT**] Include a table with the nodes sorted from the most viral (largest average cascade size) to the least viral (smallest average cascade size), including the name of the stock and its average cascade size. Do not include a screenshot of a table, include the table well formatted inside the document.
+
+[**REPORT**] Include 4 infection graphs (showing in red the companies that "collapsed" and in green the companies that "survived") for the most viral starting point, and 4 infection graphs starting from the least viral.
+
 # DELIVER (individually)
 
-Deliver a zip file containing your Python notebook (remove unnecessary elements, add comments when needed; please deliver your code in a single .ipynb file with multiple cells), and a PDF file containing:
+Deliver a zip file containing:
 
-* A table with the nodes sorted from the most viral (largest average cascade size) to the least viral (smallest average cascade size), including the name of the stock and its average cascade size. Do not include a screenshot of a table, include the table well formatted inside the document.
-* 3 infection graphs (showing in red the companies that "collapsed" and in green the companies that "survived") for the most viral starting point, and 3 infection graph for the least viral.
+* Your code as a Python notebook (a `.ipynb` file).
+   * Remove all unnecessary elements
+   * Add comments when needed
+   * Use a single file with multiple cells.
+* All of the elements marked [**REPORT**] above. For each of those elements:
+   * Include a descriptive title, remembering to indicate from which network each element comes.
+   * For images and plots, include a brief commentary.
 
 # Extra points
 
-For extra points, modify the code so that the edges that effectively transmitted the infection are drawn in red. You will need to keep track of these edges and return them along with the `infected` dictionary in the `simulate_independent_cascade` function. You will also need to modify the function that draws the graph to receive the list of active edges.
+For extra points, modify the code so that the edges that effectively transmitted the infection are drawn in blue. You will need to keep track of these edges and return them along with the `infected` dictionary in the `simulate_independent_cascade` function. You will also need to modify the function that draws the graph to receive the list of active edges.
 
 If you go for the extra points, add a section "Extra points" to your report and include one infection graph starting from the most viral stock and one infection graph starting from the least viral.
 

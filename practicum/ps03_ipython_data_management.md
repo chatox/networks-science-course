@@ -1,6 +1,6 @@
 # Practice Session 03: Python data management
 
-In this session we will study an application of complex networks analysis to medicine. We will start with the *diseasome*, a bi-partite network connecting all known genetic diseases (by 2005) with genes whose mutations re implicated in that disease.
+In this session we will study an application of complex networks analysis to medicine. We will start with the *diseasome*, a bi-partite network connecting all known genetic diseases (by 2005) with genes whose mutations are implicated in that disease.
 
 The initial dataset `disease-genes.csv` contains the following columns:
 
@@ -111,6 +111,8 @@ Select the largest connected component of the graph (maintain "shift" pressed wh
 
 Draw this sub-graph with ellipses/ovals as nodes, and color the nodes according to the class of disease (Style/Node, Fill Color on Column "class", Discrete Mapping). Do not color all of them, just a few classes. What is the dominant type of disease in this component?
 
+[**REPORT**] Include the diseasome bi-partite graph with a color legend.
+
 # 2. Draw the disease-disease graph
 
 The bi-partite diseasome is hard to visualize as it mixes diseases and genes. We will now try to visualize only the connections between diseases.
@@ -165,19 +167,29 @@ Color the nodes by default gray, and with colors representing the class of disea
 
 Add text annotations (secondary button > add > text annotation) to the first, second, and third largest connected component, with your observations (e.g., "The second largest component is dominated by diseases of type x"). Place the annotations next to the components they refer to (secondary button > edit > move annotation).
 
+[**REPORT**] Include the disease-disease graph with a color legend.
+
 # DELIVER (individually)
 
 Deliver a zip file including your report and code.
 
-The report should be ideally 1 or 2 pages (but feel free to include up to 4 pages if needed) in PDF containing an image of the disease-disease network you created, styled, and annotated. If you used colors, indicate what is the meaning of each color (a legend). Optionally, include your diseasome graph.
+The report should be in PDF and can have up to 4 pages (but two pages are enough), containing each of the elements marked [**REPORT**] above. For each of those elements:
 
-The code should be your `.ipynb` file.
+* Include the section number where each element is requested.
+* Include a descriptive title, remembering to indicate from which network each element comes.
+* For images and plots, include a brief commentary.
+
+The code should be your `.ipynb` file:
+
+* Remove all unnecessary elements
+* Add comments when needed
+* Use a single file with multiple cells.
 
 ## Extra points available
 
 For extra points, group different variants of a disease, which are indicated by the presence of a comma (e.g., "Epilepsy, progressive myoclonic 2B" would be just "Epilepsy"). Note that there should be a single node per disease (i.e., just one "Epilepsy") and this node should contain the union of all genes of the different variants of this disease. Hence, two diseases will be connected if any of their variants have a gene in common.
 
-**Note 0:** if you go for the extra points, add "Diseases are grouped" as a text annotation at the top of your deliverable.
+**Note 0:** if you go for the extra points, add "Diseases are grouped" clearly at the top of your deliverable.
 
 **Note 1:** a list `c` that is the union of two lists `a,b` can be computed in Python with `c = list(set(a) | set(b))`.
 
