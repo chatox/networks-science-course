@@ -10,16 +10,16 @@ The materials on this page correspond to the course in September-December 2019. 
 
 ## Contents of this repository
 
-* [Theory](theory/README.md): slides for the theory part.
-* [Practicum](practicum/README.md): activities for practical sessions.
-* [Datasets](practicum/data/README.md): to be used during practical sessions.
+* :chart_with_upwards_trend: [Theory](theory/README.md): slides for the theory part.
+* :computer: [Practicum](practicum/README.md): activities for practical sessions.
+* :file_folder: [Datasets](practicum/data/README.md): to be used during practical sessions.
 
 Material specific to UPF students:
 
-* [Course presentation](upf/upf-course-presentation.md): general aspects of the course at UPF ("*plan docente*").
-* [Evaluation rules](upf/upf-evaluation.md) for course at UPF.
-* [Calendar](upf/upf-calendar.md) for course at UPF.
-* Exams: [first partial](upf/ex01-en.pdf), [second partial](upf/ex02-en.pdf), [final](upf/exFF-en.pdf).
+* :scroll: [Course presentation](upf/upf-course-presentation.md): general aspects of the course at UPF ("*plan docente*").
+* :mortar_board: [Evaluation rules](upf/upf-evaluation.md) for course at UPF.
+* :calendar: [Calendar](upf/upf-calendar.md) for course at UPF.
+* :pencil: Exams: [first partial](upf/ex01-en.pdf), [second partial](upf/ex02-en.pdf), [final](upf/exFF-en.pdf).
 
 ## Acknowledgments
 
