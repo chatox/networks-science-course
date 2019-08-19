@@ -2,7 +2,7 @@
 
 ## Materials for this session
 
-:warning: Do not simply right-click on the file names below, or you will download an HTML file that will not be readable by Cytoscape. See [how to download](data/README.md) in the README of the data/ directory. 
+:warning: Do not simply right-click on the file names below, or you will download an HTML file that will not be readable by Cytoscape. See [how to download](data/README.md) in the README of the data/ directory.
 
 * [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
 * File "[karate.gml](data/karate.gml)"
@@ -179,6 +179,10 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a (maximum) 5 pages report in PDF simply containing everything marked [**REPORT**] above. You do not need to add a narrative/explanation to your report, simply include each element with the number of the section of this document where it was requested.
+Deliver a report having at most 4 pages in PDF, containing each of the elements marked [**REPORT**] above. You do not need to add a long narrative explanation to your report, just the requested elements.
 
-Obviously, remember to identify clearly for each plot what it is and what is the graph from which it was extracted (i.e., "US Companies", "Karate Club", or "Les Misèrables").
+For each of those elements:
+
+* Include the section number where each element is requested.
+* Include a descriptive title, remembering to indicate from which network each element comes.
+* For images and plots, include a brief commentary.

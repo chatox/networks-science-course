@@ -1,4 +1,4 @@
-# Practice Session 04: Python data management
+# Practice Session 03: Python data management
 
 In this session we will study an application of complex networks analysis to medicine. We will start with the *diseasome*, a bi-partite network connecting all known genetic diseases (by 2005) with genes whose mutations re implicated in that disease.
 
