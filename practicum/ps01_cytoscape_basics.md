@@ -61,26 +61,37 @@ Open a graph representing company co-ownership in the US:
 * Layout > Compound Spring Embedder (might take ~10 minutes in some PCs)
 * [**REPORT**] Include in your report this graph.
 
-Note: see that you can Zoom in, Zoom out with the scroll wheel
+Note: you can zoom in and zoom out with the scroll wheel
 
-# 3. Editing node and edge styles
+# 2. How to edit node and edge styles
 
 Go to the "Style" panel (top-left, between "Network" and "Select")
 
-## 3.1. Predefined styles
+## 2.1. How to change the style of the entire network
+
+To style the entire networks in different ways:
 
 * Play with predefined styles, e.g. "Metallic" or others
 
-## 3.2. Name nodes
+## 2.2. How to name nodes
+
+To include in each node its name:
 
 * Create a "Passthrough mapping" for "name" in the label property
+
+To remove these names:
+
 * Remove the mapping (trash can icon)
 
-## 3.3. Change shape of node
+## 2.3. How to change the shape of node
 
-* Here we don't need a mapping. Just click on the rectangle left of "Shape" and choose another shape
+To change the shape of nodes:
 
-## 3.4. Change edge width
+* Click on the rectangle left of "Shape" and choose another shape
+
+## 2.4. How to change edge width
+
+To change the width of edges:
 
 * Click on "Edge" on bottom left (between "Node" and "Network")
 * Mapping Type = Continuous Mapping
@@ -88,11 +99,13 @@ Go to the "Style" panel (top-left, between "Network" and "Select")
 * Change the "Current Mapping" by double clicking. You should see a window "Continuous Mapping Editor ..."
 * Create a mapping that gives a clear visual separation between thin and thick edges, by editing the mapping so that it has a broader range of values
 
-## 3.5. Add arrows (company ownership dataset)
+## 2.5. How to add arrows
 
-Look for "Target Arrow Shape".
+To add arrows, you need a directed graph such as the company ownership dataset.
 
-# 4. Create Layouts
+* Change the setting of "Target Arrow Shape".
+
+## 2.6. How to change the entire layout
 
 Try some layouts ("Layout" menu)
 
@@ -101,25 +114,27 @@ Try some layouts ("Layout" menu)
  * Try this with the Karate Club, look for nodes 1 and 34.
 * Prefuse Force Directed Layout
 
-# 5. Basic network analysis
+# 3. Basic network analysis
 
-## 5.1. Analyze network
+## 3.1. Analyze network
 
 Perform basic network analysis. Tools > Network Analyzer > Network Analysis > Analyze network ; then choose "undirected"
 
 * Start with the Karate Club network
 * The analysis adds some node attributes
 * Look at these node attributes (e.g., find the node with the largest betweenness centrality)
+* [**REPORT**] Indicate the number of the node with largest betweenness centrality in the Karate Club
 * Try the same with Les Misèrables
+* [**REPORT**] Indicate the name of the node with largest betweenness centrality in Les Misèrables
 
-## 5.2. Look at analysis results
+## 3.2. Plot different distributions
 
 Look at the results from the network analysis (you will need to go to "View > Show results panel" -- if it does not show up, try hiding and showing the results panel)
 
-* Look at distributes of node degrees between Karate Club and Les Misèrables
-* Look at distributions of shortest path lengths between Karate Club and Les Misèrables
+* [**REPORT**] Include two plots with degree distributions in Karate Club and Les Misèrables
+* [**REPORT**] Include two plots with the distribution of shortest path lengths in Karate Club and Les Misèrables
 
-## 5.3. Style the network using analysis results
+## 3.3. Style the network using analysis results
 
 Use these to style the network
 
@@ -129,15 +144,20 @@ Use these to style the network
  * Try creating a mapping where small=blue, large=red (continuous mapping)
 * Tip: delete the mapping with the trash bin to start over
 
-# 6. Use a Cytoscape App (ModuLand 2.0)
+Include in your report:
+
+* [**REPORT**] Include an image of the network from Les Misérables, styled in any way you want.
+* [**REPORT**] Include an image of the network from US Companies, styled in any way you want.
+
+# 4. Use a Cytoscape App (ModuLand 2.0)
 
 Cytoscape has "apps" that can be installed and used.
 
-## 6.1. Install ModuLand
+## 4.1. Install ModuLand
 
 Install ModuLand 2.0 (Apps > App Manager or in the "apps" option in the menu bar).
 
-## 6.2. Use ModuLand
+## 4.2. Use ModuLand
 
 Use ModuLand 2.0 (Apps > ModuLand 2.0 > Run ...) on Les Misèrables
 
@@ -154,12 +174,12 @@ Use ModuLand 2.0 on the Karate Club
 * Use "Edge betweenness" as the attribute for the weight
 * Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
 
+[**REPORT**] Include in your report an image of the Karate Club network with nodes painted according to clusters.
+
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report in PDF containing three images:
+Deliver a report in PDF containing everything marked [**REPORT**] above. Maximum 4 pages.
 
-* an image of the network from Les Misérables, styled in any way you want,
-* an image of the network from US Companies, styled in any way you want, and
-* an image of the Karate Club network with nodes painted according to clusters.
+Remember to use File > Export as image, and then insert the images in your document.
 
-Use File > Export as image, and then insert the images in your document.
+
