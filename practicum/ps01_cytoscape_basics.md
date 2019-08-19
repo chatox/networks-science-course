@@ -14,9 +14,8 @@
 0. About Cytoscape
 1. Importing a network
 2. Editing nodes and edge styles
-3. Creating layouts
-4. Performing basic network analysis
-5. Using a Cytoscape app
+3. Performing basic network analysis
+4. Using a Cytoscape app
 
 # 0. About Cytoscape
 
@@ -26,6 +25,8 @@
 * [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0)
 
 For test datasets, see [data/](data/README.md)
+
+You can use any document edition program for your report. To insert images from Cytoscape in your report, use File > Export as image.
 
 # 1. Importing a network
 
@@ -166,7 +167,7 @@ Use ModuLand 2.0 (Apps > ModuLand 2.0 > Run ...) on Les Misèrables
 * Once you run it, a new network will be created AND the old network will have a new attribute in the nodes
 * Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on "Module color." You might have to pick the color for each group
 
-## 6.3. Apply to Karate Club
+## 4.3. Apply to Karate Club
 
 Use ModuLand 2.0 on the Karate Club
 
@@ -178,8 +179,4 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report in PDF containing everything marked [**REPORT**] above. Maximum 4 pages.
-
-Remember to use File > Export as image, and then insert the images in your document.
-
-
+Deliver a (maximum) 5 pages report in PDF simply containing everything marked [**REPORT**] above. You do not need to add a narrative/explanation to your report, simply include each element marked [**REPORT**] with the number of the section of this document where it is requested.
