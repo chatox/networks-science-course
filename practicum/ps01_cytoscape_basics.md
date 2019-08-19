@@ -2,7 +2,7 @@
 
 ## Materials for this session
 
-:warning: See [how to download](data/README.md) in the README of the data/ directory. Do not simply right-click on the file names below, or you will download an HTML file that will not be readable by Cytoscape.
+:warning: Do not simply right-click on the file names below, or you will download an HTML file that will not be readable by Cytoscape. See [how to download](data/README.md) in the README of the data/ directory. 
 
 * [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
 * File "[karate.gml](data/karate.gml)"
@@ -11,14 +11,14 @@
 
 ## Contents of this session
 
-1. About Cytoscape
+0. About Cytoscape
 1. Importing a network
-1. Editing nodes and edge styles
-1. Creating layouts
-1. Performing basic network analysis
-1. Using a Cytoscape app
+2. Editing nodes and edge styles
+3. Creating layouts
+4. Performing basic network analysis
+5. Using a Cytoscape app
 
-## 1. About Cytoscape
+# 0. About Cytoscape
 
 [Cytoscape](http://www.cytoscape.org/) is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. These are two recommended tutorials on Cytoscape:
 
@@ -27,27 +27,30 @@
 
 For test datasets, see [data/](data/README.md)
 
-# 2. Importing a network
+# 1. Importing a network
 
-## 2.1. Import "Zachary's Karate Club"
+## 1.1. Import "Zachary's Karate Club"
 
 Let's start with a simple case: [Zachary's Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club). This was a Karate Club with a sensei (#1) and a club president (#34) that split into two: some people remained with the sensei, and the others created a new club with the club president.
 
 * File > Import > Network > File
 * Select `karate.gml`
 * Layout > Compound Spring Embedder
-* Look at the graph and try to figure out if there's anything special about nodes 1 and 34.
+* Look at the graph and try to figure out if there is anything special about nodes 1 and 34.
+* [**REPORT**] Include in your report this graph plus and a brief paragraph indicating whether nodes 1 and 34 have visually anything special.
 
-## 2.2. Import "Les Misérables"
+## 1.2. Import "Les Misérables"
 
 Open a graph shown co-occurrences of characters in Victor Hugo's "Les Misérables" (same procedure as above)
 
 * File `lesmiserables.gml`
 * Find Valjean
 * Find Cosette and Marius
-* Look at this [other visualization of the same data](https://bost.ocks.org/mike/miserables/)
+* [**REPORT**] Include in your report this graph. Indicate where Valjean, Cosette, and Marius are by including arrows in your report.
 
-## 2.3. Import US companies co-ownership
+Note: you can also look at this [other visualization of the same data](https://bost.ocks.org/mike/miserables/).
+
+## 1.3. Import US companies co-ownership
 
 Open a graph representing company co-ownership in the US:
 
@@ -56,7 +59,9 @@ Open a graph representing company co-ownership in the US:
 * Click OK (accept default import)
 * It might take a couple of minutes to open
 * Layout > Compound Spring Embedder (might take ~10 minutes in some PCs)
-* Zoom in, Zoom out with the scroll wheel
+* [**REPORT**] Include in your report this graph.
+
+Note: see that you can Zoom in, Zoom out with the scroll wheel
 
 # 3. Editing node and edge styles
 
