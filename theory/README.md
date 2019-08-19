@@ -23,6 +23,7 @@ There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm e
 |                                       | **Dynamic processes in networks**      |  |  |
 | TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (2h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
 | TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 11 (2h)       | [pdf](pdf/tt12_epidemics.pdf) [odp](tt12_epidemics.odp) |
+| | *Final exam:* TT01-TT13 | Ex (2h) | |
 
 # Notes
 
