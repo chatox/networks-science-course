@@ -4,7 +4,7 @@ Instructor: [Carlos Castillo](http://chato.cl/research)
 
 These are materials that were used an undergraduate Network Science course of the bachelor degree on Mathematical Engineering on Data Science at Universitat Pompeu Fabra.
 
-The materials on this page correspond to the course that took place for the first time in September-December 2018.
+:warning: You are looking at an archived page from a previous edition of the course. The materials on this page correspond to the course that took place in September-December 2018.
 
 ## Contents of this repository
 
