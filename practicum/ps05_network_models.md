@@ -1,4 +1,4 @@
-# Practice Session 06: Graph generation
+# Practice Session 05: Graph generation
 
 In this session we will learn to use [NetworkX](https://networkx.github.io/), a Python package, and we will write code to create random graphs and preferential attachment graphs.
 
@@ -115,10 +115,10 @@ Now, create a function `generate_preferential_attachment_graph(N, m0, m)` that:
 1. Creates an empty graph
 1. Adds nodes numbered from *0* to *m<sub>0</sub> - 1* to the graph
 1. Links node *0* to nodes *1, 2, 3, ..., m<sub>0</sub> - 1*
-1. For every node *u* numbered from *m<sub>0</sub>* to *N - 1* 
+1. For every node *u* numbered from *m<sub>0</sub>* to *N - 1*
    1. Select *m* targets for this node using `select_targets`
    1. Add node *u* (remember to select targets **before** adding the node *u*)
-   1. Lnk each node *u* to each of the *m* targets 
+   1. Lnk each node *u* to each of the *m* targets
 1. Returns the graph
 
 Do small experiments with, e.g., *N=100, m<sub>0</sub>=5, m=5* or *N=500, m<sub>0</sub>=2, m=1*.

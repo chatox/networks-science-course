@@ -1,4 +1,4 @@
-# Practice Session 07: Degree distribution and degree correlations
+# Practice Session 06: Degree distribution and degree correlations
 
 In this session we will process some existing networks using [NetworkX](https://networkx.github.io/), a Python package.
 

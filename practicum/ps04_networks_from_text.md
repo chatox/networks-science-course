@@ -1,4 +1,4 @@
-# Practice Session 05: Networks from Text
+# Practice Session 04: Networks from Text
 
 In this session we will learn to construct a network from a set of implicit relationships. The relationships that we will study are between accounts in Twitter, a micro-blogging service.
 
