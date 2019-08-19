@@ -2,7 +2,7 @@
 
 ## Materials for this session
 
-:warning: See [how to download](data/README.md) in the README of the data/ directory. Do not right click on the names below to download: it will not work.
+:warning: See [how to download](data/README.md) in the README of the data/ directory. Do not simply right-click on the file names below, that will not work.
 
 * [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
 * File "[karate.gml](data/karate.gml)"
