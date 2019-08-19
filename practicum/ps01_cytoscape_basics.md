@@ -179,4 +179,6 @@ Use ModuLand 2.0 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a (maximum) 5 pages report in PDF simply containing everything marked [**REPORT**] above. You do not need to add a narrative/explanation to your report, simply include each element marked [**REPORT**] with the number of the section of this document where it is requested. Obviously, remember to identify for each plot what it is and what is the graph from which it was obtained ("US Companies", "Karate Club", or "Les Misèrables").
+Deliver a (maximum) 5 pages report in PDF simply containing everything marked [**REPORT**] above. You do not need to add a narrative/explanation to your report, simply include each element with the number of the section of this document where it was requested.
+
+Obviously, remember to identify clearly for each plot what it is and what is the graph from which it was extracted (i.e., "US Companies", "Karate Club", or "Les Misèrables").
