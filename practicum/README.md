@@ -12,11 +12,11 @@ At the end of each handout there is a description of what you should deliver. Pl
 |-----------------------------------------------------|----------|
 | [PS01](ps01_cytoscape_basics.md)                    | Cytoscape: editing and visualizing networks |
 | [PS02](ps02_cytoscape_advanced.md)                  | Cytoscape: importing, creating, and editing networks |
-| [PS03](ps03_ipython_notebook_for_c_programmers.md)  | Basic Python programming for C programmers |
-| [PS04](ps04_ipython_data_management.md)             | Python: data management of networks data |
-| [PS05](ps05_networks_from_text.md)                  | Python and Cytoscape: creating a network using textual data |
-| [PS06](ps06_network_models.md)               | NetworkX: graph generation and degree computations |
-| [PS07](ps07_degree_assortativity.md)                          | NetworkX: degree and assortativity |
+| [PS03](ps03_ipython_data_management.md)             | Python: data management of networks data |
+| [PS04](ps04_networks_from_text.md)                  | Python and Cytoscape: creating a network using textual data |
+| [PS05](ps05_network_models.md)               | NetworkX: graph generation and degree computations |
+| [PS06](ps06_degree_assortativity.md)                          | NetworkX: degree and assortativity |
+| [PS07](ps07_hubs_and_authorities.md)                          | NetworkX: hubs and authorities |
 | [PS08](ps08_components_k_cores.md)                  | NetworkX: finding connected components and k-cores |
 | [PS09](ps09_viral_propagation.md)                   | NetworkX: simulating the spread of a virus |
 
@@ -50,8 +50,8 @@ Include a comment with the same information at the top of each source code file 
 
 Check your code and results as many times as needed to ensure they are correct. State clearly your assumptions and limitations.
 
-Be precise: number sections hierarchically (1, 1.1, 1.1.1), number every figure, table, and equation, and refer to sections, figures, tables, and equations by their number. Do not include ambiguous statements or plots without a scale.
+**Be precise:** number sections hierarchically (1, 1.1, 1.1.1), number every figure, table, and equation, and refer to sections, figures, tables, and equations by their number. Do not include ambiguous statements or plots without a scale. Include a label for each axis, indicating units if needed, and add a legend for each plot that includes multiple series.
 
-:warning: Be careful with the presentation of your work. For instance, do not use low-quality screenshots, or poorly cropped screenshots showing toolbars and window borders. Instead, export and save high-quality images from each application.
+**Be careful** with the presentation of your work. For instance, do not use low-quality screenshots, or poorly cropped screenshots showing toolbars and window borders. Instead, export and save high-quality images from each application.
 
 As a data scientist your reports and code should be (among other things) correct, understandable, pristine, and pleasant to look at. Ensure you set aside enough time to review, improve, and polish your work. Get used to produce top-quality work and it will become a habit.

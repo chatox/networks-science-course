@@ -1,6 +1,16 @@
-# Practice Session 07: Degree distribution and degree correlations
+# Practice Session 07: Hubs and authorities
 
-In this session we will process some existing networks using [NetworkX](https://networkx.github.io/), a Python package.
+In this session we will compute Hubs and Authorities using [NetworkX](https://networkx.github.io/), a Python package.
+
+**TO BE DONE**
+
+**TO BE DONE**
+
+**TO BE DONE**
+
+**TO BE DONE**
+
+**TO BE DONE**
 
 # 0. Preliminaries
 
