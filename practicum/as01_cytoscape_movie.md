@@ -8,7 +8,7 @@ For this assignment you need the file [movie_metadata.csv](data/movie_metadata.c
 
 The task is to write Python code, in a Jupyter Notebook, that reads the `movie_metadata.csv` file and creates four CSV files.
 
-1. The first CSV file, `movie-movie-edges.csv`, should describe the *movie-movie graph* in which two movies are connected if they share the same director or one actor. It should have a minimum of two columns (`movie1` and `movie2`), but you can include additional columns representing attributes of the relationship between the two movies (e.g., number of actors in common).
+1. The first CSV file, `movie-movie-edges.csv`, should describe the *movie-movie graph* in which two movies are connected if they share the same director or at least two actors. It should have a minimum of two columns (`movie1` and `movie2`), but you can include additional columns representing attributes of the relationship between the two movies (e.g., number of actors in common).
 
 2. The second CSV file, `actor-actor-edges.csv`, should describe the *actor-actor graph* in which two actors or actresses are connected if they appeared in the same movie. It should have a minimum of two columns (`actor1` and `actor2`), but you can include additional columns representing attributes of the relationship between the two actors (e.g., number of movies in common).
 
@@ -18,7 +18,7 @@ The task is to write Python code, in a Jupyter Notebook, that reads the `movie_m
 
 Then, you will open these CSV files from Cytoscape to visualize them, importing the `*-edges.csv` files as graphs, and the `*-attributes.csv` as tables. This is similar to what you did in one of the practices, but instead of creating the CSV files by hand, you create them using Python.
 
-:warning: **Check your output to make sure that you are connecting movies only if they have the same director or share an actor**. If the movie-movie network takes a long time to load, does not load at all, or crashes Cytoscape, it is very likely that you made a mistake during its generation. Check some pairs of movies at the beginning, middle, end of the *movie-movie* graph and see if they are really related in the movie metadata file. Check that you are dealing correctly with cases in which one of the actors is empty, i.e., do not connect movies if their intersection is just one actor whose name is empty.
+:warning: **Check your output to make sure that you are connecting movies only if they have the same director or share at least two actors**. If the movie-movie network takes a long time to load, does not load at all, or crashes Cytoscape, it is very likely that you made a mistake during its generation. Check some pairs of movies at the beginning, middle, end of the *movie-movie* graph and see if they are really related in the movie metadata file. Check that you are dealing correctly with cases in which actor names are empty/blank.
 
 :bulb: **If there are too many nodes for Cytoscape to visualize (layout), then you should focus on a sub-group of movies**. You can create a file `movie-movie-selected-edges.csv` having only edges connecting two movies that have a certain characteristic, or edges in which at least one of the two movies has a certain characteristic. This characteristic may be, for instance, having a budget or gross earnings of more than a certain amount, being older or newer than a certain year, belonging to a certain genre, containing a certain key word in their title, or featuring a certain director or actor/actress. Select any sub-set of movies that is large enough to be interesting but small enough for Cytoscape to visualize it.
 
@@ -34,11 +34,11 @@ For sizes of movies, you can use their `imdb_score` (a proxy for quality), `num_
 
 Actor colors represent their dominant genre (the most common genre in the list of genres of the movies they appear on). Note that to compute actor colors you need all genres of each movie, not just their first genre.
 
-For sizes of actors/actresses you can use their number of likes in Facebook, or the number of movies in which they have acted.
+For sizes of actors/actresses you can use the number of movies in which they have acted, or their number of Facebook likes.
 
 ## Optional attributes
 
-You can also include edge attributes, e.g., thicker edges for links connecting actors who collaborate in many movies.
+You can also include edge attributes, e.g., darker edges for links connecting actors who collaborate in many movies.
 
 You can use different node shapes for different clusters obtained using clustering (using the ModuLand plug-in).
 
@@ -46,12 +46,10 @@ Feel free to also create graphs mixing movies and actors, or to create sub-graph
 
 # Deliver (groups of two)
 
-A .zip or .tar.gz file containing your report, your code, and the data files you generated.
+A .zip or .tar.gz file containing your code, the `.csv` data files you generated, and your report.
 
-The report should be an insightful, informative, readable, beautiful, clear, concise document in PDF with images from Cytoscape and your findings. Be creative. Feel free to focus on a sub-category of movies or actors if you have some interesting finding to report on them. The recommended length for the report is 2 pages and the maximum 5 pages. If you used colors, indicate what is the meaning of each color (a legend).
+The code should be the Python notebook (`.ipynb` file) that you wrote.
 
-The code should be the Python notebook (.ipynb file) that you wrote.
-
-**Both members of the group should learn Python**, as we will continue using Python throughout the course, hence, make sure you are not given non-Python tasks only in the division of work.
+The report should be an informative, readable, concise document in PDF with images from Cytoscape and your findings. Be creative. Feel free to focus on a sub-category of movies or actors if you have some interesting finding to report on them. The recommended length for the report is 2 pages and the absolute maximum is 5 pages. If you used colors or shapes, indicate what is the meaning of each one, i.e., include a legend.
 
 The report should end with the following statement: **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**

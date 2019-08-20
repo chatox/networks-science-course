@@ -9,8 +9,6 @@ For this assignment we will use the [WEBSPAM-UK2007](http://chato.cl/webspam/dat
 * The list of host names in  [uk-2007-05.hostnames.txt.gz](http://chato.cl/webspam/datasets/uk2007/links/uk-2007-05.hostnames.txt.gz)
 * The links between hosts in  [uk-2007-05.hostgraph_weighted.graph-txt.gz](http://chato.cl/webspam/datasets/uk2007/links/uk-2007-05.hostgraph_weighted.graph-txt.gz)
 
-
-
 Additionally, we will use these files (uncompressed) that contain labels for the hosts:
 
 * The file `WEBSPAM-UK2007-SET1-labels.txt` inside [webspam-uk2007-set1-1.0.tar.gz](http://chato.cl/webspam/datasets/uk2007/webspam-uk2007-set1-1.0.tar.gz)
@@ -135,6 +133,9 @@ The report should contain:
 1. The list of top-20 sites containing `.co.uk` by PageRank
 1. The list of top-20 sites containing `.co.uk` by No-spam-PageRank
 1. Your comment (1-2 paragraphs) on the similarities/differences between the two lists above
+1. The list of top-20 sites containing `.gov.uk` by PageRank
+1. The list of top-20 sites containing `.gov.uk` by No-spam-PageRank
+1. Your comment (1-2 paragraphs) on the similarities/differences between the two lists above
 1. The list of top-20 sites by spam gain
 1. Your comment (1-2 paragraphs) on the list of sites by spam gain
 1. A brief description of your variant of PageRank
@@ -150,4 +151,3 @@ If you would like to go for extra points (+2, so your maximum grade can be a 12 
 Include in your sample at least a few hundred hosts; as many as possible without crashing Cytoscape or having to wait an unreasonable amount of time for the layout to be completed.
 
 Remember that the `subgraph` function in NetworkX allows you to select a sub-graph given a list of nodes.
-
