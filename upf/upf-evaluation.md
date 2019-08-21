@@ -1,4 +1,4 @@
-# <img src="upf_logo.png" align="right" width="80"/>Rules for course at UPF (2018)
+# <img src="upf_logo.png" align="right" width="80"/>Rules for course at UPF (2019)
 
 ## Grading
 
@@ -11,8 +11,8 @@ Continuous evaluation will be based in the following elements:
 
 To pass the course under continuous evaluation, all of the following must be true:
 
-1. 0.6 A + 0.4 B >= 4.0
-1. 0.4 C + 0.6 D >= 4.0
+1. 0.6 A + 0.4 B >= 5.0
+1. 0.4 C + 0.6 D >= 5.0
 1. 0.3 A + 0.2 B + 0.2 C + 0.3 D >= 5.0
 
 ## Getting a grade in the practical sessions
