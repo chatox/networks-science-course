@@ -1,5 +1,5 @@
 
-# <img src="upf_logo.png" align="right" width="80"/>Calendar for assignments 2019
+# <img src="upf_logo.png" align="right" width="80"/>Calendar for 2019
 
 # Assignments
 
