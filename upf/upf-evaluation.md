@@ -72,9 +72,9 @@ When asked for an algorithm, pseudocode is the best. Written descriptions tend t
 
 Each practice session and assignment specifies what you should submit:
 
-* [**CODE**]: code you must write or complete,
-* [**REPORT**]: elements to include in your report, and
-* [**DELIVER**]: other files to include.
+* **CODE**: code you must write or complete,
+* **REPORT**: elements to include in your report, and
+* **DELIVER**: other files to include.
 
 Read carefully the work sheet to ensure that you are including everything that was asked. Too often people forget to include the code, or the report, in the work they deliver.
 
