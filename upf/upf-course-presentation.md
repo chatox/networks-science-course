@@ -10,7 +10,17 @@ This course offers the students the possibility of learning the fundamentals of 
 
 ## Associated competences
 
-Logical reasoning. Abstract thinking. Algebra. Basic data structures.
+**Basic competences**
+
+CB3. That the students have the ability of collecting and interpreting relevant data (normally within their study area) to issue judgements which include a reflection about relevant topics of social, scientific or ethical nature.
+
+**Transversal competences**
+
+CT3. Applying with flexibility and creativity the acquired knowledge and adapting it to new contexts and situations.
+
+**Specific competences**
+
+RA.CE7.1 Knowing the fundamental statistic aspects of networks science.
 
 ## Results from learning
 
