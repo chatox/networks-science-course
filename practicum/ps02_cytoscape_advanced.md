@@ -39,7 +39,7 @@ Tip: change the style to minimalistic to see the graph better.
 
 [**REPORT**] Include this graph in your report.
 
-[**REPORT**] Indicate what you believe is the small component that is disconnected from the main connected component.
+[**REPORT**] Indicate what you believe are the small components that are disconnected from the main connected component.
 
 ## 1.2. Create sub-graphs
 
