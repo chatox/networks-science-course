@@ -90,7 +90,7 @@ Identify the authorship and date of each report with a paragraph on the first pa
 
 All of your reports should end with the following sentence:
 
-> **I hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by myself.**
+> **I hereby declare that, except for the code provided by the course instructors, all of my code, report, and figures were produced by myself.**
 
 or, in the case of work done in pairs/groups:
 
