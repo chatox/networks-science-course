@@ -15,6 +15,8 @@ To pass the course under continuous evaluation, all of the following must be tru
 1. Practice grade, 0.4 C + 0.6 D ≥ 5.0
 1. Final grade, 0.3 A + 0.2 B + 0.2 C + 0.3 D ≥ 5.0
 
+To pass the course in the resit exam, the resit exam grade must be ≥ 5.0 and practice grade must be ≥ 5.0.
+
 ### 1.1. Getting a grade in the practical sessions
 
 To obtain a grade in the practical session, you must:
@@ -88,7 +90,7 @@ Identify the authorship and date of each report with a paragraph on the first pa
 
 All of your reports should end with the following sentence:
 
-> **I hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by myself.**
+> **I hereby declare that, except for the code provided by the course instructors, all of my code, report, and figures were produced by myself.**
 
 or, in the case of work done in pairs/groups:
 
