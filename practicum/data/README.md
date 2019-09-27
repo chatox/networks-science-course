@@ -7,7 +7,7 @@ This is a small list of datasets used during the [practicum or assignments](../R
 To download from GitHub's web interface go to the [data/](https://github.com/chatox/networks-science-course/tree/master/practicum/data) directory in the repository.
 
 * For large files, browse to the dataset and click on "Download" (on the top-right corner).
-* For small files, browse to the dataset and click on "Raw" (on the top-right corner) and then "Save as ..." in your browser.
+* For small files, browse to the dataset and click on "Raw" (on the top-right corner) and then "Save as ..." in your browser. If you are in Windows, be careful with the additional extension (usually .text) added by the operating system.
 
 ## Sources for datasets in this directory
 
