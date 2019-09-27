@@ -95,6 +95,7 @@ To change the shape of nodes:
 To change the width of edges:
 
 * Click on "Edge" on bottom left (between "Node" and "Network")
+* Click on "Width" property
 * Mapping Type = Continuous Mapping
 * Column = Value (this will work in *Les Misérables* which has a value column)
 * Change the "Current Mapping" by double clicking. You should see a window "Continuous Mapping Editor ..."
