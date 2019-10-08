@@ -2,7 +2,7 @@
 
 In this session we will study an application of complex networks analysis to medicine. We will start with the *diseasome*, a bi-partite network connecting all known genetic diseases (by 2005) with genes whose mutations are implicated in that disease.
 
-The initial dataset `disease-genes.csv` contains the following columns:
+The initial dataset `disease-genes.csv` in the [data/](https://github.com/chatox/networks-science-course/tree/master/practicum/data) directory contains the following columns:
 
 1. A disorder *ID*
 2. A disorder *Name*
