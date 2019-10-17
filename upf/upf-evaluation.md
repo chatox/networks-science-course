@@ -17,7 +17,7 @@ To pass the course under continuous evaluation, all of the following must be tru
 
 To pass the course in the resit exam, the resit exam grade must be ≥ 5.0 and practice grade must be ≥ 5.0.
 
-### 1.1. Getting a grade in the practical sessions
+### 1.1. Getting a grade in the practical sessions (PSxx, individual)
 
 To obtain a grade in the practical session, you must:
 
@@ -40,7 +40,7 @@ Not coming to a practice session or not delivering your work means a zero grade 
 
 :warning: Copying from external sources without acknowledging them in your work, and copying the work from other person/group in your class, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the [university regulations](https://seuelectronica.upf.edu/es/regim-disciplinari-dels-estudiants-de-la-universitat-pompeu-fabra), with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
-### 1.2. Getting a grade in the assignments
+### 1.2. Getting a grade in the assignments (ASxx, in pairs)
 
 To obtain a grade in the assignments, you must:
 
