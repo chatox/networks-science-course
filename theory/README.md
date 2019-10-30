@@ -21,7 +21,7 @@ There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm e
 | TT11. Dense sub-graphs                | K-core decomposition; Goldberg's algorithm; Charikar's algorithm                                         | 9-10 (2h)  | [pdf](pdf/tt11_dense_subgraphs.pdf) [odp](tt11_dense_subgraphs.odp)       |
 | | *Second midterm exam:* TT05-TT09 | 9 (1h) | |
 |                                       | **Dynamic processes in networks**      |  |  |
-| TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (<strile>2h</strike> 1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
+| TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (<strike>2h</strike> 1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
 | TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 11 (2h)       | [pdf](pdf/tt12_epidemics.pdf) [odp](tt12_epidemics.odp) |
 | | *Final exam:* TT01-TT13 | Ex (2h) | |
 
