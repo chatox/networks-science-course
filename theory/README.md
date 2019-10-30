@@ -16,12 +16,12 @@ There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm e
 |                                       | **Structural patterns in networks**      |  |  |
 | TT07. Hubs and authorities            | In-link counting; HITS                                                                                   | 6 (1h)        | [pdf](pdf/tt07_hubs_authorities.pdf) [odp](tt07_hubs_authorities.odp)        |
 | TT08. PageRank                        | Simplified PageRank; PageRank; Liquid/viscous democracy                                                  | 7 (1.5h) | [pdf](pdf/tt08_pagerank.pdf) [odp](tt08_pagerank.odp)       |
-| TT09. Link-based centrality           | Closeness; Betweenness                                                                                   | 8-9 (1.5h)       | [pdf](pdf/tt09_closeness_betweenness.pdf) [odp](tt09_closeness_betweenness.odp)       |
-| TT10. Network flows                   | Min-cut / max-flow problems; Approximate min-cut                                                         | 9 (1h)  | [pdf](pdf/tt10_network_flows.pdf) [odp](tt10_network_flows.odp)  |
+| TT09. Link-based centrality           | Closeness; Betweenness                                                                                   | 7-8 (1.5h)       | [pdf](pdf/tt09_closeness_betweenness.pdf) [odp](tt09_closeness_betweenness.odp)       |
+| TT10. Network flows                   | Min-cut / max-flow problems; Approximate min-cut                                                         | 8 (1h)  | [pdf](pdf/tt10_network_flows.pdf) [odp](tt10_network_flows.odp)  |
 | TT11. Dense sub-graphs                | K-core decomposition; Goldberg's algorithm; Charikar's algorithm                                         | 9-10 (2h)  | [pdf](pdf/tt11_dense_subgraphs.pdf) [odp](tt11_dense_subgraphs.odp)       |
 | | *Second midterm exam:* TT05-TT09 | 9 (1h) | |
 |                                       | **Dynamic processes in networks**      |  |  |
-| TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (2h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
+| TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (<strile>2h</strike> 1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
 | TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 11 (2h)       | [pdf](pdf/tt12_epidemics.pdf) [odp](tt12_epidemics.odp) |
 | | *Final exam:* TT01-TT13 | Ex (2h) | |
 
