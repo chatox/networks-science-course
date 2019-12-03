@@ -23,8 +23,8 @@ There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm e
 |                                       | **Dynamic processes in networks**      |  |  |
 | TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
 | TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 10-11 (2h)       | [pdf](pdf/tt13_epidemics.pdf) [odp](tt13_epidemics.odp) |
-| TT14. Spectral graph clustering       | Graph projections                                                                        | 11 (1h)       | [pdf](pdf/tt14_spectral_graph_clustering.pdf) [odp](tt14_spectral_graph_clustering.odp) |
-| | *Final exam:* TT01-TT14 | Ex (2h) | |
+| TT14. Spectral graph clustering       | Graph projections                                                                        | NOT IN EXAM       | [pdf](pdf/tt14_spectral_graph_clustering.pdf) [odp](tt14_spectral_graph_clustering.odp) |
+| | *Final exam:* TT01-TT13 | Ex (2h) | |
 
 # Notes
 
