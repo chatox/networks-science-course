@@ -6,7 +6,8 @@ These are materials for an undergraduate Network Science course of the bachelor 
 
 The materials on this page correspond to the course in September-December 2019, and should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-*"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*
+* *"Without question, the most interesting subject I've had in this degree so far!" -- a student's evaluation from the 2019 edition.*
+* *"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*
 
 ## Contents of this repository
 
