@@ -1,18 +1,170 @@
 # List of theory topics
 
+:construction: due to the necessity of having more online sessions than face-to-face sessions, I am modifying parts of the course for September-December 2020. These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
+
 There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm exams* will be taken.
 
-| Topic                                 | Contents                                                                                                 | Sess. (dur.)                     | Materials |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------|----------|
-|                                       | **Introduction**      |  |  |
-| TT01. Why studying networks           | Personal intro; Networks in biology, sociology, communications; Organization of course                   | 1 (1h)                     | [pdf](pdf/tt01_complex_networks.pdf) [odp](tt01_complex_networks.odp) |
-| TT02. Basics concepts of graph theory | Graphs, trees, forests; Directed/undirected graphs; Weighted/unweighted graphs; Degree, adjacency, paths | 1 (1h) | [pdf](pdf/tt02_graph_theory_basics.pdf) [odp](tt02_graph_theory_basics.odp) |
-|                                       | **Network formation models**      |  |  |
-| TT03. Random networks                 | The ER model; Degree distribution; Distances; Clustering coefficient                                     | 2 (2h)         | [pdf](pdf/tt03_random_networks.pdf) [odp](tt03_random_networks.odp)         
-| TT04. Scale-free networks             | Degree distribution; The meaning of scale-free; Average degree, average distance; The friendship paradox | 3 (2h) | [pdf](pdf/tt04_scale_free_networks.pdf) [odp](tt04_scale_free_networks.odp)        |
-| TT05. Preferential attachment         | The BA model; Degree growth; Degree distribution; Distances; Clustering coefficient                      | 4 (2h)        | [pdf](pdf/tt05_preferential_attachment.pdf) [odp](tt05_preferential_attachment.odp)        |
-| | *First midterm exam:* TT01-TT04 | <strike>5</strike> 6 (1h) | |
-| TT06. Other network growth models     | No growth or no preference; Sub/super-linear preferences; Fitness; Aging                                 | 5 (1h)        | [pdf](pdf/tt06_other_growth_models.pdf) [odp](tt06_other_growth_models.odp)        |
+## Session 1: Introduction
+
+### Before Class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* Read [chapter 0](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/sample/chapters) of "A first course on network science"
+* See slides of TT01: a personal introduction [odp](odp/tt01_complex_networks.odp)/[pdf](pdf/tt01_complex_networks.pdf)
+
+### During Class
+
+* Presentation TT02: examples of complex networks [odp](odp/tt02_examples_complex_networks.odp)/[pdf](pdf/tt02_examples_complex_networks.pdf)
+ * Nearpod: find examples of networks
+* Presentation TT03: applications networks science [odp](odp/tt03_applications_networks_science.odp)/[pdf](pdf/tt03_applications_networks_science.pdf)
+* Course overview
+ * Overview of [theory topics](./)
+ * Overview of [practice sessions](../practicum/README.md)
+ * Overview of [evaluation rules](../upf/upf-evaluation.md)
+* Presentation TT04: graph theory basics [odp](odp/tt04_graph_theory_basics.odp)/[pdf](pdf/tt04_graph_theory_basics.pdf)
+ * Google Spreadsheet: draw degree distribution
+* Presentation TT05: sparsity and connectivity [odp](odp/tt05_sparsity_connectivity.odp)/[pdf](pdf/tt05_sparsity_connectivity.pdf)
+ * Nearpod: left-project and right-project a graph
+
+### After Class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+* TT02-TT03: complex networks
+ * Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
+* TT04-TT05: graph theory basics
+ * Read the [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
+
+## Session 2: Random Networks (ER Model)
+
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+ * Watch the 4-minutes video on [Clustering Coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
+ * Read the [chapter 3](http://networksciencebook.com/chapter/3) of the book by Barabási
+
+### During class
+
+* Presentation TT06: clustering coefficient [odp](odp/tt06_clustering_coefficient.odp)/[pdf](pdf/tt06_clustering_coefficient.pdf)
+ * Nearpod: compute local clustering coefficients
+* Presentation TT07: the random network (ER) model [odp](odp/tt07_random_networks.odp)/[pdf](pdf/tt07_random_networks.pdf)
+ * Nearpod: compute expected number of links and expected average degree
+* Presentation TT08: properties of random networks [odp](odp/tt08_properties_random_networks.odp)/[pdf](pdf/tt08_properties_random_networks.pdf)
+ * Nearpod: find actors with large degree
+ * Nearpod: find critical N for a graph to be connected
+
+### After class
+
+Mandatory activities after class:
+* None
+
+Recommended activities after class:
+* TT07-TT08: random networks
+ * Watch the 17-minutes video on [the ER random graph model](https://www.youtube.com/watch?v=3PxteAgVf0o) by Lada Adamic (has subtitles in English)
+
+## Session 3: Scale-free Networks
+
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* Read the [chapter 4](http://networksciencebook.com/chapter/4) of the book by Barabási
+
+### During class
+
+* Presentation TT09: scale-free networks [odp](odp/tt09_scale_free_networks.odp)/[pdf](pdf/tt09_scale_free_networks.pdf)
+ * Nearpod: compute nodes with an expected degree
+* Presentation TT10: distances in scale-free networks [odp](odp/tt10_distances_scale_free_networks.odp)/[pdf](pdf/tt10_distances_scale_free_networks.pdf)
+ * Nearpod: calculate friendship paradox
+
+### After class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+ * Watch this [two-minute explanation of the friendship paradox](https://www.youtube.com/watch?v=httLvVufAYs)
+ * If you are not sure whether you understood it or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
+
+## Session 4: Preferential attachment
+
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* Read the [chapter 5](http://networksciencebook.com/chapter/5) of the book by Barabási
+
+### During class
+
+* Presentation TT11: preferential attachment [odp](odp/tt11_preferential_attachment.odp)/[pdf](pdf/tt11_preferential_attachment.pdf)
+ * Nearpod: compute nodes with an expected degree
+* Presentation TT12: degree under preferential attachment [odp](odp/tt12_degree_preferential_attachment.odp)/[pdf](pdf/tt12_degree_preferential_attachment.pdf)
+ * Nearpod: copy model
+
+### After class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+* Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=gELshhLX12E) from a course on fractals and scaling at Stanford
+* See slides from TT13: other growth models [odp](odp/tt13_other_growth_models.odp)/[pdf](pdf/tt13_other_growth_models.pdf)
+
+## Session 5: Hubs, authorities, and PageRank
+
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* Read the [chapter 14](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf) of the book by Easley and Kleinberg
+
+### During class
+
+:construction: add slides on ha, add slides on pr (remove extra materials)
+
+### After class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+* Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
+ * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
+* Watch the lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4), [2.7](https://www.youtube.com/watch?v=e2SZY3NbtQ8), [2.8](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec at Stanford
+
+
 |                                       | **Structural patterns in networks**      |  |  |
 | TT07. Hubs and authorities            | In-link counting; HITS                                                                                   | 6 (1h)        | [pdf](pdf/tt07_hubs_authorities.pdf) [odp](tt07_hubs_authorities.odp)        |
 | TT08. PageRank                        | Simplified PageRank; PageRank; Liquid/viscous democracy                                                  | 7 (1.5h) | [pdf](pdf/tt08_pagerank.pdf) [odp](tt08_pagerank.odp)       |
