@@ -150,7 +150,10 @@ Recommended activities before class:
 
 ### During class
 
-:construction: add slides on ha, add slides on pr (remove extra materials)
+* Presentation TT14: hubs and authorities [odp](odp/tt14_hubs_authorities.odp)/[pdf](pdf/tt14_hubs_authorities.pdf)
+ * Nearpod: compute hub and authority scores iteratively
+* Presentation TT15: pagerank [odp](odp/tt15_pagerank.odp)/[pdf](pdf/tt15_pagerank.pdf)
+ * Nearpod: compute simplified PageRank
 
 ### After class
 
@@ -163,6 +166,7 @@ Recommended activities after class:
 * Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
  * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
 * Watch the lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4), [2.7](https://www.youtube.com/watch?v=e2SZY3NbtQ8), [2.8](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec at Stanford
+* See slides for TT16: pagerank extra material [odp](odp/tt16_pagerank_extra.odp)/[pdf](pdf/tt16_pagerank_extra.pdf)
 
 
 |                                       | **Structural patterns in networks**      |  |  |
