@@ -168,11 +168,36 @@ Recommended activities after class:
 * Watch the lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4), [2.7](https://www.youtube.com/watch?v=e2SZY3NbtQ8), [2.8](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec at Stanford
 * See slides for TT16: pagerank extra material [odp](odp/tt16_pagerank_extra.odp)/[pdf](pdf/tt16_pagerank_extra.pdf)
 
+## Session 6: Centrality
 
-|                                       | **Structural patterns in networks**      |  |  |
-| TT07. Hubs and authorities            | In-link counting; HITS                                                                                   | 6 (1h)        | [pdf](pdf/tt07_hubs_authorities.pdf) [odp](tt07_hubs_authorities.odp)        |
-| TT08. PageRank                        | Simplified PageRank; PageRank; Liquid/viscous democracy                                                  | 7 (1.5h) | [pdf](pdf/tt08_pagerank.pdf) [odp](tt08_pagerank.odp)       |
-| TT09. Link-based centrality           | Closeness; Betweenness                                                                                   | 7-8 (1.5h)       | [pdf](pdf/tt09_closeness_betweenness.pdf) [odp](tt09_closeness_betweenness.odp)       |
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
+ * Or watch this 15-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=0unzqsPaPk8)
+
+### During class
+
+* Presentation TT17: closeness [odp](odp/tt17_closeness.odp)/[pdf](pdf/tt17_closeness.pdf)
+ * Nearpod: compute closeness and harmonic closeness
+* Presentation TT18: betweenness [odp](odp/tt18_betweenness.odp)/[pdf](pdf/tt18_betweenness.pdf)
+ * Nearpod: run the Brandes and Newman algorithm for betweenness
+
+### After class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+* Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
+
 | TT10. Network flows                   | Min-cut / max-flow problems; Approximate min-cut                                                         | 8 (1h)  | [pdf](pdf/tt10_network_flows.pdf) [odp](tt10_network_flows.odp)  |
 | TT11. Dense sub-graphs                | K-core decomposition; Goldberg's algorithm; Charikar's algorithm                                         | 9 (1h)  | [pdf](pdf/tt11_dense_subgraphs.pdf) [odp](tt11_dense_subgraphs.odp)       |
 | | *Second midterm exam:* TT05-TT09 | 9 (1h) | |
