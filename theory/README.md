@@ -219,9 +219,6 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 :construction: to be done
 
-
-
-
 | TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
 | TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 10-11 (2h)       | [pdf](pdf/tt13_epidemics.pdf) [odp](tt13_epidemics.odp) |
 
