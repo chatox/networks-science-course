@@ -103,7 +103,8 @@ Mandatory activities after class:
 
 Recommended activities after class:
 
- * Watch this [two-minute explanation of the friendship paradox](https://www.youtube.com/watch?v=httLvVufAYs)
+* Watch this 20-minutes [video on Zipf, Pareto, and power laws](https://www.youtube.com/watch?v=ViUqxEF4plA&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=10) by Lada Adamic. It is a great explanation of a phenomenon that goes well beyond networks.
+* Watch this two-minute [explanation of the friendship paradox](https://www.youtube.com/watch?v=httLvVufAYs)
  * If you are not sure whether you understood it or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
 
 ## Session 4: Preferential attachment
@@ -168,7 +169,7 @@ Recommended activities after class:
 * Watch the lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4), [2.7](https://www.youtube.com/watch?v=e2SZY3NbtQ8), [2.8](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec at Stanford
 * See slides for TT16: pagerank extra material [odp](odp/tt16_pagerank_extra.odp)/[pdf](pdf/tt16_pagerank_extra.pdf)
 
-## Session 6: Centrality
+## Session 6: Closeness and Betweenness
 
 ### Before class
 
@@ -179,7 +180,6 @@ Mandatory activities before class:
 Recommended activities before class:
 
 * Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
- * Or watch this 15-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=0unzqsPaPk8)
 
 ### During class
 
@@ -196,7 +196,71 @@ Mandatory activities after class:
 
 Recommended activities after class:
 
+* Watch this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is why degree is insufficient, the second half of the video introduces the concepts.
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
+* Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
+
+## Session 7: Communities and Network Flows
+
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
+
+### During class
+
+* Presentation TT19: community structure [odp](odp/tt19_community_structure.odp)/[pdf](pdf/tt19_community_structure.pdf)
+* Presentation TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf)
+ * Nearpod: write min-cut and max-flow equations
+ * Nearpod: run randomized s-t cut algorithm
+
+### After class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+* Watch this 10-minutes [numerical example on min-cut and max-flow](https://www.youtube.com/watch?v=u6FkNw16VJA) by Patrick JMT.
+* Watch this 2-minutes [explanation of the duality of min-cut and max-flow](https://www.youtube.com/watch?v=RwhEF-LXzaE)
+* Read the [chapter 9](http://networksciencebook.com/chapter/9) of the book by Barabási for some advanced topics
+
+:construction: Material below this line is under construction.
+
+## Session 8: Community detection
+
+### Before class
+
+Mandatory activities before class:
+
+* None
+
+Recommended activities before class:
+
+* TBD
+
+### During class
+
+* Presentation TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf)
+ * Nearpod: run randomized s-t cut algorithm
+
+### After class
+
+Mandatory activities after class:
+
+* None
+
+Recommended activities after class:
+
+* Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
+* Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
+
 
 | TT10. Network flows                   | Min-cut / max-flow problems; Approximate min-cut                                                         | 8 (1h)  | [pdf](pdf/tt10_network_flows.pdf) [odp](tt10_network_flows.odp)  |
 | TT11. Dense sub-graphs                | K-core decomposition; Goldberg's algorithm; Charikar's algorithm                                         | 9 (1h)  | [pdf](pdf/tt11_dense_subgraphs.pdf) [odp](tt11_dense_subgraphs.odp)       |
