@@ -4,7 +4,7 @@ Instructor: [Carlos Castillo](http://chato.cl/research)
 
 These are materials for an undergraduate Network Science course of the bachelor degree on Mathematical Engineering on Data Science at Universitat Pompeu Fabra.
 
-:construction: due to the necessity of having more online sessions than face-to-face sessions, I am modifying parts of the course for September-December 2020. These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
+:construction: Due to the necessity of having more online sessions than face-to-face sessions, I am modifying parts of the course for September-December 2020. These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
 * *"The most interesting subject so far ... the volume of work is quite a lot, but the topics are engaging." -- a student's evaluation from the 2019 edition.*
 * *"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*

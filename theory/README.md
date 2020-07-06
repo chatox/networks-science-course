@@ -39,10 +39,8 @@ Mandatory activities after class:
 
 Recommended activities after class:
 
-* TT02-TT03: complex networks
- * Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
-* TT04-TT05: graph theory basics
- * Read the [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
+* Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
+* Read the [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
 
 ## Session 2: Random Networks (ER Model)
 
@@ -229,11 +227,9 @@ Recommended activities after class:
 
 * Watch this 10-minutes [numerical example on min-cut and max-flow](https://www.youtube.com/watch?v=u6FkNw16VJA) by Patrick JMT.
 * Watch this 2-minutes [explanation of the duality of min-cut and max-flow](https://www.youtube.com/watch?v=RwhEF-LXzaE)
-* Read the [chapter 9](http://networksciencebook.com/chapter/9) of the book by Barabási for some advanced topics
+* Read the [sections 9.1-9.2](http://networksciencebook.com/chapter/9) of the book by Barabási
 
-:construction: Material below this line is under construction.
-
-## Session 8: Community detection
+## Session 8: Dense sub-graphs
 
 ### Before class
 
@@ -243,12 +239,13 @@ Mandatory activities before class:
 
 Recommended activities before class:
 
-* TBD
+* None
 
 ### During class
 
-* Presentation TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf)
- * Nearpod: run randomized s-t cut algorithm
+* Presentation TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf)
+ * Nearpod: perform a k-core decomposition
+* Presentation TT22: dense sub-graphs [odp](odp/tt22_dense_subgraphs.odp)/[pdf](pdf/tt22_dense_subgraphs.pdf)
 
 ### After class
 
@@ -260,16 +257,13 @@ Recommended activities after class:
 
 * Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
 * Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
+* See presentation TT23: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
+ * Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE), [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A), and [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
 
+## Session 9
 
-| TT10. Network flows                   | Min-cut / max-flow problems; Approximate min-cut                                                         | 8 (1h)  | [pdf](pdf/tt10_network_flows.pdf) [odp](tt10_network_flows.odp)  |
-| TT11. Dense sub-graphs                | K-core decomposition; Goldberg's algorithm; Charikar's algorithm                                         | 9 (1h)  | [pdf](pdf/tt11_dense_subgraphs.pdf) [odp](tt11_dense_subgraphs.odp)       |
-| | *Second midterm exam:* TT05-TT09 | 9 (1h) | |
-|                                       | **Dynamic processes in networks**      |  |  |
 | TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
 | TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 10-11 (2h)       | [pdf](pdf/tt13_epidemics.pdf) [odp](tt13_epidemics.odp) |
-| TT14. Spectral graph clustering       | Graph projections                                                                        | NOT IN EXAM       | [pdf](pdf/tt14_spectral_graph_clustering.pdf) [odp](tt14_spectral_graph_clustering.odp) |
-| | *Final exam:* TT01-TT13 | Ex (2h) | |
 
 # Notes
 
