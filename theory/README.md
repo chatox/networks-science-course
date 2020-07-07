@@ -1,6 +1,6 @@
 # List of theory topics
 
-:construction: Due to the necessity of having more online sessions than face-to-face sessions, I am modifying parts of the course for September-December 2020. These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
+:construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
 There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm exam* will be taken.
 
@@ -228,6 +228,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 ### During class
 
 * Presentation TT26: epidemics [odp](odp/tt26_epidemics.odp)/[pdf](pdf/tt26_epidemics.pdf)
+ * Nearpod: compute number of infected over time
 * Presentation TT27: epidemics on graphs [odp](odp/tt27_epidemics_on_graphs.odp)/[pdf](pdf/tt27_epidemics_on_graphs.pdf)
 
 ### After class
