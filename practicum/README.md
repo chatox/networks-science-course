@@ -19,16 +19,3 @@ At the end of each handout there is a description of what you should deliver. Pl
 | [PS07](ps07_hubs_and_authorities.md)                          | NetworkX: hubs and authorities |
 | [PS08](ps08_components_k_cores.md)                  | NetworkX: finding connected components and k-cores |
 | [PS09](ps09_viral_propagation.md)                   | NetworkX: simulating the spread of a virus |
-
-## Assignments
-
-Assignments, as a general rule, are done in pairs and in your own time. There is, however, a lab session dedicated to the assignment, usually but not always close to the delivery date, in which the teaching assistant (*profesor/a de prácticas*) will answer any questions you may have. Feel free to also post questions in the course forum.
-
-There are 3 assignments in this course. Assignment descriptions start with "asNN".
-
-| Assignment                           | Contents |
-|--------------------------------------|----------|
-| [AS01](as01_cytoscape_movie.md)      | Create a movie network from a movie database |
-| [AS02](as02_distances_diameter.md)   | Find distances and the diameter in a network |
-| [AS03](as03_pagerank.md)             | Compute PageRank with the graph in secondary memory |
-

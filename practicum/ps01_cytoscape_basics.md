@@ -6,7 +6,7 @@
 
 * [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
 * File "[karate.gml](data/karate.gml)"
-* File "[lesmiserables.gml](data/lesmiserables.gml)"
+* File "[starwars.graphml](data/starwars.graphml)"
 * File "[us_companies_ownership.csv](data/us_companies_ownership.csv)"
 
 ## Contents of this session
@@ -26,43 +26,45 @@
 
 For test datasets, see [data/](data/README.md)
 
-You can use any document edition program for your report. To insert images from Cytoscape in your report, use File > Export as image.
+You can use any document edition program for your report. To insert images from Cytoscape in your report, use `File > Export` as image.
 
 # 1. Importing a network
 
-## 1.1. Import "Zachary's Karate Club"
+## 1.1. Import Zachary's karate club
 
 Let's start with a simple case: [Zachary's Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club). This was a Karate Club with a sensei (#1) and a club president (#34) that split into two: some people remained with the sensei, and the others created a new club with the club president.
 
-* File > Import > Network > File
+* `File > Import > Network > File`
 * Select `karate.gml`
-* Layout > Compound Spring Embedder
+* `Layout > Compound Spring Embedder`
 * Look at the graph and try to figure out if there is anything special about nodes 1 and 34.
 * [**REPORT**] Include in your report this graph plus and a brief paragraph indicating whether nodes 1 and 34 have visually anything special.
 
-## 1.2. Import "Les Misérables"
+**Do not use screenshots**; use `File > Export as image`
 
-Open a graph shown co-occurrences of characters in Victor Hugo's "Les Misérables" (same procedure as above)
+## 1.2. Import the Star Wars characters network
 
-* File `lesmiserables.gml`
-* Find Valjean
-* Find Cosette and Marius
-* [**REPORT**] Include in your report this graph. Indicate where Valjean, Cosette, and Marius are by including arrows in your report.
+Open a graph showing characters that appear or are mentioned in the same scene of a Star Wars movie.
 
-Note: you can also look at this [other visualization of the same data](https://bost.ocks.org/mike/miserables/).
+* `File > Import > Network > File`
+* Select `starwars.graphml`
+* `Layout > Prefuse Force Directed Layout > All nodes > scenes`
+* Find Rey and Leia
+* Find Chewbacca
+* [**REPORT**] Include in your report this graph. Indicate where Rey, Leia, and Chewbacca are by including arrows in your report.
 
 ## 1.3. Import US companies co-ownership
 
 Open a graph representing company co-ownership in the US:
 
-* File > Import > Network > File
+* `File > Import > Network > File`
 * Select `us_companies_ownership.csv`
-* Click OK (accept default import)
+* Click `OK` (accept default import)
 * It might take a couple of minutes to open
 * Layout > Compound Spring Embedder (might take ~10 minutes in some PCs)
 * [**REPORT**] Include in your report this graph.
 
-Note: you can zoom in and zoom out with the scroll wheel
+Note: you can zoom in and zoom out with the mouse scroll wheel, you can also use the panel on the bottom-right of the screen to navigate the graph.
 
 # 2. How to edit node and edge styles
 
@@ -97,7 +99,7 @@ To change the width of edges:
 * Click on "Edge" on bottom left (between "Node" and "Network")
 * Click on "Width" property
 * Mapping Type = Continuous Mapping
-* Column = Value (this will work in *Les Misérables* which has a value column)
+* Column = scenes (this will work in *Star Wars* which has a column with the number of scenes in common)
 * Change the "Current Mapping" by double clicking. You should see a window "Continuous Mapping Editor ..."
 * Create a mapping that gives a clear visual separation between thin and thick edges, by editing the mapping so that it has a broader range of values
 
@@ -126,22 +128,22 @@ Perform basic network analysis. Tools > Network Analyzer > Network Analysis > An
 * The analysis adds some node attributes
 * Look at these node attributes (e.g., find the node with the largest betweenness centrality)
 * [**REPORT**] Indicate the number of the node with largest betweenness centrality in the Karate Club
-* Try the same with Les Misèrables
-* [**REPORT**] Indicate the name of the node with largest betweenness centrality in Les Misèrables
+* Try the same with Star Wars
+* [**REPORT**] Indicate the name of the three nodes with largest betweenness centrality in Star Wars
 
 ## 3.2. Plot different distributions
 
 Look at the results from the network analysis (you will need to go to "View > Show results panel" -- if it does not show up, try hiding and showing the results panel)
 
-* [**REPORT**] Include two plots with degree distributions in Karate Club and Les Misèrables
-* [**REPORT**] Include two plots with the distribution of shortest path lengths in Karate Club and Les Misèrables
+* [**REPORT**] Include two plots with degree distributions in Karate Club and Star Wars
+* [**REPORT**] Include two plots with the distribution of shortest path lengths in Karate Club and Star Wars
 
 ## 3.3. Style the network using analysis results
 
 Use these to style the network
 
 * Use continuous mapping for "size" and "fill color". Note that size can only be changed if height and width are locked as properties.
-* Use "degree" for size
+* Use "degree" for size in the Karate Club, "scenes" for size in Star Wars
 * Use "betweenness centrality" for color
  * Try creating a mapping where small=blue, large=red (continuous mapping)
 * Tip: delete the mapping with the trash bin to start over
@@ -161,10 +163,12 @@ Install ModuLand 2.0 (Apps > App Manager or in the "apps" option in the menu bar
 
 ## 4.2. Use ModuLand
 
+:construction: I've to continue from here.
+
 Use ModuLand 2.0 (Apps > ModuLand 2.0 > Run ...) on Les Misèrables
 
 * Select any temporary folder if prompted
-* ModuLand requires an attribute for the weight: use the "value" attribute (in *Les Misérables*)
+* ModuLand requires an attribute for the weight: use the "scenes" attribute (in *Star Wars*)
 * Once you run it, a new network will be created AND the old network will have a new attribute in the nodes
 * Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on "Module color." You might have to pick the color for each group
 
