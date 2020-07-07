@@ -14,16 +14,16 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### During class
 
 * Presentation TT02: examples of complex networks [odp](odp/tt02_examples_complex_networks.odp)/[pdf](pdf/tt02_examples_complex_networks.pdf)
- * Nearpod: find examples of networks
+   * Nearpod: find examples of networks
 * Presentation TT03: applications networks science [odp](odp/tt03_applications_networks_science.odp)/[pdf](pdf/tt03_applications_networks_science.pdf)
 * Course overview
- * Overview of [theory topics](./)
- * Overview of [practice sessions](../practicum/README.md)
- * Overview of [evaluation rules](../upf/upf-evaluation.md)
+   * Overview of [theory topics](./)
+   * Overview of [practice sessions](../practicum/README.md)
+   * Overview of [evaluation rules](../upf/upf-evaluation.md)
 * Presentation TT04: graph theory basics [odp](odp/tt04_graph_theory_basics.odp)/[pdf](pdf/tt04_graph_theory_basics.pdf)
- * Google Spreadsheet: draw degree distribution
+   * Google Spreadsheet: draw degree distribution
 * Presentation TT05: sparsity and connectivity [odp](odp/tt05_sparsity_connectivity.odp)/[pdf](pdf/tt05_sparsity_connectivity.pdf)
- * Nearpod: left-project and right-project a graph
+   * Nearpod: left-project and right-project a graph
 
 ### After class
 
@@ -45,12 +45,12 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### During class
 
 * Presentation TT06: clustering coefficient [odp](odp/tt06_clustering_coefficient.odp)/[pdf](pdf/tt06_clustering_coefficient.pdf)
- * Nearpod: compute local clustering coefficients
+   * Nearpod: compute local clustering coefficients
 * Presentation TT07: the random network (ER) model [odp](odp/tt07_random_networks.odp)/[pdf](pdf/tt07_random_networks.pdf)
- * Nearpod: compute expected number of links and expected average degree
+   * Nearpod: compute expected number of links and expected average degree
 * Presentation TT08: properties of random networks [odp](odp/tt08_properties_random_networks.odp)/[pdf](pdf/tt08_properties_random_networks.pdf)
- * Nearpod: find actors with large degree
- * Nearpod: find critical N for a graph to be connected
+   * Nearpod: find actors with large degree
+   * Nearpod: find critical N for a graph to be connected
 
 ### After class
 
@@ -65,9 +65,9 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### During class
 
 * Presentation TT09: scale-free networks [odp](odp/tt09_scale_free_networks.odp)/[pdf](pdf/tt09_scale_free_networks.pdf)
- * Nearpod: compute nodes with an expected degree
+   * Nearpod: compute nodes with an expected degree
 * Presentation TT10: distances in scale-free networks [odp](odp/tt10_distances_scale_free_networks.odp)/[pdf](pdf/tt10_distances_scale_free_networks.pdf)
- * Nearpod: calculate friendship paradox
+   * Nearpod: calculate friendship paradox
 
 ### After class
 
@@ -86,9 +86,9 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### During class
 
 * Presentation TT11: preferential attachment [odp](odp/tt11_preferential_attachment.odp)/[pdf](pdf/tt11_preferential_attachment.pdf)
- * Nearpod: compute nodes with an expected degree
+   * Nearpod: compute nodes with an expected degree
 * Presentation TT12: degree under preferential attachment [odp](odp/tt12_degree_preferential_attachment.odp)/[pdf](pdf/tt12_degree_preferential_attachment.pdf)
- * Nearpod: copy model
+   * Nearpod: copy model
 
 ### After class
 
@@ -103,15 +103,15 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### Before class
 
 * Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
- * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
+   * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
 * Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 
 ### During class
 
 * Presentation TT14: hubs and authorities [odp](odp/tt14_hubs_authorities.odp)/[pdf](pdf/tt14_hubs_authorities.pdf)
- * Nearpod: compute hub and authority scores iteratively
+   * Nearpod: compute hub and authority scores iteratively
 * Presentation TT15: pagerank [odp](odp/tt15_pagerank.odp)/[pdf](pdf/tt15_pagerank.pdf)
- * Nearpod: compute simplified PageRank
+   * Nearpod: compute simplified PageRank
 
 ### After class
 
@@ -142,9 +142,9 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 ### During class
 
 * Presentation TT17: closeness [odp](odp/tt17_closeness.odp)/[pdf](pdf/tt17_closeness.pdf)
- * Nearpod: compute closeness and harmonic closeness
+   * Nearpod: compute closeness and harmonic closeness
 * Presentation TT18: betweenness [odp](odp/tt18_betweenness.odp)/[pdf](pdf/tt18_betweenness.pdf)
- * Nearpod: run the Brandes and Newman algorithm for betweenness
+   * Nearpod: run the Brandes and Newman algorithm for betweenness
 
 ### After class
 
@@ -162,8 +162,8 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 * Presentation TT19: community structure [odp](odp/tt19_community_structure.odp)/[pdf](pdf/tt19_community_structure.pdf)
 * Presentation TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf)
- * Nearpod: write min-cut and max-flow equations
- * Nearpod: run randomized s-t cut algorithm
+   * Nearpod: write min-cut and max-flow equations
+   * Nearpod: run randomized s-t cut algorithm
 
 ### After class
 
@@ -184,9 +184,9 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 ### During class
 
 * Presentation TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf)
- * Nearpod: perform a k-core decomposition
+   * Nearpod: perform a k-core decomposition
 * Presentation TT22: dense sub-graphs [odp](odp/tt22_dense_subgraphs.odp)/[pdf](pdf/tt22_dense_subgraphs.pdf)
- * Nearpod: run Charikar's algorithm
+   * Nearpod: run Charikar's algorithm
 
 ### After class
 
@@ -198,7 +198,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 * Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
 * Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
 * See presentation TT23: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
- * Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE), [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A), and [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
+   * Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE), [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A), and [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
 
 ## Session 10: Spreading Phenomena
 
@@ -211,8 +211,8 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 * Presentation TT24: spreading phenomena [odp](odp/tt24_spreading_phenomena.odp)/[pdf](pdf/tt24_spreading_phenomena.pdf)
 * Presentation TT25: models of influence [odp](odp/tt25_models_of_influence.odp)/[pdf](pdf/tt25_models_of_influence.pdf)
- * Google spreadsheet: simulate linear threshold model
- * Google spreadsheet: simulate independent cascade model
+   * Google spreadsheet: simulate linear threshold model
+   * Google spreadsheet: simulate independent cascade model
 
 ### After class
 
@@ -228,7 +228,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 ### During class
 
 * Presentation TT26: epidemics [odp](odp/tt26_epidemics.odp)/[pdf](pdf/tt26_epidemics.pdf)
- * Nearpod: compute number of infected over time
+   * Nearpod: compute number of infected over time
 * Presentation TT27: epidemics on graphs [odp](odp/tt27_epidemics_on_graphs.odp)/[pdf](pdf/tt27_epidemics_on_graphs.pdf)
 
 ### After class
