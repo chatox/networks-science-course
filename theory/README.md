@@ -1,13 +1,14 @@
 # List of theory topics
 
-:construction: due to the necessity of having more online sessions than face-to-face sessions, I am modifying parts of the course for September-December 2020. These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
+:construction: Due to the necessity of having more online sessions than face-to-face sessions, I am modifying parts of the course for September-December 2020. These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-There are 11 theory sessions of 2 hours each. In two of the sessions, *midterm exams* will be taken.
+There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm exam* will be taken.
 
 ## Session 1: Introduction
 
 ### Before class
 
+* Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the lecture, watch it at some other point
 * Take a look at the list of [theory topics](./),  [practice sessions](../practicum/README.md), and [evaluation rules](../upf/upf-evaluation.md)
 
 ### During class
@@ -210,6 +211,8 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 * Presentation TT24: spreading phenomena [odp](odp/tt24_spreading_phenomena.odp)/[pdf](pdf/tt24_spreading_phenomena.pdf)
 * Presentation TT25: models of influence [odp](odp/tt25_models_of_influence.odp)/[pdf](pdf/tt25_models_of_influence.pdf)
+ * Google spreadsheet: simulate linear threshold model
+ * Google spreadsheet: simulate independent cascade model
 
 ### After class
 
@@ -217,16 +220,26 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ## Session 11: Epidemics
 
-:construction: to be done
+### Before class
 
-| TT12. Spreading phenomena             | Examples; Contagion models; Linear threshold model; Independent cascade model                            | 10 (1h)        | [pdf](pdf/tt12_spreading_phenomena.pdf) [odp](tt12_spreading_phenomena.odp) |
-| TT13. Epidemics                       | Transmission rate; SI, SIS, SIR models; Epidemic thresholds                                              | 10-11 (2h)       | [pdf](pdf/tt13_epidemics.pdf) [odp](tt13_epidemics.odp) |
+* Watch this 13-minutes [infection simulations](https://www.youtube.com/watch?v=7OLpKqTriio)
+* Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
+
+### During class
+
+* Presentation TT26: epidemics [odp](odp/tt26_epidemics.odp)/[pdf](pdf/tt26_epidemics.pdf)
+* Presentation TT27: epidemics on graphs [odp](odp/tt27_epidemics_on_graphs.odp)/[pdf](pdf/tt27_epidemics_on_graphs.pdf)
+
+### After class
+
+* Read [chapter 10](http://networksciencebook.com/chapter/10) of the book by Barabási
+* Read [chapter 21](http://www.cs.cornell.edu/home/kleinber/networks-book/) of the work by Easley and Kleinberg
 
 # Notes
 
-These slides were made with LibreOffice and the [TexMaths](https://extensions.libreoffice.org/extensions/texmaths-1) extension, which allows to easily enter and edit LaTeX equations that are embedded as images in the slides.
+These slides are made with LibreOffice and the [TexMaths](https://extensions.libreoffice.org/extensions/texmaths-1) extension, which allows to easily enter and edit LaTeX equations that are embedded as images in the slides.
 
-Note that the source files include solutions, while the PDF files do not include them. Use this while studying: do not look at the solutions until you have tried to solve the problem yourself.
+Note that the source files include some solutions, while the PDF files do not include them. Use this while studying: do not look at the solutions until you have tried to solve the problem yourself.
 
 # Sources/credits
 
