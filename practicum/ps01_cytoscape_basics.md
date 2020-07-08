@@ -4,7 +4,6 @@
 
 :warning: Do not simply right-click on the file names below, or you will download an HTML file that will not be readable by Cytoscape. See [how to download](data/README.md) in the README of the data/ directory.
 
-* [Cytoscape](http://www.cytoscape.org/download.php) *version 3.6.1*
 * File "[karate.gml](data/karate.gml)"
 * File "[starwars.graphml](data/starwars.graphml)"
 * File "[us_companies_ownership.csv](data/us_companies_ownership.csv)"
@@ -188,7 +187,7 @@ Use ClusterMaker2 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-:warning: First: read the [evaluation guidelines](../upf/upf-evaluation) for reports.
+:warning: First: read the [evaluation guidelines](../upf/upf-evaluation.md) for reports.
 
 Deliver a brief report of at most 4 pages (it can be less!), in PDF format. This report should briefly describe the three networks, including the number of nodes and edges in each one, plus all the mandatory elements marked [**REPORT**] above.
 
@@ -196,4 +195,4 @@ Deliver a brief report of at most 4 pages (it can be less!), in PDF format. This
 
 **Please be brief,** you do not need to write too much, specially if you are not going to say anything substantive: your report can be less than four pages. A "brief commentary" means one or two paragraphs.
 
-:warning: Before delivering your report, read the [evaluation guidelines](../upf/upf-evaluation) for reports once more.
+:warning: Before delivering your report, read the [evaluation guidelines](../upf/upf-evaluation.md) for reports once more.

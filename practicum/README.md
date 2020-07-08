@@ -15,7 +15,7 @@ You will need:
 * [Cytoscape 3.8](https://cytoscape.org/download.html)
 * The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
 
-:warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice professors, they absolutely do not have the bandwidth to be your computer technician.
+:warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice professors, they absolutely do not have the bandwidth for this.
 
 ## Practice sessions
 
