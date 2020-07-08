@@ -18,6 +18,7 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | us_companies_ownership.csv | [Norlen et al. 2002](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |
 | hero-network.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
 | les_miserables-characters.csv + les_miserables-chapters.csv | [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
+| CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
 
 ## Sources for other datasets
 

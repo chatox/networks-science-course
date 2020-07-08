@@ -15,15 +15,15 @@ You will need:
 * [Cytoscape 3.8](https://cytoscape.org/download.html)
 * The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
 
-:warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice professors, they absolutely do not have the bandwidth for this.
+:warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice instructors, they absolutely do not have the bandwidth for this.
 
 ## Practice sessions
 
 Practice sessions are conducted with a computer, and as a general rule, are delivered individually within 24 hours of the end of the session.
 
-There are 09 practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
+There are 09 practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
-At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your teaching assistant ("*profesor/a de prácticas*") any questions you may have.
+At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
 | Session                                             | Contents |
 |-----------------------------------------------------|----------|
