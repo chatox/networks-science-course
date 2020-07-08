@@ -68,7 +68,7 @@ Each practice session and assignment specifies what you should submit:
 
 Read carefully the work sheet to ensure that you are including everything that was asked. Too often people forget to include the code, or the report, in the work they deliver.
 
-#### 2.2.1. Report
+#### 2.2.1. Delivering your report
 
 Identify the authorship and date of each report with a paragraph on the first page, including:
 
@@ -93,10 +93,9 @@ These are some of the most common mistakes in reports, these deduct points from 
 5. including screenshots instead of exporting the images
 6. copy-pasting tables formatted in ASCII
 7. delivering in the wrong format such as .docx
-8. delivering a report that does not look professional at all
+8. delivering a report that is not understandable or does not look professional at all
 
-
-#### 2.2.2. Code
+#### 2.2.2. Delivering your code
 
 Identify the authorship and date of your code on the first cell (a markdown cell) of your notebook. Include further markdown cells between code cells as needed to explain what your code does.
 

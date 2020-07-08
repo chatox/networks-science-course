@@ -187,12 +187,10 @@ Use ClusterMaker2 on the Karate Club
 
 # DELIVER (INDIVIDUALLY)
 
-:warning: First: read the [evaluation guidelines](../upf/upf-evaluation.md) for reports.
+:warning: First of all, read "[delivering your report](../upf/upf-evaluation.md)" on the evaluation guidelines, and check your report against those guidelines before submitting.
 
 Deliver a brief report of at most 4 pages (it can be less!), in PDF format. This report should briefly describe the three networks, including the number of nodes and edges in each one, plus all the mandatory elements marked [**REPORT**] above.
 
 **Organize your report by network.** The first part should be about the Karate Club, the second part about *Star Wars*, the third part about US Companies.
 
 **Please be brief,** you do not need to write too much, specially if you are not going to say anything substantive: your report can be less than four pages. A "brief commentary" means one or two paragraphs.
-
-:warning: Before delivering your report, read the [evaluation guidelines](../upf/upf-evaluation.md) for reports once more.
