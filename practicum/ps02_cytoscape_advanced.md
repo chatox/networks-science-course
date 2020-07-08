@@ -13,7 +13,7 @@
 1. Creating networks
 1. Editing networks
 
-# 1. Working with a large CSV file
+# 1. Working with a large network
 
 The Marvel Universe Social Graph contains characters from the Marvel Universe that appear in the same comic number. It contains over half a million edges. It is formatted in the following way:
 
@@ -59,66 +59,61 @@ Tip: change the style to minimalistic to see the graph better.
 
 Note that you can also select by other characteristics, such as degree, by creating a filter in the "Select" panel.
 
+[**REPORT**] Include a brief commentary on the number of nodes and edges in different sub-graphs from different characters. Why do you think influences these numbers?
+
 :warning: **Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Show Graphics Details" and "View > Hide Graphics Details." You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200. Be careful: this will block your computer when dealing with large networks such as the hero network.
 
 # 2. Creating a network
 
 Now we will practice creating small networks.
 
-## 2.1. Creating from existing spreadsheet
+## 2.1. Creating from existing spreadsheets
 
-We will create a network from two small spreadsheets. The first one, `holidays-bcn-network.csv`, contains month names and the holidays in those months. The second one, `holidays-bcn-node-attributes.csv`, contains the type of each holiday.
+We will create a network from two spreadsheets. The first one, `les_miserables-characters.csv`, contains the name and gender of the characters in the novel *Les Misérables* by Victor Hugo. The second one, `les_miserables-chapters.csv` contains the number of chapters in which two characters appear.
 
 First we import the network:
 
-* Import as a network `holidays-bcn-network.csv`
-* Remember to set the advanced options for "," as a separator and to *not* use the first row as column names.
-* Select for column 1: "Source Node" (it's a green disc)
-* Select for column 2: "Target node" (it's a red target)
+* ``File > Import > Network from file ...``
+* Use file ``les_miserables-chapters.csv``
+* Select for name1: "Source Node" (it's a green disc)
+* Select for name2: "Target Node" (it's a red target)
+* Select for numchapters: "Edge Attribute"
+
+Run the network analysis and create a prefuse force directed layout on the attribute ``numchapters``.
 
 Now we import the node attribute:
 
-* File > Import > Table > File ...
-* Select `holidays-bcn-node-attributes.csv`
+* ``File > Import > Table from file ...``
+* Use file ``les_miserables-characters.csv``
 * Import data as "Node Table Columns"
-* Set the advanced options for "," as a separator and *not* to use the first row as names
-* The first column (the holiday name) should be the key.
-* The second column (the holiday type) should be an attribute; name this attribute "type of holiday"
+* The first column (name) should be the key.
+* The second column (gender) should be an attribute
 
-Now, use the "type of holiday" attribute to determine the shape and color of nodes. Use style, shape, fill-color, and discrete mappings. You will have to manually select a color for each of the three types of holidays. Make sure the month names are ellipses, the holidays are rectangles, and 4 colors are used (one color for the month name, and one different color for each holiday type). Manually arrange months in chronological order.
+Now, use the "gender" attribute to determine the shape and color of nodes. Use style, shape, fill-color, and discrete mappings.
 
-[**REPORT**] Include the graph of holidays.
+[**REPORT**] Include the graph of *Les Misérables*.
+
+[**REPORT**] Include a brief commentary on what do you observe with respect to gender in this novel, according to the graph you are looking at.
 
 ## 2.2. Create a new network in a CSV file
 
-Now, create a network on your own using CSV files. You will need two CSV files: one for the network and one for the attribute.
+Now, create a network on your own using CSV files, on whatever topic of your choice as long as the network is **real**. You will need two CSV files: one for the network and one for the attributes. The network should include between 15 and 30 nodes.
 
-Include at least 12 nodes, and at least one attribute per node. Be creative (but tasteful). For instance, you can create a social network of friends, a network of characters in a movie, TV series, or novel, a network of musicians and music bands, or sportsmen/sportswomen and teams, or anything you find interesting.
+Some ideas:
+
+* Nodes can be characters in a movie, edges connecting characters depending on their affinity.
+* Nodes can be music bands or artists, attributes whether the node is a band or an artist, edges connect artists to the bands they've played in.
+* Nodes can be countries, attributes can be population sizes, connections can be countries that share a border.
+* Note that edges can also have attributes, which you can use to change the color or style of lines in the graph.
+
+These are only ideas. Be creative.
+
+[**REPORT**] Describe the graph you created.
 
 [**REPORT**] Include two tables with the contents of the CSV files you created (not screenshots).
 
-[**REPORT**] Include the graph you created and styled from these CSV files.
-
-## 2.3. Creating inside the application
-
-Creating a small network inside the application is easy: File > New > Network > Empty Network.
-
-* To add nodes, right click on the display and create a new nodes.
-* To add edges, select two nodes by holding "shift" while you click on them, then right click on the display and then Add > Edge containing the selected nodes.
-* Deleting nodes/edges is easy, practice this
-* Learn to edit node names (should change this visibly)
-* Learn to edit interactions (should change this visibly)
-
-Create a small graph of 4-5 nodes and 2-3 connections.
-
-[**REPORT**] Include the graph you created and styled within the application.
+[**REPORT**] Draw the graph in Cytoscape and include it in your report.
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report having at most 4 pages in PDF, containing each of the elements marked [**REPORT**] above. You do not need to add a long narrative explanation to your report, just the requested elements.
-
-For each of those elements:
-
-* Include the section number where each element is requested.
-* Include a descriptive title, remembering to indicate from which network each element comes.
-* For images and plots, include a brief commentary.
+Deliver a report describing these networks, having at most 4 pages in PDF. The report should have **three numbered sections**: one for the *Marvel* network, one for *Les Misérables*, and one for the network you created. Remember to include all of the elements marked [**REPORT**] above.

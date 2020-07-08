@@ -9,16 +9,21 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 * For large files, browse to the dataset and click on "Download" (on the top-right corner).
 * For small files, browse to the dataset and click on "Raw" (on the top-right corner) and then "Save as ..." in your browser. If you are in Windows, be careful with the additional extension (usually .text) added by the operating system.
 
-## Sources for datasets in this directory
+## Sources for datasets used in practices
 
 | Filename | Source |
 |----------|--------|
-| starwars.graphml (starwars-characters.csv + starwards-links.csv) | [Evelina Gabasova 2016](https://github.com/evelinag/star-wars-network-data) |
+| starwars.graphml (starwars-characters.csv + starwars-links.csv) | [Evelina Gabasova 2016](https://github.com/evelinag/star-wars-network-data) |
 | karate.gml + karate-factions.csv | [Zachary 1977](http://www-personal.umich.edu/~mejn/netdata/karate.zip) |
-| holidays-bcn-*.csv | [Barcelona City Council, 2018](http://ajuntament.barcelona.cat/calendarifestius/en/) |
-| lesmiserables.gml | [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml) |
 | us_companies_ownership.csv | [Norlen et al. 2002](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |
 | hero-network.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
+| les_miserables-characters.csv + les_miserables-chapters.csv | [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
+
+## Sources for other datasets
+
+| Filename | Source |
+|----------|--------|
+| holidays-bcn-*.csv | [Barcelona City Council, 2018](http://ajuntament.barcelona.cat/calendarifestius/en/) |
 | disease-genes.csv |  [Goh et al. 2008](http://www.pnas.org/content/104/21/8685), Table 1 |
 | movie_metadata.csv | [Troung 2016](https://github.com/katie-truong/Jupyter) |
 | EstamosPorTi.json.gz | [Gabriele  2018](https://archive.org/details/EstamosporTIOohmm2018032618831Ids) |

@@ -87,17 +87,17 @@ or, in the case of work done in pairs/groups (if any):
 These are some of the most common mistakes in reports, these deduct points from your grade:
 
 1. failing to include your name in the first page
-2. exceeding the number of pages
-3. having the required number of pages but with text that has no substance and is just filling up space
-4. including plots without a scale or without a label
-5. including screenshots instead of exporting the images
-6. copy-pasting tables formatted in ASCII
-7. delivering in the wrong format such as .docx
-8. delivering a report that is not understandable or does not look professional at all
+1. exceeding the number of pages
+1. having the required number of pages but with text that has no substance and is just filling up space
+1. including plots without a scale or without a label
+1. including screenshots instead of exporting the images
+1. copy-pasting tables formatted in ASCII
+1. delivering in the wrong format such as .docx
+1. delivering a report that is not understandable or does not look professional at all
 
 #### 2.2.2. Delivering your code
 
-Identify the authorship and date of your code on the first cell (a markdown cell) of your notebook. Include further markdown cells between code cells as needed to explain what your code does.
+Identify the authorship and date of your code in a markdown cell of your notebook. Include further markdown cells between code cells as needed to explain what your code does.
 
 Follow good programming practices:
 
@@ -105,6 +105,16 @@ Follow good programming practices:
 * Give your functions and variables informative names that state what they do or what they contain.
 * Avoid code duplication.
 * Remove unnecessary code.
+
+These are some of the most common mistakes in code, these deduct points from your grade:
+
+1. Delivering code that does not execute from beginning to end; to prevent this, make sure that ``Kernel > Restart and run all`` works in your notebook, because that is how practice instructors review your code
+1. Not including comments explaining how your code works; these are important for practice instructors to properly review your code
+1. Including unnecessary code
+1. Leaving cells that you should have removed when delivering
+1. Including code that does the same twice or more (use functions)
+1. Giving cryptic names to your variables or functions
+1. Using an inconsistent coding style
 
 ## We expect nothing less than top-quality work
 
