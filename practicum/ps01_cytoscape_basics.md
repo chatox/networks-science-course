@@ -52,6 +52,7 @@ Open a graph showing characters that appear or are mentioned in the same scene o
 * Find Rey and Leia
 * Find Chewbacca
 * [**REPORT**] Include in your report this graph. Indicate where Rey, Leia, and Chewbacca are by including arrows in your report.
+* [**REPORT**] Include a brief commentary of what do you see in this network.
 
 ## 1.3. Import US companies co-ownership
 
@@ -63,6 +64,7 @@ Open a graph representing company co-ownership in the US:
 * It might take a couple of minutes to open
 * Layout > Compound Spring Embedder (might take ~10 minutes in some PCs)
 * [**REPORT**] Include in your report this graph.
+* [**REPORT**] Include a brief commentary on the connected components in this network, how many are they, what is the size of the larges one, and similar information.
 
 Note: you can zoom in and zoom out with the mouse scroll wheel, you can also use the panel on the bottom-right of the screen to navigate the graph.
 
@@ -122,18 +124,18 @@ Try some layouts ("Layout" menu)
 
 ## 3.1. Analyze network
 
-Perform basic network analysis. Tools > Network Analyzer > Network Analysis > Analyze network ; then choose "undirected"
+Perform basic network analysis. ``Tools > Analyze network``. Consider the network is not directed.
 
 * Start with the Karate Club network
 * The analysis adds some node attributes
 * Look at these node attributes (e.g., find the node with the largest betweenness centrality)
 * [**REPORT**] Indicate the number of the node with largest betweenness centrality in the Karate Club
-* Try the same with Star Wars
+* Try the same with *Star Wars*
 * [**REPORT**] Indicate the name of the three nodes with largest betweenness centrality in Star Wars
 
 ## 3.2. Plot different distributions
 
-Look at the results from the network analysis (you will need to go to "View > Show results panel" -- if it does not show up, try hiding and showing the results panel)
+Look at the results from the network analysis (you will need to go to ``View > Show results panel`` -- if it does not show up, try hiding and showing the results panel)
 
 * [**REPORT**] Include two plots with degree distributions in Karate Club and Star Wars
 * [**REPORT**] Include two plots with the distribution of shortest path lengths in Karate Club and Star Wars
@@ -150,44 +152,48 @@ Use these to style the network
 
 Include in your report:
 
-* [**REPORT**] Include an image of the network from Les Misérables, styled in any way you want.
+* [**REPORT**] Include an image of the network from *Star Wars*, styled in any way you want.
 * [**REPORT**] Include an image of the network from US Companies, styled in any way you want.
 
-# 4. Use a Cytoscape App (ModuLand 2.0)
+# 4. Use a Cytoscape App (ClusterMaker2)
 
 Cytoscape has "apps" that can be installed and used.
 
-## 4.1. Install ModuLand
+## 4.1. Install ClusterMaker2
 
-Install ModuLand 2.0 (Apps > App Manager or in the "apps" option in the menu bar).
+Install ClusterMaker2 (``Apps > App Manager``). You may need to download a jar file from the [releases](https://apps.cytoscape.org/apps/clustermaker2) directory of clustermaker2, and then ``Install from file ...`` in the App Manager.
 
-## 4.2. Use ModuLand
+## 4.2. Use ClusterMaker2
 
-:construction: I've to continue from here.
-
-Use ModuLand 2.0 (Apps > ModuLand 2.0 > Run ...) on Les Misèrables
+Run the affinity propagation clustering algorithm in ClusterMaker2 (``Apps > ClusterMaker2 > Affinity Propagation ...``) on the *Star Wars* network.
 
 * Select any temporary folder if prompted
-* ModuLand requires an attribute for the weight: use the "scenes" attribute (in *Star Wars*)
-* Once you run it, a new network will be created AND the old network will have a new attribute in the nodes
-* Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on "Module color." You might have to pick the color for each group
+* ClusterMaker2 requires an attribute for the weight: use ``Array source = scenes`` in *Star Wars*
+* Once you run it, the network will have a new attribute in the nodes (in the node table you will see an attribute named ``_APCluster``)
+* Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on ``_APCluster.`` You might have to pick the color for each group, just pick a color for the three largest groups.
+
+[**REPORT**] Include in your report an image of the Star Wars network with the three largest clusters in three different colors (the rest of the nodes can be white).
+[**REPORT**] Include a brief commentary on what do you see in these clusters, what do you think they represent and why.
 
 ## 4.3. Apply to Karate Club
 
-Use ModuLand 2.0 on the Karate Club
+Use ClusterMaker2 on the Karate Club
 
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
-* Use "Edge betweenness" as the attribute for the weight
+* Use "Edge betweenness" as the attribute for the weight (``Array source``)
 * Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
 
 [**REPORT**] Include in your report an image of the Karate Club network with nodes painted according to clusters.
+[**REPORT**] Include a brief commentary on what do you see in these clusters, what do you think they represent and why.
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report having at most 4 pages in PDF, containing each of the elements marked [**REPORT**] above. You do not need to add a long narrative explanation to your report, just the requested elements.
+:warning: First: read the [evaluation guidelines](../upf/upf-evaluation) for reports.
 
-For each of those elements:
+Deliver a brief report of at most 4 pages (it can be less!), in PDF format. This report should briefly describe the three networks, including the number of nodes and edges in each one, plus all the mandatory elements marked [**REPORT**] above.
 
-* Include the section number where each element is requested.
-* Include a descriptive title, remembering to indicate from which network each element comes.
-* For images and plots, include a brief commentary.
+**Organize your report by network.** The first part should be about the Karate Club, the second part about *Star Wars*, the third part about US Companies.
+
+**Please be brief,** you do not need to write too much, specially if you are not going to say anything substantive: your report can be less than four pages. A "brief commentary" means one or two paragraphs.
+
+:warning: Before delivering your report, read the [evaluation guidelines](../upf/upf-evaluation) for reports once more.

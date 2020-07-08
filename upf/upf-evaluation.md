@@ -40,19 +40,7 @@ Not coming to a practice session or not delivering your work means a zero grade 
 
 :warning: Copying from external sources without acknowledging them in your work, and copying the work from other person/group in your class, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the [university regulations](https://seuelectronica.upf.edu/es/regim-disciplinari-dels-estudiants-de-la-universitat-pompeu-fabra), with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
-### 1.2. Getting a grade in the assignments (ASxx, in pairs)
-
-To obtain a grade in the assignments, you must:
-
-* Deliver the assignment on time
-* If your work is delivered after the deadline, but within 24 hours of the deadline, it will have a -2 points deduction
-* After 24 hours, work will not be accepted
-
-Saturdays, Sundays, and holidays do not count in the 24 hours count.
-
-Not delivering an assignment means a zero grade in that assignment.
-
-### 1.3. Getting a grade in the in-class tests or exam
+### 1.2. Getting a grade in the in-class tests or exam
 
 In-class tests and exams are individual work.
 
@@ -88,13 +76,25 @@ Identify the authorship and date of each report with a paragraph on the first pa
 * the author name(s) and e-mail(s), and
 * the date in which the report was completed.
 
-All of your reports should end with the following sentence:
+All of your reports should end with the following statement:
 
 > **I hereby declare that, except for the code provided by the course instructors, all of my code, report, and figures were produced by myself.**
 
-or, in the case of work done in pairs/groups:
+or, in the case of work done in pairs/groups (if any):
 
 > **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
+
+These are some of the most common mistakes in reports, these deduct points from your grade:
+
+1. failing to include your name in the first page
+2. exceeding the number of pages
+3. having the required number of pages but with text that has no substance and is just filling up space
+4. including plots without a scale or without a label
+5. including screenshots instead of exporting the images
+6. copy-pasting tables formatted in ASCII
+7. delivering in the wrong format such as .docx
+8. delivering a report that does not look professional at all
+
 
 #### 2.2.2. Code
 
