@@ -29,7 +29,7 @@ At the end of each handout there is a description of what you should deliver. Pl
 |-----------------------------------------------------|----------|
 | [PS01](ps01_cytoscape_basics.md)                    | Cytoscape: editing and visualizing networks |
 | [PS02](ps02_cytoscape_advanced.md)                  | Cytoscape: importing, creating, and editing networks |
-| [PS03](ps03_network_data_management.ipynb)             | Python: data management of networks data |
+| [PS03](ps03_management_networks_data.ipynb)             | Python: data management of networks data |
 | [PS04](ps04_networks_from_text.md)                  | Python and Cytoscape: creating a network using textual data |
 | [PS05](ps05_network_models.md)               | NetworkX: graph generation and degree computations |
 | [PS06](ps06_degree_assortativity.md)                          | NetworkX: degree and assortativity |
