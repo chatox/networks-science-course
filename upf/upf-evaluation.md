@@ -21,14 +21,15 @@ If you fail to pass, you will have to take the resit exam. The resit exam replac
 
 To obtain a grade in the practical session, you must:
 
-* Attend the practical session and **sign the attendance sheet**
+* Attend the practical session
+* Submit a screenshot of your work at the end of the session through *Aula Global* (an image of the last part of what you were doing when the time ended)
 * Deliver your work within 24 hours of the end of the practical session
 * If your work is delivered after more than 24 hours but less than 48 hours, it will have a -2 points deduction
 * After 48 hours, work will not be accepted
 
 Saturdays, Sundays, and holidays do not count in the 24/48 hours counts.
 
-Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your practice grade is capped at 10 points.
+Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your total practice grade is capped at 10 points.
 
 Automatically the lowest grade in the practice sessions will be discarded, which allows you to skip one session and still get the maximum grade.
 
@@ -36,7 +37,7 @@ Not coming to a practice session or not delivering your work means a zero grade 
 
 :unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to others and looking at what people around you will deliver.
 
-:rage: Do not work in large groups during the practice session. Feel free to exchange ideas with the people sitting around you, but do not form a cluster of four or more people working together on the same code: we will consider that copying.
+:rage: Do not work in large groups during the practice session. Feel free to exchange ideas with other students, but do not form a cluster of four or more people working together on the same code: we will consider that copying.
 
 :warning: Copying from external sources without acknowledging them in your work, and copying the work from other person/group in your class, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the [university regulations](https://seuelectronica.upf.edu/es/regim-disciplinari-dels-estudiants-de-la-universitat-pompeu-fabra), with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
@@ -97,7 +98,9 @@ These are some of the most common mistakes in reports, these deduct points from 
 
 #### 2.2.2. Delivering your code
 
-Identify the authorship and date of your code in a markdown cell of your notebook. Include further markdown cells between code cells as needed to explain what your code does.
+Your code is delivered as a self-contained Python notebook. This notebook should be readable and understandable on its own by a person familiar with networks science. Think of the notebook as a report in which you tell a story, and tell that story well and professionally.
+
+Remember to identify the authorship and date of your code. Include as many markdown cells between code cells as needed to explain what you are doing and what we are looking at.
 
 Follow good programming practices:
 
