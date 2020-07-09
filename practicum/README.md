@@ -4,6 +4,8 @@
 
 You will need:
 
+* [Cytoscape 3.8](https://cytoscape.org/download.html)
+* The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
 * Python 3.6 or higher.
    * You can use the [Anaconda](https://www.anaconda.com/products/individual) package manager.
 * Several Python packages
@@ -12,8 +14,6 @@ You will need:
    * [numpy](https://numpy.org/)
 * Jupyter Notebooks.
    * Follow [these instructions](https://jupyter.org/install.html).
-* [Cytoscape 3.8](https://cytoscape.org/download.html)
-* The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
 
 :warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice instructors, they absolutely do not have the bandwidth for this.
 
