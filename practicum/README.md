@@ -36,3 +36,18 @@ At the end of each handout there is a description of what you should deliver. Pl
 | [PS07](ps07_hubs_and_authorities.md)                          | NetworkX: hubs and authorities |
 | [PS08](ps08_components_k_cores.md)                  | NetworkX: finding connected components and k-cores |
 | [PS09](ps09_viral_propagation.md)                   | NetworkX: simulating the spread of a virus |
+
+## Tutorials/reference
+
+### Cytoscape
+
+* [Cytoscape 8-minutes video tutorial](https://www.youtube.com/watch?v=iGpxX0Kd4Z0&list=PLFQS98nmv__wFmmSDePx9FtQ2TFRS6wdR)
+* [Cytoscape tutorial](https://github.com/cytoscape/cytoscape-tutorials/wiki)
+* [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0)
+
+### NetworkX
+
+* [Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/) (2018) by Dmitry Zinoviev. **Also [available as an e-book](https://upfinder.upf.edu/iii/encore/record/C__Rb1557007?lang=cat) for UPF students.**
+* [NetworkX documentation](https://networkx.github.io/)
+* [Social network analysis with NetworkX](https://blog.dominodatalab.com/social-network-analysis-with-networkx/) by Manojit Nandi
+* [NetworkX: Network analysis with Python](https://www.cl.cam.ac.uk/~cm542/teaching/2010/stna-pdfs/stna-lecture8.pdf) by Salvatore Scellato

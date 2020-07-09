@@ -18,14 +18,7 @@
 
 # 0. About Cytoscape
 
-[Cytoscape](http://www.cytoscape.org/) is an open source software platform for visualizing complex networks and integrating these with any type of attribute data. These are two recommended tutorials on Cytoscape:
-
-* [Cytoscape tutorial](https://github.com/cytoscape/cytoscape-tutorials/wiki)
-* [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0)
-
-For test datasets, see [data/](data/README.md)
-
-You can use any document edition program for your report. To insert images from Cytoscape in your report, use `File > Export` as image.
+[Cytoscape](http://www.cytoscape.org/) is an open source software platform for visualizing complex networks and integrating these with any type of attribute data.
 
 # 1. Importing a network
 
