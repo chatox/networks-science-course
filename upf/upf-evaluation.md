@@ -115,6 +115,7 @@ These are some of the most common mistakes in code, these deduct points from you
 1. Including code that does the same twice or more (use functions)
 1. Giving cryptic names to your variables or functions
 1. Using an inconsistent coding style
+1. Using code cells to write text intended to be read, instead, use markdown cells for that; the only text you should have in code cells are brief commentaries to understand a piece of code
 
 ## We expect nothing less than top-quality work
 
