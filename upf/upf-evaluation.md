@@ -23,9 +23,8 @@ To obtain a grade in the practical session, you must:
 
 * Attend the practical session
 * Submit a screenshot of your work at the end of the session through *Aula Global* (an image of the last part of what you were doing when the time ended)
-* Deliver your work within 24 hours of the end of the practical session
-* If your work is delivered after more than 24 hours but less than 48 hours, it will have a -2 points deduction
-* After 48 hours, work will not be accepted
+* Deliver your work within the deadline.
+* A grace period of 24 years after the deadline will be given, with a -2 points penalization.
 
 Saturdays, Sundays, and holidays do not count in the 24/48 hours counts.
 
