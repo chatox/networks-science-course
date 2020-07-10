@@ -27,20 +27,20 @@ At the end of each handout there is a description of what you should deliver. Pl
 
 In the following table, **R** stands for remote/online session, while **F** stands for face-to-face session.
 
-| # | R/F | Handouts                                            | Contents | Deadline |
-|---|-----|-----------------------------------------------------|----------|----------------|
-| 1 | F | [PS01](ps01_cytoscape_basics.md)                    | Cytoscape: editing and visualizing networks | 24 hours after session #1 |
-| 2 | R | [PS02](ps02_cytoscape_advanced.md)                  | Cytoscape: importing, creating, and editing networks | 24 hours after session #2 |
-| 3 | F | [PS03](ps03_management_networks_data.ipynb)             | Python: data management of networks data | 24 hours after session #5 |
-| 4 | R | [PS04](ps04_networks_from_text.ipynb)                  | Python and Cytoscape: creating a network using textual data | 24 hours after session #5 |
-| 5 | R | PS03+PS04 | Wrap-up |
-| 6 | F | [PS05](ps05_network_models.md)               | NetworkX: graph generation and degree computations | 24 hours after session #6 |
-| 7 | R | [PS06](ps06_pagerank.md)                          | NetworkX: PageRank | 24 hours after session #9 |
-| 8 | R | [PS07](ps07_hubs_and_authorities.md)                          | NetworkX: hubs and authorities | 24 hours after session #9 |
-| 9 | F | PS06+PS07 | Wrap-up |
-| 10 | R | [PS08](ps08_components_k_cores.md)                  | NetworkX: finding connected components and k-cores | 24 hours after session #12 |
-| 11 | F | [PS09](ps09_viral_propagation.md)                   | NetworkX: simulating the spread of a virus | 24 hours after session #12 |
-| 12 | R | PS08+PS09 | Wrap-up |
+| # | R/F | Handouts                                    | Contents | Deadline |
+|---|---|-----------------------------------------------|----------|-----------|
+| 1 | F | [PS01](ps01_cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | 24 hours after session #1 |
+| 2 | R | [PS02](ps02_cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | 24 hours after session #2 |
+| 3 | F | [PS03](ps03_management_networks_data.ipynb)   | Python: data management of networks data | 24 hours after session #5 |
+| 4 | R | [PS04](ps04_networks_from_text.ipynb)         | Python and Cytoscape: creating a network using textual data | 24 hours after session #5 |
+| 5 | R | PS03+PS04                                     | Wrap-up |
+| 6 | F | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | 24 hours after session #6 |
+| 7 | R | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | 24 hours after session #9 |
+| 8 | R | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | 24 hours after session #9 |
+| 9 | F | PS06+PS07                                     | Wrap-up |
+| 10 | R | [PS08](ps08_components_k_cores.ipynb         | NetworkX: connected components and k-cores | 24 hours after session #12 |
+| 11 | F | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: simulating the spread of a virus | 24 hours after session #12 |
+| 12 | R | PS08+PS09                                    | Wrap-up |
 
 ## Tutorials/reference
 

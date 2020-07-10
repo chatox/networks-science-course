@@ -23,7 +23,7 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | disease-genes.csv |  [Goh et al. 2008](http://www.pnas.org/content/104/21/8685), Table 1 |
 | CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
 | webspam_uk2007-nodes.csv + webspam_uk2007-edges.csv | [WEBSPAM UK2007](https://chato.cl/webspam/datasets/uk2007/) |
-| country-exports-2018.csv | [IMF Direction of Trade Statistics](http://www.imf.org/external/data.htm) |
+| trade_1980-edges.csv + trade_2013-edges.csv + trade-nodes.csv | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=PARTNER) |
 | stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184), Chapter 10 |
 
 ## Sources for other datasets
@@ -38,6 +38,7 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | polblogs.gml + polblogs-leaning.csv | [Lada Adamic and Natalie Glance 2005](https://doi.org/10.1145/1134271.1134277) |
 | internet-as-20060622.gml | [Newman 2013](http://www-personal.umich.edu/~mejn/netdata/) |
 | astro-ph.gml | [Newman 2001](http://www.pnas.org/content/98/2/404.short) |
+| country-exports-2018.csv | [IMF Direction of Trade Statistics](http://www.imf.org/external/data.htm) |
 
 ## Repositories of network datasets
 
