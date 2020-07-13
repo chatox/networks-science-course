@@ -23,7 +23,7 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | disease-genes.csv |  [Goh et al. 2008](http://www.pnas.org/content/104/21/8685), Table 1 |
 | CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
 | webspam_uk2007-nodes.csv + webspam_uk2007-edges.csv | [WEBSPAM UK2007](https://chato.cl/webspam/datasets/uk2007/) |
-| trade_1980-edges.csv + trade_2013-edges.csv + trade-nodes.csv | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=PARTNER) |
+| trade_1980-flows.csv + trade_2013-flows.csv + trade-countries.csv | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=PARTNER) |
 | stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184), Chapter 10 |
 
 ## Sources for other datasets
