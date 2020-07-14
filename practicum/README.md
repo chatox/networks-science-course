@@ -38,7 +38,7 @@ In the following table, **R** stands for remote/online session, while **F** stan
 | 7 | R | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | 24 hours after session #9 |
 | 8 | R | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | 24 hours after session #9 |
 | 9 | F | PS06+PS07                                     | Wrap-up |
-| 10 | R | [PS08](ps08_components_k_cores.ipynb         | NetworkX: connected components and k-cores | 24 hours after session #12 |
+| 10 | R | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: connected components and k-cores | 24 hours after session #12 |
 | 11 | F | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: simulating the spread of a virus | 24 hours after session #12 |
 | 12 | R | PS08+PS09                                    | Wrap-up |
 
