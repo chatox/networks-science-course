@@ -4,18 +4,17 @@
 
 Continuous evaluation will be based in the following elements:
 
-* A: Average grade in the 8-9 practical sessions with grade, minus the lowest one: 30%
-* B: Average grade in the 3 assignments: 20%
-* C: Average grade in the 2 in-class tests: 20%
-* D: Grade in the exam: 30%
+* A: Average grade in the 8-9 practical sessions with grade, minus the lowest one: 50%
+* B: Grade in the mid-term exam: 20%
+* C: Grade in the final exam: 30%
 
 To pass the course under continuous evaluation, all of the following must be true:
 
-1. Practice grade, 0.6 A + 0.4 B ≥ 5.0
-1. Theory grade, 0.4 C + 0.6 D ≥ 5.0
-1. Final grade, 0.3 A + 0.2 B + 0.2 C + 0.3 D ≥ 5.0
+1. Practice grade, A ≥ 5.0
+1. Theory grade, 0.4 B + 0.6 C ≥ 5.0
+1. Final grade, 0.5 A + 0.2 B + 0.3 C ≥ 5.0
 
-If you fail to pass, you will have to take the resit exam. The resit exam replaces the regular exam grade (D in the list above).
+If you fail to pass, you will have to take the resit exam. The resit exam replaces the regular exam grade (C in the list above).
 
 ### 1.1. Getting a grade in the practical sessions (PSxx, individual)
 
@@ -24,9 +23,7 @@ To obtain a grade in the practical session, you must:
 * Attend the practical session
 * Submit a screenshot of your work at the end of the session through *Aula Global* (an image of the last part of what you were doing when the time ended)
 * Deliver your work within the deadline.
-* A grace period of 24 years after the deadline will be given, with a -2 points penalization.
-
-Saturdays, Sundays, and holidays do not count in the 24/48 hours counts.
+* A grace period of 24 years after the deadline will be given, with a -2 points penalization. Saturdays, Sundays, and holidays do not count in the grace period.
 
 Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your total practice grade is capped at 10 points.
 
@@ -34,9 +31,9 @@ Automatically the lowest grade in the practice sessions will be discarded, which
 
 Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence to the teaching assistant (*profesor de prácticas*).
 
-:unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to others and looking at what people around you will deliver.
+:unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs.
 
-:rage: Do not work in large groups during the practice session. Feel free to exchange ideas with other students, but do not form a cluster of four or more people working together on the same code: we will consider that copying.
+:rage: Do not work in groups of three or more during the practice session. Feel free to exchange ideas with other students, but do not copy from others.
 
 :warning: Copying from external sources without acknowledging them in your work, and copying the work from other person/group in your class, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the [university regulations](https://seuelectronica.upf.edu/es/regim-disciplinari-dels-estudiants-de-la-universitat-pompeu-fabra), with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
@@ -56,17 +53,11 @@ Please write clearly your full name in the space allocated for it.
 
 Please write readable, short, clear answers and go straight to the point of what you have been asked.
 
-When asked for an algorithm, pseudocode is the best. Written descriptions tend to be ambiguous which makes tends to make them poor answers.
+When asked for an algorithm, pseudocode is the best. Written descriptions tend to be ambiguous which makes them poor answers.
 
 ### 2.2. Practices and assignments
 
-Each practice session and assignment specifies what you should submit:
-
-* **CODE**: code you must write or complete,
-* **REPORT**: elements to include in your report, and
-* **DELIVER**: other files to include.
-
-Read carefully the work sheet to ensure that you are including everything that was asked. Too often people forget to include the code, or the report, in the work they deliver.
+Each practice session and assignment specifies what you should deliver.
 
 #### 2.2.1. Delivering your report
 
