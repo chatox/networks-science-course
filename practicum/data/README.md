@@ -19,7 +19,7 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | karate.gml + karate-factions.csv | [Zachary 1977](http://www-personal.umich.edu/~mejn/netdata/karate.zip) |
 | us_companies_ownership.csv | [Norlen et al. 2002](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |
 | hero-network.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
-| les_miserables-characters.csv + les_miserables-chapters.csv | [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
+| les_miserables-characters.csv + les_miserables-chapters.csv| [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
 | disease-genes.csv |  [Goh et al. 2008](http://www.pnas.org/content/104/21/8685), Table 1 |
 | CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
 | webspam_uk2007-nodes.csv + webspam_uk2007-edges.csv | [WEBSPAM UK2007](https://chato.cl/webspam/datasets/uk2007/) |
