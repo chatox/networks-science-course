@@ -1,6 +1,6 @@
 # <img src="upf_logo.png" align="right" width="80"/>24933 – Introduction to Networks Science
 
-Course presentation for the 2019 edition.
+Course presentation for the 2020 edition.
 
 ## Presentation
 
@@ -54,7 +54,7 @@ The course will be delivered in Python, hence it is strongly recommended to have
     * Scale-free networks
     * Preferential attachment
     * Other network growth models
-    * Structural patterns in networks
+* Structural patterns in networks
     * Hubs and authorities
     * PageRank
     * Link-based centrality
@@ -70,8 +70,6 @@ The course is structured around theory classes in which the topics of the course
 
 In seminar and practice sessions, students can work individually or in small groups in performing network analysis tasks. At the end of each session, each student reports his/her findings individually with a 1-2 pages report.
 
-There are three group projects (groups of two students), which integrate the techniques seen in the seminar sessions. These are accompanied by practice sessions for instructors to solve student questions regarding these projects.
-
 # Evaluation
 
 See [evaluation rules](upf-evaluation.md)
@@ -82,6 +80,7 @@ See [evaluation rules](upf-evaluation.md)
 
 * "[Network Science](http://networksciencebook.com/)" (2016) by Albert-László Barabási. The first half of the course follows this book and its companion [course](https://www.barabasilab.com/course) at North Eastern University.
 * "[Networks, Crowds, and Markets](https://www.cs.cornell.edu/home/kleinber/networks-book/)" (2010) by Easley and Kleinberg.
+* "[A First Course on Networks Science](https://www.cambridge.org/core/books/first-course-in-network-science/EE22722F27519D8BB1443C7225C57BAF)" (2020) by Menczer, Fortunato, and Davis.
 * "[Complex Network Analysis in Python](https://www.amazon.com/gp/product/1680502697/)" (2018) by Dmitry Zinoviev. Also [available as an e-book](https://upfinder.upf.edu/iii/encore/record/C__Rb1557007?lang=cat) for UPF students.
 
 :link: Additional contents of the course come from:
