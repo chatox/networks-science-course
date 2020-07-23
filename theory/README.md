@@ -8,7 +8,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 ### Before class
 
-* Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the lecture, watch it at some other point
+* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the lecture, watch it at some other point
 * Take a look at the list of [theory topics](./),  [practice sessions](../practicum/README.md), and [evaluation rules](../upf/upf-evaluation.md)
 
 ### During class
@@ -32,15 +32,15 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 ### Optional/additional material
 
-* Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
+* :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
 * See presentation TT01: a personal introduction [odp](odp/tt01_complex_networks.odp)/[pdf](pdf/tt01_complex_networks.pdf)
 
 ## Session 2: Random networks (ER model)
 
 ### Before class
 
-* Watch the 4-minutes video on [clustering coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
-* Watch the 17-minutes video on [the ER random graph model](https://www.youtube.com/watch?v=3PxteAgVf0o) by Lada Adamic (has subtitles in English)
+* :tv: Watch the 4-minutes video on [clustering coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
+* :tv: Watch the 17-minutes video on [the ER random graph model](https://www.youtube.com/watch?v=3PxteAgVf0o) by Lada Adamic (has subtitles in English)
 
 ### During class
 
@@ -60,7 +60,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 ### Before class
 
-* Watch this 20-minutes [video on Zipf, Pareto, and power laws](https://www.youtube.com/watch?v=ViUqxEF4plA&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=10) by Lada Adamic. It is a great explanation of a phenomenon that goes well beyond networks.
+* :tv: Watch this 20-minutes [video on Zipf, Pareto, and power laws](https://www.youtube.com/watch?v=ViUqxEF4plA&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=10) by Lada Adamic. It is a great explanation of a phenomenon that goes well beyond networks.
 
 ### During class
 
@@ -81,7 +81,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 ### Before class
 
-* Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=gELshhLX12E) from a course on fractals and scaling at Stanford
+* :tv: Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=gELshhLX12E) from a course on fractals and scaling at Stanford
 
 ### During class
 
@@ -102,9 +102,9 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 ### Before class
 
-* Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
+* :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
    * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
-* Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
+* :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 
 ### During class
 
@@ -116,7 +116,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### After class
 
 * Read the [chapter 14](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf) of the book by Easley and Kleinberg
-* Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
+* :tv: Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
 
 ### Extra content: more on PageRank
 
@@ -136,8 +136,8 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ### Before class
 
-* Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
-* Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+* :tv: Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
+* :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
 
 ### During class
 
@@ -148,7 +148,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ### After class
 
-* Watch the rest of the 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+* :tv: Watch the rest of the 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
@@ -156,7 +156,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ### Before class
 
-* Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
+* :tv: Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
 
 ### During class
 
@@ -178,8 +178,8 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ### Before class
 
-* Watch this 10-minutes video on [k-core decomposition](https://www.youtube.com/watch?v=rHVrgbc_3JA)
-* Watch this 5-minutes presentation on [Charikar's algorithm](https://slideplayer.com/slide/7717185/)
+* :tv: Watch this 10-minutes video on [k-core decomposition](https://www.youtube.com/watch?v=rHVrgbc_3JA)
+* :tv: Watch this 5-minutes presentation on [Charikar's algorithm](https://slideplayer.com/slide/7717185/)
 
 ### During class
 
@@ -195,17 +195,17 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ### Optional/additional materials
 
-* Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
-* Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
+* :tv: Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
+* :tv: Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
 * See presentation TT23: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
-   * Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE), [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A), and [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
+   * :tv: Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE), [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A), and [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
 
 ## Session 10: Spreading Phenomena
 
 ### Before class
 
-* Watch this 10 minutes [crash course on social influence](https://www.youtube.com/watch?v=UGxGDdQnC1Y) explaining some psychology concepts related to influence
-* Watch this 7 minutes [overview of network diffusion elements](https://www.youtube.com/watch?v=bTXUJQhEqL0)
+* :tv: Watch this 10 minutes [crash course on social influence](https://www.youtube.com/watch?v=UGxGDdQnC1Y) explaining some psychology concepts related to influence
+* :tv: Watch this 7 minutes [overview of network diffusion elements](https://www.youtube.com/watch?v=bTXUJQhEqL0)
 
 ### During class
 
@@ -222,8 +222,8 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ### Before class
 
-* Watch this 13-minutes [infection simulations](https://www.youtube.com/watch?v=7OLpKqTriio)
-* Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
+* :tv: Watch this 13-minutes [infection simulations](https://www.youtube.com/watch?v=7OLpKqTriio)
+* :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
 
 ### During class
 
