@@ -104,6 +104,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 * :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
    * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
+* :tv: Watch this 5-minutes [animation explaining PageRank](https://www.youtube.com/watch?v=meonLcN7LD4)
 * :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 
 ### During class
