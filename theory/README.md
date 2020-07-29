@@ -2,13 +2,18 @@
 
 :construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm exam* will be taken. At the end of the course, a *final exam* will be taken. Exam questions are based only on the materials shown or discussed in the lectures during class -- all other videos and readings are optional.
+There are 11 theory sessions of 2 hours each. They will all take place remotely.
+
+**Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
+
+**During class,** I will present the contents using slides and we will do together some exercises using Nearpod or Google Spreadsheets. Please avoid distractions: place your phone in airplane mode, close all other windows in your computer, and try to stay focused. We will pause frequently during the session to help you regain focus. In one of the sessions, a *midterm exam* will be taken, and at the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
+
+**After each session, there is some reading for you to do.** These readings will be much easier after you have attended each lecture, will bring depth to what you learn in class, and will help you remember these contents better. Think of these readings as a form of continuous studying that will save you time and effort when preparing for the exams.
 
 ## Session 1: Introduction
 
 ### Before class
 
-* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the lecture, watch it at some other point
 * Take a look at the list of [theory topics](./),  [practice sessions](../practicum/README.md), and [evaluation rules](../upf/upf-evaluation.md)
 
 ### During class
@@ -29,6 +34,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 
 * Read [chapter 0](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/sample/chapters) of "A first course on network science"
 * Read [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
+* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the lecture, watch it at some other point
 
 ### Optional/additional material
 
@@ -103,9 +109,8 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### Before class
 
 * :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
-   * Or watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
+   * *Or* watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
 * :tv: Watch this 5-minutes [animation explaining PageRank](https://www.youtube.com/watch?v=meonLcN7LD4)
-* :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 
 ### During class
 
@@ -117,6 +122,7 @@ There are 11 theory sessions of 2 hours each. In one of the sessions, a *midterm
 ### After class
 
 * Read the [chapter 14](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf) of the book by Easley and Kleinberg
+* :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 * :tv: Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
 
 ### Extra content: more on PageRank
@@ -224,7 +230,6 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 ### Before class
 
 * :tv: Watch this 13-minutes [infection simulations](https://www.youtube.com/watch?v=7OLpKqTriio)
-* :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
 
 ### During class
 
@@ -236,6 +241,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 * Read [chapter 10](http://networksciencebook.com/chapter/10) of the book by Barabási
 * Read [chapter 21](http://www.cs.cornell.edu/home/kleinber/networks-book/) of the work by Easley and Kleinberg
+* :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
 
 # Notes
 
