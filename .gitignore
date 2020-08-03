@@ -1,3 +1,4 @@
 .fuse_hidden*
 .swp
 .~lock*
+.ipynb_checkpoints

@@ -23,6 +23,8 @@ Practice sessions are conducted with a computer.
 
 There are 09 practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
+:bulb: **Read the practice descriptions before the session,** as they can be sometimes long. You can start working on these at any point, but they are not definitive until the end of the session; details may change.
+
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
 In the following table, **R** stands for remote/online session, while **F** stands for face-to-face session.
