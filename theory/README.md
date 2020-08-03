@@ -129,17 +129,7 @@ There are 11 theory sessions of 2 hours each. They will all take place remotely.
 
 * See slides for TT16: pagerank extra material [odp](odp/tt16_pagerank_extra.odp)/[pdf](pdf/tt16_pagerank_extra.pdf)
 
-## Session 6: Mid-term exam
-
-### Before class
-
-Study on your own TT02-TT12, TT14-TT15, try to solve exams from past years. Ask your questions in the forum.
-
-### During class
-
-We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
-
-## Session 7: Closeness and Betweenness
+## Session 6: Closeness and Betweenness
 
 ### Before class
 
@@ -158,6 +148,16 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 * :tv: Watch the rest of the 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
+
+## Session 7: Mid-term exam
+
+### Before class
+
+Study on your own TT02-TT12, TT14-TT15, try to solve exams from past years. Ask your questions in the forum.
+
+### During class
+
+We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 
 ## Session 8: Communities and network flows
 
