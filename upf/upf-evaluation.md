@@ -1,4 +1,4 @@
-# <img src="upf_logo.png" align="right" width="80"/>Rules for course at UPF (2019)
+# <img src="upf_logo.png" align="right" width="80"/>Rules for course at UPF (2020)
 
 ## 1. Grades
 
@@ -88,7 +88,7 @@ These are some of the most common mistakes in reports, these deduct points from 
 
 #### 2.2.2. Delivering your code
 
-Your code is delivered as a self-contained Python notebook. This notebook should be readable and understandable on its own by a person familiar with networks science. Think of the notebook as a report in which you tell a story, and tell that story well and professionally.
+Your code is delivered as a self-contained Python notebook. This notebook should be readable and understandable on its own by a person familiar with the course's topic. Think of the notebook as a report in which you tell a story, and tell that story well and professionally.
 
 Remember to identify the authorship and date of your code. Include as many markdown cells between code cells as needed to explain what you are doing and what we are looking at.
 
@@ -121,3 +121,16 @@ Delivering consistently top-quality work takes time and effort, but it can be ve
 **Be careful** with the presentation of your work. For instance, do not use low-quality screenshots, or poorly cropped screenshots showing toolbars and window borders. Instead, export and save high-quality images from each application. Do not copy-paste or screenshot tables into your report without making them to actual tables.
 
 As a data scientist your reports and code should be (among other things) correct, understandable, pristine, clear, and pleasant to look at. Ensure you set aside enough time to review, improve, and polish your work. Get used to produce top-quality work and it will become a habit.
+
+# 3. Asking questions
+
+If you need help installing software or packages in your computer, please ask your classmates, for instance through the Aula Global's forum. Teaching staff does not have the bandwidth to debug your installation.
+
+If you have questions about theory slides, please [create an issue](https://github.com/chatox/networks-science-course/issues) and select project "Theory". Ask as many questions as you need.
+
+If you have questions about a practice, please [create an issue](https://github.com/chatox/networks-science-course/issues) and select project "Practice". Ask as many questions as you need. 
+
+To ask for an appointment, send an e-mail to the course's professor. No appointments will be given in the 72 hours before partial or final exams.
+
+
+
