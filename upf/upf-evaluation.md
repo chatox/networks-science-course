@@ -23,7 +23,7 @@ To obtain a grade in the practical session, you must:
 * Attend the practical session
 * Submit a screenshot of your work at the end of the session through *Aula Global* (an image of the last part of what you were doing when the time ended)
 * Deliver your work within the deadline.
-* A grace period of 24 years after the deadline will be given, with a -2 points penalization. Saturdays, Sundays, and holidays do not count in the grace period.
+* A grace period of 24 hours after the deadline will be given, with a -2 points penalization. Saturdays, Sundays, and holidays do not count in the grace period.
 
 Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your total practice grade is capped at 10 points.
 
