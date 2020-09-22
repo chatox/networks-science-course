@@ -31,7 +31,7 @@ Automatically the lowest grade in the practice sessions will be discarded, which
 
 Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence to the teaching assistant (*profesor de prácticas*).
 
-:unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs.
+:unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs, but each one should submit his/her own work individually, they cannot be sample.
 
 :rage: Do not work in groups of three or more during the practice session. Feel free to exchange ideas with other students, but do not copy from others.
 
