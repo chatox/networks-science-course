@@ -2,7 +2,7 @@
 
 Instructor: [Carlos Castillo](https://chato.cl/)
 
-These are materials for a twelve-weeks undergraduate course on **Network Science**, and include two-hour lectures and two-hour practice sessions every week. They were developed for second year students of the bachelor degree on *Mathematical Engineering on Data Science* at Universitat Pompeu Fabra, Barcelona.
+These are materials for an undergraduate course on **Network Science**, and include two-hour lectures and two-hour practice sessions every week. They were developed for second year students of the bachelor degree on *Mathematical Engineering on Data Science* at Universitat Pompeu Fabra, Barcelona.
 
 * *"The most interesting subject so far ... the volume of work is quite a lot, but the topics are engaging." -- a student's evaluation from the 2019 edition.*
 * *"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*
