@@ -173,7 +173,7 @@ Use ClusterMaker2 on the Karate Club
 
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
 * Use "Edge betweenness" as the attribute for the weight (``Array source``)
-* Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
+* Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](https://www.researchgate.net/profile/Marcus_Perry/publication/325719324/figure/fig1/AS:636707967889409@1528814417977/True-communities-of-Zacharys-karate-club-network.png)?
 
 [**REPORT**] Include in your report an image of the Karate Club network with nodes painted according to clusters.
 [**REPORT**] Include a brief commentary on what do you see in these clusters, what do you think they represent and why.
