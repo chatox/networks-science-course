@@ -43,7 +43,7 @@ Open a graph showing characters that appear or are mentioned in the same scene o
 * `Layout > Prefuse Force Directed Layout > All nodes > scenes`
 * Find Rey and Leia
 * Find Chewbacca
-* [**REPORT**] Include in your report this graph. Indicate where Rey, Leia, and Chewbacca are by including arrows in your report (right click on black space -> add text, then right click on the text -> add arrow).
+* [**REPORT**] Include in your report this graph. Indicate where Rey, Leia, and Chewbacca are by including arrows in your report (right click on blank space -> add text, then right click on the text -> add arrow).
 * [**REPORT**] Include a brief commentary of what do you see in this network.
 
 ## 1.3. Import US companies co-ownership
