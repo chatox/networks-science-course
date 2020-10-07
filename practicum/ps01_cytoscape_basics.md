@@ -43,7 +43,7 @@ Open a graph showing characters that appear or are mentioned in the same scene o
 * `Layout > Prefuse Force Directed Layout > All nodes > scenes`
 * Find Rey and Leia
 * Find Chewbacca
-* [**REPORT**] Include in your report this graph. Indicate where Rey, Leia, and Chewbacca are by including arrows in your report.
+* [**REPORT**] Include in your report this graph. Indicate where Rey, Leia, and Chewbacca are by including arrows in your report (right click on blank space -> add text, then right click on the text -> add arrow).
 * [**REPORT**] Include a brief commentary of what do you see in this network.
 
 ## 1.3. Import US companies co-ownership
@@ -157,7 +157,7 @@ Install ClusterMaker2 (``Apps > App Manager``). You may need to download a jar f
 
 ## 4.2. Use ClusterMaker2
 
-Run the affinity propagation clustering algorithm in ClusterMaker2 (``Apps > ClusterMaker2 > Affinity Propagation ...``) on the *Star Wars* network.
+Run the [affinity propagation](https://en.wikipedia.org/wiki/Affinity_propagation) clustering algorithm in ClusterMaker2 (``Apps > ClusterMaker2 > Affinity Propagation ...``) on the *Star Wars* network.
 
 * Select any temporary folder if prompted
 * ClusterMaker2 requires an attribute for the weight: use ``Array source = scenes`` in *Star Wars*
@@ -173,7 +173,7 @@ Use ClusterMaker2 on the Karate Club
 
 * Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
 * Use "Edge betweenness" as the attribute for the weight (``Array source``)
-* Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](http://historicaldataninjas.com/karate-club-network/)?
+* Run the module, you should get two groups, led by #1 and #34 . Are they close to the [real partition displayed here](https://www.researchgate.net/profile/Marcus_Perry/publication/325719324/figure/fig1/AS:636707967889409@1528814417977/True-communities-of-Zacharys-karate-club-network.png)?
 
 [**REPORT**] Include in your report an image of the Karate Club network with nodes painted according to clusters.
 [**REPORT**] Include a brief commentary on what do you see in these clusters, what do you think they represent and why.
