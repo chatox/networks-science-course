@@ -5,7 +5,7 @@
 (See [how to download](data/README.md) in the README of the data/ directory)
 
 * Marvel Universe Social Graph: [hero-network.csv](data/hero-network.csv)
-* Barcelona holidays data: [holidays-bcn-network.csv](data/holidays-bcn-network.csv) and [holidays-bcn-node-attributes.csv](data/holidays-bcn-node-attributes.csv)
+* Les miserables graphs: [les_miserables-characters.csv](https://github.com/chatox/networks-science-course/blob/master/practicum/data/les_miserables-characters.csv) and [les_miserables-chapters.csv](https://github.com/chatox/networks-science-course/blob/master/practicum/data/les_miserables-chapters.csv)
 
 ## Contents
 
