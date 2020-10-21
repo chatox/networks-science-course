@@ -108,6 +108,8 @@ Some ideas:
 
 These are only ideas. Be creative.
 
+*Tip:* to include a legend, you can use the Cytoscape app [legend creator](https://apps.cytoscape.org/apps/legendcreator).
+
 [**REPORT**] Describe the graph you created.
 
 [**REPORT**] Include two tables with the contents of the CSV files you created (not screenshots).
