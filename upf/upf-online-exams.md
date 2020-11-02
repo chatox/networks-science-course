@@ -96,3 +96,5 @@ Notice that you can **press submit as many times as you want to save your progre
 # In case of doubt
 
 In the case that the professor has any doubt that, for anyone, the exam was carried out without guarantees, the exam for this person will be void, and the evaluation will be carried out orally.
+
+The professor may also ask you to come to an online meeting immediately after the exam to check your answers to some questions -- this will be a mixture of people picked at random and people selected due to some issue during the exam (e.g., camera problem).
