@@ -24,7 +24,7 @@ It is your responsibility to test this before the exam. If you cannot take a pho
 
 ### In your mobile: test Google Meet
 
-Please make sure you can use [Google Meet](https://meet.google.com/)
+Please make sure you can use [Google Meet](https://meet.google.com/). In some mobile devices Google Meet links do not run directly. In that case, start the Google Meet app and go to "Join a meeting" and enter as meeting code the sequence after the last slash of the link. For instance if the link was https://meet.google.com/abc-defg-hij enter "abc-defg-hij".
 
 ## Before the exam starts
 
