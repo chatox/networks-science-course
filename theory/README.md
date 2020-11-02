@@ -115,9 +115,9 @@ There are 11 theory sessions of 2 hours each. They will all take place remotely.
 ### During class
 
 * Lecture TT14: hubs and authorities [odp](odp/tt14_hubs_authorities.odp)/[pdf](pdf/tt14_hubs_authorities.pdf)
-   * Nearpod: compute hub and authority scores iteratively
+   * Google spreadsheet: compute hub and authority scores iteratively
 * Lecture TT15: pagerank [odp](odp/tt15_pagerank.odp)/[pdf](pdf/tt15_pagerank.pdf)
-   * Nearpod: compute simplified PageRank
+   * Google spreadsheet: compute simplified PageRank
 
 ### After class
 
