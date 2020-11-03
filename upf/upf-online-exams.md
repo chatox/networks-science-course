@@ -24,7 +24,7 @@ It is your responsibility to test this before the exam. If you cannot take a pho
 
 ### In your mobile: test Google Meet
 
-Please make sure you can use [Google Meet](https://meet.google.com/)
+Please make sure you can use [Google Meet](https://meet.google.com/). In some mobile devices Google Meet links do not run directly. In that case, start the Google Meet app and go to "Join a meeting" and enter as meeting code the sequence after the last slash of the link. For instance if the link was https://meet.google.com/abc-defg-hij from the Google Meet app join the meeting with code "abc-defg-hij".
 
 ## Before the exam starts
 
@@ -96,3 +96,5 @@ Notice that you can **press submit as many times as you want to save your progre
 # In case of doubt
 
 In the case that the professor has any doubt that, for anyone, the exam was carried out without guarantees, the exam for this person will be void, and the evaluation will be carried out orally.
+
+The professor may also ask you to come to an online meeting immediately after the exam to check your answers to some questions -- this will be a mixture of people picked at random and people selected due to some issue during the exam (e.g., camera problem).
