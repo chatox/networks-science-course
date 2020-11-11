@@ -180,6 +180,9 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
 ### Optional/additional material
 
 * Study the Ford-Fulkerson algorithm in the sections 7.1 and 7.2 of the book by Kleinberg and Tardos and make sure you can follow this [step-by-step run of the algorithm](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07DemoFordFulkerson.pdf)
+* If you still did not get the min-cut, max-flow duality:
+   * :tv: Watch this 2-minutes video on [The min-cut, max-flow duality](https://www.youtube.com/watch?v=RwhEF-LXzaE)
+   * :tv: Watch this 10-minutes [Numerical example](https://www.youtube.com/watch?v=u6FkNw16VJA)
 
 ## Session 9: Dense sub-graphs
 
