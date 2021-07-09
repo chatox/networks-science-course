@@ -7,6 +7,7 @@ The relative difficulty of exams may vary from year to year, as the emphasis on 
 * First midterm: [en](2019-ex01-en.pdf) [es](2019-ex01-es.pdf)
 * Second midterm: [en](2019-ex02-en.pdf) [es](2019-ex02-es.pdf)
 * Final: [en](2019-exFF-en.pdf) [es](2019-exFF-es.pdf)
+* Resit: [en](2019-exRR-en.pdf)
 
 ## Exams from 2018
 
