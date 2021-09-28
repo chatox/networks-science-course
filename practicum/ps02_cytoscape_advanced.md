@@ -5,7 +5,7 @@
 (See [how to download](data/README.md) in the README of the data/ directory)
 
 * Marvel Universe Social Graph: [hero-network.csv](data/hero-network.csv)
-* Les miserables graphs: [les_miserables-characters.csv](https://github.com/chatox/networks-science-course/blob/master/practicum/data/les_miserables-characters.csv) and [les_miserables-chapters.csv](https://github.com/chatox/networks-science-course/blob/master/practicum/data/les_miserables-chapters.csv)
+* Game of Thrones Characters: [got-characters.csv](data/got-characters.csv) and [got-relationships.csv](data/got-relationships.csv)
 
 ## Contents
 
@@ -27,10 +27,10 @@ The Marvel Universe Social Graph contains characters from the Marvel Universe th
 
 To import it into Cytoscape:
 
-* File > Import > Network > File ...
+* File > Import > Network from File ...
 * Select `hero-network.csv`
-* Advanced Options ...: indicate the delimiter is a tabulator (**TAB**).
-  * :warning: If you use the default delimiter, a comma, you will mistakenly get too many nodes (as node names include commas inside) and Cytoscape may hang for a long time or crash.
+* Advanced Options ...: indicate the delimiter is only a tabulator (**TAB**).
+  * :warning: If you keep the default delimiter, a comma, or you use tabulator and comma, you will mistakenly get too many nodes (as node names include commas inside) and Cytoscape may hang for a long time or crash.
 * Column 1 should be "Source" (it's a green disc)
 * Column 2 should be "Target" (it's a red target)
 * OK
@@ -39,7 +39,7 @@ Tip: change the style to minimalistic to see the graph better.
 
 [**REPORT**] Include this graph in your report.
 
-[**REPORT**] Indicate what you believe are the small components that are disconnected from the main connected component.
+[**REPORT**] Answer the following question: what are the small components that are disconnected from the largest connected component?
 
 ## 1.2. Create sub-graphs
 
@@ -48,7 +48,7 @@ Tip: change the style to minimalistic to see the graph better.
   * Option 2: find this node in the node table, select it, and then use the secondary button to indicate "Select nodes from selected rows"
 * Click on the two-house icon on top, it means *neighbor*
 * Now you've selected one character and all his neighbors.
-* File > New > Network > From selected nodes, all edges
+* File > New Network > From selected nodes, all edges
 
 [**REPORT**] Indicate the number of nodes and edges of this sub-graph, it appears on the left panel next to the name of the network.
 
@@ -69,31 +69,38 @@ Now we will practice creating small networks.
 
 ## 2.1. Creating from existing spreadsheets
 
-We will create a network from two spreadsheets. The first one, `les_miserables-characters.csv`, contains the name and gender of the characters in the novel *Les Misérables* by Victor Hugo. The second one, `les_miserables-chapters.csv` contains the number of chapters in which two characters appear.
+We will create a network from two spreadsheets. The first one, `got-characters.csv`, contains the name and house of the characters in the series *Game of Thrones* by George R. R. Martin. The second one, `got-relationships.csv` contains relationships between characters.
 
-First we import the network:
+First we import the edges:
 
 * ``File > Import > Network from file ...``
-* Use file ``les_miserables-chapters.csv``
-* Select for name1: "Source Node" (it's a green disc)
-* Select for name2: "Target Node" (it's a red target)
-* Select for numchapters: "Edge Attribute"
-
-Run the network analysis and create a prefuse force directed layout on the attribute ``numchapters``.
+* Use file ``got-relationships.csv``
+* Select for `src`: "Source Node" (it's a green disc)
+* Select for `dest`: "Target Node" (it's a red target)
+* Select "Edge Attribute" for the other columns
 
 Now we import the node attribute:
 
 * ``File > Import > Table from file ...``
-* Use file ``les_miserables-characters.csv``
+* Use file ``got-characters.csv``
 * Import data as "Node Table Columns"
-* The first column (name) should be the key.
-* The second column (gender) should be an attribute
+* The first column (id) should be the key.
+* The other columns should be attributes
 
-Now, use the "gender" attribute to determine the shape and color of nodes. Use style, shape, fill-color, and discrete mappings.
+Next, style the network:
 
-[**REPORT**] Include the graph of *Les Misérables*.
+* Use the *character-name* of the character as the node label.
+* Use the *degree* as the size of the node (you will need to run the network analysis first with Tools > Analyze Network)
+* Use the *house-birth* attribute to determine the shape and color of nodes. Use style, shape, fill-color, and discrete mappings.
+* Use the *relationship* attribute to label edges. Leave edges in color black, except for edges representing killing, which should be in red.
 
-[**REPORT**] Include a brief commentary on what do you observe with respect to gender in this novel, according to the graph you are looking at.
+[**REPORT**] Include the graph of *Game of Thrones*.
+
+[**REPORT**] Show one example of a multi-edge in this graph. Indicate which characters are involved.
+
+[**REPORT**] Show one example of a loop in this graph. Indicate which characters are involved.
+
+[**REPORT**] Indicate a brief commentary on any interesting phenomenon you observe on this graph.
 
 ## 2.2. Create a new network in a CSV file
 
@@ -118,4 +125,10 @@ These are only ideas. Be creative.
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report describing these networks, having at most 4 pages in PDF. The report should have **three numbered sections**: one for the *Marvel* network, one for *Les Misérables*, and one for the network you created. Remember to include all of the elements marked [**REPORT**] above.
+Deliver a report describing these networks, having at most 4 pages in PDF. The report should have **three numbered sections**: one for the *Marvel* network, one for *Game of Thrones*, and one for the network you created. Remember to include all of the elements marked [**REPORT**] above.
+
+**Note**: If you find any mistake in the Game of Thrones graph, e.g., something wrong with respect to the TV series, please send us the corrected CSV files.
+
+Your report should end with the following text:
+
+**I hereby declare that all of the text, tables, and figures in this report were produced by myself.**

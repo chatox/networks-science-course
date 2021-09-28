@@ -19,14 +19,14 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | karate.gml + karate-factions.csv | [Zachary 1977](http://www-personal.umich.edu/~mejn/netdata/karate.zip) |
 | us_companies_ownership.csv | [Norlen et al. 2002](http://vlado.fmf.uni-lj.si/pub/networks/data/econ/Eva/Eva.htm) |
 | hero-network.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
-| les_miserables-characters.csv + les_miserables-chapters.csv| [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
+| got-characters.csv + got-relationships.csv | [Graph Drawing Contest](http://mozart.diei.unipg.it/gdcontest/contest2018/topics.html) |
 | disease-genes.csv |  [Goh et al. 2008](http://www.pnas.org/content/104/21/8685), Table 1 |
 | CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
 | webspam_uk2007-nodes.csv + webspam_uk2007-edges.csv | [WEBSPAM UK2007](https://chato.cl/webspam/datasets/uk2007/) |
 | trade_1980-flows.csv + trade_2013-flows.csv + trade-countries.csv | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=PARTNER) |
 | sfhh-conference-2009.csv | [SocioPatterns Project](http://www.sociopatterns.org/datasets/sfhh-conference-data-set/) |
 
-## Sources for other datasets
+## Sources for other datasets (used in previous years)
 
 | Filename | Source |
 |----------|--------|
@@ -38,6 +38,7 @@ To download from GitHub's web interface go to the [data/](https://github.com/cha
 | internet-as-20060622.gml | [Newman 2013](http://www-personal.umich.edu/~mejn/netdata/) |
 | astro-ph.gml | [Newman 2001](http://www.pnas.org/content/98/2/404.short) |
 | stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184), Chapter 10 |
+| les_miserables-characters.csv + les_miserables-chapters.csv| [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
 
 ## Repositories of network datasets
 
