@@ -34,7 +34,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 * Read [chapter 0](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/sample/chapters) of "A first course on network science"
 * Read [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
-* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the lecture, watch it at some other point
+* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the next lecture, watch it at some other point during the trimester
 
 ### Optional/additional material
 
@@ -87,7 +87,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 ### Before class
 
-* :tv: Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=gELshhLX12E) from a course on fractals and scaling at Stanford
+* :tv: Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=hgrJCBmdjws) from a course on fractals and scaling
 
 ### During class
 
