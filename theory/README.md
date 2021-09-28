@@ -2,7 +2,7 @@
 
 :construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-There are 11 theory sessions of 2 hours each. They will all take place face-to-face.
+There are 11 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop.
 
 **Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
 
