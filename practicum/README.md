@@ -27,19 +27,19 @@ There are 09 practice sessions in this course. The first two sessions have hando
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
-| # | Handouts                                    | Contents | Deadline |
-|---|---------------------------------------------|----------|-----------|
-| 1 | [PS01](ps01_cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | 24 hours after session #1 |
-| 2 | [PS02](ps02_cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | 24 hours after session #2 |
-| 3 | [PS03](ps03_management_networks_data.ipynb)   | Python: data management of networks data | 24 hours after session #5 |
-| 4 | [PS04](ps04_networks_from_text.ipynb)         | Python and Cytoscape: creating a network using textual data | 24 hours after session #5 |
+| # | Handouts                                    | Contents | Deadline 101 | Deadline 102 |
+|---|---------------------------------------------|----------|--------------|--------------|
+| 1 | [PS01](ps01_cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | 2021-10-06 18:30 |
+| 2 | [PS02](ps02_cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | 2021-10-08 20:30 |
+| 3 | [PS03](ps03_management_networks_data.ipynb)   | Python: data management of networks data | 2021-10-29 20:30 |
+| 4 | [PS04](ps04_networks_from_text.ipynb)         | Python and Cytoscape: creating a network using textual data | 2021-10-29 20:30 |
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | 24 hours after session #6 |
-| 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | 24 hours after session #9 |
-| 8 | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | 24 hours after session #9 |
+| 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | 2021-11-03 18:30 |
+| 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | 2021-11-24 18:30 |
+| 8 | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | 2021-11-24 18:30 |
 | 9 | PS06+PS07                                     | Wrap-up |
-| 10 | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: connected components and k-cores | 24 hours after session #12 |
-| 11 | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: simulating the spread of a virus | 24 hours after session #12 |
+| 10 | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: connected components and k-cores | 2021-12-03 20:30 |
+| 11 | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: simulating the spread of a virus | 2021-12-03 20:30 |
 | 12 | PS08+PS09                                    | Wrap-up |
 
 ## Tutorials/reference
