@@ -54,7 +54,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
    * Nearpod: compute local clustering coefficients
 * Lecture TT07: the random network (ER) model [odp](odp/tt07_random_networks.odp)/[pdf](pdf/tt07_random_networks.pdf)
    * Nearpod: compute expected number of links and expected average degree
-* Lecture TT08: properties of random networks [odp](odp/tt08_properties_random_networks.odp)/[pdf](pdf/tt08_properties_random_networks.pdf)
+* Lecture TT08: properties of random networks [odp](odp/tt08_properties_random_networks.odp)/[pdf](pdf/tt08_properties_random_networks.pdf) -- MOVED TO SESSION 03
    * Nearpod: find actors with large degree
    * Nearpod: find critical N for a graph to be connected
 
