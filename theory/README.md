@@ -72,7 +72,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 * Lecture TT09: scale-free networks [odp](odp/tt09_scale_free_networks.odp)/[pdf](pdf/tt09_scale_free_networks.pdf)
    * Nearpod: compute nodes with an expected degree
-* Lecture TT10: distances in scale-free networks [odp](odp/tt10_distances_scale_free_networks.odp)/[pdf](pdf/tt10_distances_scale_free_networks.pdf)
+* Lecture TT10: distances in scale-free networks [odp](odp/tt10_distances_scale_free_networks.odp)/[pdf](pdf/tt10_distances_scale_free_networks.pdf) -- MOVED TO SESSION 04
    * Nearpod: calculate friendship paradox
 
 ### After class
