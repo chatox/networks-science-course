@@ -93,7 +93,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 * Lecture TT11: preferential attachment [odp](odp/tt11_preferential_attachment.odp)/[pdf](pdf/tt11_preferential_attachment.pdf)
    * Nearpod: compute nodes with an expected degree
-* Lecture TT12: degree under preferential attachment [odp](odp/tt12_degree_preferential_attachment.odp)/[pdf](pdf/tt12_degree_preferential_attachment.pdf) -- MOVED TO NEXT SESSION
+* Lecture TT12: degree under preferential attachment [odp](odp/tt12_degree_preferential_attachment.odp)/[pdf](pdf/tt12_degree_preferential_attachment.pdf) -- MOVED TO SESSION 05
    * Nearpod: copy model
 
 ### After class
