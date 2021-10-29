@@ -153,11 +153,11 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 ### Before class
 
-Study on your own TT02-TT12, TT14-TT15, try to solve exams from past years. Ask your questions in the forum.
+Study on your own TT02-TT12, TT14, try to solve exams from past years. Ask your questions in the forum.
 
 ### During class
 
-We will have a mid-term exam covering topics: TT02-TT12, TT14-TT15.
+We will have a mid-term exam covering topics: TT02-TT12, TT14.
 
 ## Session 8: Communities and network flows
 
