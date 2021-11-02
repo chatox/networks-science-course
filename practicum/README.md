@@ -34,7 +34,7 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 3 | [PS03](ps03_management_networks_data.ipynb)   | Python: data management of networks data | 2021-10-29 20:30 | 2021-11-02 18:30
 | 4 | [PS04](ps04_networks_from_text.ipynb)         | Python and Cytoscape: creating a network using textual data | 2021-10-29 20:30 | 2021-11-02 18:30
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | 2021-11-03 18:30 | 2021-11-03 16:30
+| 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | 2021-11-04 18:30 (was: 3rd) | 2021-11-04 16:30 (was: 3rd)
 | 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | 2021-11-24 18:30 | 2021-11-24 16:30
 | 8 | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | 2021-11-24 18:30 | 2021-11-24 16:30
 | 9 | PS06+PS07                                     | Wrap-up |
