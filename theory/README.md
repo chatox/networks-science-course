@@ -140,7 +140,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 * Lecture TT17: closeness [odp](odp/tt17_closeness.odp)/[pdf](pdf/tt17_closeness.pdf)
    * Google spreadsheet: compute closeness and harmonic closeness
-* Lecture TT18: betweenness [odp](odp/tt18_betweenness.odp)/[pdf](pdf/tt18_betweenness.pdf)
+* Lecture TT18: betweenness [odp](odp/tt18_betweenness.odp)/[pdf](pdf/tt18_betweenness.pdf) -- MOVED TO SESSION 08
    * Nearpod: run the Brandes and Newman algorithm for betweenness
 
 ### After class
