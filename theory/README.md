@@ -168,7 +168,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14.
 ### During class
 
 * Lecture TT19: community structure [odp](odp/tt19_community_structure.odp)/[pdf](pdf/tt19_community_structure.pdf)
-* Lecture TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf)
+* Lecture TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf) -- MOVED PARTIALLY TO NEXT SESSION
    * Nearpod: write min-cut and max-flow equations
    * Nearpod: run randomized s-t cut algorithm
 
