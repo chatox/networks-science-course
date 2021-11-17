@@ -168,7 +168,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14.
 ### During class
 
 * Lecture TT19: community structure [odp](odp/tt19_community_structure.odp)/[pdf](pdf/tt19_community_structure.pdf)
-* Lecture TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf) -- MOVED PARTIALLY TO NEXT SESSION
+* Lecture TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf) -- MOVED PARTIALLY TO NEXT SESSION, RANDOMIZED S-T CUT ALGORITHM SKIPPED
    * Nearpod: write min-cut and max-flow equations
    * Nearpod: run randomized s-t cut algorithm
 
@@ -193,7 +193,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14.
 
 ### During class
 
-* Lecture TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf) -- PROBABLY TO BE SKIPPED ALTOGETHER
+* Lecture TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf)
    * Nearpod: perform a k-core decomposition
 * Lecture TT22: dense sub-graphs [odp](odp/tt22_dense_subgraphs.odp)/[pdf](pdf/tt22_dense_subgraphs.pdf)
    * Nearpod: run Charikar's algorithm
