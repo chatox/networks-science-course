@@ -193,7 +193,7 @@ We will have a mid-term exam covering topics: TT02-TT12, TT14.
 
 ### During class
 
-* Lecture TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf)
+* Lecture TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf) -- PROBABLY TO BE SKIPPED ALTOGETHER
    * Nearpod: perform a k-core decomposition
 * Lecture TT22: dense sub-graphs [odp](odp/tt22_dense_subgraphs.odp)/[pdf](pdf/tt22_dense_subgraphs.pdf)
    * Nearpod: run Charikar's algorithm
