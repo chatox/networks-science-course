@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns">
-    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="SUID" attr.type="int" for="node" id="SUID"/>
     <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
     <key attr.name="scenes" attr.type="int" for="node" id="scenes"/>
     <key attr.name="name" attr.type="string" for="node" id="name"/>
     <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
-    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="SUID" attr.type="int" for="edge" id="SUID"/>
     <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
     <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
     <key attr.name="name" attr.type="string" for="edge" id="name"/>
     <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
     <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
     <key attr.name="scenes" attr.type="int" for="edge" id="scenes"/>
-    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="SUID" attr.type="int" for="graph" id="SUID"/>
     <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
     <key attr.name="name" attr.type="string" for="graph" id="name"/>
     <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
