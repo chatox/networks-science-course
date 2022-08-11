@@ -229,33 +229,22 @@ We will have a mid-term exam; there will be no lecture after the exam.
 
 * :tv: Watch this 10 minutes [crash course on social influence](https://www.youtube.com/watch?v=UGxGDdQnC1Y) explaining some psychology concepts related to influence
 * :tv: Watch this 7 minutes [overview of network diffusion elements](https://www.youtube.com/watch?v=bTXUJQhEqL0)
-
-### During class
-
-* Lecture TT24: spreading phenomena [odp](odp/tt24_spreading_phenomena.odp)/[pdf](pdf/tt24_spreading_phenomena.pdf)
-* Lecture TT25: models of influence [odp](odp/tt25_models_of_influence.odp)/[pdf](pdf/tt25_models_of_influence.pdf)
-   * Google spreadsheet: simulate linear threshold model
-   * Google spreadsheet: simulate independent cascade model
-
-### After class
-
-* Read [chapter 19](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf) of the book by Easley and Kleinberg
-
-## Session 11: Epidemics
-
-### Before class
-
 * :tv: Watch this 13-minutes [infection simulations](https://www.youtube.com/watch?v=7OLpKqTriio)
 
 ### During class
 
-* Lecture TT26: epidemics [odp](odp/tt26_epidemics.odp)/[pdf](pdf/tt26_epidemics.pdf)
-   * Nearpod: compute number of infected over time
-* Lecture TT27: epidemics on graphs [odp](odp/tt27_epidemics_on_graphs.odp)/[pdf](pdf/tt27_epidemics_on_graphs.pdf)
+* Lecture TT23: spreading phenomena [odp](odp/tt23-spreading_phenomena.odp)/[pdf](pdf/tt23-spreading_phenomena.pdf)
+   * Nearpod: explain three contagion variants, using NetLogo to run simulations
+   * Nearpod: indicate phenomena that spread virally
+* Lecture TT24: models of influence [odp](odp/tt24-models_of_influence.odp)/[pdf](pdf/tt24-models_of_influence.pdf)
+   * Google spreadsheet: simulate linear threshold model
+   * Google spreadsheet: simulate independent cascade model
+* Lecture TT25: epidemics [odp](odp/tt25-epidemics.odp)/[pdf](pdf/tt25-epidemics.pdf)
 
 ### After class
 
 * Read [chapter 10](http://networksciencebook.com/chapter/10) of the book by Barabási
+* Read [chapter 19](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf) of the book by Easley and Kleinberg
 * Read [chapter 21](http://www.cs.cornell.edu/home/kleinber/networks-book/) of the work by Easley and Kleinberg
 * :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
 
