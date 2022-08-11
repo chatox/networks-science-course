@@ -200,30 +200,30 @@ We will have a mid-term exam; there will be no lecture after the exam.
 
 * Read the [sections 9.1 and 9.2](http://networksciencebook.com/chapter/9) of the book by Barabási
 
-## Session 10: Dense sub-graphs
+### Optional/additional material
+
+* Read [sections 1 and 2 of this paper on the k-core decomposition](https://link.springer.com/article/10.1007/s00778-019-00587-4) -- do not worry if you cannot follow all details
+
+## Session 10: Spectral graph clustering
 
 ### Before class
 
-* :tv: Watch this 5-minutes presentation on [Charikar's algorithm](https://slideplayer.com/slide/7717185/)
+* :tv: Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE) and [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec
 
 ### During class
 
-* Lecture TT22: dense sub-graphs [odp](odp/tt22_dense_subgraphs.odp)/[pdf](pdf/tt22_dense_subgraphs.pdf)
-   * Nearpod: run Charikar's algorithm
+* Lecture TT22: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
 
 ### After class
 
-* Read [sections 1 and 2 of this paper on the k-core decomposition](https://link.springer.com/article/10.1007/s00778-019-00587-4) -- do not worry if you cannot follow all details
-* Read [Charikar's paper on his algorithm](https://scholar.google.com/scholar?cluster=2024628855420259308&hl=en&as_sdt=0,5) -- do not worry if you cannot follow all details
+* :tv: Watch the lesson on [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
 
 ### Optional/additional materials
 
 * :tv: Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
 * :tv: Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
-* See presentation TT23: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
-   * :tv: Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE), [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A), and [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
 
-## Session 10: Spreading Phenomena
+## Session 11: Spreading Phenomena
 
 ### Before class
 
