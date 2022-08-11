@@ -104,7 +104,17 @@ Both of these are great to provide context for the course, and will help you sta
 
 * See slides for TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
-## Session 5: Random networks (ER model)
+## Session 5: Mid-term exam
+
+### Before class
+
+Study on your own, try to solve exams from past years. Ask your questions in the forum.
+
+### During class
+
+We will have a mid-term exam; there will be no lecture after the exam.
+
+## Session 6: Random networks (ER model)
 
 ### Before class
 
@@ -124,7 +134,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * Read [chapter 3](http://networksciencebook.com/chapter/3) of the book by Barabási
 
-## Session 6: Scale-free Networks
+## Session 7: Scale-free Networks
 
 ### Before class
 
@@ -147,7 +157,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * If you are not sure whether you understood the friendship paradox or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
 
-## Session 4: Preferential attachment
+## Session 8: Preferential attachment
 
 ### Before class
 
@@ -155,10 +165,10 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT11: preferential attachment [odp](odp/tt11_preferential_attachment.odp)/[pdf](pdf/tt11_preferential_attachment.pdf)
-   * Nearpod: compute nodes with an expected degree
-* Lecture TT12: degree under preferential attachment [odp](odp/tt12_degree_preferential_attachment.odp)/[pdf](pdf/tt12_degree_preferential_attachment.pdf) -- MOVED TO SESSION 05
-   * Nearpod: copy model
+* Lecture TT16: preferential attachment [odp](odp/tt16-preferential_attachment.odp)/[pdf](pdf/tt16-preferential_attachment.pdf)
+   * Nearpod: guess slope of degree distribution, using NetLogo to run simulations
+   * Nearpod: write formula for number of nodes and edges over time
+* Lecture TT17: degree under preferential attachment [odp](odp/tt17-preferential_attachment_degree.odp)/[pdf](pdf/tt17-preferential_attachment_degree.pdf)
 
 ### After class
 
@@ -166,20 +176,10 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### Optional/additional material
 
-* See slides from TT13: other growth models [odp](odp/tt13_other_growth_models.odp)/[pdf](pdf/tt13_other_growth_models.pdf)
+* Lecture TT18: other growth models [odp](odp/tt18-tt18_other_growth_models.odp)/[pdf](pdf/tt18-tt18_other_growth_models.pdf)
+   * Nearpod: copy model
 
-
-## Session 7: Mid-term exam
-
-### Before class
-
-Study on your own TT02-TT12, TT14, try to solve exams from past years. Ask your questions in the forum.
-
-### During class
-
-We will have a mid-term exam covering topics: TT02-TT12, TT14.
-
-## Session 8: Communities and network flows
+## Session 9: Communities and network flows
 
 ### Before class
 
