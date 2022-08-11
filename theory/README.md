@@ -50,12 +50,34 @@ Both of these are great to provide context for the course, and will help you sta
 ### During class
 
 * Lecture TT04: connectivity [odp](odp/tt04-connectivity.odp)/[pdf](pdf/tt04-connectivity.pdf)
+   * Nearpod: find the strongly connected components
 * Lecture TT05: homophily and triangles [odp](odp/tt05-homophily_triangles.odp)/[pdf](pdf/tt05-homophily_triangles.pdf)
+   * Nearpod: homophilic, heterophilic, or neutral
    * Nearpod: compute local clustering coefficients
 
 ### After class
 
 * :tv: Watch this 6-minutes video on [Why we prefer people just like us, and why that's potentially dangerous](https://www.youtube.com/watch?v=O7CJBnGkqEk) by Nicholas Christakis
+
+## Session 3: Closeness and Betweenness
+
+### Before class
+
+* :tv: Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
+* :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+
+### During class
+
+* Lecture TT06: closeness [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
+   * Google spreadsheet: compute closeness and harmonic closeness
+* Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
+   * Nearpod: run the Brandes and Newman algorithm for betweenness
+
+### After class
+
+* :tv: Watch the rest of the 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+* Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
+* Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
 ## Session X: Random networks (ER model)
 
@@ -144,25 +166,6 @@ Both of these are great to provide context for the course, and will help you sta
 
 * See slides for TT16: pagerank extra material [odp](odp/tt16_pagerank_extra.odp)/[pdf](pdf/tt16_pagerank_extra.pdf)
 
-## Session 6: Closeness and Betweenness
-
-### Before class
-
-* :tv: Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
-* :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
-
-### During class
-
-* Lecture TT17: closeness [odp](odp/tt17_closeness.odp)/[pdf](pdf/tt17_closeness.pdf)
-   * Google spreadsheet: compute closeness and harmonic closeness
-* Lecture TT18: betweenness [odp](odp/tt18_betweenness.odp)/[pdf](pdf/tt18_betweenness.pdf) -- MOVED TO SESSION 08
-   * Nearpod: run the Brandes and Newman algorithm for betweenness
-
-### After class
-
-* :tv: Watch the rest of the 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
-* Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
-* Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
 ## Session 7: Mid-term exam
 
