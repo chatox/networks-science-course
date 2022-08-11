@@ -179,42 +179,35 @@ We will have a mid-term exam; there will be no lecture after the exam.
 * Lecture TT18: other growth models [odp](odp/tt18-tt18_other_growth_models.odp)/[pdf](pdf/tt18-tt18_other_growth_models.pdf)
    * Nearpod: copy model
 
-## Session 9: Communities and network flows
-
-### Before class
-
-* :tv: Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
-
-### During class
-
-* Lecture TT19: community structure [odp](odp/tt19_community_structure.odp)/[pdf](pdf/tt19_community_structure.pdf)
-* Lecture TT20: network flows [odp](odp/tt20_network_flows.odp)/[pdf](pdf/tt20_network_flows.pdf) -- MOVED PARTIALLY TO NEXT SESSION, RANDOMIZED S-T CUT ALGORITHM SKIPPED
-   * Nearpod: write min-cut and max-flow equations
-   * Nearpod: run randomized s-t cut algorithm
-
-### After class
-
-* Read the [sections 9.1 and 9.2](http://networksciencebook.com/chapter/9) of the book by Barabási
-* Read the [sections 7.1 and 7.2](https://raw.githubusercontent.com/davie890/CS102-Algorithm-Analysis/master/Algorithm%20Design%20by%20Jon%20Kleinberg%2C%20Eva%20Tardos.pdf) of Algorithm Design by Kleinberg and Tardos (it includes a greedy algorithm: Ford-Fulkerson, that we will not study formally)
-
-### Optional/additional material
-
-* Study the Ford-Fulkerson algorithm in the sections 7.1 and 7.2 of the book by Kleinberg and Tardos and make sure you can follow this [step-by-step run of the algorithm](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07DemoFordFulkerson.pdf)
-* If you still did not get the min-cut, max-flow duality:
-   * :tv: Watch this 2-minutes video on [The min-cut, max-flow duality](https://www.youtube.com/watch?v=RwhEF-LXzaE)
-   * :tv: Watch this 10-minutes [Numerical example](https://www.youtube.com/watch?v=u6FkNw16VJA)
-
-## Session 9: Dense sub-graphs
+## Session 9: Communities
 
 ### Before class
 
 * :tv: Watch this 10-minutes video on [k-core decomposition](https://www.youtube.com/watch?v=rHVrgbc_3JA)
+* :tv: Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
+
+### During class
+
+* Lecture TT19: k-cores [odp](odp/tt19-k_cores.odp)/[pdf](pdf/tt19-k_cores.pdf)
+   * Nearpod: perform a k-core decomposition
+* Lecture TT20: community structure [odp](odp/tt20-community_structure.odp)/[pdf](pdf/tt20-community_structure.pdf)
+* Lecture TT21: finding communities [odp](odp/tt21-finding_communities.odp)/[pdf](pdf/tt21-finding_communities.pdf)
+   * Nearpod: indicate if communities are strong or weak
+   * Nearpod: measure a cut
+   * Nearpod: compute modularity
+
+### After class
+
+* Read the [sections 9.1 and 9.2](http://networksciencebook.com/chapter/9) of the book by Barabási
+
+## Session 10: Dense sub-graphs
+
+### Before class
+
 * :tv: Watch this 5-minutes presentation on [Charikar's algorithm](https://slideplayer.com/slide/7717185/)
 
 ### During class
 
-* Lecture TT21: k-cores [odp](odp/tt21_k_cores.odp)/[pdf](pdf/tt21_k_cores.pdf)
-   * Nearpod: perform a k-core decomposition
 * Lecture TT22: dense sub-graphs [odp](odp/tt22_dense_subgraphs.odp)/[pdf](pdf/tt22_dense_subgraphs.pdf)
    * Nearpod: run Charikar's algorithm
 
