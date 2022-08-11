@@ -124,7 +124,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * Read [chapter 3](http://networksciencebook.com/chapter/3) of the book by Barabási
 
-## Session 3: Scale-free Networks
+## Session 6: Scale-free Networks
 
 ### Before class
 
@@ -132,10 +132,12 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT09: scale-free networks [odp](odp/tt09_scale_free_networks.odp)/[pdf](pdf/tt09_scale_free_networks.pdf)
+* Lecture TT13: scale-free networks [odp](odp/tt13-scale_free_networks.odp)/[pdf](pdf/tt13-scale_free_networks.pdf)
    * Nearpod: compute nodes with an expected degree
-* Lecture TT10: distances in scale-free networks [odp](odp/tt10_distances_scale_free_networks.odp)/[pdf](pdf/tt10_distances_scale_free_networks.pdf) -- MOVED TO SESSION 04
-   * Nearpod: calculate friendship paradox
+* Lecture TT14: the friendship paradox [odp](odp/tt14-friendship_paradox.odp)/[pdf](pdf/tt14-friendship_paradox.pdf)
+   * Nearpod: numerical example of friendship paradox
+   * Nearpod: compute expected degree of neighbors
+* Lecture TT15: distances in scale-free networks [odp](odp/tt15_distances_scale_free_nets.odp)/[pdf](pdf/tt15_distances_scale_free_nets.pdf)
 
 ### After class
 
