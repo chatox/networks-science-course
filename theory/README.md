@@ -104,7 +104,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * See slides for TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
-## Session X: Random networks (ER model)
+## Session 5: Random networks (ER model)
 
 ### Before class
 
@@ -112,12 +112,12 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT06: clustering coefficient [odp](odp/tt06_clustering_coefficient.odp)/[pdf](pdf/tt06_clustering_coefficient.pdf)
-   * Nearpod: compute local clustering coefficients
-* Lecture TT07: the random network (ER) model [odp](odp/tt07_random_networks.odp)/[pdf](pdf/tt07_random_networks.pdf)
+* Lecture TT11: the random network (ER) model [odp](odp/tt11-random_networks.odp)/[pdf](pdf/tt11-random_networks.pdf)
+   * Nearpod: guess the formula for expected number of links, using NetLogo to run simulations
    * Nearpod: compute expected number of links and expected average degree
-* Lecture TT08: properties of random networks [odp](odp/tt08_properties_random_networks.odp)/[pdf](pdf/tt08_properties_random_networks.pdf) -- MOVED TO SESSION 03
-   * Nearpod: find actors with large degree
+* Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf)
+   * Nearpod: guess critical point at which a giant connected component emerges, using NetLogo to run simulations
+   * Nearpod: find actors with large distance from Kevin Bacon
    * Nearpod: find critical N for a graph to be connected
 
 ### After class
