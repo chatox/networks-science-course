@@ -90,9 +90,9 @@ Both of these are great to provide context for the course, and will help you sta
 ### During class
 
 * Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf)
-   * Google spreadsheet: compute hub and authority scores iteratively
+   * Exercise: compute hub and authority scores iteratively (spreadsheet)
 * Lecture TT09: pagerank [odp](odp/tt09-pagerank.odp)/[pdf](pdf/tt09-pagerank.pdf)
-   * Google spreadsheet: compute simplified PageRank
+   * Exercise: compute simplified PageRank (spreadsheet)
 
 ### After class
 
