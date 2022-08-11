@@ -27,25 +27,40 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
    * Overview of [evaluation rules](../upf/upf-evaluation.md)
 * Lecture TT03: graph theory basics [odp](odp/tt03-graph_theory_basics.odp)/[pdf](pdf/tt03-graph_theory_basics.pdf)
    * Google Spreadsheet: draw degree distribution
-* Lecture TT05: sparsity and connectivity [odp](odp/tt05_sparsity_connectivity.odp)/[pdf](pdf/tt05_sparsity_connectivity.pdf) -- MOVED TO SESSION 02
    * Nearpod: left-project and right-project a graph
 
 ### After class
 
-* Read [chapter 0](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/sample/chapters) of "A first course on network science"
 * Read [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
-* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science) -- if you can't watch this before the next lecture, watch it at some other point during the trimester
+* Read [chapter 0](https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience/tree/master/sample/chapters) of "A first course on network science"
 
 ### Optional/additional material
 
-* :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
-* See presentation TT01: a personal introduction [odp](odp/tt01_complex_networks.odp)/[pdf](pdf/tt01_complex_networks.pdf)
+Both of these are great to provide context for the course, and will help you stay motivated. I strongly suggest you set aside some time to watch them within the first 2-3 weeks of the trimester.
 
-## Session 2: Random networks (ER model)
+* :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science)
+* :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
+
+## Session 2: Connectivity, homophily, triangles
 
 ### Before class
 
 * :tv: Watch the 4-minutes video on [clustering coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
+
+### During class
+
+* Lecture TT04: connectivity [odp](odp/tt04-connectivity.odp)/[pdf](pdf/tt04-connectivity.pdf)
+* Lecture TT05: homophily and triangles [odp](odp/tt05-homophily_triangles.odp)/[pdf](pdf/tt05-homophily_triangles.pdf)
+   * Nearpod: compute local clustering coefficients
+
+### After class
+
+* :tv: Watch this 6-minutes video on [Why we prefer people just like us, and why that's potentially dangerous](https://www.youtube.com/watch?v=O7CJBnGkqEk) by Nicholas Christakis
+
+## Session X: Random networks (ER model)
+
+### Before class
+
 * :tv: Watch the 17-minutes video on [the ER random graph model](https://www.youtube.com/watch?v=3PxteAgVf0o) by Lada Adamic (has subtitles in English)
 
 ### During class
