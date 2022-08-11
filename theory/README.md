@@ -19,15 +19,15 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 ### During class
 
 * Lecture TT01: Complex Networks [odp](odp/tt01-complex_networks.odp)/[pdf](pdf/tt01-complex_networks.pdf)
-   * Nearpod: find examples of networks
+   * Exercise: find examples of networks (pin board)
 * Lecture TT02: applications networks science [odp](odp/tt02-applications_networks_science.odp)/[pdf](pdf/tt02-applications_networks_science.pdf)
 * Course overview
    * Overview of [theory topics](./)
    * Overview of [practice sessions](../practicum/README.md)
    * Overview of [evaluation rules](../upf/upf-evaluation.md)
 * Lecture TT03: graph theory basics [odp](odp/tt03-graph_theory_basics.odp)/[pdf](pdf/tt03-graph_theory_basics.pdf)
-   * Google Spreadsheet: draw degree distribution
-   * Nearpod: left-project and right-project a graph
+   * Exercise: draw degree distribution (spreadsheet)
+   * Exercise: left-project and right-project a graph
 
 ### After class
 
@@ -50,10 +50,10 @@ Both of these are great to provide context for the course, and will help you sta
 ### During class
 
 * Lecture TT04: connectivity [odp](odp/tt04-connectivity.odp)/[pdf](pdf/tt04-connectivity.pdf)
-   * Nearpod: find the strongly connected components
+   * Quick exercise: find strongly connected components
 * Lecture TT05: homophily and triangles [odp](odp/tt05-homophily_triangles.odp)/[pdf](pdf/tt05-homophily_triangles.pdf)
-   * Nearpod: homophilic, heterophilic, or neutral
-   * Nearpod: compute local clustering coefficients
+   * Exercise: homophilic, heterophilic, or neutral (pin board)
+   * Exercise: compute local clustering coefficients (pin board)
 
 ### After class
 
@@ -69,9 +69,9 @@ Both of these are great to provide context for the course, and will help you sta
 ### During class
 
 * Lecture TT06: closeness [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
-   * Google spreadsheet: compute closeness and harmonic closeness
+   * Exercise: compute closeness and harmonic closeness (spreadsheet)
 * Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
-   * Nearpod: run the Brandes and Newman algorithm for betweenness
+   * Exercise: run the Brandes and Newman algorithm for betweenness
 
 ### After class
 
