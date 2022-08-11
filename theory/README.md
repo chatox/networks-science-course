@@ -18,14 +18,14 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 ### During class
 
-* Lecture TT02: examples of complex networks [odp](odp/tt02_examples_complex_networks.odp)/[pdf](pdf/tt02_examples_complex_networks.pdf)
+* Lecture TT01: Complex Networks [odp](odp/tt01-complex_networks.odp)/[pdf](pdf/tt01-complex_networks.pdf)
    * Nearpod: find examples of networks
-* Lecture TT03: applications networks science [odp](odp/tt03_applications_networks_science.odp)/[pdf](pdf/tt03_applications_networks_science.pdf)
+* Lecture TT02: applications networks science [odp](odp/tt02-applications_networks_science.odp)/[pdf](pdf/tt02-applications_networks_science.pdf)
 * Course overview
    * Overview of [theory topics](./)
    * Overview of [practice sessions](../practicum/README.md)
    * Overview of [evaluation rules](../upf/upf-evaluation.md)
-* Lecture TT04: graph theory basics [odp](odp/tt04_graph_theory_basics.odp)/[pdf](pdf/tt04_graph_theory_basics.pdf)
+* Lecture TT03: graph theory basics [odp](odp/tt03-graph_theory_basics.odp)/[pdf](pdf/tt03-graph_theory_basics.pdf)
    * Google Spreadsheet: draw degree distribution
 * Lecture TT05: sparsity and connectivity [odp](odp/tt05_sparsity_connectivity.odp)/[pdf](pdf/tt05_sparsity_connectivity.pdf) -- MOVED TO SESSION 02
    * Nearpod: left-project and right-project a graph
