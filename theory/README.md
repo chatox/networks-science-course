@@ -79,6 +79,31 @@ Both of these are great to provide context for the course, and will help you sta
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
+## Session 4: Hubs, authorities, and PageRank
+
+### Before class
+
+* :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
+   * *Or* watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
+* :tv: Watch this 5-minutes [animation explaining PageRank](https://www.youtube.com/watch?v=meonLcN7LD4)
+
+### During class
+
+* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf)
+   * Google spreadsheet: compute hub and authority scores iteratively
+* Lecture TT09: pagerank [odp](odp/tt09-pagerank.odp)/[pdf](pdf/tt09-pagerank.pdf)
+   * Google spreadsheet: compute simplified PageRank
+
+### After class
+
+* Read the [chapter 14](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf) of the book by Easley and Kleinberg
+* :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
+* :tv: Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
+
+### Extra content: more on PageRank
+
+* See slides for TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
+
 ## Session X: Random networks (ER model)
 
 ### Before class
@@ -140,31 +165,6 @@ Both of these are great to provide context for the course, and will help you sta
 ### Optional/additional material
 
 * See slides from TT13: other growth models [odp](odp/tt13_other_growth_models.odp)/[pdf](pdf/tt13_other_growth_models.pdf)
-
-## Session 5: Hubs, authorities, and PageRank
-
-### Before class
-
-* :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
-   * *Or* watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
-* :tv: Watch this 5-minutes [animation explaining PageRank](https://www.youtube.com/watch?v=meonLcN7LD4)
-
-### During class
-
-* Lecture TT14: hubs and authorities [odp](odp/tt14_hubs_authorities.odp)/[pdf](pdf/tt14_hubs_authorities.pdf)
-   * Google spreadsheet: compute hub and authority scores iteratively
-* Lecture TT15: pagerank [odp](odp/tt15_pagerank.odp)/[pdf](pdf/tt15_pagerank.pdf) -- MOVED TO SESSION 06
-   * Google spreadsheet: compute simplified PageRank
-
-### After class
-
-* Read the [chapter 14](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf) of the book by Easley and Kleinberg
-* :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
-* :tv: Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
-
-### Extra content: more on PageRank
-
-* See slides for TT16: pagerank extra material [odp](odp/tt16_pagerank_extra.odp)/[pdf](pdf/tt16_pagerank_extra.pdf)
 
 
 ## Session 7: Mid-term exam
