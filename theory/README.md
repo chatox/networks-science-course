@@ -235,11 +235,12 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT23: spreading phenomena [odp](odp/tt23-spreading_phenomena.odp)/[pdf](pdf/tt23-spreading_phenomena.pdf)
-   * Exercise: explain three contagion variants, using NetLogo to run simulations
-   * Exercise: indicate phenomena that spread virally
+   * Exercise: explain three contagion variants, using NetLogo to run simulations (pin board)
+   * Exercise: indicate phenomena that spread virally (pin board)
 * Lecture TT24: models of influence [odp](odp/tt24-models_of_influence.odp)/[pdf](pdf/tt24-models_of_influence.pdf)
-   * Google spreadsheet: simulate linear threshold model
-   * Google spreadsheet: simulate independent cascade model
+   * Exercise: simulate linear threshold model (spreadsheet)
+   * Exercise: simulate independent cascade model (spreadsheet)
+   * Exercise: list assumptions of these models (pin board)
 * Lecture TT25: epidemics [odp](odp/tt25-epidemics.odp)/[pdf](pdf/tt25-epidemics.pdf)
 
 ### After class
@@ -257,6 +258,6 @@ Note that the source files include some solutions, while the PDF files do not in
 
 # Sources/credits
 
-Theory topics TT01-TT06 and TT13 closely follow "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In other cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
+Some theory topics closely follow the "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In all cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
 
 [<img src="../upf/cc-by-80x15.png" width="80" height="15" hspace="4"/>](https://creativecommons.org/licenses/by/4.0/) Slides available under a [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license unless specified otherwise.
