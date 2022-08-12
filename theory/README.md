@@ -6,7 +6,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 **Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
 
-**During class,** I will present the contents using slides and we will do together some exercises using Nearpod or Google Spreadsheets. Please avoid distractions: place your phone in airplane mode, close all other windows in your computer, and try to stay focused. We will pause frequently during the session to help you regain focus. In one of the sessions, a *midterm exam* will be taken, and at the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
+**During class,** I will present the contents using slides and we will do together some exercises using Padlets or Google Spreadsheets. Please avoid distractions: place your phone in airplane mode, close all other windows in your computer, and try to stay focused. We will pause frequently during the session to help you regain focus. In one of the sessions, a *midterm exam* will be taken, and at the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
 
 **After each session, there is some reading for you to do.** These readings will be much easier after you have attended each lecture, will bring depth to what you learn in class, and will help you remember these contents better. Think of these readings as a form of continuous studying that will save you time and effort when preparing for the exams.
 
@@ -123,12 +123,12 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT11: the random network (ER) model [odp](odp/tt11-random_networks.odp)/[pdf](pdf/tt11-random_networks.pdf)
-   * Nearpod: guess the formula for expected number of links, using NetLogo to run simulations (pin board)
-   * Nearpod: compute expected number of links and expected average degree
+   * Exercise: guess the formula for expected number of links, using NetLogo to run simulations (pin board)
+   * Exercise: compute expected number of links and expected average degree
 * Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf)
-   * Nearpod: guess critical point at which a giant connected component emerges, using NetLogo to run simulations (pin board)
-   * Nearpod: find actors with large distance from Kevin Bacon (pin board)
-   * Nearpod: find critical N for a graph to be connected
+   * Exercise: guess critical point at which a giant connected component emerges, using NetLogo to run simulations (pin board)
+   * Exercise: find actors with large distance from Kevin Bacon (pin board)
+   * Exercise: find critical N for a graph to be connected
 
 ### After class
 
@@ -143,11 +143,11 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT13: scale-free networks [odp](odp/tt13-scale_free_networks.odp)/[pdf](pdf/tt13-scale_free_networks.pdf)
-   * Nearpod: compute nodes with an expected degree
+   * Exercise: compute nodes with an expected degree
 * Lecture TT14: distances in scale-free networks [odp](odp/tt14_distances_scale_free_nets.odp)/[pdf](pdf/tt14_distances_scale_free_nets.pdf)
 * Lecture TT15: the friendship paradox [odp](odp/tt15-friendship_paradox.odp)/[pdf](pdf/tt15-friendship_paradox.pdf)
-   * Nearpod: numerical example of friendship paradox
-   * Nearpod: compute expected degree of neighbors
+   * Exercise: numerical example of friendship paradox (pin board)
+   * Exercise: compute expected degree of neighbors
 
 ### After class
 
@@ -166,8 +166,8 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT16: preferential attachment [odp](odp/tt16-preferential_attachment.odp)/[pdf](pdf/tt16-preferential_attachment.pdf)
-   * Nearpod: guess slope of degree distribution, using NetLogo to run simulations
-   * Nearpod: write formula for number of nodes and edges over time
+   * Exercise: guess slope of degree distribution, using NetLogo to run simulations (pin board)
+   * Exercise: write formula for number of nodes and edges over time
 * Lecture TT17: degree under preferential attachment [odp](odp/tt17-preferential_attachment_degree.odp)/[pdf](pdf/tt17-preferential_attachment_degree.pdf)
 
 ### After class
@@ -177,7 +177,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### Optional/additional material
 
 * Lecture TT18: other growth models [odp](odp/tt18-tt18_other_growth_models.odp)/[pdf](pdf/tt18-tt18_other_growth_models.pdf)
-   * Nearpod: copy model
+   * Exercise: copy model
 
 ## Session 9: Communities
 
