@@ -123,11 +123,11 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT11: the random network (ER) model [odp](odp/tt11-random_networks.odp)/[pdf](pdf/tt11-random_networks.pdf)
-   * Nearpod: guess the formula for expected number of links, using NetLogo to run simulations
+   * Nearpod: guess the formula for expected number of links, using NetLogo to run simulations (pin board)
    * Nearpod: compute expected number of links and expected average degree
 * Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf)
-   * Nearpod: guess critical point at which a giant connected component emerges, using NetLogo to run simulations
-   * Nearpod: find actors with large distance from Kevin Bacon
+   * Nearpod: guess critical point at which a giant connected component emerges, using NetLogo to run simulations (pin board)
+   * Nearpod: find actors with large distance from Kevin Bacon (pin board)
    * Nearpod: find critical N for a graph to be connected
 
 ### After class
@@ -144,10 +144,10 @@ We will have a mid-term exam; there will be no lecture after the exam.
 
 * Lecture TT13: scale-free networks [odp](odp/tt13-scale_free_networks.odp)/[pdf](pdf/tt13-scale_free_networks.pdf)
    * Nearpod: compute nodes with an expected degree
-* Lecture TT14: the friendship paradox [odp](odp/tt14-friendship_paradox.odp)/[pdf](pdf/tt14-friendship_paradox.pdf)
+* Lecture TT14: distances in scale-free networks [odp](odp/tt14_distances_scale_free_nets.odp)/[pdf](pdf/tt14_distances_scale_free_nets.pdf)
+* Lecture TT15: the friendship paradox [odp](odp/tt15-friendship_paradox.odp)/[pdf](pdf/tt15-friendship_paradox.pdf)
    * Nearpod: numerical example of friendship paradox
    * Nearpod: compute expected degree of neighbors
-* Lecture TT15: distances in scale-free networks [odp](odp/tt15_distances_scale_free_nets.odp)/[pdf](pdf/tt15_distances_scale_free_nets.pdf)
 
 ### After class
 
