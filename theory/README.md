@@ -189,12 +189,12 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT19: k-cores [odp](odp/tt19-k_cores.odp)/[pdf](pdf/tt19-k_cores.pdf)
-   * Nearpod: perform a k-core decomposition
+   * Exercise: perform a k-core decomposition
 * Lecture TT20: community structure [odp](odp/tt20-community_structure.odp)/[pdf](pdf/tt20-community_structure.pdf)
 * Lecture TT21: finding communities [odp](odp/tt21-finding_communities.odp)/[pdf](pdf/tt21-finding_communities.pdf)
-   * Nearpod: indicate if communities are strong or weak
-   * Nearpod: measure a cut
-   * Nearpod: compute modularity
+   * Exercise: indicate if communities are strong or weak
+   * Exercise: compute cut size under two different partitions (pin board)
+   * Exercise: compute modularity
 
 ### After class
 
@@ -213,6 +213,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT22: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
+   * Exercise: perform random 2D projection of a graph
 
 ### After class
 
@@ -234,8 +235,8 @@ We will have a mid-term exam; there will be no lecture after the exam.
 ### During class
 
 * Lecture TT23: spreading phenomena [odp](odp/tt23-spreading_phenomena.odp)/[pdf](pdf/tt23-spreading_phenomena.pdf)
-   * Nearpod: explain three contagion variants, using NetLogo to run simulations
-   * Nearpod: indicate phenomena that spread virally
+   * Exercise: explain three contagion variants, using NetLogo to run simulations
+   * Exercise: indicate phenomena that spread virally
 * Lecture TT24: models of influence [odp](odp/tt24-models_of_influence.odp)/[pdf](pdf/tt24-models_of_influence.pdf)
    * Google spreadsheet: simulate linear threshold model
    * Google spreadsheet: simulate independent cascade model
