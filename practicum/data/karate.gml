@@ -2,6 +2,7 @@ Creator "Mark Newman on Fri Jul 21 12:39:27 2006"
 graph [
   node [
     id 1
+    label "1 (sensei)"
   ]
   node [
     id 2
@@ -101,6 +102,7 @@ graph [
   ]
   node [
     id 34
+    label "34 (president)"
   ]
   edge [
     source 2
