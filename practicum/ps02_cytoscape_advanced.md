@@ -35,27 +35,31 @@ To import it into Cytoscape:
 * Column 2 should be "Target" (it's a red target)
 * OK
 
-Tip: change the style to minimalistic to see the graph better.
+*Tip: change the style to "minimal" to see the graph better.*
 
 [**REPORT**] Include this graph in your report.
 
-[**REPORT**] Answer the following question: what are the small components that are disconnected from the largest connected component?
+[**REPORT**] What are the top 10 nodes with largest degree?
 
 ## 1.2. Create sub-graphs
 
-* Search for the node named "BLACK PANTHER/T'CHAL"
-  * Option 1: use the search box is on top of the display. Depending on the OS (usually in Linux-based systems) you should add \ in the search in order to exclude special characters: "BLACK\ PANTHER/T'CHAL"
+* Search for the node named "RAVEN"
+  * Option 1: use the search box is on top of the display
   * Option 2: find this node in the node table, select it, and then use the secondary button to indicate "Select nodes from selected rows"
 * Click on the two-house icon on top, it means *neighbor*
 * Now you've selected one character and all his neighbors.
-* File > New Network > From selected nodes, all edges
+* `File > New Network > From selected nodes, all edges`
 
 [**REPORT**] Indicate the number of nodes and edges of this sub-graph, it appears on the left panel next to the name of the network.
 
-* Do the same for a less popular character "ENCHANTRESS"
-* Notice the number of nodes is much smaller but the number of edges is not proportionally as small. Why do you think this happens?
+* Run the network analyzer
+* Run the Prefuse Force Directed Layout using edge betweenness as a weight
 
-[**REPORT**] Indicate the number of nodes and edges in the sub-graph of nodes connected to "ENCHANTRESS".
+[**REPORT**] Describe what you see in this graph. If you see any community structure, describe it.
+
+* Do the same for another character
+
+[**REPORT**] Indicate the number of nodes and edges in the sub-graph of nodes connected to the other character you found
 
 Note that you can also select by other characteristics, such as degree, by creating a filter in the "Select" panel.
 
@@ -96,20 +100,20 @@ Next, style the network:
 
 [**REPORT**] Include the graph of *Game of Thrones*.
 
+[**REPORT**] Show one example of a long chain (4 or more characters) in this graph. Indicate which characters are involved.
+
 [**REPORT**] Show one example of a multi-edge in this graph. Indicate which characters are involved.
 
-[**REPORT**] Show one example of a loop in this graph. Indicate which characters are involved.
-
-[**REPORT**] Indicate a brief commentary on any interesting phenomenon you observe on this graph.
+[**REPORT**] Describe any observation you can make about how node attribute "house of birth" relates to edge attribute "relationship"
 
 ## 2.2. Create a new network in a CSV file
 
-Now, create a network on your own using CSV files, on whatever topic of your choice as long as the network is **real**. You will need two CSV files: one for the network and one for the attributes. The network should include between 15 and 30 nodes.
+Now, create a network on your own using CSV files, on whatever topic of your choice as long as the network is **real**. You will need two CSV files: one for the network and one for the attributes. The network should include between 20 and 30 nodes.
 
 Some ideas:
 
+* Nodes can be music bands or artists, attributes whether the node is a band or an artist, edges connect artists to the bands they have played in, or you can also have "genre" nodes for different genres/subgenres
 * Nodes can be characters in a movie, edges connecting characters depending on their affinity.
-* Nodes can be music bands or artists, attributes whether the node is a band or an artist, edges connect artists to the bands they've played in.
 * Nodes can be countries, attributes can be population sizes, connections can be countries that share a border.
 * Note that edges can also have attributes, which you can use to change the color or style of lines in the graph.
 
@@ -125,7 +129,14 @@ These are only ideas. Be creative.
 
 # DELIVER (INDIVIDUALLY)
 
-Deliver a report describing these networks, having at most 4 pages in PDF. The report should have **three numbered sections**: one for the *Marvel* network, one for *Game of Thrones*, and one for the network you created. Remember to include all of the elements marked [**REPORT**] above.
+Deliver a report describing these networks, having at most 4 pages in PDF. The report should have **four numbered sections**:
+
+* Section 1 for a table with the number of nodes and edges in the three networks
+* Section 2 for the *Marvel* network
+* Section 3 for the *Game of Thrones* network
+* Section 4 for the network you created
+
+Remember to include all of the elements marked [**REPORT**] above.
 
 **Note**: If you find any mistake in the Game of Thrones graph, e.g., something wrong with respect to the TV series, please send us the corrected CSV files.
 

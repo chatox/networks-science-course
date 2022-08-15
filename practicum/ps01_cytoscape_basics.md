@@ -24,13 +24,14 @@
 
 ## 1.1. Import Zachary's karate club
 
-Let's start with a simple case: [Zachary's Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club). This was a Karate Club with a sensei (#1) and a club president (#34) that split into two: some people remained with the sensei, and the others created a new club with the club president.
+Let's start with a simple case: [Zachary's Karate Club](https://en.wikipedia.org/wiki/Zachary%27s_karate_club), which captures 34 members of a karate club at a university, with links representing interactions between members outside the club.
 
 * `File > Import > Network from File ...`
 * Select `karate.gml`
 * `Layout > Compound Spring Embedder`
-* Look at the graph and try to figure out if there is anything special about nodes 1 and 34.
-* [**REPORT**] Include in your report this graph plus and a brief paragraph indicating whether nodes 1 and 34 have visually anything special.
+* Determine which are the two nodes with the largest degree.
+   * *Tip: use `Tools > Analyze network` and look at the `Node table` displayed under the graph*
+* [**REPORT**] Include in your report this graph plus and a brief paragraph indicating what are the top two highest degree nodes.
 * [**REPORT**] The Compound Spring Embedder is an algorithm derived from force-directed graph layour algorithms. Read the Wikipedia page on [force-directed graph drawing](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) and explain in one paragraph, in your own words, how this works.
 
 **Do not use screenshots**; use `File > Export as image`
@@ -42,10 +43,12 @@ Open a graph showing characters that appear or are mentioned in the same scene o
 * `File > Import > Network from File ...`
 * Select `starwars.graphml`
 * If asked, select *shared name* for the node identifier column. This will transform node identifiers into a column named "shared name" internally.
-* `Layout > Prefuse Force Directed Layout > All nodes > scenes`
-* Find a node with degree larger than *D=20*
-* [**REPORT**] Include in your report this graph. Indicate which character has degree larger than *D* (right click on blank space -> add text, then right click on the text -> add arrow).
+* `Layout > Prefuse Force Directed Layout > scenes`
+* Find a node with degree larger than *D=100*
+* [**REPORT**] Include in your report this graph. Indicate which character has degree larger than *D* (right click in any blank space, then select Add > Text annotation ...)
 * [**REPORT**] Include a brief commentary of what kinds of characters are represented by nodes with degree larger than *D*
+
+**Remember: do not use screenshots**; use `File > Export as image`
 
 ## 1.3. Import US companies co-ownership
 
@@ -54,13 +57,15 @@ Open a graph representing company co-ownership in the US:
 * `File > Import > Network from File ...`
 * Select `us_companies_ownership.csv`
 * Click `OK` (accept default import)
-* It might take a couple of minutes to open
-* Layout > Edge Weighted Spring Embedder (might take ~10 minutes in some PCs)
-* [**REPORT**] Include in your report this graph.
-* [**REPORT**] Do you see more than one connected component? What do connected components represent in this graph?
-* [**REPORT**] Include a brief commentary on large-degree nodes in this graph, which are they? What do those nodes represent?
+* It might take a couple of minutes to open and layout
+* [**REPORT**] Include in your report two images with the *second and third largest connected components* of this graph
+* [**REPORT**] Do you see any connected component that is a *cycle*? If not, indicate this; if yes, include its image in the report
+* [**REPORT**] Do you see any connected component that is a *star*? If not, indicate this; if yes, include its image in the report
+* [**REPORT**] Look for any large company in the technology sector, include an image centered around that company and displaying its neighbors; add a one-paragraph commentary about what you see in this image
 
 Note: you can zoom in and zoom out with the mouse scroll wheel, you can also use the panel on the bottom-right of the screen to navigate the graph.
+
+**Final reminder: do not use screenshots**; use `File > Export as image`
 
 # 2. How to edit node and edge styles
 
@@ -74,7 +79,7 @@ Now you can play with the "Style" panel (top-left, between "Network" and "Filter
 
 To style the entire networks in different ways:
 
-* Play with predefined styles, e.g. "Minimal", "Curved", or others.
+* Play with predefined styles available in the pull-down menu under `Styles`, e.g. "Rippled", "Curved", or others.
 
 ## 2.2. How to name nodes
 
@@ -87,6 +92,8 @@ To include in each node its name:
 To remove these names:
 
 * Remove the mapping (trash can icon)
+
+*Note that node names might not be visible in large graphs until you zoom in. This is controlled by the setting under `View > Always Show Graphics Details`.*
 
 ## 2.3. How to change the shape of node
 
@@ -124,23 +131,26 @@ Try some layouts ("Layout" menu)
 
 # 3. Basic network analysis
 
-## 3.1. Analyze network
+## 3.1. Closeness and betweenness in the Karate Club
 
 Perform basic network analysis. ``Tools > Analyze network``. Consider the network is not directed.
 
 * Load the Karate Club network
 * The analysis adds some node attributes
-* Look at these node attributes (e.g., find the node with the largest betweenness centrality)
-* [**REPORT**] Indicate which are the two nodes with largest betweenness centrality in the Karate Club
-* Change the fill color of nodes to be a *continuous mapping* of column *Betweenness Centrality*; choose the colors so that higher betweenness centrality is associated with a darker color.
-* [**REPORT**] Include this graph in your report
+* [**REPORT**] Indicate which are the three nodes with the largest closeness centrality
+* [**REPORT**] Indicate which are the three nodes with largest betweenness centrality
+* Change the fill color of nodes to be red for nodes with larger *closeness  centrality*, white for node with smaller *closeness centrality* (you will need a continuous mapping for this)
+* Change the size of the nodes (alternatively, their width) to be proportional to *betweenness centrality*
+* Make sure all node labels are readable, you may need to play with the *label color* and/or *label font size* properties
+* [**REPORT**] Include this image in your report
 
-## 3.2. Plot different distributions
+## 3.2. Plot degree distributions
 
 Look at the results from the network analysis (you will need to go to ``View > Show results panel`` -- if it does not show up, try hiding and showing the results panel)
 
-* [**REPORT**] Include two plots with degree distributions in Karate Club and Star Wars
-* [**REPORT**] Include two plots with the distribution of shortest path lengths in Karate Club and Star Wars
+* [**REPORT**] Include a plot with the degree distributions in all three graphs (Karate, US Companies, StarWars). In the case of US companies, which is a directed graph, plot the out-degree.
+
+*Tip: the user interface of Cytoscape is a bit confusing, as the bottom panel needs to be showing `Node Table` for the `Node Degree Distribution` button to work properly.*
 
 ## 3.3. Style the network
 
@@ -164,36 +174,39 @@ Run the [affinity propagation](https://en.wikipedia.org/wiki/Affinity_propagatio
 * Select any temporary folder if prompted
 * ClusterMaker2 requires an attribute for the weight: use ``Array source = scenes`` in *Star Wars*
 * Once you run it, the network will have a new attribute in the nodes (in the node table you will see an attribute named ``_APCluster``)
-* Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on ``_APCluster.`` You might have to pick the color for each group, just pick a color for the three largest groups.
-
-[**REPORT**] Include in your report an image of the Star Wars network with the three largest clusters in three different colors (the rest of the nodes can be white).
-
+* Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on ``_APCluster.`` Note that with the right button you can generate a mapping out of a set of pre-defined ones.
+[**REPORT**] Include in your report an image of the Star Wars network with colors representing clusters.
 [**REPORT**] Include a brief commentary on what do you see in these clusters, what do you think they represent and why.
 
 ## 4.3. Apply to Karate Club
 
 Use ClusterMaker2 on the Karate Club
 
-* Here you MUST run the network analyzer first so you can have "Edge betweenness" as an attribute in edges
-* Use "Edge betweenness" as the attribute for the weight (``Array source``)
-* Run the module, you should get two groups, led by #1 and #34 . Are they close to the actual way in which this club splitted?
+* Try with two different cluster algorithms in the `ClusterMaker2` plug-in. Not all the methods work: try two that do.
+   * You can find a description of the algorithms used in the [ClusterMaker2 homepage](http://www.rbvi.ucsf.edu/cytoscape/clusterMaker2/)
+* If you can choose an attribute in the clustering algorithm, choose "Edge betweenness"
+   * You MUST run the network analyzer first, so you can have "Edge betweenness" as an attribute in edges
+* Compare both obtained clusters with the actual one
 
 ![Karate Club](karate-true-communities.png)
 
-[**REPORT**] Include in your report an image of the Karate Club network with nodes painted according to clusters.
+[**REPORT**] Include in your report an image of the Karate Club network with nodes painted according to clusters using the two methods you selected.
 
 [**REPORT**] Include a brief commentary on what do you see in these clusters, and whether they have some relationship with the way in which the Karate Club actually splitted
 
 # DELIVER (INDIVIDUALLY)
 
-:warning: First of all, read "[delivering your report](../upf/upf-evaluation.md)" on the evaluation guidelines, and check your report against those guidelines before submitting.
+:warning: First of all, read [delivering your report](../upf/upf-evaluation.md) on the evaluation guidelines, and check your report against those guidelines before submitting.
 
 Deliver a brief report of at most 4 pages (it can be less!), in PDF format. Organize your report as follows:
 
-* The first section should briefly describe the three networks, including the number of nodes and edges in each one; you can make a table with this.
-* Then, you should have one section about the *Karate Club*, one section about *Star Wars*, and one brief section about the *US Companies* network; include in each section the elements marked [**REPORT**] above.
+* Section 1 should briefly describe the three networks, including a table with the number of nodes and edges in each one; do not include visualizations in this section
+* Sections 2, 3, 4 should include basically the parts marked "[**REPORT**]" above:
+   * Section 2 should be everything you were asked to do with the *Karate Club* graph
+   * Section 3 should be everything you were asked to do with the *Star Wars* graph
+   * Section 4 should be everything you were asked to do with the *US Companies* graph
 
-**Please be brief,** you do not need to write too much, specially if you are not going to say anything substantive: your report can be less than four pages. A "brief commentary" means one or two paragraphs.
+**Please be brief,** you do not need to write too much; your report can be less than four pages. A "brief commentary" means one or two paragraphs.
 
 Your report should end with the following text:
 
