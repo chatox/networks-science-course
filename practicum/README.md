@@ -34,12 +34,12 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 3 | [PS03](ps03_flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | TBA | TBA
 | 4 | [PS04](ps04_networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | TBA | TBA
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | TBA | TBA
+| 6 | [PS05](ps05_hubs_authorities.ipynb)           | NetworkX: hubs and authorities | TBA | TBA
 | 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | TBA | TBA
-| 8 | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | TBA | TBA
+| 8 | [PS07](ps07_hubs_and_authorities.ipynb)       | NetworkX: network models | TBA | TBA
 | 9 | PS06+PS07                                     | Wrap-up |
-| 10 | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: connected components and k-cores | TBA | TBA
-| 11 | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: simulating the spread of a virus | TBA | TBA
+| 10 | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: k-cores | TBA | TBA
+| 11 | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: community detection | TBA | TBA
 | 12 | PS08+PS09                                    | Wrap-up |
 
 ## Tutorials/reference
