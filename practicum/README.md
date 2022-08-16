@@ -31,8 +31,8 @@ At the end of each handout there is a description of what you should deliver. Pl
 |---|---------------------------------------------|----------|--------------|--------------|
 | 1 | [PS01](ps01_cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | TBA | TBA
 | 2 | [PS02](ps02_cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | TBA | TBA
-| 3 | [PS03](ps03_management_networks_data.ipynb)   | Python: data management of networks data | TBA | TBA
-| 4 | [PS04](ps04_networks_from_text.ipynb)         | Python and Cytoscape: creating a network using textual data | TBA | TBA
+| 3 | [PS03](ps03_flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | TBA | TBA
+| 4 | [PS04](ps04_networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | TBA | TBA
 | 5 | PS03+PS04                                     | Wrap-up |
 | 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | TBA | TBA
 | 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | TBA | TBA

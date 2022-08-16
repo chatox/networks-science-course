@@ -1,0 +1,1531 @@
+# id	ingredient name	category
+0	magnolia_tripetala	flower
+1	calyptranthes_parriculata	plant
+2	chamaecyparis_pisifera_oil	plant derivative
+3	mackerel	fish/seafood
+4	mimusops_elengi_flower	flower
+5	hyssop	herb
+6	buchu	plant
+7	black_pepper	spice
+8	eryngium_poterium_oil	plant derivative
+9	peanut_butter	plant derivative
+10	artemisia_verlo	plant
+11	agastache_rugosa	herb
+12	satureia_thymera	plant
+13	petitgrain	plant derivative
+14	orris_root	plant
+15	black_mustard_seed_oil	plant derivative
+16	celery_oil	plant derivative
+17	red_bean	vegetable
+18	almond	nut/seed/pulse
+19	bacon	meat
+20	lavender	flower
+21	black_chokecherry	fruit
+22	abies_canadensis	plant
+23	petitgrain_lemon	plant derivative
+24	keta_salmon	fish/seafood
+25	jasmine_tea	plant derivative
+26	grapefruit_peel	plant
+27	acacia_flower_oil	plant derivative
+28	nezara_viridula	animal product
+29	lemon_tree	plant
+30	litchi	fruit
+31	filbert	nut/seed/pulse
+32	yellow_passion_fruit_juice	fruit
+33	jasmine	flower
+34	congo_geranium	flower
+35	maple_syrup	plant derivative
+36	vervain_leaf	plant
+37	smoke	plant derivative
+38	toasted_oat	cereal/crop
+39	reunion_geranium	flower
+40	kabosu_peel_oil	plant derivative
+41	soybean	vegetable
+42	wintergreen_leaf	plant
+43	eucalyptus_hemilampra	plant
+44	jammus_citronella_oil	plant derivative
+45	spike	plant
+46	blueberry	fruit
+47	musk	animal product
+48	callitris_glauca	plant
+49	red_currant	fruit
+50	myrrh	spice
+51	pecan	nut/seed/pulse
+52	cicuta_virosa_oil	plant derivative
+53	purple_passion_fruit_juice	fruit
+54	caja_fruit	fruit
+55	juniper_leaf_oil	plant derivative
+56	madagascar_cinnamon_leaf_oil	plant derivative
+57	smoked_sausage	meat
+58	wort	plant
+59	celery_seed	nut/seed/pulse
+60	pinus_sylvestris	plant
+61	chayote	fruit
+62	beet_juice	vegetable
+63	dolphin	fish/seafood
+64	honey	animal product
+65	agarwood	plant
+66	litsea_odorifera	plant
+67	mentha_crispa	herb
+68	american_peppermint_oil	plant derivative
+69	cottage_cheese	dairy
+70	bulgarian_clary_sage	herb
+71	solidago_odora	plant
+72	hop	cereal/crop
+73	paraguay_petitgrain	plant derivative
+74	smoked_summer_sausage	meat
+75	myrocarpus_fastigiatus	plant
+76	eucalyptus_dives	plant
+77	picea_orientalis	plant
+78	tulip	flower
+79	ligusticum_acutilobum_oil	plant derivative
+80	nutmeg_oil	plant derivative
+81	tahiti_vanilla	spice
+82	matricaria_parthenium_oil	plant derivative
+83	valencia_orange_juice	fruit
+84	wine	alcoholic beverage
+85	piper_famechoni	herb
+86	carphephorus_corymbosus_leaf	plant
+87	tsuga_canadensis_oil	plant derivative
+88	orange_juice	fruit
+89	fagara_zanthoxyloides_oil	plant derivative
+90	petitgrain_lemon_oil	plant derivative
+91	guava_peel	plant
+92	bitter_orange	fruit
+93	roasted_sesame_seed	nut/seed/pulse
+94	avocado	fruit
+95	clary_sage	herb
+96	blackberry_juice	fruit
+97	tomato_juice	vegetable
+98	fig	fruit
+99	american_storax	plant derivative
+100	savory	herb
+101	passiflora_edulis_juice	fruit
+102	trassi	fish/seafood
+103	abies_concolor	plant
+104	castoreum	animal product
+105	bread	cereal/crop
+106	wild_vanilla	plant
+107	meat	meat
+108	thuja_articulata_bark_oil	plant derivative
+109	nemuaron_humboldtii_oil	plant derivative
+110	citrus_peel	plant
+111	robinia_pseudoacacia	plant
+112	rosemary	herb
+113	satsuma_mandarin_peel	plant
+114	prawn	fish/seafood
+115	thujopsis_dolabrata	plant
+116	turnip	vegetable
+117	sweet_potato	vegetable
+118	black_sesame_seed	nut/seed/pulse
+119	ribes	plant
+120	mentha	herb
+121	california_pepper	spice
+122	eucalyptus_citriodora	plant
+123	dried_black_tea	plant derivative
+124	roasted_hazelnut	nut/seed/pulse
+125	melaleuca_oil	plant derivative
+126	phellodendron_amurense	herb
+127	sesame_oil	plant derivative
+128	boronia_dentigeroides_oil	plant derivative
+129	several_oil	plant derivative
+130	saxifragaceae	plant
+131	bachang	plant
+132	smoked_pork	meat
+133	raisin	fruit
+134	luvunga_scadens_oil	plant derivative
+135	salmon_caviar	fish/seafood
+136	garlic	vegetable
+137	cheddar_cheese	dairy
+138	field_mint_oil	plant derivative
+139	winter_savory	herb
+140	birch	plant
+141	lettuce	vegetable
+142	tamarind	spice
+143	ceylon_tea	plant derivative
+144	yellow_mombin	fruit
+145	cod_liver_oil	animal product
+146	polyalthia_canangioides_flower	flower
+147	licorice	spice
+148	tilsit_cheese	dairy
+149	estragon	herb
+150	dwarf_quince	fruit
+151	cereal	cereal/crop
+152	hazelnut	nut/seed/pulse
+153	orthodon_tenuicaule_oil	plant derivative
+154	sauvignon_grape	fruit
+155	green_mate	plant derivative
+156	pittosporum_glabratum	plant
+157	mentha_verticillata	herb
+158	trifolium_pratense_leaf_oil	plant derivative
+159	honey_fungus	vegetable
+160	litsea_guatemalensis_oil	plant derivative
+161	tonka_bean_seed	nut/seed/pulse
+162	bulgarian_clary_sage_oil	plant derivative
+163	cinnamomum	plant
+164	ginger	spice
+165	seed	nut/seed/pulse
+166	mint	herb
+167	hogweed_oil	plant derivative
+168	crepis_foetida_root	plant
+169	goat_cheese	dairy
+170	cymbopogon_javanensis	herb
+171	heracleum_candicans_oil	plant derivative
+172	key_lime_leaf	plant
+173	sugarcane	plant
+174	english_peppermint_oil	plant derivative
+175	anise_brandy	alcoholic beverage
+176	cupressus_macrocarpa_oil	plant derivative
+177	ylangylang_oil	plant derivative
+178	hernandia_peltata_oil	plant derivative
+179	wood_oil	plant derivative
+180	watercress	vegetable
+181	boronia_citriodora	plant
+182	eremocitrus_glauca	fruit
+183	passion_fruit_juice	fruit
+184	macadamia_nut	nut/seed/pulse
+185	piri_piri	spice
+186	nettle	plant
+187	pineapple	fruit
+188	scotch	alcoholic beverage
+189	umbelliferae	plant
+190	armagnac	alcoholic beverage
+191	japanese_mint	herb
+192	orange_flower_oil	plant derivative
+193	tequila	alcoholic beverage
+194	sage	herb
+195	seseli_sibiricum	plant
+196	fennel	herb
+197	radish_oil	plant derivative
+198	chamomile	flower
+199	shellfish	fish/seafood
+200	milk_fat	dairy
+201	echinacea	flower
+202	celery	vegetable
+203	vanilla_oil	plant derivative
+204	mung_bean	vegetable
+205	rice	cereal/crop
+206	italian_orange_oil	plant derivative
+207	sour_milk	dairy
+208	asarum_canadense_root_oil	plant derivative
+209	cypress_oil	plant derivative
+210	watermelon	fruit
+211	sheep_cheese	dairy
+212	wild_bergamot_oil	spice
+213	goat_milk	dairy
+214	raw_pork	meat
+215	bay	herb
+216	whitefish	fish/seafood
+217	curcuma_aeruginosa	plant
+218	artemisia_transiliensis	plant
+219	grape_juice	fruit
+220	florida_orange_juice	fruit
+221	nut	nut/seed/pulse
+222	myrtus_communis	herb
+223	eucalyptus_cinereea	plant
+224	schizandra_oil	plant derivative
+225	pandanus_odoratissimus	herb
+226	michelia	plant
+227	tea_oil	plant derivative
+228	bitter_orange_flower_oil	plant derivative
+229	artemisia_santolinifolia	plant
+230	yogurt	dairy
+231	lemon_peel	plant
+232	california_orange	fruit
+233	estragon_oil	plant derivative
+234	orange_tree	plant
+235	raspberry_juice	fruit
+236	ham	meat
+237	barosma_betulina	plant
+238	cod	fish/seafood
+239	clove_pink	flower
+240	boronia_anemonifolia	plant
+241	rosa_centifolia	flower
+242	calamus	plant
+243	lime_juice	fruit
+244	petasites_fragrans	plant
+245	kaschmis_citronella_oil	plant derivative
+246	eucalyptus_dives_oil	plant derivative
+247	litsea_odorifera_leaf_oil	plant derivative
+248	beef	meat
+249	shiitake	vegetable
+250	bitter_fennel	herb
+251	parsley	herb
+252	helichrysum_angustifolium	plant
+253	fermented_tea	plant derivative
+254	grapefruit	fruit
+255	beet	vegetable
+256	basil	herb
+257	kelp	vegetable
+258	roasted_beef	meat
+259	chrysocoris_stolli	animal product
+260	mushroom	vegetable
+261	baked_potato	vegetable
+262	bitter_orange_juice	fruit
+263	violet_leaf	plant
+264	sweetfish	fish/seafood
+265	myrrh_oil	plant derivative
+266	lemongrass_oil	plant derivative
+267	boronia_ledifolia_oil	plant derivative
+268	leptospermum_citratum	plant
+269	petitgrain_lime	plant derivative
+270	rosa_bourboniana_oil	plant derivative
+271	chervil	herb
+272	eriostemon_coxii_leaf_oil	plant derivative
+273	larch_tree	plant
+274	barosma_pulchella_leaf_oil	plant derivative
+275	litsea_guatemalensis	plant
+276	tunisian_rosemary	herb
+277	artemisia_camphorata	plant
+278	pine_turpentine	plant derivative
+279	achillea_micrantha_oil	plant derivative
+280	rose_oil	plant derivative
+281	acacia_farnesiana_oil	plant derivative
+282	xanthorrhoea_hostilis	plant
+283	manila_copal	plant derivative
+284	carnation	flower
+285	vegetable	vegetable
+286	calabash_nutmeg	spice
+287	chamaecyparis_pisifera	plant
+288	sheep_milk	dairy
+289	papaya	fruit
+290	litsea_zeylanica_oil	plant derivative
+291	carpinus_betulus	plant
+292	russian_star_anise	spice
+293	rabbiteye_blueberry	fruit
+294	rutaceae	plant
+295	narcissus_oil	plant derivative
+296	tuna	fish/seafood
+297	cherry_juice	fruit
+298	butter	dairy
+299	hyacinth_oil	plant derivative
+300	irish_whiskey	alcoholic beverage
+301	chrysanthemum_japonicum	flower
+302	orange_peel	plant
+303	kale	vegetable
+304	lily_oil	plant derivative
+305	malabar_lemongrass_oil	plant derivative
+306	calytrix_tetragona_oil	plant derivative
+307	achillea_ageratum	plant
+308	huckleberry	fruit
+309	cherry	fruit
+310	satsuma_mandarin_peel_oil	plant derivative
+311	yellow_passion_fruit	fruit
+312	pandanus_odoratissimus_oil	plant derivative
+313	strawberry_oil	plant derivative
+314	cognac	alcoholic beverage
+315	rubus_arcticus	fruit
+316	galanga	spice
+317	roasted_mate	plant derivative
+318	guineafowl	meat
+319	honduras_balsam	plant derivative
+320	boiled_crab	fish/seafood
+321	soursop	fruit
+322	finocchoi_fennel_oil	plant derivative
+323	fried_chicken	meat
+324	fermented_russian_black_tea	plant derivative
+325	cassis_juice	fruit
+326	orchid	flower
+327	okra	fruit
+328	eel	fish/seafood
+329	eucalyptus_diversicolor_oil	plant derivative
+330	bartlett_pear	fruit
+331	bergamot_oil	plant derivative
+332	juniperus_phoenicea_oil	plant derivative
+333	phebalium_nudum_root_oil	plant derivative
+334	taiwan_citronella	plant
+335	benzoin	plant derivative
+336	lingonberry	fruit
+337	boldo	plant
+338	plum	fruit
+339	farnesol	plant derivative
+340	teucrium_chamaedrys	plant
+341	seed_oil	plant derivative
+342	octopus	fish/seafood
+343	storax	plant derivative
+344	ruta_chalepensis_oil	plant derivative
+345	passiflora_mollissima	fruit
+346	mastic_gum_oil	plant derivative
+347	copaiba	plant derivative
+348	summer_savory	herb
+349	fagroea_racemosa_flower	flower
+350	blenheim_apricot	fruit
+351	gin	alcoholic beverage
+352	ceriman	fruit
+353	hop_oil	plant derivative
+354	mate_leaf	plant
+355	lovage_root	spice
+356	turpentine	plant derivative
+357	beech	plant
+358	agastache_formosana	herb
+359	temple_orange_juice	fruit
+360	grilled_beef	meat
+361	whiskey	alcoholic beverage
+362	erica_arborea_oil	plant derivative
+363	melilotus_officinalis	plant
+364	elettaria_caradmomum_oil	plant derivative
+365	cupressaceae_oil	plant derivative
+366	black_seabream	fruit
+367	brazilian_sassafras_oil	plant derivative
+368	mexican_linaloe	plant derivative
+369	cacao	plant derivative
+370	capsicum_annuum	plant
+371	acacia	plant
+372	starfruit	fruit
+373	strawberry_jam	fruit
+374	red_meat	meat
+375	toasted_sesame_seed	nut/seed/pulse
+376	leek	vegetable
+377	spearmint_oil	plant derivative
+378	mastic_gum_leaf_oil	plant derivative
+379	monarda_fisulosa	plant
+380	fried_pork	meat
+381	rapeseed	plant
+382	acacia_caven	plant
+383	caraway	spice
+384	mimosa_oil	plant derivative
+385	potato	vegetable
+386	cherry_brandy	alcoholic beverage
+387	artemisia_arborescens	plant
+388	galbanum_oil	plant derivative
+389	eucalyptus_oil	plant derivative
+390	lemon_juice	fruit
+391	sunflower_oil	plant derivative
+392	buchu_leaf_oil	plant derivative
+393	brazil_nut	nut/seed/pulse
+394	garlic_mustard	herb
+395	anise_seed	spice
+396	milk	dairy
+397	american_peppermint	herb
+398	purple_passion_fruit	fruit
+399	grape	fruit
+400	jasmine_oil	plant derivative
+401	camembert_cheese	dairy
+402	citronella_oil	plant derivative
+403	violet_flower_oil	plant derivative
+404	melon	fruit
+405	boldea_fragrans	plant
+406	thai_pepper	spice
+407	yeast	plant
+408	grape_brandy	alcoholic beverage
+409	laminaria_japonica	vegetable
+410	ximenia_aegyptiaca	plant
+411	bitter_orange_peel_oil	plant derivative
+412	mentha_citrata	herb
+413	loganberry	fruit
+414	thuja_occidentalis	plant
+415	mentha_viridis	herb
+416	wood_vinegar	plant derivative
+417	pork	meat
+418	oxidized_milk	dairy
+419	currant	fruit
+420	angelica_oil	plant derivative
+421	european_cranberry	fruit
+422	frankfurter	meat
+423	pomelo_peel	plant
+424	garlic_oil	plant derivative
+425	spanish_origanum	herb
+426	boletus_scaber	vegetable
+427	corn	cereal/crop
+428	artemisia_hausiliensis	plant
+429	palm_oil	plant derivative
+430	corn_flake	cereal/crop
+431	dried_spinach	vegetable
+432	vachellia_farnesiana	plant
+433	perovski_abrotanoides_oil	plant derivative
+434	highbush_blueberry	fruit
+435	barosma_pulchella_oil	plant derivative
+436	niaouli_oil	plant derivative
+437	root	plant
+438	raw_pea	vegetable
+439	cinnamon	spice
+440	monodora_grandiflora	plant
+441	carob	fruit
+442	passion_fruit_wine	alcoholic beverage
+443	lemon_peel_oil	plant derivative
+444	radish	vegetable
+445	seseli_tortuosum	plant
+446	lemon_oil	plant derivative
+447	iberis_sempervirens_seed	plant
+448	citrus_leaf_oil	plant derivative
+449	pinus_densiflora	plant
+450	vetiver_oil	plant derivative
+451	raw_chicken	meat
+452	japanese_calamus	plant
+453	patchouli_oil	plant derivative
+454	raw_bean	vegetable
+455	sake	alcoholic beverage
+456	citrus_peel_oil	plant derivative
+457	elsholtzia_ciliata	herb
+458	bael	fruit
+459	botrytized_wine	alcoholic beverage
+460	lavender_delphinensis	flower
+461	sassafras_root_oil	plant derivative
+462	angelica_root_oil	plant derivative
+463	kola_tea	plant derivative
+464	corn_oil	plant derivative
+465	cumin_oil	plant derivative
+466	olive	fruit
+467	spearmint	herb
+468	japanese_hop_oil	plant derivative
+469	butterfat	dairy
+470	sumatra_benzoin	plant derivative
+471	pinus_sabiniana_terpentine	plant derivative
+472	apple_sauce	plant derivative
+473	roasted_macadamia_nut	nut/seed/pulse
+474	thlaspi_arvense_oil	plant derivative
+475	eucalyptus_maideni	plant
+476	raspberry_oil	plant derivative
+477	raw_asparagus	vegetable
+478	turkmenistan_sunguli_oil	plant derivative
+479	chrysanthemum_sincuse_flower	flower
+480	malabar_cardamom_oil	plant derivative
+481	gelatin	animal product
+482	crisp_bread	cereal/crop
+483	date	fruit
+484	limburger_cheese	dairy
+485	solanaceae	plant
+486	mango	fruit
+487	cape_gooseberry	fruit
+488	lindera_citriodora	plant
+489	coconut_oil	plant derivative
+490	pinus_excelsa	plant
+491	rafanus_sativus_root	plant
+492	american_sassafras_oil	plant derivative
+493	chinese_star_anise_oil	plant derivative
+494	boiled_chicken	meat
+495	artemisia_scoparia	plant
+496	chickpea	vegetable
+497	dried_green_tea	plant derivative
+498	kumquat_peel_oil	plant derivative
+499	dacrydium_franklinii_oil	plant derivative
+500	artemisia_maritime_oil	plant derivative
+501	artemisia_frigida	plant
+502	italian_lime	fruit
+503	pittosporum_flower	flower
+504	orange_peel_oil	plant derivative
+505	thymus	herb
+506	bantu_beer	alcoholic beverage
+507	melilotus_albus_leaf	plant
+508	ceanothus_velutinus_leaf	plant
+509	asian_storax	plant derivative
+510	boldo_leaf	plant
+511	cinchona_officinalis	plant
+512	beef_broth	meat
+513	cistus_ladaniferus	plant
+514	sesame_seed_oil	plant derivative
+515	myrtle	herb
+516	rye_flour	cereal/crop
+517	leptospermum_liversidgei	plant
+518	orange_leaf_oil	plant derivative
+519	french_lavender	flower
+520	doryphora_sassafras_leaf_oil	plant derivative
+521	aconitum_napellus	plant
+522	hybrid_passion_fruit_juice	fruit
+523	carphephorus_paniculatus_leaf	plant
+524	lesquerella_seed	plant
+525	cheese	dairy
+526	randia_formosa_flower	flower
+527	citronella_grass	herb
+528	quercus_olive	fruit
+529	siam_benzoin	plant derivative
+530	asarum_europaeum_root_oil	plant derivative
+531	cassava	vegetable
+532	muscadine_grape	fruit
+533	valerian_oil	plant derivative
+534	loiseleuria_procumbens	plant
+535	auricula_oil	plant derivative
+536	valencia_orange_oil	plant derivative
+537	citronella	herb
+538	black_chokeberry	fruit
+539	celery_root	vegetable
+540	senecio_kaempferi	plant
+541	while_thyme_oil	plant derivative
+542	chestnut_honey	plant derivative
+543	magnolia_salicifolia_oil	plant derivative
+544	cane_molasses	plant derivative
+545	coconut	nut/seed/pulse
+546	grape_vine	plant
+547	violet	flower
+548	port_wine	alcoholic beverage
+549	fortunella_margarita	plant
+550	fermented_radish	vegetable
+551	blumea_malcomii_oil	plant derivative
+552	berry_bud	plant
+553	eucalyptus_citriodora_oil	plant derivative
+554	penang_benzoin	plant derivative
+555	shoro	vegetable
+556	california_orange_peel	plant
+557	cinnamomum_cassia_oil	plant derivative
+558	palmarosa_oil	plant derivative
+559	wild_berry	fruit
+560	tea_tree_oil	plant derivative
+561	myrtaceae_oil	plant derivative
+562	petitgrain_lime_oil	plant derivative
+563	artemisia_juncea	plant
+564	achasma_walang	plant
+565	chinese_star_anise	spice
+566	uncured_boiled_pork	meat
+567	rye_bread	cereal/crop
+568	polysiphonia_fastigiata	plant
+569	red_sage	herb
+570	boiled_meat	meat
+571	arrack	alcoholic beverage
+572	nectarine	fruit
+573	mantis_shrimp	fish/seafood
+574	levisticum_acutilobum	plant
+575	pumpkin	vegetable
+576	fermented_tea_leaf_oil	plant derivative
+577	spearmint_scotch_oil	plant derivative
+578	wild_strawberry	fruit
+579	cumin	spice
+580	uncured_smoked_pork	meat
+581	backhousia_citriodora	plant
+582	hinoki_oil	plant derivative
+583	chinese_cinnamon	herb
+584	seal	meat
+585	artemisia_tridentata	plant
+586	mutton	meat
+587	roasted_peanut	nut/seed/pulse
+588	petrosimonia_monandra	plant
+589	roasted_meat	meat
+590	mandarin	fruit
+591	leaf_oil	plant derivative
+592	winter_melon	fruit
+593	caucus	vegetable
+594	labdanum	plant derivative
+595	cantaloupe	fruit
+596	japanese_peppermint	herb
+597	oak_leaf	plant
+598	brassica	plant
+599	finnish_whiskey	alcoholic beverage
+600	alpinia_malaccensis	plant
+601	elderberry_juice	fruit
+602	auto_oxidized_salmon_oil	animal product
+603	domiati_cheese	dairy
+604	mexican_lime	fruit
+605	comte_cheese	dairy
+606	raw_lean_fish	fish/seafood
+607	mentha_silvestris_oil	plant derivative
+608	ceylon_tea_cinnamon_leaf	plant
+609	berry	fruit
+610	sudachi	fruit
+611	cinnamon_leaf_oil	plant derivative
+612	ceylon_citronella_oil	plant derivative
+613	navy_bean	vegetable
+614	tabasco_pepper	spice
+615	zanthoxylum_piperitum	spice
+616	turkey	meat
+617	spermaceti_oil	plant derivative
+618	malagueta_pepper	spice
+619	red_wine	alcoholic beverage
+620	squash	vegetable
+621	thymus_zygis	plant
+622	indian_hemp	plant
+623	jamaican_rum	alcoholic beverage
+624	mashed_potato	vegetable
+625	boiled_beef	meat
+626	green_tea_oil	plant derivative
+627	rhus_cotinus_leaf	plant
+628	coriander_oil	plant derivative
+629	ledum_palustre	plant
+630	passion_fruit	fruit
+631	coffee	plant derivative
+632	magnolia_oil	plant derivative
+633	red_kidney_bean	vegetable
+634	cocoa_liquor	alcoholic beverage
+635	cryptomeria_japonica	plant
+636	calytrix_virgata	plant
+637	zanthoxylum_rhetsa_oil	plant derivative
+638	macaroni	cereal/crop
+639	catfish	fish/seafood
+640	sapodilla	fruit
+641	tangerine_oil	plant derivative
+642	cocoa_leaf	plant
+643	fruit	fruit
+644	hogweed	herb
+645	babaco	fruit
+646	salmon_roe	fish/seafood
+647	brown_rice	cereal/crop
+648	eryngium_poterium	plant
+649	rhodotorula_glutinis	plant
+650	choke_cherry	fruit
+651	waste_wort	plant
+652	veal	meat
+653	boswellia_serrata_oil	plant derivative
+654	piper_officinarum	spice
+655	nectandra_elaiophora	plant
+656	bitter_orange_leaf	plant
+657	wild_grape	fruit
+658	cilantro	herb
+659	crimean_white_grape_oil	plant derivative
+660	prunus	plant
+661	rose	flower
+662	anise_hyssop	herb
+663	cayenne	spice
+664	monarda_citriodora_oil	plant derivative
+665	grapefruit_oil	plant derivative
+666	eucalyptus_amygdalina	plant
+667	melissa_oil	plant derivative
+668	vitis	plant
+669	jonquil	plant
+670	houttuynia_cordata_oil	plant derivative
+671	endive	vegetable
+672	tobacco_leaf_oil	plant derivative
+673	orthodon_linalooliferum	plant
+674	clam	fish/seafood
+675	thyme	herb
+676	blackberry	fruit
+677	geranium_oil	plant derivative
+678	morus_bombycis_oil	plant derivative
+679	lobster	fish/seafood
+680	corn_mint	herb
+681	sphaeranthus_indicus_oil	plant derivative
+682	chicken_liver	meat
+683	origanum	herb
+684	scotch_spearmint_oil	plant derivative
+685	marula	fruit
+686	mastic_gum_fruit_oil	plant derivative
+687	graminaceae	plant
+688	brazil_peppermint_oil	plant derivative
+689	zingiberaceae	plant
+690	roasted_chicory_root	vegetable
+691	cayenne_rosewood	plant
+692	brazil_rosewood	plant
+693	smoked_herring	fish/seafood
+694	shrimp	fish/seafood
+695	pistachio	nut/seed/pulse
+696	swiss_cheese	dairy
+697	wild_rice	cereal/crop
+698	chive	vegetable
+699	sea_buckthorn	fruit
+700	lavender_oil	plant derivative
+701	orange_leaf	plant
+702	phellodendron_japonicum	plant
+703	white_bread	cereal/crop
+704	orange_oil	plant derivative
+705	yam	vegetable
+706	melaleuca_smithii	plant
+707	anise	spice
+708	american_potato_chip	vegetable
+709	mandarin_leaf_oil	plant derivative
+710	java_citronella	plant
+711	clary_sage_bush	plant
+712	star_anise_oil	plant derivative
+713	cabreuva	plant derivative
+714	spanish_origanum_oil	plant derivative
+715	raw_lamb	meat
+716	sauerkraut	vegetable
+717	strawberry	fruit
+718	rice_bran	cereal/crop
+719	elsholtzia_argyi	plant
+720	elder_flower	flower
+721	palmarosa	plant derivative
+722	sherry_wine	alcoholic beverage
+723	mandarin_peel_oil	plant derivative
+724	cream	dairy
+725	angelica	herb
+726	basil_oil	plant derivative
+727	pinus_jeffreyi_terpentine	plant derivative
+728	verbena_oil	plant derivative
+729	roasted_almond	nut/seed/pulse
+730	monarda_punctata	plant
+731	orris	plant derivative
+732	clary_sage_oil	plant derivative
+733	larix	plant
+734	wax_jambu	fruit
+735	pear	fruit
+736	dill_seed	plant
+737	brandy	alcoholic beverage
+738	butter_oil	dairy
+739	monkey_orange	fruit
+740	oregano_oil	plant derivative
+741	globefish	fish/seafood
+742	roasted_turkey	meat
+743	lemon_balm	herb
+744	rosa_borbonica	flower
+745	cinnamomum_camphora	plant
+746	brussels_sprout	vegetable
+747	spanish_sage	herb
+748	cananga	flower
+749	parmesan	dairy
+750	porcini	vegetable
+751	roman_chamomile	herb
+752	ginger_oil	plant derivative
+753	dairy	dairy
+754	pickled_ham	meat
+755	litsea_cubeba_fruit	fruit
+756	lima_bean	vegetable
+757	gardenia_flower_oil	flower
+758	helichrysum_italicum	plant
+759	kidney_bean	vegetable
+760	vitis_labrusca	fruit
+761	apple_brandy	alcoholic beverage
+762	mexican_goosefoot	plant
+763	pickled_plum	fruit
+764	dacrydium_colensoi	plant
+765	cinnamon_oil	plant derivative
+766	snap_bean	vegetable
+767	egg_noodle	cereal/crop
+768	michelia_champaca_oil	plant derivative
+769	borosma_pulchellum	plant
+770	papaver_somniferum	plant
+771	bay_laurel_oil	plant derivative
+772	lovage_leaf	herb
+773	wallflower	plant
+774	ethiopian_pepper	spice
+775	tea	plant derivative
+776	plum_brandy	alcoholic beverage
+777	phallus_impudicus	plant
+778	bergamot	flower
+779	lavender_vera_oil	plant derivative
+780	nigra_oil	plant derivative
+781	guava	fruit
+782	bisabol_myrrh	herb
+783	japanese_seafood	fish/seafood
+784	pinus_jeffreyi	plant
+785	lantana_camara_oil	plant derivative
+786	black_tea_oil	plant derivative
+787	grapefruit_juice	fruit
+788	artemisia_cina	plant
+789	chamaecyparis_lawsoniana	plant
+790	dried_fig	fruit
+791	french_peppermint_oil	plant derivative
+792	grapefruit_blossom	flower
+793	eucalyptus_microcorys_leaf_oil	plant derivative
+794	datura_stramonium	plant
+795	neroli	plant derivative
+796	pinus_communis_oil	plant derivative
+797	melaleuca_bracteata	plant
+798	mulberry_leaf	plant
+799	grape_syrup	plant derivative
+800	lauraceae	plant
+801	heracleum_villosum_oil	plant derivative
+802	dwarf_pine	plant
+803	dalbergia_sissoo	plant
+804	roquefort_cheese	dairy
+805	lingonberry_juice	fruit
+806	fish_oil	animal product
+807	castoreum_oil	plant derivative
+808	hevea_brasiliensis_flower	flower
+809	herring	fish/seafood
+810	crownberry	fruit
+811	lean_fish	fish/seafood
+812	ambrette_seed_oil	plant derivative
+813	currant_leaf	plant
+814	prunus_laurocerasus	plant
+815	east_african_geranium	flower
+816	bitter_orange_oil	plant derivative
+817	loquat	fruit
+818	agaricus	vegetable
+819	krill	fish/seafood
+820	marjoram_oil	plant derivative
+821	citrus_fruit_blossom	flower
+822	hinoki	plant
+823	malt	cereal/crop
+824	enokidake	vegetable
+825	hedychium_spicatum	plant
+826	thea_chinensis_oil	plant derivative
+827	eucalyptus_globulus_oil	plant derivative
+828	copaiba_balsam	plant derivative
+829	american_pennyroyal	plant
+830	durian	fruit
+831	ormenis_multicaulis	plant
+832	temoe_lawak	herb
+833	ledum_palustre_oil	plant derivative
+834	juniperus_chinensis_oil	plant derivative
+835	chamaecyparis_formosensis_root_oil	plant derivative
+836	plant	plant
+837	zanthoxylum_piperitum_fruit_oil	plant derivative
+838	larix_americana	plant
+839	caucas	vegetable
+840	eucalyptus_macarthuri_oil	plant derivative
+841	mangosteen	fruit
+842	bulgarian_rose	flower
+843	mentha_longifolia_oil	plant derivative
+844	roasted_lamb	meat
+845	hoary_basil_leaf_oil	plant derivative
+846	muscat_grape	fruit
+847	phebalium_dentatum	plant
+848	egg	animal product
+849	turmeric	spice
+850	laurel_leaf_oil	plant derivative
+851	pinus_sylvestris_oil	plant derivative
+852	siberian_pine_needle_oil	plant derivative
+853	seychelles_tea	plant derivative
+854	curcuma_aromatica	spice
+855	corn_salad	plant
+856	cajeput	plant derivative
+857	katsuobushi	fish/seafood
+858	raw_beef	meat
+859	south_african_mentha_longifolia	herb
+860	mutton_liver	meat
+861	smoked_fish	fish/seafood
+862	burley_tobacco_oil	plant derivative
+863	nobiru	vegetable
+864	tsuga_canadensis	plant
+865	orthodon_citraliferum	plant
+866	skim_milk	dairy
+867	wasabi	vegetable
+868	vitis_labrusca_juice	fruit
+869	bulgarian_peppermint	herb
+870	muskmelon	fruit
+871	phebalium_dentatum_leaf	plant
+872	corn_tortilla	cereal/crop
+873	juniper_berry	fruit
+874	vetiver	plant derivative
+875	chicken_broth	meat
+876	zanthoxylum_rhetsa	spice
+877	boronia_ledifolia_leaf	plant
+878	fish	fish/seafood
+879	elsholtzia_ciliata_oil	plant derivative
+880	ruta_pinnata_leaf_oil	plant derivative
+881	apricot_kernel	nut/seed/pulse
+882	lemongrass	herb
+883	flower	flower
+884	garcia_mangostana	plant
+885	carob_fruit	fruit
+886	roasted_nut	nut/seed/pulse
+887	rhus_semialata	plant
+888	bilberry_wine	alcoholic beverage
+889	quince	fruit
+890	spike_oil	plant derivative
+891	benzoin_resin	plant derivative
+892	cockroach	animal product
+893	eucalyptus_macarthurii	plant
+894	cherimoya	fruit
+895	tobacco_leaf	plant
+896	algae	vegetable
+897	petitgrain_bergamot	plant derivative
+898	concord_grape	fruit
+899	rice_husk	cereal/crop
+900	eucalyptus_polibrac_tea_oil	plant derivative
+901	sweet_basil	herb
+902	cloudberry	fruit
+903	coffee_flower	flower
+904	fumaria_officinalis	plant
+905	russian_peppermint_oil	plant derivative
+906	pennyroyal_oil	plant derivative
+907	japanese_hop	cereal/crop
+908	black_tea	plant derivative
+909	narcissus	flower
+910	mountain_papaya	fruit
+911	juniperus_sabina	plant
+912	orange_flower	flower
+913	myrocarpus_frondosus	plant
+914	smoked_pork_belly	meat
+915	scallion	vegetable
+916	melaleuca_trichostachya_oil	plant derivative
+917	wintergreen_oil	plant derivative
+918	banana	fruit
+919	eucalyptus	herb
+920	dried_parsley	herb
+921	beechwood_tar	plant derivative
+922	lavandin_oil	plant derivative
+923	gruyere_cheese	dairy
+924	blackberry_brandy	alcoholic beverage
+925	haddock	fish/seafood
+926	trametes_graveolens	plant
+927	piper_chaba	herb
+928	onion_juice	vegetable
+929	kiwi	fruit
+930	artemisia_ferganensis	plant
+931	corn_grit	cereal/crop
+932	stirlingia_latifolia	plant
+933	lavandin	flower
+934	sherry	alcoholic beverage
+935	roasted_green_tea	plant derivative
+936	scotch_whiskey	alcoholic beverage
+937	litsea_zeylanica	plant
+938	nepeta_japonica	plant
+939	cognac_oil	plant derivative
+940	salmon	fish/seafood
+941	russian_champagne	alcoholic beverage
+942	cigarette	plant derivative
+943	mace	spice
+944	oyster	fish/seafood
+945	soybean_oil	plant derivative
+946	raspberry_brandy	alcoholic beverage
+947	tuber	plant
+948	rancid_coconut_oil	plant derivative
+949	brewed_tea	plant derivative
+950	roasted_onion	vegetable
+951	cumin_fruit_oil	plant derivative
+952	thuja_plicata	plant
+953	roselle	herb
+954	ceylon_cinnamon	spice
+955	japanese_star_anise	spice
+956	backhousia_citriodora_oil	plant derivative
+957	eucalyptus_goniocalyx	plant
+958	fried_beef	meat
+959	oak_tar_oil	plant derivative
+960	larix_deciduas	plant
+961	cupressus_lusitanica	plant
+962	japanese_whiskey	alcoholic beverage
+963	ashanti_pepper	spice
+964	saigon_cinnamon	spice
+965	long_pepper	spice
+966	orthodon_methylisoeugenoliferum_oil	plant derivative
+967	roasted_malt	cereal/crop
+968	calytrix_tetragona	plant
+969	coprosma_foetidissima_leaf	plant
+970	lemon_eucalyptus	herb
+971	psilocaulon_absimile	plant
+972	kaempferia_ethel_bulb_oil	plant derivative
+973	onion_oil	plant derivative
+974	cloudberry_oil	plant derivative
+975	polianthes_tuberosa_oil	plant derivative
+976	laurel	plant
+977	mint_oil	plant derivative
+978	cymbopogon_citralis_oil	plant derivative
+979	ambrette_seed	plant
+980	orthodon_methylisoeugenoliferum	plant
+981	american_cranberry	fruit
+982	chenopodium	plant
+983	elderberry	fruit
+984	sperm_whale_oil	fish/seafood
+985	citrus_oil	plant derivative
+986	champaca	flower
+987	violet_flower	flower
+988	eucalyptus_citridora	plant
+989	ligusticum_acutilobum	plant
+990	pennyroyal	herb
+991	bergamot_peel_oil	plant derivative
+992	cubeb	spice
+993	east_indian_geranium	flower
+994	blue_cheese	dairy
+995	geraniaceae	plant
+996	asarum_arifolium_root_oil	plant derivative
+997	silk_fibrooin	animal product
+998	olive_oil	plant derivative
+999	kencur_oil	plant derivative
+1000	scallop	fish/seafood
+1001	pear_brandy	alcoholic beverage
+1002	picea_balsamea_oil	plant derivative
+1003	provolone_cheese	dairy
+1004	bulgarian_rose_oil	plant derivative
+1005	abies_sibirica	plant
+1006	horseradish_oil	plant derivative
+1007	red_algae	vegetable
+1008	buttermilk	dairy
+1009	palm_fruit	fruit
+1010	vietnamese_black_tea	plant derivative
+1011	micromeria_abyssinica	plant
+1012	vinegar	plant derivative
+1013	fermented_shrimp	fish/seafood
+1014	burley_tobacco	plant derivative
+1015	liver	meat
+1016	wild_bergamot	flower
+1017	picea_canadensis	plant
+1018	feronia_elephantum	fruit
+1019	petitgrain_bigarade	plant derivative
+1020	cabernet_sauvignon_grape	fruit
+1021	capsicum	plant
+1022	potato_chip	vegetable
+1023	carnation_oil	plant derivative
+1024	oriental_storax	plant derivative
+1025	citrus_limetta_oil	plant derivative
+1026	black_currant	fruit
+1027	french_bean	vegetable
+1028	smoked_fatty_fish	fish/seafood
+1029	origanum_oil	plant derivative
+1030	scotch_spearmint	herb
+1031	populus_balsamifera	plant
+1032	fruit_juice	fruit
+1033	mandarin_oil	plant derivative
+1034	ewe	meat
+1035	chicory	vegetable
+1036	cayenne_bois_de_rose	plant
+1037	california_laurel_oil	plant derivative
+1038	chinese_quince_peel	plant
+1039	wood_tar	plant derivative
+1040	andropogon_gragrans	plant
+1041	cabbage_juice	vegetable
+1042	baeckea_citriodora	plant
+1043	fried_cured_pork	meat
+1044	cucumber	vegetable
+1045	pimento	spice
+1046	pimenta	spice
+1047	almond_flower	flower
+1048	sumac	spice
+1049	mentha_aquatica	herb
+1050	feces	animal product
+1051	oak_musk	plant derivative
+1052	crayfish	fish/seafood
+1053	sauvignon_blanc_grape	fruit
+1054	roasted_pork	meat
+1055	unprocessed_rice	cereal/crop
+1056	andropogon_jwarancusa	plant
+1057	atropa_belladonna_leaf	plant
+1058	barosma_crenulata	plant
+1059	boiled_pork	meat
+1060	horseradish	plant derivative
+1061	roasted_shrimp	fish/seafood
+1062	kumquat	fruit
+1063	holy_basil	herb
+1064	chinese_quince	fruit
+1065	asperula_odorosa	plant
+1066	callitris_drummondii	plant
+1067	peru_balsam	plant derivative
+1068	muscat_grape_juice	fruit
+1069	beet_root	vegetable
+1070	thymus_caespeititius	plant
+1071	jackfruit	fruit
+1072	oxidized_skim_milk	dairy
+1073	cooked_apple	fruit
+1074	german_chamomile_oil	plant derivative
+1075	ceylon_tea_citronella_oil	plant derivative
+1076	demon_red	spice
+1077	annona_reticulata	plant
+1078	caraway_seed	spice
+1079	abies_balsamea_oil	plant derivative
+1080	zucchini	vegetable
+1081	pilchard	fish/seafood
+1082	horse_mackerel	fish/seafood
+1083	palm	plant
+1084	salvia_grandifiora_oil	plant derivative
+1085	beef_tallow	meat
+1086	lard	animal product
+1087	ananas_sativus	plant
+1088	pea	vegetable
+1089	rum	alcoholic beverage
+1090	jaborandi_leaf_oil	plant derivative
+1091	rue	herb
+1092	raw_peanut	nut/seed/pulse
+1093	corn_mint_oil	plant derivative
+1094	raspberry	fruit
+1095	pelargonium	flower
+1096	smoked_salmon	fish/seafood
+1097	acacia_farnesiana	plant
+1098	oatmeal	cereal/crop
+1099	rhododendron_fauriae_leaf	plant
+1100	imperatoria	plant
+1101	chamomile_oil	plant derivative
+1102	israeli_orange	fruit
+1103	pine_oil	plant derivative
+1104	japanese_peppermint_oil	plant derivative
+1105	thaumatococcus_daniellii	plant
+1106	melilotus_officinalis_flower	flower
+1107	french_fried_potato	vegetable
+1108	cinnamomum_oliveri_leaf	plant
+1109	chinese_cabbage	vegetable
+1110	pelargonium_tomentosum	flower
+1111	atropa_belladonna_root	plant
+1112	creosote	plant derivative
+1113	vegetable_oil	plant derivative
+1114	green_bell_pepper	vegetable
+1115	beef_liver	meat
+1116	banana_passion_fruit	fruit
+1117	cream_cheese	dairy
+1118	oat_groat	cereal/crop
+1119	jonquil_oil	plant derivative
+1120	apricot	fruit
+1121	peppermint	herb
+1122	cassia_oil	plant derivative
+1123	sea_algae	vegetable
+1124	pinus_avium_fruit	fruit
+1125	dill	herb
+1126	bay_laurel	herb
+1127	rotundifolia	plant
+1128	rose_wine	alcoholic beverage
+1129	cardamom_oil	plant derivative
+1130	sandalwood	plant
+1131	satsuma	fruit
+1132	lemon	fruit
+1133	peach	fruit
+1134	saffron	spice
+1135	ananas_sativus_oil	plant derivative
+1136	pinto_bean	vegetable
+1137	callitris_intratropica	plant
+1138	labiatae	plant
+1139	eucalyptus_radiata_oil	plant derivative
+1140	mustard	plant derivative
+1141	kaffir_lime	fruit
+1142	gardenia	flower
+1143	strawberry_juice	fruit
+1144	cistus_labdanum	plant
+1145	cuttlefish	fish/seafood
+1146	abies_sibirica_oil	plant derivative
+1147	clove_oil	plant derivative
+1148	emmental_cheese	dairy
+1149	guarana	plant derivative
+1150	juniper_oil	plant derivative
+1151	pinus_punulio	plant
+1152	wheat_bread	cereal/crop
+1153	cured_ham	meat
+1154	artemisia_dracunculus_oil	plant derivative
+1155	melaleuca_paucifiora_oil	plant derivative
+1156	callitris_gracilis	plant
+1157	cabernet_sauvignon_wine	alcoholic beverage
+1158	bulgarian_tobacco	plant derivative
+1159	hog_plum	fruit
+1160	peanut	nut/seed/pulse
+1161	geranium	flower
+1162	dried_kidney_bean	vegetable
+1163	schizandra_nigra_oil	plant derivative
+1164	toasted_oat_groat	cereal/crop
+1165	eucalyptus_globulus	plant
+1166	cinnamomum_kanahirain	plant
+1167	cassia	spice
+1168	wheat_bran	cereal/crop
+1169	curcuma	spice
+1170	ouzo	alcoholic beverage
+1171	cinnamomum_oil	plant derivative
+1172	oxystigma_buccholtzii_flower	flower
+1173	fruit_brandy	alcoholic beverage
+1174	asparagus	vegetable
+1175	artemisia_herba_alba	plant
+1176	japanese_star_anise_oil	plant derivative
+1177	artemisia_brevifolia	plant
+1178	myrtleberry	fruit
+1179	wheat	cereal/crop
+1180	gastrochilus_pandurata_oil	plant derivative
+1181	grape_must	fruit
+1182	tarragon	herb
+1183	soy_sauce	plant derivative
+1184	mentha_timija	herb
+1185	coal_tar	plant derivative
+1186	thaumatococcus_daniellii_fruit	fruit
+1187	southern_pea	vegetable
+1188	rosaceae	plant
+1189	tangerine_peel_oil	plant derivative
+1190	raw_soybean_oil	plant derivative
+1191	rhus_glabra	plant
+1192	tea_leaf_oil	plant derivative
+1193	buckwheat	cereal/crop
+1194	popcorn	cereal/crop
+1195	mussel	fish/seafood
+1196	peppermint_oil	plant derivative
+1197	apple	fruit
+1198	wood_spirit	plant derivative
+1199	lime	fruit
+1200	robinia_pseudoacacia_oil	plant derivative
+1201	rutabaga	vegetable
+1202	eucalyptus_australianavar_oil	plant derivative
+1203	liatris_odoratissima	plant
+1204	crab	fish/seafood
+1205	alpinia_malaccensis_oil	plant derivative
+1206	raw_fish	fish/seafood
+1207	thuja_standishii	plant
+1208	tangerine	fruit
+1209	citrus_juice	fruit
+1210	french_marigold_oil	plant derivative
+1211	bitter_almond_oil	plant derivative
+1212	salvia_spinosa	plant
+1213	lamb_liver	meat
+1214	mammee	fruit
+1215	myrcia_acris	plant
+1216	carrot	vegetable
+1217	bystropogon_mollis_leaf_oil	plant derivative
+1218	callitris	plant
+1219	roasted_barley	cereal/crop
+1220	tuberose	flower
+1221	lamb	meat
+1222	violet_leaf_oil	plant derivative
+1223	wood_apple	fruit
+1224	rhubarb	vegetable
+1225	custard_apple	fruit
+1226	russian_cheese	dairy
+1227	animal	animal product
+1228	pelargonium_capitaux	flower
+1229	angelica_root	plant
+1230	darwinia_grandiflora_oil	plant derivative
+1231	persea_gratissima_peel	plant
+1232	kohlrabi	vegetable
+1233	cardamom	spice
+1234	rhodophyllus_icterus	plant
+1235	mozzarella_cheese	dairy
+1236	rye_ergot	plant
+1237	cabbage	vegetable
+1238	pork_sausage	meat
+1239	armenian_muscat_grape_oil	plant derivative
+1240	tomato	vegetable
+1241	violet_root	plant derivative
+1242	nance	fruit
+1243	ylangylang	flower
+1244	ocimum_viride	plant
+1245	fatty_fish	fish/seafood
+1246	magnolia_grandiflora	flower
+1247	tobacco_flower	flower
+1248	kumazasa	plant
+1249	acacia_dealbata	plant
+1250	peanut_oil	plant derivative
+1251	artichoke	vegetable
+1252	ocimum_gratissimum	plant
+1253	litsea_odorifera_oil	plant derivative
+1254	pawpaw	fruit
+1255	walnut	nut/seed/pulse
+1256	japanese_ho_leaf_oil	plant derivative
+1257	orange	fruit
+1258	roasted_pecan	nut/seed/pulse
+1259	abies_alba_pine_needle	plant
+1260	callitris_rubusta	plant
+1261	citrus	fruit
+1262	artemisia_frigida_oil	plant derivative
+1263	orthodon	plant
+1264	roman_chamomile_oil	plant derivative
+1265	jasminum_odoratissimum_oil	plant derivative
+1266	ormenis_mixta_oil	plant
+1267	coriander	spice
+1268	ptychotis_ajowan_seed_oil	plant derivative
+1269	cider	alcoholic beverage
+1270	araucaria_cunninghamii	plant
+1271	grilled_pork	meat
+1272	ambrette	plant derivative
+1273	ceylon_citronella	plant
+1274	lilac	flower
+1275	litsea_cubeba_oil	plant derivative
+1276	lentil	nut/seed/pulse
+1277	pinanona	fruit
+1278	whole_grain_wheat_flour	cereal/crop
+1279	luraceae_oil	plant derivative
+1280	mate	plant derivative
+1281	barley	cereal/crop
+1282	pepino_melon	fruit
+1283	sparkling_wine	alcoholic beverage
+1284	elderberry_fruit	fruit
+1285	pinus_sabiniana	plant
+1286	caesalpinia_spinosa	plant
+1287	monarda_punctata_oil	plant derivative
+1288	agathosma_gnidioides_leaf_oil	plant derivative
+1289	wild_raspberry	fruit
+1290	angelica_seed	plant
+1291	mastic_gum	plant derivative
+1292	bell_pepper	vegetable
+1293	artemisia_santolinifolia_oil	plant derivative
+1294	litsea_citrata	plant
+1295	honduras_peru_balsam	plant derivative
+1296	rooibus_tea	plant derivative
+1297	parsnip	vegetable
+1298	romano_cheese	dairy
+1299	beech_tar_creosote	plant derivative
+1300	eryngium_facidum	plant
+1301	lemon_flower	flower
+1302	java_citronella_oil	plant derivative
+1303	alcoholic_beverage	alcoholic beverage
+1304	sapodilla_fruit	fruit
+1305	shallot	vegetable
+1306	buchu_oil	plant derivative
+1307	udo	herb
+1308	kola_nut	nut/seed/pulse
+1309	rum_brandy	alcoholic beverage
+1310	prune	fruit
+1311	malt_whiskey	alcoholic beverage
+1312	safflower_seed	plant
+1313	camphor_oil	plant derivative
+1314	cowberry	fruit
+1315	melaleuca_bracteata_leaf	plant
+1316	bilberry	fruit
+1317	uncured_pork	meat
+1318	betel	plant
+1319	raw_radish	vegetable
+1320	clove	spice
+1321	hoary_basil	herb
+1322	bone_oil	animal product
+1323	thymbra_spicata_oil	plant derivative
+1324	ginger_grass	plant
+1325	chestnut_flower	flower
+1326	trifolium_incarnatum	plant
+1327	rose_hip	fruit
+1328	vervain	herb
+1329	salmon_oil	fish/seafood
+1330	raw_potato	vegetable
+1331	russian_anise	spice
+1332	eucalyptus_bakeries_oil	plant derivative
+1333	jasminum_grandiflorum_oil	plant derivative
+1334	matsutake	vegetable
+1335	tolu_balsam	plant derivative
+1336	seaweed	fish/seafood
+1337	sour_cherry	fruit
+1338	chicken	meat
+1339	rhus_typhia	plant
+1340	california_lemon_oil	plant derivative
+1341	alpinia_sessilis	plant
+1342	artemisae_oil	plant derivative
+1343	bog_blueberry	fruit
+1344	starch	plant derivative
+1345	raw_turkey	meat
+1346	welsh_onion	vegetable
+1347	piper_lowong	herb
+1348	bean	vegetable
+1349	picea_rubens	plant
+1350	plum_wine	alcoholic beverage
+1351	bourbon_whiskey	alcoholic beverage
+1352	chicory_root	vegetable
+1353	tobacco	plant derivative
+1354	sea_bass	fish/seafood
+1355	rosemary_oil	plant derivative
+1356	nutmeg	spice
+1357	honeydew	fruit
+1358	phellodendron_amurense_fruit	fruit
+1359	baeckea_citriodora_oil	plant derivative
+1360	cupressaceae	plant
+1361	apple_juice	fruit
+1362	chamaecyparis_formosensis_oil	plant derivative
+1363	roasted_spanish_peanut	nut/seed/pulse
+1364	rose_flower_oil	plant derivative
+1365	furcraea_gigantean_flower_oil	plant derivative
+1366	caprifoliaceae	plant
+1367	orris_oil	plant derivative
+1368	wheat_flake	cereal/crop
+1369	mustard_greens_oil	plant derivative
+1370	cauliflower	vegetable
+1371	finnish_pine_oil	plant derivative
+1372	sassafras	plant derivative
+1373	prickly_pear	fruit
+1374	guinea_pepper	spice
+1375	black_raspberry	fruit
+1376	picea_alba_oil	plant derivative
+1377	grain	cereal/crop
+1378	split_pea	vegetable
+1379	marjoram	herb
+1380	roasted_cocoa	plant derivative
+1381	litsea_cubeba	plant
+1382	oregano	herb
+1383	parsnip_fruit	vegetable
+1384	anise_seed_oil	plant derivative
+1385	rhizopus	plant
+1386	valerian_root_oil	plant derivative
+1387	neroli_oil	plant derivative
+1388	arnica_montana	plant
+1389	tangerine_juice	fruit
+1390	cured_pork	meat
+1391	verbenaceae	plant
+1392	abies_alba	plant
+1393	hyacinth	flower
+1394	cypress	plant
+1395	fennel_oil	plant derivative
+1396	wood	plant
+1397	satureia_montana	plant
+1398	liquidambar_orientalis_storax	plant derivative
+1399	vanilla	spice
+1400	raw_leek	vegetable
+1401	parmesan_cheese	dairy
+1402	chokeberry	fruit
+1403	pork_liver	meat
+1404	salvia_triloba_oil	plant derivative
+1405	grapefruit_peel_oil	plant derivative
+1406	naranjilla	fruit
+1407	squid	fish/seafood
+1408	wild_marjoram	herb
+1409	israeli_orange_oil	plant derivative
+1410	roasted_filbert	nut/seed/pulse
+1411	aristolochia_clematitis	plant
+1412	sesame_seed	nut/seed/pulse
+1413	laurel_leaf	plant
+1414	guinea_orange_oil	plant derivative
+1415	fenugreek	herb
+1416	balm	herb
+1417	lilium_candidum_flower	flower
+1418	black_currant_bud	plant
+1419	french_peppermint	herb
+1420	whale	fish/seafood
+1421	broccoli	vegetable
+1422	feta_cheese	dairy
+1423	water_apple	fruit
+1424	crowberry	fruit
+1425	camphor	plant derivative
+1426	hatsutake	vegetable
+1427	texas_sage	herb
+1428	white_wine	alcoholic beverage
+1429	sweet_grass_oil	plant derivative
+1430	cymbopogon_sennaarensis	plant
+1431	pinaceae	plant
+1432	azalea	flower
+1433	magnolia_fuscata	flower
+1434	jerusalem_artichoke	vegetable
+1435	oat	cereal/crop
+1436	nira	vegetable
+1437	daffodil_flower	flower
+1438	malay_apple	fruit
+1439	peated_malt	plant derivative
+1440	berry_juice	fruit
+1441	weinbrand	alcoholic beverage
+1442	cayenne_linaloe	plant derivative
+1443	cruciferae_seed	plant
+1444	raw_fatty_fish	fish/seafood
+1445	black_currant_juice	fruit
+1446	lovage	herb
+1447	onion	vegetable
+1448	mindanaese_cinnamomum_oil	plant derivative
+1449	lippia_scaberrima	plant
+1450	rhus_coriaria	spice
+1451	strawberry_wine	alcoholic beverage
+1452	silkworm_chrysalis	animal product
+1453	pinus_jeffreyi_leaf_oil	plant derivative
+1454	ceylon_tea_oil	plant derivative
+1455	wheaten_bread	cereal/crop
+1456	andropogon_intermedius	plant
+1457	blumea_eriantha_oil	plant derivative
+1458	jasminum_grandiflorum	flower
+1459	achillea_millefolium	plant
+1460	thuja_occidentalis_oil	plant derivative
+1461	lime_oil	plant derivative
+1462	orthodon_asaroniferum_oil	plant derivative
+1463	barosma_venustum	plant
+1464	lippia_carviodora	plant
+1465	leaf	plant
+1466	melaleuca_viridiflora	plant
+1467	parsnip_root	plant
+1468	neroli_bigarade	plant derivative
+1469	truffle	vegetable
+1470	thymus_oil	plant derivative
+1471	pepper	spice
+1472	rangpur	fruit
+1473	oxidized_lard	animal product
+1474	champagne_wine	alcoholic beverage
+1475	roasted_chicken	meat
+1476	pike	fish/seafood
+1477	ambergris_oil	plant derivative
+1478	black_bean	vegetable
+1479	ocotea_usambarensis_oil	plant derivative
+1480	passiflora_edulis	fruit
+1481	cranberry	fruit
+1482	mandarin_peel	plant
+1483	citron	herb
+1484	spanish_anise	spice
+1485	chempedak	fruit
+1486	vitis_labrusca_oil	plant derivative
+1487	plumcot	fruit
+1488	cocoa	plant derivative
+1489	dill_blossom	plant
+1490	spirea_ulmaria_oil	plant derivative
+1491	maize	cereal/crop
+1492	ruta_montana_oil	plant derivative
+1493	rosa_rugosa	flower
+1494	caviar	fish/seafood
+1495	beer	alcoholic beverage
+1496	rose_apple	fruit
+1497	sturgeon_caviar	fish/seafood
+1498	bitter_almond	nut/seed/pulse
+1499	valerian	herb
+1500	algerian_geranium_oil	plant derivative
+1501	thymus_mastichina	plant
+1502	citrus_flower_oil	plant derivative
+1503	lime_peel_oil	plant derivative
+1504	artemisia	plant
+1505	compositae	plant
+1506	daffodil	flower
+1507	valeriana_officinalis	herb
+1508	japanese_plum	fruit
+1509	origanum_floribundum	herb
+1510	persea_pubescens	plant
+1511	condiment	plant derivative
+1512	lilac_flower_oil	plant derivative
+1513	white_currant_juice	fruit
+1514	pouching_tea	plant derivative
+1515	raw_cabbage	vegetable
+1516	boiled_mutton	meat
+1517	filipendula_ulmaria_flower	flower
+1518	cascarilla	plant
+1519	cashew	nut/seed/pulse
+1520	rue_oil	plant derivative
+1521	roasted_coconut	nut/seed/pulse
+1522	cajeput_oil	plant derivative
+1523	star_anise	spice
+1524	feijoa	fruit
+1525	tobacco_oil	plant derivative
+1526	cinnamon_leaf	plant
+1527	green_tea	plant derivative
+1528	artemisia_porrecta_oil	plant derivative
+1529	munster_cheese	dairy
