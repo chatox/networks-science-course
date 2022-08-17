@@ -38,7 +38,7 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | TBA | TBA
 | 8 | [PS07](ps07_network_models.ipynb)             | NetworkX: network models | TBA | TBA
 | 9 | PS06+PS07                                     | Wrap-up |
-| 10 | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: k-cores | TBA | TBA
+| 10 | [PS08](ps08_communities.ipynb)               | NetworkX: community detection | TBA | TBA
 | 11 | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: community detection | TBA | TBA
 | 12 | PS08+PS09                                    | Wrap-up |
 
