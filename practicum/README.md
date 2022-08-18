@@ -36,11 +36,11 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 5 | PS03+PS04                                     | Wrap-up |
 | 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | TBA | TBA
 | 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | TBA | TBA
-| 8 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | TBA | TBA
-| 9 | PS06+PS07                                     | Wrap-up |
+| 8 | PS05+PS07                                     | Wrap-up |
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | TBA | TBA
 | 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | TBA | TBA
 | 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | TBA | TBA
-| 12 | PS08+PS09                                    | Wrap-up |
+| 12 | PS07+PS08+PS09                               | Wrap-up |
 
 ## Tutorials/reference
 
