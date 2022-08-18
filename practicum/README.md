@@ -12,6 +12,7 @@ You will need:
    * [networkx](https://networkx.github.io/)
    * [matplotlib](https://matplotlib.org/)
    * [numpy](https://numpy.org/)
+   * [scipy](https://scipy.org/)
 * Jupyter Notebooks.
    * Follow [these instructions](https://jupyter.org/install.html).
 
