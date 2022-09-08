@@ -24,8 +24,6 @@ Material specific to UPF students:
 * :mortar_board: [Evaluation rules](upf/upf-evaluation.md) for course at UPF.
 * :calendar: [Calendar](upf/upf-calendar.md) for course at UPF.
 
-This course will be delivered face to face in 2021, although it was adapted for online learning in 2020. The main changes were that theory lessons are divided into smaller modules, there is only one midterm exam instead of two, no two-people assignments are requested, and individual practices are a little bit longer but more time is given to complete them. 
-
 ## Acknowledgments
 
 The course, particularly the first half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
