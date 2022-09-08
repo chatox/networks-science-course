@@ -1,0 +1,2812 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="SUID" attr.type="long" for="node" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="node" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="node" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="node" id="selected"/>
+    <key attr.name="house" attr.type="string" for="node" id="house"/>
+    <key attr.name="status" attr.type="string" for="node" id="status"/>
+    <key attr.name="SUID" attr.type="long" for="edge" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="edge" id="shared name"/>
+    <key attr.name="shared interaction" attr.type="string" for="edge" id="shared interaction"/>
+    <key attr.name="name" attr.type="string" for="edge" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="edge" id="selected"/>
+    <key attr.name="interaction" attr.type="string" for="edge" id="interaction"/>
+    <key attr.name="relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="reltype" attr.type="string" for="edge" id="reltype"/>
+    <key attr.name="SUID" attr.type="long" for="graph" id="SUID"/>
+    <key attr.name="shared name" attr.type="string" for="graph" id="shared name"/>
+    <key attr.name="name" attr.type="string" for="graph" id="name"/>
+    <key attr.name="selected" attr.type="boolean" for="graph" id="selected"/>
+    <key attr.name="__Annotations" attr.type="string" for="graph" id="__Annotations"/>
+    <graph edgedefault="directed" id="game_of_thrones">
+        <node id="918">
+            <data key="SUID">918</data>
+            <data key="shared name">75</data>
+            <data key="name">Tormund</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="898">
+            <data key="SUID">898</data>
+            <data key="shared name">21</data>
+            <data key="name">Podrick Payne</data>
+            <data key="selected">false</data>
+            <data key="house">House Payne</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="806">
+            <data key="SUID">806</data>
+            <data key="shared name">16</data>
+            <data key="name">Missandei</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="804">
+            <data key="SUID">804</data>
+            <data key="shared name">6</data>
+            <data key="name">Grey Worm</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="787">
+            <data key="SUID">787</data>
+            <data key="shared name">80</data>
+            <data key="name">Brandon Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="737">
+            <data key="SUID">737</data>
+            <data key="shared name">65</data>
+            <data key="name">Benjen Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="645">
+            <data key="SUID">645</data>
+            <data key="shared name">40</data>
+            <data key="name">Tommen Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="622">
+            <data key="SUID">622</data>
+            <data key="shared name">31</data>
+            <data key="name">Edmure Tully</data>
+            <data key="selected">false</data>
+            <data key="house">House Tully</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="614">
+            <data key="SUID">614</data>
+            <data key="shared name">82</data>
+            <data key="name">Rhaella Targaryen</data>
+            <data key="selected">false</data>
+            <data key="house">House Targaryen</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="576">
+            <data key="SUID">576</data>
+            <data key="shared name">66</data>
+            <data key="name">Catelyn Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Tully</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="565">
+            <data key="SUID">565</data>
+            <data key="shared name">59</data>
+            <data key="name">Jojen Reed</data>
+            <data key="selected">false</data>
+            <data key="house">House Reed</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="560">
+            <data key="SUID">560</data>
+            <data key="shared name">23</data>
+            <data key="name">Meera Reed</data>
+            <data key="selected">false</data>
+            <data key="house">House Reed</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="558">
+            <data key="SUID">558</data>
+            <data key="shared name">22</data>
+            <data key="name">Howland Reed</data>
+            <data key="selected">false</data>
+            <data key="house">House Reed</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="541">
+            <data key="SUID">541</data>
+            <data key="shared name">17</data>
+            <data key="name">Jorah Mormont</data>
+            <data key="selected">false</data>
+            <data key="house">House Mormont</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="539">
+            <data key="SUID">539</data>
+            <data key="shared name">55</data>
+            <data key="name">Jeor Mormont</data>
+            <data key="selected">false</data>
+            <data key="house">House Mormont</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="513">
+            <data key="SUID">513</data>
+            <data key="shared name">27</data>
+            <data key="name">Bran Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="505">
+            <data key="SUID">505</data>
+            <data key="shared name">28</data>
+            <data key="name">Sansa Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="497">
+            <data key="SUID">497</data>
+            <data key="shared name">68</data>
+            <data key="name">Lyanna Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="486">
+            <data key="SUID">486</data>
+            <data key="shared name">10</data>
+            <data key="name">Yara Greyjoy</data>
+            <data key="selected">false</data>
+            <data key="house">House Greyjoy</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="481">
+            <data key="SUID">481</data>
+            <data key="shared name">9</data>
+            <data key="name">Theon Greyjoy</data>
+            <data key="selected">false</data>
+            <data key="house">House Greyjoy</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="470">
+            <data key="SUID">470</data>
+            <data key="shared name">7</data>
+            <data key="name">Aeron Greyjoy</data>
+            <data key="selected">false</data>
+            <data key="house">House Greyjoy</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="465">
+            <data key="SUID">465</data>
+            <data key="shared name">64</data>
+            <data key="name">Shaggydog</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="460">
+            <data key="SUID">460</data>
+            <data key="shared name">72</data>
+            <data key="name">Summer</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="455">
+            <data key="SUID">455</data>
+            <data key="shared name">19</data>
+            <data key="name">Nymeria</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="447">
+            <data key="SUID">447</data>
+            <data key="shared name">5</data>
+            <data key="name">Ghost</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="445">
+            <data key="SUID">445</data>
+            <data key="shared name">47</data>
+            <data key="name">Grey Wind</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="440">
+            <data key="SUID">440</data>
+            <data key="shared name">4</data>
+            <data key="name">Gendry</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="432">
+            <data key="SUID">432</data>
+            <data key="shared name">3</data>
+            <data key="name">Drogon</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="430">
+            <data key="SUID">430</data>
+            <data key="shared name">24</data>
+            <data key="name">Rhaegal</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="419">
+            <data key="SUID">419</data>
+            <data key="shared name">0</data>
+            <data key="name">Robin Arryn</data>
+            <data key="selected">false</data>
+            <data key="house">House Arryn</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="411">
+            <data key="SUID">411</data>
+            <data key="shared name">81</data>
+            <data key="name">Margaery Tyrell</data>
+            <data key="selected">false</data>
+            <data key="house">House Tyrell</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="406">
+            <data key="SUID">406</data>
+            <data key="shared name">79</data>
+            <data key="name">Renly Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="401">
+            <data key="SUID">401</data>
+            <data key="shared name">78</data>
+            <data key="name">Viserion</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="399">
+            <data key="SUID">399</data>
+            <data key="shared name">18</data>
+            <data key="name">Night King</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="394">
+            <data key="SUID">394</data>
+            <data key="shared name">13</data>
+            <data key="name">Jaime Lannister</data>
+            <data key="selected">false</data>
+            <data key="house">House Lannister</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="389">
+            <data key="SUID">389</data>
+            <data key="shared name">76</data>
+            <data key="name">Rhaegar Targaryen</data>
+            <data key="selected">false</data>
+            <data key="house">House Targaryen</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="387">
+            <data key="SUID">387</data>
+            <data key="shared name">37</data>
+            <data key="name">Robert Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="382">
+            <data key="SUID">382</data>
+            <data key="shared name">2</data>
+            <data key="name">Sandor Clegane</data>
+            <data key="selected">false</data>
+            <data key="house">House Clegane</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="377">
+            <data key="SUID">377</data>
+            <data key="shared name">74</data>
+            <data key="name">Beric Dondarrion</data>
+            <data key="selected">false</data>
+            <data key="house">House Dondarrion</data>
+            <data key="status">Uncertain</data>
+        </node>
+        <node id="369">
+            <data key="SUID">369</data>
+            <data key="shared name">71</data>
+            <data key="name">Robb Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="364">
+            <data key="SUID">364</data>
+            <data key="shared name">70</data>
+            <data key="name">Rickon Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="359">
+            <data key="SUID">359</data>
+            <data key="shared name">69</data>
+            <data key="name">Rickard Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="357">
+            <data key="SUID">357</data>
+            <data key="shared name">77</data>
+            <data key="name">Aerys II Targaryen</data>
+            <data key="selected">false</data>
+            <data key="house">House Targaryen</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="352">
+            <data key="SUID">352</data>
+            <data key="shared name">20</data>
+            <data key="name">Ilyn Payne</data>
+            <data key="selected">false</data>
+            <data key="house">House Payne</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="347">
+            <data key="SUID">347</data>
+            <data key="shared name">63</data>
+            <data key="name">Shae</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="342">
+            <data key="SUID">342</data>
+            <data key="shared name">62</data>
+            <data key="name">Tyene Sand</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="337">
+            <data key="SUID">337</data>
+            <data key="shared name">61</data>
+            <data key="name">Obara Sand</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="332">
+            <data key="SUID">332</data>
+            <data key="shared name">60</data>
+            <data key="name">Nymeria Sand</data>
+            <data key="selected">false</data>
+            <data key="house">Sand Snakes</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="327">
+            <data key="SUID">327</data>
+            <data key="shared name">58</data>
+            <data key="name">Mance Rayder</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="322">
+            <data key="SUID">322</data>
+            <data key="shared name">57</data>
+            <data key="name">Osha</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="314">
+            <data key="SUID">314</data>
+            <data key="shared name">54</data>
+            <data key="name">Oberyn Martell</data>
+            <data key="selected">false</data>
+            <data key="house">House Martell</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="309">
+            <data key="SUID">309</data>
+            <data key="shared name">53</data>
+            <data key="name">Elia Martell</data>
+            <data key="selected">false</data>
+            <data key="house">House Martell</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="307">
+            <data key="SUID">307</data>
+            <data key="shared name">1</data>
+            <data key="name">Gregor Clegane</data>
+            <data key="selected">false</data>
+            <data key="house">House Clegane</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="302">
+            <data key="SUID">302</data>
+            <data key="shared name">52</data>
+            <data key="name">Tywin Lannister</data>
+            <data key="selected">false</data>
+            <data key="house">House Lannister</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="300">
+            <data key="SUID">300</data>
+            <data key="shared name">14</data>
+            <data key="name">Tyrion Lannister</data>
+            <data key="selected">false</data>
+            <data key="house">House Lannister</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="295">
+            <data key="SUID">295</data>
+            <data key="shared name">51</data>
+            <data key="name">Lancel Lannister</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="290">
+            <data key="SUID">290</data>
+            <data key="shared name">50</data>
+            <data key="name">Kevan Lannister</data>
+            <data key="selected">false</data>
+            <data key="house">House Lannister</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="285">
+            <data key="SUID">285</data>
+            <data key="shared name">49</data>
+            <data key="name">Lady</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="280">
+            <data key="SUID">280</data>
+            <data key="shared name">48</data>
+            <data key="name">High Sparrow</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="278">
+            <data key="SUID">278</data>
+            <data key="shared name">12</data>
+            <data key="name">Cersei Lannister</data>
+            <data key="selected">false</data>
+            <data key="house">House Lannister</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="273">
+            <data key="SUID">273</data>
+            <data key="shared name">46</data>
+            <data key="name">Balon Greyjoy</data>
+            <data key="selected">false</data>
+            <data key="house">House Greyjoy</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="271">
+            <data key="SUID">271</data>
+            <data key="shared name">8</data>
+            <data key="name">Euron Greyjoy</data>
+            <data key="selected">false</data>
+            <data key="house">House Greyjoy</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="266">
+            <data key="SUID">266</data>
+            <data key="shared name">45</data>
+            <data key="name">Walder Frey</data>
+            <data key="selected">false</data>
+            <data key="house">House Frey</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="261">
+            <data key="SUID">261</data>
+            <data key="shared name">44</data>
+            <data key="name">Drogo</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="259">
+            <data key="SUID">259</data>
+            <data key="shared name">29</data>
+            <data key="name">Daenerys Targaryen</data>
+            <data key="selected">false</data>
+            <data key="house">House Targaryen</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="254">
+            <data key="SUID">254</data>
+            <data key="shared name">43</data>
+            <data key="name">Arthur Dayne</data>
+            <data key="selected">false</data>
+            <data key="house">House Dayne</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="252">
+            <data key="SUID">252</data>
+            <data key="shared name">67</data>
+            <data key="name">Eddard Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="247">
+            <data key="SUID">247</data>
+            <data key="shared name">42</data>
+            <data key="name">Roose Bolton</data>
+            <data key="selected">false</data>
+            <data key="house">House Bolton</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="245">
+            <data key="SUID">245</data>
+            <data key="shared name">41</data>
+            <data key="name">Ramsay Bolton</data>
+            <data key="selected">false</data>
+            <data key="house">House Bolton</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="240">
+            <data key="SUID">240</data>
+            <data key="shared name">39</data>
+            <data key="name">Stannis Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="238">
+            <data key="SUID">238</data>
+            <data key="shared name">30</data>
+            <data key="name">Brienne of Tarth</data>
+            <data key="selected">false</data>
+            <data key="house">House Tarth</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="233">
+            <data key="SUID">233</data>
+            <data key="shared name">38</data>
+            <data key="name">Shireen Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="231">
+            <data key="SUID">231</data>
+            <data key="shared name">15</data>
+            <data key="name">Melisandre</data>
+            <data key="selected">false</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="226">
+            <data key="SUID">226</data>
+            <data key="shared name">36</data>
+            <data key="name">Myrcella Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="224">
+            <data key="SUID">224</data>
+            <data key="shared name">25</data>
+            <data key="name">Ellaria Sand</data>
+            <data key="selected">false</data>
+            <data key="house">Sand Snakes</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="219">
+            <data key="SUID">219</data>
+            <data key="shared name">35</data>
+            <data key="name">Joffrey Baratheon</data>
+            <data key="selected">false</data>
+            <data key="house">House Baratheon</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="217">
+            <data key="SUID">217</data>
+            <data key="shared name">83</data>
+            <data key="name">Olenna Tyrell</data>
+            <data key="selected">false</data>
+            <data key="house">House Redwyne</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="212">
+            <data key="SUID">212</data>
+            <data key="shared name">26</data>
+            <data key="name">Arya Stark</data>
+            <data key="selected">false</data>
+            <data key="house">House Stark</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="207">
+            <data key="SUID">207</data>
+            <data key="shared name">34</data>
+            <data key="name">Petyr Baelish</data>
+            <data key="selected">false</data>
+            <data key="house">House Baelish</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="202">
+            <data key="SUID">202</data>
+            <data key="shared name">32</data>
+            <data key="name">Jon Arryn</data>
+            <data key="selected">false</data>
+            <data key="house">House Arryn</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="200">
+            <data key="SUID">200</data>
+            <data key="shared name">33</data>
+            <data key="name">Lysa Arryn</data>
+            <data key="selected">false</data>
+            <data key="house">House Tully</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="195">
+            <data key="SUID">195</data>
+            <data key="shared name">56</data>
+            <data key="name">Olly</data>
+            <data key="selected">false</data>
+            <data key="status">Deceased</data>
+        </node>
+        <node id="181">
+            <data key="SUID">181</data>
+            <data key="shared name">11</data>
+            <data key="name">Jon Snow</data>
+            <data key="selected">false</data>
+            <data key="house">House Targaryen</data>
+            <data key="status">Alive</data>
+        </node>
+        <node id="179">
+            <data key="SUID">179</data>
+            <data key="shared name">73</data>
+            <data key="name">Alliser Thorne</data>
+            <data key="selected">false</data>
+            <data key="house">House Thorne</data>
+            <data key="status">Deceased</data>
+        </node>
+        <edge source="918" target="181">
+            <data key="SUID">920</data>
+            <data key="shared name">75 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">75 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="898" target="238">
+            <data key="SUID">900</data>
+            <data key="shared name">21 (interacts with) 30</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">21 (interacts with) 30</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="806" target="259">
+            <data key="SUID">929</data>
+            <data key="shared name">16 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">16 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="804" target="259">
+            <data key="SUID">932</data>
+            <data key="shared name">6 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">6 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">oath</data>
+        </edge>
+        <edge source="804" target="806">
+            <data key="SUID">808</data>
+            <data key="shared name">6 (interacts with) 16</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">6 (interacts with) 16</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="645" target="411">
+            <data key="SUID">853</data>
+            <data key="shared name">40 (interacts with) 81</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">40 (interacts with) 81</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="645" target="226">
+            <data key="SUID">659</data>
+            <data key="shared name">40 (interacts with) 36</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">40 (interacts with) 36</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="645" target="219">
+            <data key="SUID">647</data>
+            <data key="shared name">40 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">40 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="614" target="357">
+            <data key="SUID">784</data>
+            <data key="shared name">82 (interacts with) 77</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">82 (interacts with) 77</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="614" target="389">
+            <data key="SUID">781</data>
+            <data key="shared name">82 (interacts with) 76</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">82 (interacts with) 76</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="614" target="259">
+            <data key="SUID">616</data>
+            <data key="shared name">82 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">82 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="252">
+            <data key="SUID">859</data>
+            <data key="shared name">66 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="576" target="787">
+            <data key="SUID">792</data>
+            <data key="shared name">66 (interacts with) 80</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 80</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="369">
+            <data key="SUID">775</data>
+            <data key="shared name">66 (interacts with) 71</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 71</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="364">
+            <data key="SUID">760</data>
+            <data key="shared name">66 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="200">
+            <data key="SUID">630</data>
+            <data key="shared name">66 (interacts with) 33</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 33</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="622">
+            <data key="SUID">624</data>
+            <data key="shared name">66 (interacts with) 31</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 31</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="505">
+            <data key="SUID">605</data>
+            <data key="shared name">66 (interacts with) 28</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 28</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="513">
+            <data key="SUID">593</data>
+            <data key="shared name">66 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="576" target="212">
+            <data key="SUID">578</data>
+            <data key="shared name">66 (interacts with) 26</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">66 (interacts with) 26</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="565" target="513">
+            <data key="SUID">968</data>
+            <data key="shared name">59 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">59 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="565" target="560">
+            <data key="SUID">567</data>
+            <data key="shared name">59 (interacts with) 23</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">59 (interacts with) 23</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="560" target="513">
+            <data key="SUID">965</data>
+            <data key="shared name">23 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">23 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="558" target="252">
+            <data key="SUID">923</data>
+            <data key="shared name">22 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">22 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="558" target="565">
+            <data key="SUID">710</data>
+            <data key="shared name">22 (interacts with) 59</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">22 (interacts with) 59</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="558" target="560">
+            <data key="SUID">562</data>
+            <data key="shared name">22 (interacts with) 23</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">22 (interacts with) 23</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="541" target="259">
+            <data key="SUID">926</data>
+            <data key="shared name">17 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">17 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="539" target="541">
+            <data key="SUID">543</data>
+            <data key="shared name">55 (interacts with) 17</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">55 (interacts with) 17</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="513" target="212">
+            <data key="SUID">587</data>
+            <data key="shared name">27 (interacts with) 26</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">27 (interacts with) 26</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="513" target="181">
+            <data key="SUID">515</data>
+            <data key="shared name">27 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">27 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="505" target="245">
+            <data key="SUID">838</data>
+            <data key="shared name">28 (interacts with) 41</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">28 (interacts with) 41</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="505" target="787">
+            <data key="SUID">798</data>
+            <data key="shared name">28 (interacts with) 80</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">28 (interacts with) 80</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="505" target="364">
+            <data key="SUID">766</data>
+            <data key="shared name">28 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">28 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="505" target="513">
+            <data key="SUID">599</data>
+            <data key="shared name">28 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">28 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="505" target="212">
+            <data key="SUID">584</data>
+            <data key="shared name">28 (interacts with) 26</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">28 (interacts with) 26</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="505" target="181">
+            <data key="SUID">507</data>
+            <data key="shared name">28 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">28 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="497" target="389">
+            <data key="SUID">862</data>
+            <data key="shared name">68 (interacts with) 76</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">68 (interacts with) 76</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="497" target="252">
+            <data key="SUID">751</data>
+            <data key="shared name">68 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">68 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="497" target="737">
+            <data key="SUID">745</data>
+            <data key="shared name">68 (interacts with) 65</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">68 (interacts with) 65</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="497" target="181">
+            <data key="SUID">499</data>
+            <data key="shared name">68 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">68 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="486" target="259">
+            <data key="SUID">886</data>
+            <data key="shared name">10 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">10 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="486" target="481">
+            <data key="SUID">488</data>
+            <data key="shared name">10 (interacts with) 9</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">10 (interacts with) 9</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="481" target="252">
+            <data key="SUID">995</data>
+            <data key="shared name">9 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">9 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">ward</data>
+        </edge>
+        <edge source="481" target="486">
+            <data key="SUID">883</data>
+            <data key="shared name">9 (interacts with) 10</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">9 (interacts with) 10</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="465" target="364">
+            <data key="SUID">912</data>
+            <data key="shared name">64 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">64 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">direwolf</data>
+        </edge>
+        <edge source="465" target="285">
+            <data key="SUID">698</data>
+            <data key="shared name">64 (interacts with) 49</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">64 (interacts with) 49</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="465" target="445">
+            <data key="SUID">692</data>
+            <data key="shared name">64 (interacts with) 47</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">64 (interacts with) 47</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="465" target="455">
+            <data key="SUID">555</data>
+            <data key="shared name">64 (interacts with) 19</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">64 (interacts with) 19</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="465" target="447">
+            <data key="SUID">467</data>
+            <data key="shared name">64 (interacts with) 5</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">64 (interacts with) 5</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="460" target="513">
+            <data key="SUID">915</data>
+            <data key="shared name">72 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">72 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">direwolf</data>
+        </edge>
+        <edge source="460" target="465">
+            <data key="SUID">734</data>
+            <data key="shared name">72 (interacts with) 64</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">72 (interacts with) 64</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="460" target="285">
+            <data key="SUID">695</data>
+            <data key="shared name">72 (interacts with) 49</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">72 (interacts with) 49</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="460" target="445">
+            <data key="SUID">689</data>
+            <data key="shared name">72 (interacts with) 47</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">72 (interacts with) 47</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="460" target="455">
+            <data key="SUID">552</data>
+            <data key="shared name">72 (interacts with) 19</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">72 (interacts with) 19</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="460" target="447">
+            <data key="SUID">462</data>
+            <data key="shared name">72 (interacts with) 5</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">72 (interacts with) 5</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="455" target="212">
+            <data key="SUID">895</data>
+            <data key="shared name">19 (interacts with) 26</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">19 (interacts with) 26</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">direwolf</data>
+        </edge>
+        <edge source="455" target="447">
+            <data key="SUID">457</data>
+            <data key="shared name">19 (interacts with) 5</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">19 (interacts with) 5</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="447" target="181">
+            <data key="SUID">880</data>
+            <data key="shared name">5 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">5 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">direwolf</data>
+        </edge>
+        <edge source="445" target="369">
+            <data key="SUID">906</data>
+            <data key="shared name">47 (interacts with) 71</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">47 (interacts with) 71</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">direwolf</data>
+        </edge>
+        <edge source="445" target="455">
+            <data key="SUID">546</data>
+            <data key="shared name">47 (interacts with) 19</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">47 (interacts with) 19</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="445" target="447">
+            <data key="SUID">449</data>
+            <data key="shared name">47 (interacts with) 5</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">47 (interacts with) 5</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="440" target="181">
+            <data key="SUID">877</data>
+            <data key="shared name">4 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">4 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="432" target="259">
+            <data key="SUID">871</data>
+            <data key="shared name">3 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">3 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">dragon</data>
+        </edge>
+        <edge source="430" target="259">
+            <data key="SUID">903</data>
+            <data key="shared name">24 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">24 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">dragon</data>
+        </edge>
+        <edge source="430" target="432">
+            <data key="SUID">434</data>
+            <data key="shared name">24 (interacts with) 3</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">24 (interacts with) 3</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="406" target="411">
+            <data key="SUID">868</data>
+            <data key="shared name">79 (interacts with) 81</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">79 (interacts with) 81</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="406" target="240">
+            <data key="SUID">671</data>
+            <data key="shared name">79 (interacts with) 39</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">79 (interacts with) 39</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="406" target="387">
+            <data key="SUID">665</data>
+            <data key="shared name">79 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">79 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="401" target="399">
+            <data key="SUID">1001</data>
+            <data key="shared name">78 (interacts with) 18</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">78 (interacts with) 18</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">dragon</data>
+        </edge>
+        <edge source="401" target="259">
+            <data key="SUID">874</data>
+            <data key="shared name">78 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">78 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">dragon</data>
+        </edge>
+        <edge source="401" target="430">
+            <data key="SUID">570</data>
+            <data key="shared name">78 (interacts with) 24</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">78 (interacts with) 24</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="401" target="432">
+            <data key="SUID">437</data>
+            <data key="shared name">78 (interacts with) 3</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">78 (interacts with) 3</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="399" target="401">
+            <data key="SUID">403</data>
+            <data key="shared name">18 (interacts with) 78</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">18 (interacts with) 78</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="394" target="645">
+            <data key="SUID">674</data>
+            <data key="shared name">13 (interacts with) 40</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">13 (interacts with) 40</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="394" target="226">
+            <data key="SUID">650</data>
+            <data key="shared name">13 (interacts with) 36</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">13 (interacts with) 36</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="394" target="219">
+            <data key="SUID">633</data>
+            <data key="shared name">13 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">13 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="394" target="278">
+            <data key="SUID">524</data>
+            <data key="shared name">13 (interacts with) 12</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">13 (interacts with) 12</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="394" target="217">
+            <data key="SUID">416</data>
+            <data key="shared name">13 (interacts with) 83</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">13 (interacts with) 83</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="394" target="357">
+            <data key="SUID">396</data>
+            <data key="shared name">13 (interacts with) 77</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">13 (interacts with) 77</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="389" target="259">
+            <data key="SUID">619</data>
+            <data key="shared name">76 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">76 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="389" target="181">
+            <data key="SUID">494</data>
+            <data key="shared name">76 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">76 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="387" target="645">
+            <data key="SUID">677</data>
+            <data key="shared name">37 (interacts with) 40</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">37 (interacts with) 40</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">legal</data>
+        </edge>
+        <edge source="387" target="226">
+            <data key="SUID">653</data>
+            <data key="shared name">37 (interacts with) 36</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">37 (interacts with) 36</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">legal</data>
+        </edge>
+        <edge source="387" target="219">
+            <data key="SUID">636</data>
+            <data key="shared name">37 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">37 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">legal</data>
+        </edge>
+        <edge source="387" target="440">
+            <data key="SUID">442</data>
+            <data key="shared name">37 (interacts with) 4</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">37 (interacts with) 4</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="387" target="389">
+            <data key="SUID">391</data>
+            <data key="shared name">37 (interacts with) 76</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">37 (interacts with) 76</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="382" target="219">
+            <data key="SUID">950</data>
+            <data key="shared name">2 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">2 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">kingsguard</data>
+        </edge>
+        <edge source="382" target="387">
+            <data key="SUID">947</data>
+            <data key="shared name">2 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">2 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">kingsguard</data>
+        </edge>
+        <edge source="382" target="307">
+            <data key="SUID">427</data>
+            <data key="shared name">2 (interacts with) 1</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">2 (interacts with) 1</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="382" target="377">
+            <data key="SUID">384</data>
+            <data key="shared name">2 (interacts with) 74</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">2 (interacts with) 74</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="369" target="787">
+            <data key="SUID">795</data>
+            <data key="shared name">71 (interacts with) 80</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">71 (interacts with) 80</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="369" target="364">
+            <data key="SUID">763</data>
+            <data key="shared name">71 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">71 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="369" target="505">
+            <data key="SUID">608</data>
+            <data key="shared name">71 (interacts with) 28</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">71 (interacts with) 28</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="369" target="513">
+            <data key="SUID">596</data>
+            <data key="shared name">71 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">71 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="369" target="212">
+            <data key="SUID">581</data>
+            <data key="shared name">71 (interacts with) 26</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">71 (interacts with) 26</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="369" target="181">
+            <data key="SUID">502</data>
+            <data key="shared name">71 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">71 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="364" target="181">
+            <data key="SUID">518</data>
+            <data key="shared name">70 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">70 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="359" target="497">
+            <data key="SUID">754</data>
+            <data key="shared name">69 (interacts with) 68</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">69 (interacts with) 68</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="359" target="252">
+            <data key="SUID">748</data>
+            <data key="shared name">69 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">69 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="359" target="737">
+            <data key="SUID">739</data>
+            <data key="shared name">69 (interacts with) 65</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">69 (interacts with) 65</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="357" target="614">
+            <data key="SUID">865</data>
+            <data key="shared name">77 (interacts with) 82</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">77 (interacts with) 82</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="357" target="389">
+            <data key="SUID">778</data>
+            <data key="shared name">77 (interacts with) 76</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">77 (interacts with) 76</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="357" target="259">
+            <data key="SUID">611</data>
+            <data key="shared name">77 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">77 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="357" target="359">
+            <data key="SUID">361</data>
+            <data key="shared name">77 (interacts with) 69</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">77 (interacts with) 69</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="352" target="219">
+            <data key="SUID">962</data>
+            <data key="shared name">20 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">20 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="352" target="387">
+            <data key="SUID">959</data>
+            <data key="shared name">20 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">20 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="352" target="252">
+            <data key="SUID">354</data>
+            <data key="shared name">20 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">20 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="342" target="337">
+            <data key="SUID">725</data>
+            <data key="shared name">62 (interacts with) 61</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">62 (interacts with) 61</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="342" target="332">
+            <data key="SUID">719</data>
+            <data key="shared name">62 (interacts with) 60</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">62 (interacts with) 60</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="337" target="332">
+            <data key="SUID">716</data>
+            <data key="shared name">61 (interacts with) 60</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">61 (interacts with) 60</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="322" target="252">
+            <data key="SUID">992</data>
+            <data key="shared name">57 (interacts with) 67</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">57 (interacts with) 67</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="314" target="342">
+            <data key="SUID">728</data>
+            <data key="shared name">54 (interacts with) 62</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">54 (interacts with) 62</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="314" target="337">
+            <data key="SUID">722</data>
+            <data key="shared name">54 (interacts with) 61</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">54 (interacts with) 61</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="314" target="332">
+            <data key="SUID">713</data>
+            <data key="shared name">54 (interacts with) 60</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">54 (interacts with) 60</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="314" target="309">
+            <data key="SUID">707</data>
+            <data key="shared name">54 (interacts with) 53</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">54 (interacts with) 53</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="309" target="389">
+            <data key="SUID">856</data>
+            <data key="shared name">53 (interacts with) 76</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">53 (interacts with) 76</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="307" target="278">
+            <data key="SUID">944</data>
+            <data key="shared name">1 (interacts with) 12</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 12</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">queensquard</data>
+        </edge>
+        <edge source="307" target="645">
+            <data key="SUID">941</data>
+            <data key="shared name">1 (interacts with) 40</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 40</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">kingsguard</data>
+        </edge>
+        <edge source="307" target="219">
+            <data key="SUID">938</data>
+            <data key="shared name">1 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">kingsguard</data>
+        </edge>
+        <edge source="307" target="387">
+            <data key="SUID">935</data>
+            <data key="shared name">1 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">kingsguard</data>
+        </edge>
+        <edge source="307" target="377">
+            <data key="SUID">379</data>
+            <data key="shared name">1 (interacts with) 74</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 74</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="307" target="314">
+            <data key="SUID">316</data>
+            <data key="shared name">1 (interacts with) 54</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 54</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="307" target="309">
+            <data key="SUID">311</data>
+            <data key="shared name">1 (interacts with) 53</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">1 (interacts with) 53</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="302" target="347">
+            <data key="SUID">823</data>
+            <data key="shared name">52 (interacts with) 63</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">52 (interacts with) 63</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="302" target="290">
+            <data key="SUID">701</data>
+            <data key="shared name">52 (interacts with) 50</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">52 (interacts with) 50</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="302" target="300">
+            <data key="SUID">536</data>
+            <data key="shared name">52 (interacts with) 14</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">52 (interacts with) 14</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="302" target="394">
+            <data key="SUID">530</data>
+            <data key="shared name">52 (interacts with) 13</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">52 (interacts with) 13</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="302" target="278">
+            <data key="SUID">521</data>
+            <data key="shared name">52 (interacts with) 12</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">52 (interacts with) 12</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="300" target="259">
+            <data key="SUID">953</data>
+            <data key="shared name">14 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">hand</data>
+        </edge>
+        <edge source="300" target="505">
+            <data key="SUID">835</data>
+            <data key="shared name">14 (interacts with) 28</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 28</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="300" target="347">
+            <data key="SUID">814</data>
+            <data key="shared name">14 (interacts with) 63</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 63</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="300" target="394">
+            <data key="SUID">533</data>
+            <data key="shared name">14 (interacts with) 13</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 13</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="300" target="278">
+            <data key="SUID">527</data>
+            <data key="shared name">14 (interacts with) 12</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 12</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="300" target="347">
+            <data key="SUID">349</data>
+            <data key="shared name">14 (interacts with) 63</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 63</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="300" target="302">
+            <data key="SUID">304</data>
+            <data key="shared name">14 (interacts with) 52</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">14 (interacts with) 52</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="290" target="295">
+            <data key="SUID">704</data>
+            <data key="shared name">50 (interacts with) 51</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">50 (interacts with) 51</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="285" target="505">
+            <data key="SUID">909</data>
+            <data key="shared name">49 (interacts with) 28</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">49 (interacts with) 28</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">direwolf</data>
+        </edge>
+        <edge source="285" target="445">
+            <data key="SUID">686</data>
+            <data key="shared name">49 (interacts with) 47</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">49 (interacts with) 47</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="285" target="455">
+            <data key="SUID">549</data>
+            <data key="shared name">49 (interacts with) 19</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">49 (interacts with) 19</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="285" target="447">
+            <data key="SUID">452</data>
+            <data key="shared name">49 (interacts with) 5</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">49 (interacts with) 5</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="278" target="387">
+            <data key="SUID">832</data>
+            <data key="shared name">12 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="278" target="394">
+            <data key="SUID">826</data>
+            <data key="shared name">12 (interacts with) 13</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 13</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="278" target="645">
+            <data key="SUID">680</data>
+            <data key="shared name">12 (interacts with) 40</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 40</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="278" target="226">
+            <data key="SUID">656</data>
+            <data key="shared name">12 (interacts with) 36</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 36</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="278" target="219">
+            <data key="SUID">639</data>
+            <data key="shared name">12 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="278" target="411">
+            <data key="SUID">413</data>
+            <data key="shared name">12 (interacts with) 81</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 81</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="278" target="342">
+            <data key="SUID">344</data>
+            <data key="shared name">12 (interacts with) 62</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 62</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="278" target="295">
+            <data key="SUID">297</data>
+            <data key="shared name">12 (interacts with) 51</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 51</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="278" target="290">
+            <data key="SUID">292</data>
+            <data key="shared name">12 (interacts with) 50</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 50</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="278" target="280">
+            <data key="SUID">282</data>
+            <data key="shared name">12 (interacts with) 48</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">12 (interacts with) 48</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="273" target="278">
+            <data key="SUID">989</data>
+            <data key="shared name">46 (interacts with) 12</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">46 (interacts with) 12</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="273" target="486">
+            <data key="SUID">491</data>
+            <data key="shared name">46 (interacts with) 10</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">46 (interacts with) 10</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="273" target="481">
+            <data key="SUID">483</data>
+            <data key="shared name">46 (interacts with) 9</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">46 (interacts with) 9</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="273" target="271">
+            <data key="SUID">478</data>
+            <data key="shared name">46 (interacts with) 8</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">46 (interacts with) 8</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="273" target="470">
+            <data key="SUID">472</data>
+            <data key="shared name">46 (interacts with) 7</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">46 (interacts with) 7</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="271" target="470">
+            <data key="SUID">475</data>
+            <data key="shared name">8 (interacts with) 7</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">8 (interacts with) 7</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="271" target="337">
+            <data key="SUID">339</data>
+            <data key="shared name">8 (interacts with) 61</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">8 (interacts with) 61</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="271" target="332">
+            <data key="SUID">334</data>
+            <data key="shared name">8 (interacts with) 60</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">8 (interacts with) 60</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="271" target="273">
+            <data key="SUID">275</data>
+            <data key="shared name">8 (interacts with) 46</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">8 (interacts with) 46</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="266" target="302">
+            <data key="SUID">986</data>
+            <data key="shared name">45 (interacts with) 52</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">45 (interacts with) 52</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="259" target="261">
+            <data key="SUID">841</data>
+            <data key="shared name">29 (interacts with) 44</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">29 (interacts with) 44</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="259" target="261">
+            <data key="SUID">263</data>
+            <data key="shared name">29 (interacts with) 44</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">29 (interacts with) 44</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="254" target="389">
+            <data key="SUID">980</data>
+            <data key="shared name">43 (interacts with) 76</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">43 (interacts with) 76</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">hand</data>
+        </edge>
+        <edge source="252" target="387">
+            <data key="SUID">956</data>
+            <data key="shared name">67 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">hand</data>
+        </edge>
+        <edge source="252" target="787">
+            <data key="SUID">789</data>
+            <data key="shared name">67 (interacts with) 80</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 80</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="369">
+            <data key="SUID">772</data>
+            <data key="shared name">67 (interacts with) 71</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 71</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="364">
+            <data key="SUID">757</data>
+            <data key="shared name">67 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="737">
+            <data key="SUID">742</data>
+            <data key="shared name">67 (interacts with) 65</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 65</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="505">
+            <data key="SUID">602</data>
+            <data key="shared name">67 (interacts with) 28</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 28</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="513">
+            <data key="SUID">590</data>
+            <data key="shared name">67 (interacts with) 27</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 27</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="212">
+            <data key="SUID">573</data>
+            <data key="shared name">67 (interacts with) 26</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 26</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="252" target="285">
+            <data key="SUID">287</data>
+            <data key="shared name">67 (interacts with) 49</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 49</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="252" target="254">
+            <data key="SUID">256</data>
+            <data key="shared name">67 (interacts with) 43</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">67 (interacts with) 43</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="247" target="266">
+            <data key="SUID">983</data>
+            <data key="shared name">42 (interacts with) 45</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">42 (interacts with) 45</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="247" target="245">
+            <data key="SUID">683</data>
+            <data key="shared name">42 (interacts with) 41</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">42 (interacts with) 41</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="247" target="369">
+            <data key="SUID">371</data>
+            <data key="shared name">42 (interacts with) 71</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">42 (interacts with) 71</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="245" target="364">
+            <data key="SUID">366</data>
+            <data key="shared name">41 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">41 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="245" target="322">
+            <data key="SUID">324</data>
+            <data key="shared name">41 (interacts with) 57</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">41 (interacts with) 57</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="245" target="247">
+            <data key="SUID">249</data>
+            <data key="shared name">41 (interacts with) 42</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">41 (interacts with) 42</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="240" target="233">
+            <data key="SUID">668</data>
+            <data key="shared name">39 (interacts with) 38</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">39 (interacts with) 38</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="240" target="387">
+            <data key="SUID">662</data>
+            <data key="shared name">39 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">39 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="238" target="576">
+            <data key="SUID">974</data>
+            <data key="shared name">30 (interacts with) 66</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">30 (interacts with) 66</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">oath</data>
+        </edge>
+        <edge source="238" target="240">
+            <data key="SUID">242</data>
+            <data key="shared name">30 (interacts with) 39</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">30 (interacts with) 39</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="231" target="259">
+            <data key="SUID">892</data>
+            <data key="shared name">15 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">15 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="231" target="181">
+            <data key="SUID">889</data>
+            <data key="shared name">15 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">15 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="231" target="240">
+            <data key="SUID">817</data>
+            <data key="shared name">15 (interacts with) 39</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">15 (interacts with) 39</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="231" target="406">
+            <data key="SUID">408</data>
+            <data key="shared name">15 (interacts with) 79</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">15 (interacts with) 79</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="231" target="233">
+            <data key="SUID">235</data>
+            <data key="shared name">15 (interacts with) 38</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">15 (interacts with) 38</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="226" target="219">
+            <data key="SUID">642</data>
+            <data key="shared name">36 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">36 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="224" target="259">
+            <data key="SUID">971</data>
+            <data key="shared name">25 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">25 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="224" target="314">
+            <data key="SUID">820</data>
+            <data key="shared name">25 (interacts with) 54</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">25 (interacts with) 54</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="224" target="342">
+            <data key="SUID">731</data>
+            <data key="shared name">25 (interacts with) 62</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">25 (interacts with) 62</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="224" target="226">
+            <data key="SUID">228</data>
+            <data key="shared name">25 (interacts with) 36</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">25 (interacts with) 36</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="219" target="411">
+            <data key="SUID">850</data>
+            <data key="shared name">35 (interacts with) 81</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">35 (interacts with) 81</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="217" target="259">
+            <data key="SUID">998</data>
+            <data key="shared name">83 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">83 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">pledge</data>
+        </edge>
+        <edge source="217" target="219">
+            <data key="SUID">221</data>
+            <data key="shared name">83 (interacts with) 35</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">83 (interacts with) 35</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="212" target="787">
+            <data key="SUID">801</data>
+            <data key="shared name">26 (interacts with) 80</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">26 (interacts with) 80</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="212" target="364">
+            <data key="SUID">769</data>
+            <data key="shared name">26 (interacts with) 70</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">26 (interacts with) 70</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="212" target="181">
+            <data key="SUID">510</data>
+            <data key="shared name">26 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">26 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="212" target="266">
+            <data key="SUID">268</data>
+            <data key="shared name">26 (interacts with) 45</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">26 (interacts with) 45</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="212" target="207">
+            <data key="SUID">214</data>
+            <data key="shared name">26 (interacts with) 34</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">26 (interacts with) 34</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="207" target="200">
+            <data key="SUID">209</data>
+            <data key="shared name">34 (interacts with) 33</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">34 (interacts with) 33</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="202" target="387">
+            <data key="SUID">977</data>
+            <data key="shared name">32 (interacts with) 37</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">32 (interacts with) 37</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">allegiance</data>
+            <data key="reltype">hand</data>
+        </edge>
+        <edge source="202" target="200">
+            <data key="SUID">844</data>
+            <data key="shared name">32 (interacts with) 33</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">32 (interacts with) 33</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="202" target="419">
+            <data key="SUID">421</data>
+            <data key="shared name">32 (interacts with) 0</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">32 (interacts with) 0</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">father</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="200" target="207">
+            <data key="SUID">847</data>
+            <data key="shared name">33 (interacts with) 34</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">33 (interacts with) 34</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">spouse</data>
+        </edge>
+        <edge source="200" target="207">
+            <data key="SUID">829</data>
+            <data key="shared name">33 (interacts with) 34</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">33 (interacts with) 34</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="200" target="622">
+            <data key="SUID">627</data>
+            <data key="shared name">33 (interacts with) 31</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">33 (interacts with) 31</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">sibling</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="200" target="419">
+            <data key="SUID">424</data>
+            <data key="shared name">33 (interacts with) 0</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">33 (interacts with) 0</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">mother</data>
+            <data key="reltype">biological</data>
+        </edge>
+        <edge source="200" target="202">
+            <data key="SUID">204</data>
+            <data key="shared name">33 (interacts with) 32</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">33 (interacts with) 32</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="195" target="181">
+            <data key="SUID">197</data>
+            <data key="shared name">56 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">56 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="181" target="259">
+            <data key="SUID">811</data>
+            <data key="shared name">11 (interacts with) 29</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">11 (interacts with) 29</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">lover</data>
+        </edge>
+        <edge source="181" target="179">
+            <data key="SUID">374</data>
+            <data key="shared name">11 (interacts with) 73</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">11 (interacts with) 73</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="181" target="327">
+            <data key="SUID">329</data>
+            <data key="shared name">11 (interacts with) 58</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">11 (interacts with) 58</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="181" target="195">
+            <data key="SUID">319</data>
+            <data key="shared name">11 (interacts with) 56</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">11 (interacts with) 56</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+        <edge source="179" target="181">
+            <data key="SUID">183</data>
+            <data key="shared name">73 (interacts with) 11</data>
+            <data key="shared interaction">interacts with</data>
+            <data key="name">73 (interacts with) 11</data>
+            <data key="selected">false</data>
+            <data key="interaction">interacts with</data>
+            <data key="relation">killed</data>
+            <data key="reltype">other</data>
+        </edge>
+    </graph>
+</graphml>

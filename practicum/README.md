@@ -4,7 +4,7 @@
 
 You will need:
 
-* [Cytoscape 3.8](https://cytoscape.org/download.html)
+* [Cytoscape 3.9](https://cytoscape.org/download.html)
 * The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
 * Python 3.8 or higher.
    * You can use the [Anaconda](https://www.anaconda.com/products/individual) package manager.
@@ -12,6 +12,7 @@ You will need:
    * [networkx](https://networkx.github.io/)
    * [matplotlib](https://matplotlib.org/)
    * [numpy](https://numpy.org/)
+   * [scipy](https://scipy.org/)
 * Jupyter Notebooks.
    * Follow [these instructions](https://jupyter.org/install.html).
 
@@ -29,18 +30,18 @@ At the end of each handout there is a description of what you should deliver. Pl
 
 | # | Handouts                                    | Contents | Deadline 101 | Deadline 102 |
 |---|---------------------------------------------|----------|--------------|--------------|
-| 1 | [PS01](ps01_cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | 2021-10-06 18:30 | 2021-10-06 16:30
-| 2 | [PS02](ps02_cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | 2021-10-08 20:30 | 2021-10-11 18:30
-| 3 | [PS03](ps03_management_networks_data.ipynb)   | Python: data management of networks data | 2021-10-29 20:30 | 2021-11-02 18:30
-| 4 | [PS04](ps04_networks_from_text.ipynb)         | Python and Cytoscape: creating a network using textual data | 2021-10-29 20:30 | 2021-11-02 18:30
+| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | TBA | TBA
+| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | TBA | TBA
+| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | TBA | TBA
+| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | TBA | TBA
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05_network_models.ipynb)             | NetworkX: network models | 2021-11-04 18:30 (was: 3rd) | 2021-11-04 16:30 (was: 3rd)
-| 7 | [PS06](ps06_pagerank.ipynb)                   | NetworkX: PageRank | 2021-11-24 18:30 | 2021-11-24 16:30
-| 8 | [PS07](ps07_hubs_and_authorities.ipynb)          | NetworkX: hubs and authorities | 2021-11-24 18:30 | 2021-11-24 16:30
-| 9 | PS06+PS07                                     | Wrap-up |
-| 10 | [PS08](ps08_components_k_cores.ipynb)        | NetworkX: connected components and k-cores | 2021-12-03 20:30 | 2021-12-07 18:30
-| 11 | [PS09](ps09_viral_propagation.ipynb)         | NetworkX: simulating the spread of a virus | 2021-12-03 20:30 | 2021-12-07 18:30
-| 12 | PS08+PS09                                    | Wrap-up |
+| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | TBA | TBA
+| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | TBA | TBA
+| 8 | PS05+PS07                                     | Wrap-up |
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | TBA | TBA
+| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | TBA | TBA
+| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | TBA | TBA
+| 12 | PS07+PS08+PS09                               | Wrap-up |
 
 ## Tutorials/reference
 
