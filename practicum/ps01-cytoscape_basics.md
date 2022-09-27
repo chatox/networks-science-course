@@ -156,7 +156,7 @@ Look at the results from the network analysis (you will need to go to ``View > S
 
 * Load the Star Wars network
 * Make the size of the node larger either for nodes with high degree or nodes with high betweenness
-* Change the width and color of edges so it depends o the "scenes" attribute of the network (number of scenes in common). More scenes should mean thicker and darker edges.
+* Change the width and color of edges so it depends on the "scenes" attribute of the network (number of scenes in common). More scenes should mean thicker and darker edges.
 * [**REPORT**] Include an image of the network from *Star Wars*, styled as indicated above
 
 # 4. Use a Cytoscape App (ClusterMaker2)
