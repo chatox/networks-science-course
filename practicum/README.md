@@ -35,8 +35,8 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct 6th, 18:30 | TBA
 | 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct 10th, 18:30 | TBA
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | TBA | TBA
-| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | TBA | TBA
+| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct 20th, 18:30 | TBA
+| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | 21st Oct, 20:30 | TBA
 | 8 | PS05+PS07                                     | Wrap-up |
 | 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | TBA | TBA
 | 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | TBA | TBA
