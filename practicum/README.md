@@ -30,7 +30,7 @@ At the end of each handout there is a description of what you should deliver. Pl
 
 | # | Handouts                                    | Contents | Deadline 101 | Deadline 102 |
 |---|---------------------------------------------|----------|--------------|--------------|
-| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | TBA | TBA
+| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Oct 29th, 18:30 | TBA
 | 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | TBA | TBA
 | 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | TBA | TBA
 | 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | TBA | TBA
