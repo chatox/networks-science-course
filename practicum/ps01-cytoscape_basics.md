@@ -44,7 +44,7 @@ Open a graph showing characters that appear or are mentioned in the same scene o
 * Select `starwars.graphml`
 * If asked, select *shared name* for the node identifier column. This will transform node identifiers into a column named "shared name" internally.
 * `Layout > Prefuse Force Directed Layout > scenes`
-* Find a node with degree larger than *D=100*
+* Find a node with degree larger than *D=22*
 * [**REPORT**] Include in your report this graph. Indicate which character has degree larger than *D* (right click in any blank space, then select Add > Text annotation ...)
 * [**REPORT**] Include a brief commentary of what kinds of characters are represented by nodes with degree larger than *D*
 
