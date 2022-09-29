@@ -5,7 +5,7 @@
 (See [how to download](data/README.md) in the README of the data/ directory)
 
 * Marvel Universe Social Graph: [hero-network.csv](data/hero-network.csv)
-* Game of Thrones Characters: [got-characters.csv](data/got-characters.csv) and [got-relationships.csv](data/got-relationships.csv)
+* Game of Thrones Characters: [got-characters.csv](data/game-of-thrones/got-characters.csv) and [got-relationships.csv](data/game-of-thrones/got-relationships.csv)
 
 ## Contents
 
