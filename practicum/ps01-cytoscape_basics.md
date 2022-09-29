@@ -5,7 +5,7 @@
 :warning: Do not simply right-click on the file names below, or you will download an HTML file that will not be readable by Cytoscape. See [how to download](data/README.md) in the README of the data/ directory.
 
 * File "[karate.gml](data/karate-club/karate.gml)"
-* File "[starwars.graphml](data/starwars.graphml)"
+* File "[starwars.graphml](data/starwars/starwars.graphml)"
 * File "[us_companies_ownership.csv](data/us_companies_ownership.csv)"
 
 ## Contents of this session
