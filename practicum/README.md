@@ -28,19 +28,19 @@ There are 09 practice sessions in this course. The first two sessions have hando
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
-| # | Handouts                                    | Contents | Deadline 101 | Deadline 102 |
+| # | Handouts                                    | Contents | Deadline 101 | Deadline 201 |
 |---|---------------------------------------------|----------|--------------|--------------|
-| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sep 29th, 18:30 | TBA
-| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Oct 3rd, 18:30 | TBA
-| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct 17th, 18:30 | TBA
-| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct 17th, 18:30 | TBA
+| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sep 29th, 18:30 | Oct 4th, 18:30
+| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Oct 3rd, 18:30 | Oct 6th, 18:30
+| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct 17th, 18:30 | Oct 14th, 18:30
+| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct 17th, 18:30 | Oct 14th, 18:30
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct 31st, 18:30 | TBA
-| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct 31st, 20:30 | TBA
+| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct 31st, 18:30 | Nov 1st, 18:30
+| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct 31st, 20:30 | Nov 1st, 18:30
 | 8 | PS05+PS06                                     | Wrap-up |
-| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov 7th, 18:30 | TBA
-| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Dec 5th, 18:30 | TBA
-| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Dec 5th, 18:30 | TBA
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov 7th, 18:30 | Nov 8th, 18:30 
+| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Dec 5th, 18:30 | Dec 5th, 18:30
+| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Dec 5th, 18:30 | Dec 5th, 18:30
 | 12 | PS08+PS09                                    | Wrap-up |
 
 ## Tutorials/reference
