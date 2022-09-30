@@ -63,7 +63,7 @@ To import it into Cytoscape:
 
 Note that you can also select by other characteristics, such as degree, by creating a filter in the "Select" panel.
 
-[**REPORT**] Include a brief commentary on the number of nodes and edges in different sub-graphs from different characters. Why do you think influences these numbers?
+[**REPORT**] Include a brief commentary on the number of nodes and edges in different sub-graphs from different characters. What do you think influences these numbers?
 
 :warning: **Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Show Graphics Details" and "View > Hide Graphics Details." You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200. Be careful: this will block your computer when dealing with large networks such as the hero network.
 
