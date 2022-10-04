@@ -71,6 +71,7 @@ Both of these are great to provide context for the course, and will help you sta
 ### During class
 
 * Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
+   * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
 
 ### After class
