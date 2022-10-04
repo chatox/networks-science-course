@@ -41,7 +41,7 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science)
 * :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
 
-## Session 2: Connectivity, homophily, triangles
+## Session 2: Distances, homophily, triangles
 
 ### Before class
 
@@ -54,12 +54,14 @@ Both of these are great to provide context for the course, and will help you sta
 * Lecture TT05: homophily and triangles [odp](odp/tt05-homophily_triangles.odp)/[pdf](pdf/tt05-homophily_triangles.pdf)
    * Exercise: homophilic, heterophilic, or neutral (pin board)
    * Exercise: compute local clustering coefficients (pin board)
+* Lecture TT06: closeness [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
+   * Exercise: compute closeness and harmonic closeness (spreadsheet)
 
 ### After class
 
 * :tv: Watch this 6-minutes video on [Why we prefer people just like us, and why that's potentially dangerous](https://www.youtube.com/watch?v=O7CJBnGkqEk) by Nicholas Christakis
 
-## Session 3: Closeness and Betweenness
+## Session 3: Betweenness
 
 ### Before class
 
@@ -68,8 +70,6 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT06: closeness [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
-   * Exercise: compute closeness and harmonic closeness (spreadsheet)
 * Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
    * Exercise: run the Brandes and Newman algorithm for betweenness
 
