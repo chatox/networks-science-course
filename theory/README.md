@@ -105,7 +105,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * See slides for TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
-## Session 5: Mid-term exam
+## Session 5: Mid-term exam (Friday, October 21st, 2022)
 
 ### Before class
 
