@@ -32,8 +32,8 @@ At the end of each handout there is a description of what you should deliver. Pl
 |---|---------------------------------------------|----------|--------------|--------------|
 | 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sep 29th, 18:30 | Oct 4th, 18:30
 | 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Oct 3rd, 18:30 | Oct 6th, 18:30
-| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct 17th, 18:30 | Oct 14th, 18:30
-| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct 17th, 18:30 | Oct 14th, 18:30
+| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct 17th, 18:30 | Oct 17th, 18:30
+| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct 17th, 18:30 | Oct 17th, 18:30
 | 5 | PS03+PS04                                     | Wrap-up |
 | 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct 31st, 18:30 | Nov 1st, 18:30
 | 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct 31st, 20:30 | Nov 1st, 18:30
