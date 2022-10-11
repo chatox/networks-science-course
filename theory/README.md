@@ -75,7 +75,7 @@ Both of these are great to provide context for the course, and will help you sta
 * Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
    * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
-* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf)
+* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf) -- In 2022 we finished the computation, moved rest to next session
    * Exercise: compute hub and authority scores iteratively (spreadsheet)
 
 ### After class
