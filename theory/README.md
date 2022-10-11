@@ -61,18 +61,22 @@ Both of these are great to provide context for the course, and will help you sta
 
 * :tv: Watch this 6-minutes video on [Why we prefer people just like us, and why that's potentially dangerous](https://www.youtube.com/watch?v=O7CJBnGkqEk) by Nicholas Christakis
 
-## Session 3: Betweenness
+## Session 3: Betweenness, hubs, and authorities
 
 ### Before class
 
 * :tv: Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
 * :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+* :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
+   * *Or* watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
 
 ### During class
 
 * Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
    * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
+* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf)
+   * Exercise: compute hub and authority scores iteratively (spreadsheet)
 
 ### After class
 
@@ -80,18 +84,14 @@ Both of these are great to provide context for the course, and will help you sta
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
-## Session 4: Hubs, authorities, and PageRank
+## Session 4: PageRank and case study
 
 ### Before class
 
-* :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
-   * *Or* watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
 * :tv: Watch this 5-minutes [animation explaining PageRank](https://www.youtube.com/watch?v=meonLcN7LD4)
 
 ### During class
 
-* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf)
-   * Exercise: compute hub and authority scores iteratively (spreadsheet)
 * Lecture TT09: pagerank [odp](odp/tt09-pagerank.odp)/[pdf](pdf/tt09-pagerank.pdf)
    * Exercise: compute simplified PageRank (spreadsheet)
 * Lecture TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
