@@ -1,6 +1,14 @@
 # Exams
 
-The relative difficulty of exams may vary from year to year, as the emphasis on different topics and skills is adjusted in successive editions of the course.
+The ordering of topics and the relative difficulty of exams may vary from year to year, as the emphasis on different topics and skills is adjusted in successive editions of the course.
+
+**We do not provide answers to these exams. If you cannot solve a problem in one of the exams, please ask in the forum of the course.**
+
+## Exams from 2021
+
+* Midterm: [en](2021-ex01-en.pdf)
+* Final: [en](2021-exFF-en.pdf)
+* Resit: [en](2021-exRR-en.pdf)
 
 ## Exams from 2020
 
