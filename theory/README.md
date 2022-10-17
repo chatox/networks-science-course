@@ -94,7 +94,6 @@ Both of these are great to provide context for the course, and will help you sta
 
 * Lecture TT09: pagerank [odp](odp/tt09-pagerank.odp)/[pdf](pdf/tt09-pagerank.pdf)
    * Exercise: compute simplified PageRank (spreadsheet)
-* Lecture TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 * Lecture TT10bis: case study on centrality [odp](odp/tt10bis-centrality_case_study.odp)/[pdf](pdf/tt10bis-centrality_case_study.pdf) - [notebook](../practicum/data/case-study-florentine)
 
 ### After class
@@ -105,6 +104,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### Extra content: more on PageRank
 
+* Lecture TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
 ## Session 5: Mid-term exam (Friday, October 21st, 2022)
 
