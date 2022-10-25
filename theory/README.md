@@ -127,7 +127,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
 * Lecture TT11: the random network (ER) model [odp](odp/tt11-random_networks.odp)/[pdf](pdf/tt11-random_networks.pdf)
    * Exercise: guess the formula for expected number of links, using NetLogo to run simulations (pin board)
    * Exercise: compute expected number of links and expected average degree
-* Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf)
+* Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf) -- In 2022 we arrived until Wikipedia speedruns, rest moved to the next session
    * Exercise: guess critical point at which a giant connected component emerges, using NetLogo to run simulations (pin board)
    * Exercise: find actors with large distance from Kevin Bacon (pin board)
    * Exercise: find critical N for a graph to be connected
