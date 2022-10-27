@@ -4,6 +4,10 @@ The ordering of topics and the relative difficulty of exams may vary from year t
 
 **We do not provide answers to these exams. If you cannot solve a problem in one of the exams, please ask in the forum of the course.**
 
+## Exams from 2022
+
+* Midterm: [en](2022-ex01-en.pdf)
+
 ## Exams from 2021
 
 * Midterm: [en](2021-ex01-en.pdf)
