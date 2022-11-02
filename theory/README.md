@@ -146,7 +146,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
 
 * Lecture TT13: scale-free networks [odp](odp/tt13-scale_free_networks.odp)/[pdf](pdf/tt13-scale_free_networks.pdf)
    * Exercise: compute nodes with an expected degree
-* Lecture TT14: distances in scale-free networks [odp](odp/tt14_distances_scale_free_nets.odp)/[pdf](pdf/tt14_distances_scale_free_nets.pdf)
+* Lecture TT14: distances in scale-free networks [odp](odp/tt14-distances_scale_free_nets.odp)/[pdf](pdf/tt14-distances_scale_free_nets.pdf)
 * Lecture TT15: the friendship paradox [odp](odp/tt15-friendship_paradox.odp)/[pdf](pdf/tt15-friendship_paradox.pdf)
    * Exercise: numerical example of friendship paradox (pin board)
    * Exercise: compute expected degree of neighbors
