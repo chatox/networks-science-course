@@ -38,7 +38,7 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct 31st, 18:30 | Nov 2nd, 18:30
 | 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct 31st, 20:30 | Nov 2nd, 18:30
 | 8 | PS05+PS06                                     | Wrap-up |
-| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov 8th, 18:30 | Nov 8th, 18:30 
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov 8th, 18:30 | Nov 9th, 18:30 
 | 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Dec 5th, 18:30 | Dec 5th, 18:30
 | 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Dec 5th, 18:30 | Dec 5th, 18:30
 | 12 | PS08+PS09                                    | Wrap-up |
