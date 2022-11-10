@@ -146,7 +146,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
 
 * Lecture TT13: scale-free networks [odp](odp/tt13-scale_free_networks.odp)/[pdf](pdf/tt13-scale_free_networks.pdf)
    * Exercise: compute nodes with an expected degree
-* Lecture TT14: distances in scale-free networks [odp](odp/tt14-distances_scale_free_nets.odp)/[pdf](pdf/tt14-distances_scale_free_nets.pdf) -- In 2022, moved to next class
+* Lecture TT14: distances in scale-free networks [odp](odp/tt14-distances_scale_free_nets.odp)/[pdf](pdf/tt14-distances_scale_free_nets.pdf) -- In 2022 the timeslot was short, so we moved this to the next class
 
 ### After class
 
@@ -168,7 +168,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
    * Exercise: guess slope of degree distribution, using NetLogo to run simulations (pin board)
    * Exercise: write formula for number of nodes and edges over time
 * Lecture TT17: degree under preferential attachment [odp](odp/tt17-preferential_attachment_degree.odp)/[pdf](pdf/tt17-preferential_attachment_degree.pdf)
-* (If time allows) Lecture TT15: the friendship paradox [odp](odp/tt15-friendship_paradox.odp)/[pdf](pdf/tt15-friendship_paradox.pdf)
+* Lecture TT15: the friendship paradox [odp](odp/tt15-friendship_paradox.odp)/[pdf](pdf/tt15-friendship_paradox.pdf)
    * Exercise: numerical example of friendship paradox (pin board)
    * Exercise: compute expected degree of neighbors
 
