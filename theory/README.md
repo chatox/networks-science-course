@@ -214,7 +214,7 @@ We will have a mid-term exam; there will be no lecture after the exam.
 
 ### During class
 
-* Lecture TT22: spectral graph clustering [odp](odp/tt23_spectral_graph_clustering.odp)/[pdf](pdf/tt23_spectral_graph_clustering.pdf)
+* Lecture TT22: spectral graph clustering [odp](odp/tt22-spectral_graph_clustering.odp)/[pdf](pdf/tt22_spectral_graph_clustering.pdf)
    * Exercise: perform random 2D projection of a graph
 
 ### After class
