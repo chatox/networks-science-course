@@ -114,7 +114,7 @@ Study on your own, try to solve exams from past years. Ask your questions in the
 
 ### During class
 
-We will have a mid-term exam; there will be no lecture after the exam.
+We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be TT01-TT09, TT10bis.
 
 ## Session 6: Random networks (ER model)
 
@@ -251,6 +251,10 @@ We will have a mid-term exam; there will be no lecture after the exam.
 * Read [chapter 19](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf) of the book by Easley and Kleinberg
 * Read [chapter 21](http://www.cs.cornell.edu/home/kleinber/networks-book/) of the work by Easley and Kleinberg
 * :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
+
+## Final Exam
+
+The final exam will include all of the slide decks seen in class (TT11-TT14, TT15-TT17, TT19-TT25). This excludes optional/additional slide decks, and slides marked "Extra".
 
 # Notes
 
