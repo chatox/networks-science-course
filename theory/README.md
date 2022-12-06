@@ -243,7 +243,6 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
    * Exercise: simulate linear threshold model (spreadsheet)
    * Exercise: simulate independent cascade model (spreadsheet)
    * Exercise: list assumptions of these models (pin board)
-* Lecture TT25: epidemics [odp](odp/tt25-epidemics.odp)/[pdf](pdf/tt25-epidemics.pdf)
 
 ### After class
 
@@ -252,9 +251,13 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 * Read [chapter 21](http://www.cs.cornell.edu/home/kleinber/networks-book/) of the work by Easley and Kleinberg
 * :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
 
+### Optional/additional material
+
+* Lecture TT25: epidemics [odp](odp/tt25-epidemics.odp)/[pdf](pdf/tt25-epidemics.pdf)
+
 ## Final Exam
 
-The final exam will include all of the slide decks seen in class (TT11-TT14, TT15-TT17, TT19-TT25). This excludes optional/additional slide decks, and slides marked "Extra".
+The final exam will include the random network model (TT11-TT12), scale-free networks (TT13-TT14), the preferential attachment model (TT15-T17), community detection (TT19-TT21), spectral methods (TT22), and spreading phenomena (TT23-TT24). This excludes decks not seen in class, optional/additional slide decks, and slides marked "Extra".
 
 # Notes
 
