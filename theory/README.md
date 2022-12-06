@@ -178,7 +178,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### Optional/additional material
 
-* Lecture TT18: other growth models [odp](odp/tt18-tt18_other_growth_models.odp)/[pdf](pdf/tt18-tt18_other_growth_models.pdf)
+* Lecture TT18: other growth models [odp](odp/tt18-other_growth_models.odp)/[pdf](pdf/tt18-other_growth_models.pdf)
    * Exercise: copy model
 
 ## Session 9: Communities
