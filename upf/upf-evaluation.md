@@ -14,7 +14,7 @@ To pass the course under continuous evaluation, all of the following must be tru
 1. Theory grade, 0.4 B + 0.6 C ≥ 5.0
 1. Final grade, 0.5 A + 0.2 B + 0.3 C ≥ 5.0
 
-If you fail to pass, you will have to take the resit exam. The resit exam replaces the regular exam grade (C in the list above).
+If you fail to pass, you will have to take the resit exam. The resit exam replaces the theory grade (C and D in the list above).
 
 ### 1.1. Getting a grade in the practical sessions (PSxx, individual)
 
