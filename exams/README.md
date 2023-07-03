@@ -7,6 +7,7 @@ The ordering of topics and the relative difficulty of exams may vary from year t
 ## Exams from 2022
 
 * Midterm: [en](2022-ex01-en.pdf)
+* Final: [en](2022-exFF-en.pdf)
 
 ## Exams from 2021
 
