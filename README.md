@@ -1,4 +1,4 @@
-# Network Science Course (old: 2022 edition)
+# Network Science Course
 
 Instructor: [Carlos Castillo](https://chato.cl/)
 
