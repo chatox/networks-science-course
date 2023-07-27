@@ -19,6 +19,7 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 ### During class
 
 * Lecture TT01: Complex Networks [odp](odp/tt01-complex_networks.odp)/[pdf](pdf/tt01-complex_networks.pdf)
+   * :tv: First minute of [The hidden networks of everything](https://www.youtube.com/watch?v=RfgjHoVCZwU)
    * Exercise: find examples of networks (pin board)
 * Lecture TT02: applications networks science [odp](odp/tt02-applications_networks_science.odp)/[pdf](pdf/tt02-applications_networks_science.pdf)
 * Course overview
