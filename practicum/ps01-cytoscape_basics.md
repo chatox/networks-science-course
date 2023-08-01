@@ -6,7 +6,11 @@
 
 * File "[karate.gml](data/karate-club/karate.gml)"
 * File "[starwars.graphml](data/starwars/starwars.graphml)"
-* File "[us_companies_ownership.csv](data/us_companies_ownership.csv)"
+* File "[reptilia-tortoise.graphml](data/reptilia-tortoise/reptilia-tortoise.graphml)"
+
+## What you should deliver
+
+What you should deliver is explained at the end of each practice handout. In short, it is a 4-pages report.
 
 ## Contents of this session
 
@@ -30,38 +34,38 @@ Let's start with a simple case: [Zachary's Karate Club](https://en.wikipedia.org
 * Select `karate.gml`
 * `Layout > Compound Spring Embedder`
 * Determine which are the two nodes with the largest degree.
-   * *Tip: use `Tools > Analyze network` and look at the `Node table` displayed under the graph*
-* [**REPORT**] Include in your report this graph plus and a brief paragraph indicating what are the top two highest degree nodes.
-* [**REPORT**] The Compound Spring Embedder is an algorithm derived from force-directed graph layour algorithms. Read the Wikipedia page on [force-directed graph drawing](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) and explain in one paragraph, in your own words, how this works.
+   * *Tip: use `Tools > Analyze network` (do not check "directed") and look at the `Node table` displayed under the graph*
+* [**REPORT**] Include in your report this graph plus and a brief paragraph indicating what are the top three nodes having the larger *Degree*
+* [**REPORT**] The Compound Spring Embedder is an algorithm derived from force-directed graph layout algorithms. Read the Wikipedia page on [force-directed graph drawing](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) and explain in one paragraph, in your own words, how this works.
 
 **Do not use screenshots**; use `File > Export as image`
 
 ## 1.2. Import the Star Wars characters network
 
-Open a graph showing characters that appear or are mentioned in the same scene of a Star Wars movie.
+Open a graph showing characters that appear or are mentioned in the same scene of a Star Wars movie. Each edge indicates how many scenes the characters appear together.
 
 * `File > Import > Network from File ...`
 * Select `starwars.graphml`
-* If asked, select *shared name* for the node identifier column. This will transform node identifiers into a column named "shared name" internally.
+* Indicate this goes to a new *Network Collection* to keep it separate from the Karate graph.
 * `Layout > Prefuse Force Directed Layout > scenes`
-* Find a node with degree larger than *D=22*
-* [**REPORT**] Include in your report this graph. Indicate which character has degree larger than *D* (right click in any blank space, then select Add > Text annotation ...)
+* Find a node with degree equal or greater than *D=25* (just pick any of those)
+* [**REPORT**] Include in your report this graph. Indicate one character that has degree larger than *D* (right click in any blank space, then select Add > Text annotation ...)
 * [**REPORT**] Include a brief commentary of what kinds of characters are represented by nodes with degree larger than *D*
 
 **Remember: do not use screenshots**; use `File > Export as image`
 
-## 1.3. Import US companies co-ownership
+## 1.3. Import network of tortoises
 
-Open a graph representing company co-ownership in the US:
+Open a graph representing tortoises who shared a burrow in the Nevada desert. It is interesting because desert tortoises are assumed to be solitary animals, and this study based on radio tags showed the extent to which they can sometimes be social. The graph we use is a projection of a bipartite graph of tortoises and burrows.
 
 * `File > Import > Network from File ...`
-* Select `us_companies_ownership.csv`
-* Click `OK` (accept default import)
-* It might take a couple of minutes to open and layout
-* [**REPORT**] Include in your report two images with the *second and third largest connected components* of this graph
-* [**REPORT**] Do you see any connected component that is a *cycle*? If not, indicate this; if yes, include its image in the report
-* [**REPORT**] Do you see any connected component that is a *star*? If not, indicate this; if yes, include its image in the report
-* [**REPORT**] Look for any large company in the technology sector, include an image centered around that company and displaying its neighbors; add a one-paragraph commentary about what you see in this image
+* Select `reptilia-tortoise.graphml`
+* Select `New network collection`
+* `Layout > Prefuse Force Directed Layout`
+* To extract a sub-graph, select some nodes and use `File > New Network > From selected nodes, all edges`
+* [**REPORT**] Extract the *second and third largest connected components* of this graph, breaking ties arbitrarily if there are components with the same size, and include this in your report.
+* [**REPORT**] Extract the largest connected component that is a *clique*, include it in your report and indicate how many nodes it has.
+* [**REPORT**] Extract the largest connected component that is a *line graph*, include it in your report and indicate how many nodes it has.
 
 Note: you can zoom in and zoom out with the mouse scroll wheel, you can also use the panel on the bottom-right of the screen to navigate the graph.
 
@@ -148,16 +152,15 @@ Perform basic network analysis. ``Tools > Analyze network``. Consider the networ
 
 Look at the results from the network analysis (you will need to go to ``View > Show results panel`` -- if it does not show up, try hiding and showing the results panel)
 
-* [**REPORT**] Include a plot with the degree distributions in all three graphs (Karate, US Companies, StarWars). In the case of US companies, which is a directed graph, plot the out-degree.
+* [**REPORT**] Include a plot with the degree distributions in all three graphs (Karate, US Companies, Tortoises).
 
 *Tip: the user interface of Cytoscape is a bit confusing, as the bottom panel needs to be showing `Node Table` for the `Node Degree Distribution` button to work properly.*
 
 ## 3.3. Style the network
 
-* Load the Star Wars network
+* Load the *Tortoises* network
 * Make the size of the node larger either for nodes with high degree or nodes with high betweenness
-* Change the width and color of edges so it depends on the "scenes" attribute of the network (number of scenes in common). More scenes should mean thicker and darker edges.
-* [**REPORT**] Include an image of the network from *Star Wars*, styled as indicated above
+* [**REPORT**] Include an image of the network, styled as indicated above
 
 # 4. Use a Cytoscape App (ClusterMaker2)
 
@@ -165,14 +168,13 @@ Cytoscape has "apps" that can be installed and used.
 
 ## 4.1. Install ClusterMaker2
 
-Install ClusterMaker2 (``Apps > App Manager``). You may need to download a jar file from the [releases](https://apps.cytoscape.org/apps/clustermaker2) directory of clustermaker2, and then ``Install from file ...`` in the App Manager.
+Install ClusterMaker2 (``Apps > App Store``). You may be able to install it directly from a browser, or you may need to download a jar file from the [releases](https://apps.cytoscape.org/apps/clustermaker2) directory of clustermaker2, and then ``Apps > App Store > Install apps from file ...`` in the App Manager.
 
 ## 4.2. Use ClusterMaker2
 
-Run the [affinity propagation](https://en.wikipedia.org/wiki/Affinity_propagation) clustering algorithm in ClusterMaker2 (``Apps > ClusterMaker2 > Affinity Propagation ...``) on the *Star Wars* network.
+Run the [affinity propagation](https://en.wikipedia.org/wiki/Affinity_propagation) clustering algorithm in ClusterMaker2 (``Apps > ClusterMaker cluster network > Affinity Propagation Cluster ...``) on the *Star Wars* network.
 
-* Select any temporary folder if prompted
-* ClusterMaker2 requires an attribute for the weight: use ``Array source = scenes`` in *Star Wars*
+* ClusterMaker2 can use an attribute for the weight: use ``Array source = scenes`` in *Star Wars*
 * Once you run it, the network will have a new attribute in the nodes (in the node table you will see an attribute named ``_APCluster``)
 * Use the new attribute in the nodes for "Fill color" using a "Discrete mapping" on ``_APCluster.`` Note that with the right button you can generate a mapping out of a set of pre-defined ones.
 [**REPORT**] Include in your report an image of the Star Wars network with colors representing clusters.
@@ -184,7 +186,7 @@ Use ClusterMaker2 on the Karate Club
 
 * Try with two different cluster algorithms in the `ClusterMaker2` plug-in. Not all the methods work: try two that do.
    * You can find a description of the algorithms used in the [ClusterMaker2 homepage](http://www.rbvi.ucsf.edu/cytoscape/clusterMaker2/)
-* If you can choose an attribute in the clustering algorithm, choose "Edge betweenness"
+* If you can choose an attribute in the clustering algorithm, you can choose "Edge betweenness"
    * You MUST run the network analyzer first, so you can have "Edge betweenness" as an attribute in edges
 * Compare both obtained clusters with the actual one
 
@@ -204,7 +206,7 @@ Deliver a brief report of at most 4 pages (it can be less!), in PDF format. Orga
 * Sections 2, 3, 4 should include basically the parts marked "[**REPORT**]" above:
    * Section 2 should be everything you were asked to do with the *Karate Club* graph
    * Section 3 should be everything you were asked to do with the *Star Wars* graph
-   * Section 4 should be everything you were asked to do with the *US Companies* graph
+   * Section 4 should be everything you were asked to do with the *Tortoises* graph
 
 **Please be brief,** you do not need to write too much; your report can be less than four pages. A "brief commentary" means one or two paragraphs.
 

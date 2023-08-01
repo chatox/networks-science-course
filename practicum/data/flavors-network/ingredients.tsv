@@ -1,4 +1,4 @@
-# id	ingredient name	category
+ingredient_id	ingredient_name	ingredient_category
 0	magnolia_tripetala	flower
 1	calyptranthes_parriculata	plant
 2	chamaecyparis_pisifera_oil	plant derivative

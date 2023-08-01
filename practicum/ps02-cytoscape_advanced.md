@@ -4,7 +4,7 @@
 
 (See [how to download](data/README.md) in the README of the data/ directory)
 
-* Marvel Universe Social Graph: [hero-network.csv](data/hero-network.csv)
+* Marvel Universe Social Graph: [marvel-hero.csv](data/marvel-hero.csv)
 * Game of Thrones Characters: [got-characters.csv](data/game-of-thrones/got-characters.csv) and [got-relationships.csv](data/game-of-thrones/got-relationships.csv)
 
 ## Contents
@@ -28,22 +28,23 @@ The Marvel Universe Social Graph contains characters from the Marvel Universe th
 To import it into Cytoscape:
 
 * File > Import > Network from File ...
-* Select `hero-network.csv`
+* Select `marvel-hero.csv`
 * Advanced Options ...: indicate the delimiter is only a tabulator (**TAB**).
   * :warning: If you keep the default delimiter, a comma, or you use tabulator and comma, you will mistakenly get too many nodes (as node names include commas inside) and Cytoscape may hang for a long time or crash.
 * Column 1 should be "Source" (it's a green disc)
 * Column 2 should be "Target" (it's a red target)
 * OK
+* It might ask to create a view, do it. That might take a few minutes.
 
 *Tip: change the style to "minimal" to see the graph better.*
 
 [**REPORT**] Include this graph in your report.
 
-[**REPORT**] What are the top 10 nodes with largest degree?
+[**REPORT**] What are the top 20 nodes with largest degree?
 
 ## 1.2. Create sub-graphs
 
-* Search for the node named "RAVEN"
+* Search for one Marvel character -- ideally not a very well-known one, otherwise you will have too many nodes
   * Option 1: use the search box is on top of the display
   * Option 2: find this node in the node table, select it, and then use the secondary button to indicate "Select nodes from selected rows"
 * Click on the two-house icon on top, it means *neighbor*
@@ -57,15 +58,7 @@ To import it into Cytoscape:
 
 [**REPORT**] Describe what you see in this graph. If you see any community structure, describe it.
 
-* Do the same for another character
-
-[**REPORT**] Indicate the number of nodes and edges in the sub-graph of nodes connected to the other character you found
-
-Note that you can also select by other characteristics, such as degree, by creating a filter in the "Select" panel.
-
-[**REPORT**] Include a brief commentary on the number of nodes and edges in different sub-graphs from different characters. What do you think influences these numbers?
-
-:warning: **Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Show Graphics Details" and "View > Hide Graphics Details." You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200. Be careful: this will block your computer when dealing with large networks such as the hero network.
+:warning: **Important**: by default Cytoscape has a [level of detail](http://manual.cytoscape.org/en/stable/Rendering_Engine.html#what-is-level-of-detail-lod) setting that is similar to the one found in videogames. If the current view contains more than *render.nodeLabelThreshold*, the node labels are not displayed. You can toggle between full details and reduced details using "View > Always Show Graphics Details". You can also permanently adjust this by going to "Edit > Preferences". Depending on the computer, you can set this up to 2000 from the default of 200. Be careful: this will block your computer when dealing with large networks such as the hero network.
 
 # 2. Creating a network
 
@@ -100,11 +93,11 @@ Next, style the network:
 
 [**REPORT**] Include the graph of *Game of Thrones*.
 
-[**REPORT**] Show one example of a long chain (4 or more characters) in this graph. Indicate which characters are involved.
+[**REPORT**] Select and extract (i.e., File > New Network > From Selected Nodes, All Edges) a graph containing one clique of four or more characters. Indicate which characters are involved, and style the edges so that they show as label the *relation* between the characters.
 
-[**REPORT**] Show one example of a multi-edge in this graph. Indicate which characters are involved.
+[**REPORT**] Show two examples of a multi-edge in this graph. Indicate which characters are involved. Extract the corresponding (2-nodes) subgraphs.
 
-[**REPORT**] Describe any observation you can make about how node attribute "house of birth" relates to edge attribute "relationship"
+[**REPORT**] Describe any observation you can make about how node attribute "house of birth" is distributed in the graph.
 
 ## 2.2. Create a new network in a CSV file
 
