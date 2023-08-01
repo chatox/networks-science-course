@@ -22,7 +22,7 @@ You will need:
 
 Practice sessions are conducted with a computer.
 
-There are 09 practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
+There are nine practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
 :bulb: **Read the practice descriptions before the session,** as they can be sometimes long. You can start working on these at any point, but they are not definitive until the end of the session; details may change.
 
@@ -30,17 +30,17 @@ At the end of each handout there is a description of what you should deliver. Pl
 
 | # | Handouts                                    | Contents | Deadline 101 | Deadline 201 |
 |---|---------------------------------------------|----------|--------------|--------------|
-| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sep 29th, 18:30 | Oct 4th, 18:30
-| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Oct 3rd, 18:30 | Oct 6th, 18:30
-| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct 18th, 18:30 | Oct 17th, 18:30
-| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct 18th, 18:30 | Oct 17th, 18:30
+| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | (24 hours after session 1) | (24 hours after session 1) |
+| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | (24 hours after session 2) | (24 hours after session 2) |
+| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | (24 hours after session 5) | (24 hours after session 5) |
+| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | (24 hours after session 5) | (24 hours after session 5) |
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct 31st, 18:30 | Nov 2nd, 18:30
-| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct 31st, 20:30 | Nov 2nd, 18:30
+| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | (24 hours after session 8) | (24 hours after session 8) |
+| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | (24 hours after session 8) | (24 hours after session 8) |
 | 8 | PS05+PS06                                     | Wrap-up |
-| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov 15th, 12:00 | Nov 15th, 12:00 
-| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Dec 5th, 18:30 | Dec 5th, 18:30
-| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Dec 5th, 18:30 | Dec 5th, 18:30
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | (24 hours after session 9) | (24 hours after session 9) |
+| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | (24 hours after session 12) | (24 hours after session 12) |
+| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | (24 hours after session 12) | (24 hours after session 12) |
 | 12 | PS08+PS09                                    | Wrap-up |
 
 ## Tutorials/reference
