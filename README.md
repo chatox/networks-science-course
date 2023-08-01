@@ -4,6 +4,8 @@ Instructor: [Carlos Castillo](https://chato.cl/)
 
 These are materials for an undergraduate course on **Network Science**, and include two-hour lectures and two-hour practice sessions every week. They were developed for second year students of the bachelor degree on *Mathematical Engineering on Data Science* at Universitat Pompeu Fabra, Barcelona.
 
+* *"Despite being many practices and even some dense ones, I appreciated them because it helped you to consolidate the theory
+concepts." -- a student's evaluation from the 2022 edition*
 * *"It is a very interesting subject, and it seems very useful for data scientists." -- a student's evaluation from the 2021 edition*
 * *"This has been by far my favorite subject in the degree and the one in which I've learned the most." -- a student's evaluation from the 2020 edition.*
 * *"The most interesting subject so far ... the volume of work is quite a lot, but the topics are engaging." -- a student's evaluation from the 2019 edition.*
