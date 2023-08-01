@@ -18,7 +18,7 @@ If, instead, you want to do this the hard way, you can download from GitHub's we
 | starwars/ | [Evelina Gabasova 2016](https://github.com/evelinag/star-wars-network-data) |
 | karate-club/ | [Zachary 1977](http://www-personal.umich.edu/~mejn/netdata/karate.zip) |
 | reptilia-tortoise/ | [Sah et al. 2016](https://doi.org/10.1007/s00265-016-2136-9) |
-| hero-network.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
+| marvel-hero.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
 | game-of-thrones/ | [Graph Drawing Contest](http://mozart.diei.unipg.it/gdcontest/contest2018/topics.html) |
 | flavor-network/ | [Ahn et al. 2011](https://doi.org/10.1038/srep00196) |
 | CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
