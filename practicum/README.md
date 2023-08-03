@@ -30,17 +30,17 @@ At the end of each handout there is a description of what you should deliver. Pl
 
 | # | Handouts                                    | Contents | Deadline 101 | Deadline 201 |
 |---|---------------------------------------------|----------|--------------|--------------|
-| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | (24 hours after session 1) | (24 hours after session 1) |
-| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | (24 hours after session 2) | (24 hours after session 2) |
-| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | (24 hours after session 5) | (24 hours after session 5) |
-| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | (24 hours after session 5) | (24 hours after session 5) |
+| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sept. 28th, 18:30 | (24 hours after session 1) |
+| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Sept. 30th, 18:30 | (24 hours after session 2) |
+| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct. 12th, 18:30 | (24 hours after session 5) |
+| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct. 12th, 18:30 | (24 hours after session 5) |
 | 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | (24 hours after session 8) | (24 hours after session 8) |
-| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | (24 hours after session 8) | (24 hours after session 8) |
+| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct. 26th, 18:30 | (24 hours after session 8) |
+| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct. 26th, 18:30 | (24 hours after session 8) |
 | 8 | PS05+PS06                                     | Wrap-up |
-| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | (24 hours after session 9) | (24 hours after session 9) |
-| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | (24 hours after session 12) | (24 hours after session 12) |
-| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | (24 hours after session 12) | (24 hours after session 12) |
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov. 3th, 20:30 | (24 hours after session 9) |
+| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Nov. 30th, 18:30 | (24 hours after session 12) |
+| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Nov. 30th, 18:30 | (24 hours after session 12) |
 | 12 | PS08+PS09                                    | Wrap-up |
 
 ## Tutorials/reference
