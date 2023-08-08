@@ -23,7 +23,7 @@ If, instead, you want to do this the hard way, you can download from GitHub's we
 | flavor-network/ | [Ahn et al. 2011](https://doi.org/10.1038/srep00196) |
 | CovidLockDownCatalonia.json.gz | [CrisisNLP Team](https://crisisnlp.qcri.org/covid19) |
 | webspam-uk2007/ | [WEBSPAM UK2007](https://chato.cl/webspam/datasets/uk2007/) |
-| trade-flows/ | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=PARTNER) |
+| trade-flows/ | [OECD](https://stats.oecd.org/Index.aspx?DataSetCode=QITS) |
 
 ## Sources for other datasets (used in previous years)
 
