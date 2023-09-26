@@ -30,6 +30,8 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
    * Exercise: draw degree distribution (spreadsheet)
    * Exercise: left-project and right-project a graph
 
+(Note: in 2023, we arrived until the end of degree distribution of TT03, the rest goes to the next session.)
+
 ### After class
 
 * Read [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
