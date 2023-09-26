@@ -5,6 +5,5 @@
 
 :warning: The exact date is subject to change if the course schedule changes.
 
-* Midterm EX01: theory session number 7
-    * Groups 1 + 2: 5 November 2021 at 18:30 
+* Midterm EX01: Friday October 20th, 2023 from 18:30 to 20:30.
 * Final exam: to be scheduled by the school

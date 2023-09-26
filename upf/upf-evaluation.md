@@ -21,13 +21,12 @@ If you fail to pass, you will have to take the resit exam. The resit exam replac
 To obtain a grade in the practical session, you must:
 
 * Attend the practical session
-* Submit a screenshot of your work at the end of the session through *Aula Global* (an image of the last part of what you were doing when the time ended)
 * Deliver your work within the deadline.
 * A grace period of 24 hours after the deadline will be given, with a -2 points penalization. Saturdays, Sundays, and holidays do not count in the grace period.
 
 Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your total practice grade is capped at 10 points.
 
-Automatically the lowest grade in the practice sessions will be discarded, which allows you to skip one session and still get the maximum grade.
+Automatically, the lowest grade in the practice sessions will be discarded, which allows you to skip one session and still get the maximum grade.
 
 Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence to the teaching assistant (*profesor de prácticas*).
 
@@ -47,15 +46,9 @@ Not coming to an in-class test means a zero grade in that in-class test, unless 
 
 ## 2. Guidelines for submitting your work
 
-### 2.1. Exams
-
-Please read the [protocol for online exams](upf-online-exams.md).
-
-### 2.2. Practices and assignments
-
 Each practice session and assignment specifies what you should deliver.
 
-#### 2.2.1. Delivering your report
+#### 2.1. Delivering your report
 
 Identify the authorship and date of each report with a paragraph on the first page, including:
 
@@ -82,7 +75,7 @@ These are some of the most common mistakes in reports, these deduct points from 
 1. delivering in the wrong format such as .docx
 1. delivering a report that is not understandable or does not look professional at all
 
-#### 2.2.2. Delivering your code
+#### 2.2. Delivering your code
 
 Your code is delivered as a self-contained Python notebook. This notebook should be readable and understandable on its own by a person familiar with the course's topic. Think of the notebook as a report in which you tell a story, and tell that story well and professionally.
 
@@ -124,7 +117,7 @@ If you need help installing software or packages in your computer, please ask yo
 
 * Please use the "Notice board" for general questions, and the forums "Questions about theory" and "Questions about practices" for questions on theory and practices. I get the same questions many times by e-mail and that's not helpful for you or for me. So, **unless it's something specific to you, use the forums.**
 
-* Please if you do need to write me or your practice instructors an e-mail because of something specific to you, **include the name of the subject** in your e-mail, and if necessary, the seminar/practice group in which you are. I've well over 100 students this trimester, which makes it harder to remember everybody.
+* Please if you do need to write me or your practice instructors an e-mail because of something specific to you, **include the name of the subject** in your e-mail, and if necessary, the seminar/practice group in which you are.
 
 * Please if you do need to write me or the practice instructors an e-mail, **send it from your UPF address**, so we can give it priority and answer it promptly.
 

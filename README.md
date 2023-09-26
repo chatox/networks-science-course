@@ -28,7 +28,7 @@ Material specific to UPF students:
 
 ## Acknowledgments
 
-The course, particularly the first half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
+The course, particularly the second half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
 
 I am thankful to the course's teaching assistants Fedor Vityugin (2020), Alexander Gomez (2018-2020) and Alexandra Matreata (2018) at UPF, and the feedback from Vicenç Gómez on an early version of this course.
 

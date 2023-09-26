@@ -1,6 +1,6 @@
 # <img src="upf_logo.png" align="right" width="80"/>24933 – Introduction to Networks Science
 
-Course presentation for the 2020 edition.
+Course presentation for the 2023 edition.
 
 ## Presentation
 
@@ -46,23 +46,7 @@ The course will be delivered in Python, hence it is strongly recommended to have
 
 ## Contents
 
-* Introduction
-    * Why studying networks
-    * Basics concepts of graph theory
-* Network formation models
-    * Random networks
-    * Scale-free networks
-    * Preferential attachment
-    * Other network growth models
-* Structural patterns in networks
-    * Hubs and authorities
-    * PageRank
-    * Link-based centrality
-    * Network flows
-    * Dense sub-graphs
-* Dynamic processes in networks
-    * Spreading phenomena
-    * Epidemics
+See [../theory/README.md](Theory ReadMe)
 
 ## Methodology
 
