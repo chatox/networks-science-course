@@ -152,7 +152,7 @@ Perform basic network analysis. ``Tools > Analyze network``. Consider the networ
 
 Look at the results from the network analysis (you will need to go to ``View > Show results panel`` -- if it does not show up, try hiding and showing the results panel)
 
-* [**REPORT**] Include a plot with the degree distributions in all three graphs (Karate, US Companies, Tortoises).
+* [**REPORT**] Include a plot with the degree distributions in all three graphs (Karate, Star Wars, Tortoises).
 
 *Tip: the user interface of Cytoscape is a bit confusing, as the bottom panel needs to be showing `Node Table` for the `Node Degree Distribution` button to work properly.*
 
