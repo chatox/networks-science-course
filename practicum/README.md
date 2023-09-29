@@ -28,20 +28,20 @@ There are nine practice sessions in this course. The first two sessions have han
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
-| # | Handouts                                    | Contents | Deadline 101 | Deadline 201 |
-|---|---------------------------------------------|----------|--------------|--------------|
-| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sept. 28th, 18:30 | Sept. 30th, 16:30 |
-| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Sept. 30th, 18:30 | Oct. 3th, 20:30 |
-| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct. 12th, 18:30 | Oct. 14th, 16:30 |
-| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct. 12th, 18:30 | Oct. 14th, 16:30 |
-| 5 | PS03+PS04                                     | Wrap-up |
-| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct. 26th, 18:30 | Oct. 24th, 20:30 |
-| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct. 26th, 18:30 | Oct. 24th, 20:30 |
-| 8 | PS05+PS06                                     | Wrap-up |
-| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov. 3th, 20:30 | Oct. 31st, 20:30 |
-| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Nov. 30th, 18:30 | Dec. 2nd, 16:30 |
-| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Nov. 30th, 18:30 | Dec. 2nd, 16:30 |
-| 12 | PS08+PS09                                    | Wrap-up |
+| # | Handouts                                    | Contents | Session Date 101 | Deadline 101 | Session Date |  Deadline 201 |
+|---|---------------------------------------------|----------|--------------|--------------|--------------|--------------|
+| 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sept. 27th | Sept. 28th, 18:30 | Sept. 29th | Sept. 30th, 16:30 |
+| 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Sept. 29th | Sept. 30th, 18:30 | Oct. 2nd | Oct. 3th, 20:30 |
+| 3 | [PS03](ps03-flavors.ipynb)                    | NetworkX and Cytoscape: the flavors network | Oct. 4th | Oct. 12th, 18:30 | Oct. 4th | Oct. 14th, 16:30 |
+| 4 | [PS04](ps04-networks_from_text.ipynb)         | NetworkX and Cytoscape: creating a network using textual data | Oct. 5th | Oct. 12th, 18:30 | Oct. 6th | Oct. 14th, 16:30 |
+| 5 | PS03+PS04                                     | Wrap-up | Oct. 11th | ----- | Oct. 13th | -----
+| 6 | [PS05](ps05-hubs_authorities.ipynb)           | NetworkX: hubs and authorities | Oct. 18th | Oct. 26th, 18:30 | Oct. 18th | Oct. 24th, 20:30 |
+| 7 | [PS06](ps06-pagerank.ipynb)                   | NetworkX: PageRank | Oct. 19th | Oct. 26th, 18:30 | Oct. 19th | Oct. 24th, 20:30 |
+| 8 | PS05+PS06                                     | Wrap-up | Oct. 25th | ----- | Oct. 23rd | -----
+| 9 | [PS07](ps07-network_models.ipynb)             | NetworkX: network models | Nov. 2nd | Nov. 3rd, 20:30 | Oct. 30th | Oct. 31st, 20:30 |
+| 10 | [PS08](ps08-communities.ipynb)               | NetworkX: community detection | Nov. 15th | Nov. 30th, 18:30 | Nov. 13th | Dec. 2nd, 16:30 |
+| 11 | [PS09](ps09-spectral.ipynb)                  | NetworkX: spectral methods | Nov. 22nd | Nov. 30th, 18:30 | Nov. 20th | Dec. 2nd, 16:30 |
+| 12 | PS08+PS09                                    | Wrap-up | Nov. 29th | ----- | Dec. 1st | -----
 
 ## Tutorials/reference
 
