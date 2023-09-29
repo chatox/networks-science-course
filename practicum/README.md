@@ -28,7 +28,7 @@ There are nine practice sessions in this course. The first two sessions have han
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
-| # | Handouts                                    | Contents | Session Date 101 | Deadline 101 | Session Date |  Deadline 201 |
+| # | Handouts                                    | Contents | Session Date 101 | Deadline 101 | Session Date 201 |  Deadline 201 |
 |---|---------------------------------------------|----------|--------------|--------------|--------------|--------------|
 | 1 | [PS01](ps01-cytoscape_basics.md)              | Cytoscape: editing and visualizing networks | Sept. 27th | Sept. 28th, 18:30 | Sept. 29th | Sept. 30th, 16:30 |
 | 2 | [PS02](ps02-cytoscape_advanced.md)            | Cytoscape: importing, creating, and editing networks | Sept. 29th | Sept. 30th, 18:30 | Oct. 2nd | Oct. 3th, 20:30 |
