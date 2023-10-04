@@ -43,7 +43,7 @@ At the end of each handout there is a description of what you should deliver. Pl
 | 11 | [PS09](ps09-spectral.ipynb)                | NetworkX: spectral methods | Nov. 22nd, 16:30 | Nov. 30th, 18:30 | Nov. 20th, 18:30 | Dec. 4th, 16:30 |
 | 12* | PS08+PS09                                  | Wrap-up | Nov. 29th, 16:30 | ----- | Dec. 1st, 14:30 | -----
 
-* Participation in wrap-up sessions (#5, #8, #12) is **optional**.
+\* Participation in wrap-up sessions (#5, #8, #12) is **optional**.
 
 ## Tutorials/reference
 
