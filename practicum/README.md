@@ -32,8 +32,8 @@ At the end of each handout there is a description of what you should deliver. Pl
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
 | 1 | [PS01](ps01-cytoscape_basics.md)            | Cytoscape: editing and visualizing networks | Sept. 27th, 16:30 | Sept. 28th, 18:30 | Sept. 29th, 14:30 | Sept. 30th, 16:30 |
 | 2 | [PS02](ps02-cytoscape_advanced.md)          | Cytoscape: importing, creating, and editing networks | Sept. 29th, 16:30 | Sept. 30th, 18:30 | Oct. 2nd, 18:30 | Oct. 3th, 20:30 |
-| 3 | [PS03](ps03-flavors.ipynb)                  | NetworkX and Cytoscape: the flavors network | Oct. 4th, 16:30 | Oct. 12th, 18:30 | Oct. 4th, 18:30 | Oct. 16th, 16:30 |
-| 4 | [PS04](ps04-networks_from_text.ipynb)       | NetworkX and Cytoscape: creating a network using textual data | Oct. 5th, 18:30 | Oct. 12th, 18:30 | Oct. 6th, 14:30 | Oct. 16th, 16:30 |
+| 3 | [PS03](ps03-flavors.ipynb)                  | NetworkX and Cytoscape: the flavors network | Oct. 4th, 16:30 | Oct. 13th, 18:30 | Oct. 4th, 18:30 | Oct. 16th, 16:30 |
+| 4 | [PS04](ps04-networks_from_text.ipynb)       | NetworkX and Cytoscape: creating a network using textual data | Oct. 5th, 18:30 | Oct. 13th, 18:30 | Oct. 6th, 14:30 | Oct. 16th, 16:30 |
 | 5* | PS03+PS04                                   | Wrap-up | Oct. 11th, 16:30 | ----- | Oct. 13th, 14:30 | -----
 | 6 | [PS05](ps05-hubs_authorities.ipynb)         | NetworkX: hubs and authorities | Oct. 18th, 16:30 | Oct. 26th, 18:30 | Oct. 18th, 18:30 | Oct. 24th, 20:30 |
 | 7 | [PS06](ps06-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 19th, 18:30 | Oct. 26th, 18:30 | Oct. 19th, 14:30 | Oct. 24th, 20:30 |
