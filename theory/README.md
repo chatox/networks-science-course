@@ -78,7 +78,7 @@ Both of these are great to provide context for the course, and will help you sta
 * Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
    * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
-* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf) -- In 2022 we finished the computation, moved rest to next session
+* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf) -- In 2023 we moved the computation to the next session
    * Exercise: compute hub and authority scores iteratively (spreadsheet)
 
 ### After class
@@ -109,7 +109,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * Lecture TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
-## Session 5: Mid-term exam (Friday, October 21st, 2022)
+## Session 5: Mid-term exam 
 
 ### Before class
 
@@ -130,7 +130,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 * Lecture TT11: the random network (ER) model [odp](odp/tt11-random_networks.odp)/[pdf](pdf/tt11-random_networks.pdf)
    * Exercise: guess the formula for expected number of links, using NetLogo to run simulations (pin board)
    * Exercise: compute expected number of links and expected average degree
-* Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf) -- In 2022 we arrived until Wikipedia speedruns, rest moved to the next session
+* Lecture TT12: properties of random networks [odp](odp/tt12-random_networks_properties.odp)/[pdf](pdf/tt12-random_networks_properties.pdf)
    * Exercise: guess critical point at which a giant connected component emerges, using NetLogo to run simulations (pin board)
    * Exercise: find actors with large distance from Kevin Bacon (pin board)
    * Exercise: find critical N for a graph to be connected
@@ -149,7 +149,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 * Lecture TT13: scale-free networks [odp](odp/tt13-scale_free_networks.odp)/[pdf](pdf/tt13-scale_free_networks.pdf)
    * Exercise: compute nodes with an expected degree
-* Lecture TT14: distances in scale-free networks [odp](odp/tt14-distances_scale_free_nets.odp)/[pdf](pdf/tt14-distances_scale_free_nets.pdf) -- In 2022 the timeslot was short, so we moved this to the next class
+* Lecture TT14: distances in scale-free networks [odp](odp/tt14-distances_scale_free_nets.odp)/[pdf](pdf/tt14-distances_scale_free_nets.pdf)
 
 ### After class
 
