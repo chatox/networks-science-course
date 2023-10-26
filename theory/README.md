@@ -109,7 +109,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * Lecture TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
-## Session 5: Mid-term exam 
+## Session 5: Mid-term exam (October 20th, 2023)
 
 ### Before class
 
@@ -258,7 +258,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 * Lecture TT25: epidemics [odp](odp/tt25-epidemics.odp)/[pdf](pdf/tt25-epidemics.pdf)
 
-## Final Exam
+## Final Exam (December 11th, 2023)
 
 The final exam will include the random network model (TT11-TT12), scale-free networks (TT13-TT14), the preferential attachment model (TT15-T17), community detection (TT19-TT21), spectral methods (TT22), and spreading phenomena (TT23-TT24). This excludes decks not seen in class, optional/additional slide decks, and slides marked "Extra".
 
