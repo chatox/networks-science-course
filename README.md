@@ -1,15 +1,18 @@
 # Network Science Course
 
-Instructor: [Carlos Castillo](https://chato.cl/)
+Instructor: [Michele Starnini](https://scholar.google.com/citations?user=duBif0oAAAAJ).
 
 These are materials for an undergraduate course on **Network Science**, and include two-hour lectures and two-hour practice sessions every week. They were developed for second year students of the bachelor degree on *Mathematical Engineering on Data Science* at Universitat Pompeu Fabra, Barcelona.
 
+**Quotes from student evaluations (year)**
+
+* *"I liked the most the algorithms from the last topics (PageRank, community finding, and spectral graph clustering)."* (2023)
 * *"Despite being many practices and even some dense ones, I appreciated them because it helped you to consolidate the theory
-concepts." -- a student's evaluation from the 2022 edition*
-* *"It is a very interesting subject, and it seems very useful for data scientists." -- a student's evaluation from the 2021 edition*
-* *"This has been by far my favorite subject in the degree and the one in which I've learned the most." -- a student's evaluation from the 2020 edition.*
-* *"The most interesting subject so far ... the volume of work is quite a lot, but the topics are engaging." -- a student's evaluation from the 2019 edition.*
-* *"By far, the most interesting and fun subject of the trimester!" -- a student's evaluation from the 2018 edition.*
+concepts."* (2022)
+* *"It is a very interesting subject, and it seems very useful for data scientists."* (2021)
+* *"This has been by far my favorite subject in the degree and the one in which I've learned the most."* (2020)
+* *"The most interesting subject so far ... the volume of work is quite a lot, but the topics are engaging."* (2019)
+* *"By far, the most interesting and fun subject of the trimester!"* (2018)
 
 ## Contents of this repository
 
@@ -28,8 +31,8 @@ Material specific to UPF students:
 
 ## Acknowledgments
 
-The course, particularly the second half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
+This course is based on materials by [Carlos Castillo](https://chato.cl/).
 
-I am thankful to the course's teaching assistants Fedor Vityugin (2020), Alexander Gomez (2018-2020) and Alexandra Matreata (2018) at UPF, and the feedback from Vicenç Gómez on an early version of this course.
+The course, particularly the second half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
 
 [<img src="upf/cc-by-80x15.png" width="80" height="15" hspace="4"/>](https://creativecommons.org/licenses/by/4.0/) Course materials are available under a [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license unless specified otherwise.
