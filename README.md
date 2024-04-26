@@ -1,5 +1,6 @@
 # Network Science Course
 
+
 Instructor: [Michele Starnini](https://scholar.google.com/citations?user=duBif0oAAAAJ).
 
 These are materials for an undergraduate course on **Network Science**, and include two-hour lectures and two-hour practice sessions every week. They were developed for second year students of the bachelor degree on *Mathematical Engineering on Data Science* at Universitat Pompeu Fabra, Barcelona.
