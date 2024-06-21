@@ -30,20 +30,19 @@ At the end of each handout there is a description of what you should deliver. Pl
 
 | # | Handouts                                    | Contents | Session Date 101 | Deadline 101 | Session Date 201 |  Deadline 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
-| 1 | [PS01](ps01-cytoscape_basics.md)            | Cytoscape: editing and visualizing networks | Sept. 27th, 16:30 | Sept. 28th, 18:30 | Sept. 29th, 14:30 | Sept. 30th, 16:30 |
-| 2 | [PS02](ps02-cytoscape_advanced.md)          | Cytoscape: importing, creating, and editing networks | Sept. 29th, 16:30 | Sept. 30th, 18:30 | Oct. 2nd, 18:30 | Oct. 3th, 20:30 |
-| 3 | [PS03](ps03-flavors.ipynb)                  | NetworkX and Cytoscape: the flavors network | Oct. 4th, 16:30 | Oct. 13th, 18:30 | Oct. 4th, 18:30 | Oct. 16th, 16:30 |
-| 4 | [PS04](ps04-networks_from_text.ipynb)       | NetworkX and Cytoscape: creating a network using textual data | Oct. 5th, 18:30 | Oct. 13th, 18:30 | Oct. 6th, 14:30 | Oct. 16th, 16:30 |
-| 5* | PS03+PS04                                   | Wrap-up | Oct. 11th, 16:30 | ----- | Oct. 13th, 14:30 | -----
-| 6 | [PS05](ps05-hubs_authorities.ipynb)         | NetworkX: hubs and authorities | Oct. 18th, 16:30 | Oct. 26th, 18:30 | Oct. 18th, 18:30 | Oct. 24th, 20:30 |
-| 7 | [PS06](ps06-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 19th, 18:30 | Oct. 26th, 18:30 | Oct. 19th, 14:30 | Oct. 24th, 20:30 |
-| 8* | PS05+PS06                                   | Wrap-up | Oct. 25th, 16:30 | ----- | Oct. 23rd, 18:30 | -----
-| 9 | [PS07](ps07-network_models.ipynb)           | NetworkX: network models | Nov. 2nd, 18:30 | Nov. 3rd, 20:30 | Oct. 30th, 18:30 | Oct. 31st, 20:30 |
-| 10 | [PS08](ps08-communities.ipynb)             | NetworkX: community detection | Nov. 15th, 16:30 | Nov. 30th, 18:30 | Nov. 13th, 18:30 | Dec. 4th, 16:30 |
-| 11 | [PS09](ps09-spectral.ipynb)                | NetworkX: spectral methods | Nov. 22nd, 16:30 | Nov. 30th, 18:30 | Nov. 20th, 18:30 | Dec. 4th, 16:30 |
-| 12* | PS08+PS09                                  | Wrap-up | Nov. 29th, 16:30 | ----- | Dec. 1st, 14:30 | -----
+| 1 | [PS01](pending.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Sept. 27th, 16:30 | Sept. 28th, 18:30 |  Sept. 27th, 14:30 | Sept. 28th, 16:30 |
+| 2 | [PS02](ps03-flavors.ipynb)                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 2nd, 16:30 | Oct. 11nd, 18:30 | Oct. 4th, 14:30 | Oct. 13th, 16:30 |
+| 3 | [PS03](ps04-networks_from_text.ipynb)       | NetworkX and Cytoscape: creating a network using textual data | Oct. 9th, 16:30 | Oct. 22th, 18:30 | Oct. 11th, 14:30 | Oct. 22th, 16:30 |
+| 4 | [PS04](ps05-hubs_authorities.ipynb)         | NetworkX: hubs and authorities | Oct. 16th, 16:30 | Oct. 22th, 18:30 | Oct. 18th, 14:30 | Oct. 22th, 16:30 |
+| 5 | [PS05](ps06-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 17th, 18:30 | Oct. 22th, 20:30 | Oct. 21th, 18:30 | Oct. 22th, 20:30 |
+| 6* | PS03+PS04+PS05                             | Wrap-up | Oct. 22th, 14:30 | ----- | ?? (I guess they should be done at the same time?) | -----
+| 7 | [PS06](ps07-network_models.ipynb)           | NetworkX: network models | Nov. 6th, 16:30 | Nov. 27th, 18:30 | Nov. 8th, 14:30 | Nov. 27th, 16:30 |
+| 8 | [PS07](copy_from_another_year.ipynb)        | NetworkX: k-cores | Nov. 13th, 16:30 | Nov. 27th, 18:30 | Nov. 15th, 14:30 | Nov. 27th, 16:30 |
+| 9 | [PS08](ps08-communities.ipynb)              | NetworkX: community detection | Nov. 20th, 16:30 | Nov. 27th, 18:30 | Nov. 22th, 14:30 | Nov. 27th, 16:30 |
+| 10* | PS06+PS07+PS08                            | Wrap-up | Nov. 27th, 16:30 | ----- | Nov. 27th, 16:30 | -----
+| 11* | Old exams                                 | Old exams review | Nov. 28th, 18:30 | ----- | Nov. 29th, 14:30 | -----
 
-\* Participation in wrap-up sessions (#5, #8, #12) is **optional**.
+\* Participation in wrap-up sessions (#6, #10) is **optional**.
 
 ## Tutorials/reference
 
