@@ -2,13 +2,13 @@
 
 :construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-There are 11 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop.
+There are 12 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop.
 
 **Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
 
-**During class,** I will present the contents using slides and we will do together some exercises using Padlets or Google Spreadsheets. Please avoid distractions: place your phone in airplane mode, close all other windows in your computer, and try to stay focused. In one of the sessions, a *midterm exam* will be taken, and at the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
+**During class,** I will present the contents using slides and we will do together some exercises using Padlets or Google Spreadsheets. In one of the sessions, a *midterm exam* will be taken, and at the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
 
-**After each session, there is some reading for you to do.** These readings will be much easier after you have attended each lecture, will bring depth to what you learn in class, and will help you remember these contents better. Think of these readings as a form of continuous studying that will save you time and effort when preparing for the exams.
+**After each session, there is some reading for you to do.** These readings will be much easier after you have attended each lecture, will bring depth to what you learn in class, and will help you remember these contents better. Think of these readings as continuous studying that will save time and effort when preparing for the exams.
 
 ## Session 1: Introduction
 
@@ -18,19 +18,17 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 ### During class
 
-* Lecture TT01: Complex Networks [odp](odp/tt01-complex_networks.odp)/[pdf](pdf/tt01-complex_networks.pdf)
+* Lecture TT01: Networks: Introduction [odp](odp/tt01-complex_networks.odp)/[pdf](pdf/tt01-complex_networks.pdf)
    * :tv: First minute of [The hidden networks of everything](https://www.youtube.com/watch?v=RfgjHoVCZwU)
    * Exercise: find examples of networks (pin board)
-* Lecture TT02: applications networks science [odp](odp/tt02-applications_networks_science.odp)/[pdf](pdf/tt02-applications_networks_science.pdf)
 * Course overview
    * Overview of [theory topics](./)
    * Overview of [practice sessions](../practicum/README.md)
    * Overview of [evaluation rules](../upf/upf-evaluation.md)
-* Lecture TT03: graph theory basics [odp](odp/tt03-graph_theory_basics.odp)/[pdf](pdf/tt03-graph_theory_basics.pdf)
+* Lecture TT02: Graph Theory: Basics [odp](odp/tt03-graph_theory_basics.odp)/[pdf](pdf/tt03-graph_theory_basics.pdf)
    * Exercise: draw degree distribution (spreadsheet)
    * Exercise: left-project and right-project a graph
 
-(Note: in 2023, we arrived until the end of degree distribution of TT03, the rest goes to the next session.)
 
 ### After class
 
