@@ -108,7 +108,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 * Lecture TT07bis: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
-## Session 5: Mid-term exam (October 20th, 2023)
+## Session 5: Mid-term exam (October 23rd, 2024, 16:30)
 
 ### Before class
 
