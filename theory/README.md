@@ -47,8 +47,8 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### Before class
 
-* :tv: Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
-* :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+* :tv: Watch this 9-minutes video about [The Science of Six Degrees of Separation](https://www.youtube.com/watch?v=TcxZSmzPw8k)
+* :tv: Watch this 5-minutes video of [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
 
 ### During class
 
@@ -61,7 +61,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### After class
 
-* :tv: Watch the rest of the 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
+* :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
@@ -69,12 +69,14 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### Before class
 
-* :tv: Watch the 4-minutes video on [clustering coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
+* :tv: Watch the 1-minutes video on the [Friendship Paradox](https://www.youtube.com/watch?v=httLvVufAYs)
+* :tv: Watch the 4-minutes video on [clustering coefficients](https://www.youtube.com/watch?v=YkatiyqHCXk)
 
 ### During class
 
-* Lecture TT05: Graph Theory: Degree Correlations, Clustering, and Homophily  [pdf](pdf/tt05-friendship.pdf)
+* Lecture TT05: Graph Theory: Degree Correlations  [pdf](pdf/tt05-assortativity.pdf)
    * Exercise: average nearest neighbors' degree in uncorrelated networks (blackboard)
+* Lecture TT06: Graph Theory: Clustering, and Homophily  [pdf](pdf/tt06-clustering.pdf)
    * Exercise: compute local clustering coefficients (pin board)
    * Exercise: homophilic, heterophilic, or neutral (pin board)
 
