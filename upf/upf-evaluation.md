@@ -4,7 +4,7 @@
 
 Continuous evaluation will be based in the following elements:
 
-* A: Average grade in the 8-9 practical sessions with grade, minus the lowest one: 50%
+* A: Average grade in the 8-9 practical sessions with grade
 * B: Grade in the mid-term exam: 20%
 * C: Grade in the final exam: 30%
 
@@ -22,17 +22,15 @@ To obtain a grade in the practical session, you must:
 
 * Attend the practical session
 * Deliver your work within the deadline.
-* A grace period of 24 hours after the deadline will be given, with a -2 points penalization. Saturdays, Sundays, and holidays do not count in the grace period.
+* Some practices will be delivered at the end of the session (i.e., they must be completed in two hours). 
 
 Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your total practice grade is capped at 10 points.
 
-Automatically, the lowest grade in the practice sessions will be discarded, which allows you to skip one session and still get the maximum grade.
+Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence.
 
-Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence to the teaching assistant (*profesor de prácticas*).
+:unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs, but each one should submit his/her own work individually and delivered practices must be different.
 
-:unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs, but each one should submit his/her own work individually and the works must be different.
-
-:rage: Do not work in groups of three or more during the practice session. Feel free to exchange ideas with other students, but do not copy from others.
+:rage: Do not work in groups of three or more during the practice session. 
 
 :warning: Copying from external sources without acknowledging them in your work, and copying the work from other person/group in your class, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the [university regulations](https://seuelectronica.upf.edu/es/regim-disciplinari-dels-estudiants-de-la-universitat-pompeu-fabra), with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
@@ -40,7 +38,7 @@ Not coming to a practice session or not delivering your work means a zero grade 
 
 In-class tests and exams are individual work.
 
-Not coming to an in-class test means a zero grade in that in-class test, unless you can justify your absence to the professor (*profesor de teoría*).
+Not coming to an in-class test means a zero grade in that in-class test, unless you can justify your absence.
 
 :warning: Copying during a test/exam, knowingly facilitating the copy of others, elaborating, lending, or facilitating instruments for copying during an exam, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the university regulations, with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
@@ -99,12 +97,6 @@ These are some of the most common mistakes in code, these deduct points from you
 1. Using an inconsistent coding style
 1. Using code cells to write text intended to be read, instead, use markdown cells for that; the only text you should have in code cells are brief commentaries to understand a piece of code
 
-## We expect nothing less than top-quality work
-
-Delivering consistently top-quality work takes time and effort, but it can be very rewarding both personally and professionally :sunglasses:
-
-**Check** your answers, your code, and your reports as many times as needed to ensure they are correct.
-
 **Be precise:** use the section numbers (1.1, 1.2, ...) of the notebook to present your results in the report, and refer to sections by their number. If you need to refer to your figures or tables, number them and refer to them by numbers. Do not include ambiguous statements or plots without a scale or a legend. Do not use colors if you do not explain what each color means. State clearly your assumptions and limitations.
 
 **Be careful** with the presentation of your work. For instance, do not use low-quality screenshots, or poorly cropped screenshots showing toolbars and window borders. Instead, export and save high-quality images from each application. Do not copy-paste or screenshot tables into your report without making them to actual tables.
@@ -113,14 +105,10 @@ As a data scientist your reports and code should be (among other things) correct
 
 # 3. Asking questions
 
-If you need help installing software or packages in your computer, please ask your classmates, for instance through the Aula Global's forum. Teaching staff does not have the necessary bandwidth to debug your installation.
+* As a general rule, **do not e-mail theory or practice instructors**. One exception to this rule is to communicate a justified absence to a practice session to the practice instructor, attaching the related justification (e.g., a medical appointment).
 
-* Please use the "Notice board" for general questions, and the forums "Questions about theory" and "Questions about practices" for questions on theory and practices. I get the same questions many times by e-mail and that's not helpful for you or for me. So, **unless it's something specific to you, use the forums.**
+* If you need help installing software or packages in your computer, please ask your classmates, for instance through the Aula Global's forum. Instructors are not responsible for debugging your installation. As (future) data scientists, you should be able to install software on your own. **You are responsible for having the necessary software installed before the start of the practice session.**
 
-* Please if you do need to write me or your practice instructors an e-mail because of something specific to you, **include the name of the subject** in your e-mail, and if necessary, the seminar/practice group in which you are.
+* Please use the "Notice board" for general questions, and the forums "Questions about theory" and "Questions about practices" for questions on theory and practices. If any question is not answered in the forum, you can e-mail the instructors and ask for an appointment. 
 
-* Please if you do need to write me or the practice instructors an e-mail, **send it from your UPF address**, so we can give it priority and answer it promptly.
-
-* Feel free to ask me questions in English, Catalan, or Spanish, independently of the language of your group.
-
-To ask for an appointment, send an e-mail to the course's professor. **No appointments will be given in the 72 hours before partial or final exams.**
+* Feel free to ask questions in English, Catalan, or Spanish, independently of the language of your group.
