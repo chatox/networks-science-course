@@ -2,7 +2,7 @@
 
 :construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-There are 11 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop.
+There are 12 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop. One theory session is devoted to the mid-term exam (see below). 
 
 **Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
 
@@ -20,14 +20,14 @@ There are 11 theory sessions of 2 hours each. They will all take place face-to-f
 
 ### During class
 
-* Lecture TT01: Networks: Introduction [odp](odp/tt01-complex_networks.odp)/[pdf](pdf/tt01-complex_networks.pdf)
+* Lecture TT01: Networks: Introduction [pdf](pdf/tt01-complex_networks.pdf)
    * :tv: First minute of [The hidden networks of everything](https://www.youtube.com/watch?v=RfgjHoVCZwU)
    * Exercise: find examples of networks (pin board)
 * Course overview
    * Overview of [theory topics](./)
    * Overview of [practice sessions](../practicum/README.md)
    * Overview of [evaluation rules](../upf/upf-evaluation.md)
-* Lecture TT02: Graph Theory: Basics [odp](odp/tt03-graph_theory_basics.odp)/[pdf](pdf/tt03-graph_theory_basics.pdf)
+* Lecture TT02: Graph Theory: Basics [pdf](pdf/tt03-graph_theory_basics.pdf)
    * Exercise: draw degree distribution (spreadsheet)
    * Exercise: left-project and right-project a graph
 
@@ -52,9 +52,9 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT03: Graph Theory: Connectivity [odp](odp/tt04-connectivity.odp)/[pdf](pdf/tt04-connectivity.pdf)
+* Lecture TT03: Graph Theory: Connectivity [pdf](pdf/tt04-connectivity.pdf)
    * Quick exercise: find strongly connected components
-* Lecture TT04: Graph Theory: Centrality [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
+* Lecture TT04: Graph Theory: Centrality [pdf](pdf/tt06-closeness.pdf)
    * Exercise: compute closeness and harmonic closeness (spreadsheet)
    * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
@@ -94,9 +94,9 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT09: pagerank [odp](odp/tt09-pagerank.odp)/[pdf](pdf/tt09-pagerank.pdf)
+* Lecture TT06: pagerank [pdf](pdf/tt09-pagerank.pdf)
    * Exercise: compute simplified PageRank (spreadsheet)
-* Lecture TT10bis: case study on centrality [odp](odp/tt10bis-centrality_case_study.odp)/[pdf](pdf/tt10bis-centrality_case_study.pdf) - [notebook](../practicum/data/case-study-florentine)
+* Lecture TT07: case study on centrality [pdf](pdf/tt10bis-centrality_case_study.pdf) - [notebook](../practicum/data/case-study-florentine)
 
 ### After class
 
@@ -106,7 +106,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### Extra content: more on PageRank
 
-* Lecture TT10: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
+* Lecture TT07bis: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
 ## Session 5: Mid-term exam (October 20th, 2023)
 
@@ -116,7 +116,7 @@ Study on your own, try to solve exams from past years.
 
 ### During class
 
-We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be TT01-TT09, TT10bis.
+We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be from lectures TT01-TT07.
 
 ## Session 6: Random networks (ER model)
 
