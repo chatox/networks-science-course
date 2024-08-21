@@ -2,15 +2,17 @@
 
 :construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
 
-There are 12 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop.
+There are 11 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop.
 
 **Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
 
-**During class,** I will present the contents using slides and we will do together some exercises using Padlets or Google Spreadsheets. In one of the sessions, a *midterm exam* will be taken, and at the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
+**During class,** I will present the contents using slides and we will do together some exercises using Padlets or Google Spreadsheets, or on the blackboard. 
 
 **After each session, there is some reading for you to do.** These readings will be much easier after you have attended each lecture, will bring depth to what you learn in class, and will help you remember these contents better. Think of these readings as continuous studying that will save time and effort when preparing for the exams.
 
-## Session 1: Introduction
+**Exams.** After four session, a *midterm exam* will be taken. At the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class.
+
+## Session 1: Why studying Network Science
 
 ### Before class
 
@@ -29,7 +31,6 @@ There are 12 theory sessions of 2 hours each. They will all take place face-to-f
    * Exercise: draw degree distribution (spreadsheet)
    * Exercise: left-project and right-project a graph
 
-
 ### After class
 
 * Read [chapter 2](http://networksciencebook.com/chapter/2) of the book by Barabási
@@ -42,42 +43,21 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science)
 * :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
 
-## Session 2: Distances, homophily, triangles
-
-### Before class
-
-* :tv: Watch the 4-minutes video on [clustering coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
-
-### During class
-
-* Lecture TT04: connectivity [odp](odp/tt04-connectivity.odp)/[pdf](pdf/tt04-connectivity.pdf)
-   * Quick exercise: find strongly connected components
-* Lecture TT05: homophily and triangles [odp](odp/tt05-homophily_triangles.odp)/[pdf](pdf/tt05-homophily_triangles.pdf)
-   * Exercise: homophilic, heterophilic, or neutral (pin board)
-   * Exercise: compute local clustering coefficients (pin board)
-* Lecture TT06: closeness [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
-   * Exercise: compute closeness and harmonic closeness (spreadsheet)
-
-### After class
-
-* :tv: Watch this 6-minutes video on [Why we prefer people just like us, and why that's potentially dangerous](https://www.youtube.com/watch?v=O7CJBnGkqEk) by Nicholas Christakis
-
-## Session 3: Betweenness, hubs, and authorities
+## Session 2: We live in a small world
 
 ### Before class
 
 * :tv: Watch this 5-minutes [explanation of network centrality measures](https://www.youtube.com/watch?v=NgUj8DEH5Tc)
 * :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
-* :tv: Watch the 12-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=-kiKUYM9Qq8) by Daniel Romero
-   * *Or* watch the 15-minutes [explanation of Hubs and Authorities](https://www.youtube.com/watch?v=zydSN8C1Et4) by Jure Leskovec
 
 ### During class
 
-* Lecture TT07: betweenness [odp](odp/tt07-betweenness.odp)/[pdf](pdf/tt07-betweenness.pdf)
+* Lecture TT03: Graph Theory: Connectivity [odp](odp/tt04-connectivity.odp)/[pdf](pdf/tt04-connectivity.pdf)
+   * Quick exercise: find strongly connected components
+* Lecture TT04: Graph Theory: Centrality [odp](odp/tt06-closeness.odp)/[pdf](pdf/tt06-closeness.pdf)
+   * Exercise: compute closeness and harmonic closeness (spreadsheet)
    * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
-* Lecture TT08: hubs and authorities [odp](odp/tt08-hubs_authorities.odp)/[pdf](pdf/tt08-hubs_authorities.pdf) -- In 2023 we moved the computation to the next session
-   * Exercise: compute hub and authority scores iteratively (spreadsheet)
 
 ### After class
 
@@ -85,6 +65,27 @@ Both of these are great to provide context for the course, and will help you sta
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
 
+## Session 3: Friends will be friends
+
+### Before class
+
+* :tv: Watch the 4-minutes video on [clustering coefficient](https://www.youtube.com/watch?v=YkatiyqHCXk)
+
+### During class
+
+* Lecture TT05: Graph Theory: Degree Correlations, Clustering, and Homophily  [odp](odp/tt05-homophily_triangles.odp)/[pdf](pdf/tt05-homophily_triangles.pdf)
+   * Exercise: average nearest neighbors' degree in uncorrelated networks (blackboard)
+   * Exercise: compute local clustering coefficients (pin board)
+   * Exercise: homophilic, heterophilic, or neutral (pin board)
+
+### After class
+
+* :tv: Watch this 6-minutes video on [Why we prefer people just like us, and why that's potentially dangerous](https://www.youtube.com/watch?v=O7CJBnGkqEk) by Nicholas Christakis
+
+### Optional/additional material
+
+* If you are not sure whether you understood the friendship paradox or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
+  
 ## Session 4: PageRank and case study
 
 ### Before class
@@ -111,7 +112,7 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### Before class
 
-Study on your own, try to solve exams from past years. Ask your questions in the forum.
+Study on your own, try to solve exams from past years. 
 
 ### During class
 
@@ -153,10 +154,6 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 ### After class
 
 * Read the [chapter 4](http://networksciencebook.com/chapter/4) of the book by Barabási
-
-### Optional/additional material
-
-* If you are not sure whether you understood the friendship paradox or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
 
 ## Session 8: Preferential attachment
 
