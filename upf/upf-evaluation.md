@@ -4,7 +4,7 @@
 
 Continuous evaluation will be based in the following elements:
 
-* A: Average grade in the 8-9 practical sessions with grade
+* A: Average grade in the 8 practical sessions: 50%
 * B: Grade in the mid-term exam: 20%
 * C: Grade in the final exam: 30%
 
@@ -40,7 +40,9 @@ In-class tests and exams are individual work.
 
 Not coming to an in-class test means a zero grade in that in-class test, unless you can justify your absence.
 
-:warning: Copying during a test/exam, knowingly facilitating the copy of others, elaborating, lending, or facilitating instruments for copying during an exam, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the university regulations, with a **suspension from the university** for a minimum of six months and a maximum of four years.
+You will be allowed to bring your notes to the exams. No laptops or phones will be allowed.
+
+:warning: Copying during a test/exam, knowingly facilitating the copying of others, elaborating, lending, or facilitating instruments for copying during an exam, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the university regulations, with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
 ## 2. Guidelines for submitting your work
 
@@ -105,7 +107,7 @@ As a data scientist your reports and code should be (among other things) correct
 
 # 3. Asking questions
 
-* As a general rule, **do not e-mail theory or practice instructors**. One exception to this rule is to communicate a justified absence to a practice session to the practice instructor, attaching the related justification (e.g., a medical appointment).
+* As a general rule, please, **do not e-mail theory or practice instructors**. One exception to this rule is to communicate a justified absence to a practice session to the practice instructor, attaching the related justification (e.g., a medical appointment).
 
 * If you need help installing software or packages in your computer, please ask your classmates, for instance through the Aula Global's forum. Instructors are not responsible for debugging your installation. As (future) data scientists, you should be able to install software on your own. **You are responsible for having the necessary software installed before the start of the practice session.**
 
