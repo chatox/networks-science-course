@@ -22,24 +22,27 @@ You will need:
 
 Practice sessions are conducted with a computer.
 
-There are nine practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
-
-:bulb: **Read the practice descriptions before the session,** as they can be sometimes long. You can start working on these at any point, but they are not definitive until the end of the session; details may change.
+There are eight practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
+
+**Deadline**
+
+You are expected to deliver your work within the deadline. Deadlines vary: some practices may be delivered several days after the practice sessions, other are expected to be delivered **at the end of the session**, i.e., you will have to complete them within the two hours.
+
 
 | # | Handouts                                    | Contents | Session Date 101 | Deadline 101 | Session Date 201 |  Deadline 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
 | 1 | [PS01](pending.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Sept. 27th, 16:30 | Sept. 28th, 18:30 |  Sept. 27th, 14:30 | Sept. 28th, 16:30 |
 | 2 | [PS02](ps03-flavors.ipynb)                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 2nd, 16:30 | Oct. 11nd, 18:30 | Oct. 4th, 14:30 | Oct. 13th, 16:30 |
 | 3 | [PS03](ps04-networks_from_text.ipynb)       | NetworkX and Cytoscape: creating a network using textual data | Oct. 9th, 16:30 | Oct. 22th, 18:30 | Oct. 11th, 14:30 | Oct. 22th, 16:30 |
-| 4 | [PS04](ps05-hubs_authorities.ipynb)         | NetworkX: hubs and authorities | Oct. 16th, 16:30 | Oct. 22th, 18:30 | Oct. 18th, 14:30 | Oct. 22th, 16:30 |
+| 4 | [PS04](ps05-weighted_networks.ipynb)         | NetworkX: weighted networks | Oct. 16th, 16:30 | Oct. 22th, 18:30 | Oct. 18th, 14:30 | Oct. 22th, 16:30 |
 | 5 | [PS05](ps06-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 17th, 18:30 | Oct. 22th, 20:30 | Oct. 21th, 18:30 | Oct. 22th, 20:30 |
-| 6* | PS03+PS04+PS05                             | Wrap-up | Oct. 22th, 14:30 | ----- | ?? (I guess they should be done at the same time?) | -----
+| 6* | PS03+PS04+PS05                             | Wrap-up | Oct. 22th, 14:30 | ----- | Oct. 31st, 14:30 | ----- |
 | 7 | [PS06](ps07-network_models.ipynb)           | NetworkX: network models | Nov. 6th, 16:30 | Nov. 27th, 18:30 | Nov. 8th, 14:30 | Nov. 27th, 16:30 |
 | 8 | [PS07](copy_from_another_year.ipynb)        | NetworkX: k-cores | Nov. 13th, 16:30 | Nov. 27th, 18:30 | Nov. 15th, 14:30 | Nov. 27th, 16:30 |
 | 9 | [PS08](ps08-communities.ipynb)              | NetworkX: community detection | Nov. 20th, 16:30 | Nov. 27th, 18:30 | Nov. 22th, 14:30 | Nov. 27th, 16:30 |
-| 10* | PS06+PS07+PS08                            | Wrap-up | Nov. 27th, 16:30 | ----- | Nov. 27th, 16:30 | -----
+| 10* | PS06+PS07+PS08                            | Wrap-up | Nov. 27th, 16:30 | ----- | Nov. 27th, 18:30 | -----
 | 11* | Old exams                                 | Old exams review | Nov. 28th, 18:30 | ----- | Nov. 29th, 14:30 | -----
 
 \* Participation in wrap-up sessions (#6, #10) is **optional**.
