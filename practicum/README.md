@@ -36,7 +36,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 1 | [PS01](pending.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Sept. 27th, 16:30 | Sept. 28th, 18:30 |  Sept. 27th, 14:30 | Sept. 28th, 16:30 |
 | 2 | [PS02](ps03-flavors.ipynb)                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 2nd, 16:30 | Oct. 11nd, 18:30 | Oct. 4th, 14:30 | Oct. 13th, 16:30 |
 | 3 | [PS03](ps04-networks_from_text.ipynb)       | NetworkX and Cytoscape: creating a network using textual data | Oct. 9th, 16:30 | Oct. 22th, 18:30 | Oct. 11th, 14:30 | Oct. 22th, 16:30 |
-| 4 | [PS04](ps05-weighted_networks.ipynb)         | NetworkX: weighted networks | Oct. 16th, 16:30 | Oct. 22th, 18:30 | Oct. 18th, 14:30 | Oct. 22th, 16:30 |
+| 4 | [PS04](ps05-weighted_networks.ipynb)         | NetworkX: weighted networks | Oct. 16th, 16:30 | Oct. 16th, 18:30 | Oct. 18th, 14:30 | Oct. 18th, 16:30 |
 | 5 | [PS05](ps06-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 17th, 18:30 | Oct. 22th, 20:30 | Oct. 21th, 18:30 | Oct. 22th, 20:30 |
 | 6* | PS03+PS04+PS05                             | Wrap-up | Oct. 22th, 14:30 | ----- | Oct. 31st, 14:30 | ----- |
 | 7 | [PS06](ps07-network_models.ipynb)           | NetworkX: network models | Nov. 6th, 16:30 | Nov. 27th, 18:30 | Nov. 8th, 14:30 | Nov. 27th, 16:30 |
