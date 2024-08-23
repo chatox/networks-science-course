@@ -1,7 +1,5 @@
 # List of theory topics
 
-:construction: These materials should not be considered final until the end of the course. Materials from previous editions can be found in other branches of the repository for the course.
-
 There are 12 theory sessions of 2 hours each. They will all take place face-to-face. Please bring your laptop. One theory session is devoted to the mid-term exam (see below). 
 
 **Before each class, there are short videos you should watch.** They are up to 20 minutes in total, and watching them requires some preparation/scheduling on your part. Please set aside time in your schedule to watch these videos before coming to class, ideally on the day before.
@@ -96,19 +94,15 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT06: pagerank [pdf](pdf/tt09-pagerank.pdf)
+* Lecture TT07: pagerank [pdf](pdf/tt07-pagerank.pdf)
    * Exercise: compute simplified PageRank (spreadsheet)
-* Lecture TT07: case study on centrality [pdf](pdf/tt10bis-centrality_case_study.pdf) - [notebook](../practicum/data/case-study-florentine)
+* Lecture TT07: case study on centrality [pdf](pdf/tt08-casestudy.pdf) - [notebook](../practicum/data/case-study-florentine)
 
 ### After class
 
 * Read the [chapter 14](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch14.pdf) of the book by Easley and Kleinberg
 * :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 * :tv: Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
-
-### Extra content: more on PageRank
-
-* Lecture TT07bis: pagerank extra material [odp](odp/tt10-pagerank_extra.odp)/[pdf](pdf/tt10-pagerank_extra.pdf)
 
 ## Session 5: Mid-term exam (October 23rd, 2024, 16:30)
 
@@ -120,6 +114,7 @@ Study on your own, try to solve exams from past years.
 
 We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be from lectures TT01-TT07.
 
+```
 ## Session 6: Random networks (ER model)
 
 ### Before class
@@ -260,12 +255,13 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 The final exam will include the random network model (TT11-TT12), scale-free networks (TT13-TT14), the preferential attachment model (TT15-T17), community detection (TT19-TT21), spectral methods (TT22), and spreading phenomena (TT23-TT24). This excludes decks not seen in class, optional/additional slide decks, and slides marked "Extra".
 
+
 # Notes
 
 These slides are made with LibreOffice and the [TexMaths](https://extensions.libreoffice.org/extensions/texmaths-1) extension, which allows to easily enter and edit LaTeX equations that are embedded as images in the slides.
 
 Note that the source files include some solutions, while the PDF files do not include them. Use this while studying: do not look at the solutions until you have tried to solve the problem yourself.
-
+```
 # Sources/credits
 
 Some theory topics closely follow the "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In all cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
