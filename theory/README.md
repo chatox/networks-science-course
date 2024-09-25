@@ -96,9 +96,9 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT07: pagerank [pdf](pdf/tt07-pagerank.pdf)
+* Lecture TT07: PageRank [pdf](pdf/tt07-pagerank.pdf)
    * Exercise: compute simplified PageRank (spreadsheet)
-* Lecture TT07: case study on centrality [pdf](pdf/tt08-casestudy.pdf) - [notebook](../practicum/data/case-study-florentine)
+* Lecture TT08: Case study on centrality [pdf](pdf/tt08-casestudy.pdf) - [notebook](../practicum/data/case-study-florentine)
 
 ### After class
 
