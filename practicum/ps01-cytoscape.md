@@ -248,10 +248,9 @@ Deliver a brief report of at most 9 pages (it can be less!!), in PDF format. Org
 * For each section, you should include basically the parts marked "[**REPORT**]" in this readme:
    * Section 1 should be a table with the number of nodes and adges in the networks used throught this practise
    * Section 2 should be everything you were asked to do in 1.1 and 1.2
-   * Section 3 should be everything that you were asked to do in section 3.1, 3.2 and 3.3
-   * Section 4 should be everything that you were asked to do in section 4.2
-   * Section 5 sould be everything that you were asked to do in section 5.2
-   * Section 6 should be everything that you were asked to do in section 6.1 and 6.2
+   * Section 3 should be everything that you were asked to do in section 3.1
+   * Section 4 should be everything that you were asked to do in section 4.1, 4.2
+   * Section 5 sould be everything that you were asked to do in section 5.1, 5.2
 
 **Please be brief,** you do not need to write too much; your report can be less than nine pages. A "brief commentary" means one or two paragraphs.
 
