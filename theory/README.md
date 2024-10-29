@@ -148,9 +148,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT11: Network models: Scale-free (SF) networks [pdf](pdf/tt13-scale_free_networks.pdf)
+* Lecture TT11: Scale-free (SF) networks [pdf](pdf/tt13-scale_free_networks.pdf)
    * Exercise: compute nodes with an expected degree
-* Lecture TT12: Network models: distances in SF networks [pdf](pdf/tt14-distances_scale_free_nets.pdf)
+* Lecture TT12: Distances in SF networks [pdf](pdf/tt14-distances_scale_free_nets.pdf)
    * Exercise: compare average distances estimators for some networks
 
 ### After class
@@ -158,6 +158,22 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 * Read the [chapter 4](http://networksciencebook.com/chapter/4) of the book by Barabási
 
 
+## Session 8: Modelling SF networks
+
+### Before class
+
+* :tv: Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=hgrJCBmdjws) from a course on fractals and scaling
+
+### During class
+
+* Lecture TT13: Network models: preferential attachment [odp](odp/tt16-preferential_attachment.odp)/[pdf](pdf/tt16-preferential_attachment.pdf)
+   * Exercise: guess slope of degree distribution, using NetLogo to run simulations (pin board)
+   * Exercise: write formula for number of nodes and edges over time
+* Lecture TT14: Degree under preferential attachment [odp](odp/tt17-preferential_attachment_degree.odp)/[pdf](pdf/tt17-preferential_attachment_degree.pdf)
+
+### After class
+
+* Read the [chapter 5](http://networksciencebook.com/chapter/5) of the book by Barabási
 
 # Sources/credits
 
