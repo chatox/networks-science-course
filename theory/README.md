@@ -166,10 +166,10 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT13: Network models: preferential attachment [odp](odp/tt16-preferential_attachment.odp)/[pdf](pdf/tt16-preferential_attachment.pdf)
+* Lecture TT13: Network models: preferential attachment [pdf](pdf/tt16-preferential_attachment.pdf)
    * Exercise: guess slope of degree distribution, using NetLogo to run simulations (pin board)
    * Exercise: write formula for number of nodes and edges over time
-* Lecture TT14: Degree under preferential attachment [odp](odp/tt17-preferential_attachment_degree.odp)/[pdf](pdf/tt17-preferential_attachment_degree.pdf)
+* Lecture TT14: Degrees under preferential attachment [pdf](pdf/tt17-preferential_attachment_degree.pdf)
 
 ### After class
 
