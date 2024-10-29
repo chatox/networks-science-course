@@ -148,9 +148,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT13: Network models: Scale-free (SF) networks [pdf](pdf/tt13-scale_free_networks.pdf)
+* Lecture TT11: Network models: Scale-free (SF) networks [pdf](pdf/tt13-scale_free_networks.pdf)
    * Exercise: compute nodes with an expected degree
-* Lecture TT14: Network models: distances in SF networks [pdf](pdf/tt14-distances_scale_free_nets.pdf)
+* Lecture TT12: Network models: distances in SF networks [pdf](pdf/tt14-distances_scale_free_nets.pdf)
    * Exercise: compare average distances estimators for some networks
 
 ### After class
