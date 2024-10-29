@@ -12,6 +12,7 @@ There are 12 theory sessions of 2 hours each. They will all take place face-to-f
 
 **Exams.** After four sessions, a *midterm exam* will be taken. At the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class. You will be allowed to bring your notes to the exams. No laptops or phones will be allowed.
 
+
 ## Session 1: Why studying Network Science
 
 ### Before class
@@ -43,6 +44,7 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science)
 * :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
 
+
 ## Session 2: We live in a small world
 
 ### Before class
@@ -64,6 +66,7 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
+
 
 ## Session 3: Friends will be friends
 
@@ -87,6 +90,7 @@ Both of these are great to provide context for the course, and will help you sta
 ### Optional/additional material
 
 * If you are not sure whether you understood the friendship paradox or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
+
   
 ## Session 4: PageRank and case study
 
@@ -115,6 +119,44 @@ Study on your own, try to solve exams from past years.
 ### During class
 
 We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be from lectures TT01-TT07.
+
+
+## Session 6: The Erdos Renyi model
+
+### Before class
+
+* :tv: Watch the 17-minutes video on [the ER random graph model](https://www.youtube.com/watch?v=3PxteAgVf0o) by Lada Adamic (has subtitles in English)
+
+### During class
+
+* Lecture TT09: Network models: Erdos Renyi (ER) networks [pdf](pdf/tt09-ERmodel.pdf)
+   * Exercise: guess the formula for the expected number of links
+   * Exercise: compute the expected number of links and expected average degree
+* Lecture TT10: Network models: properties of ER networks [pdf](pdf/tt10-ERproperties.pdf)
+   * Exercise: guess the critical point at which a giant connected component emerges
+   * Exercise: find critical N for a graph to be connected
+
+### After class
+
+* Read [chapter 3](http://networksciencebook.com/chapter/3) of the book by Barabási
+
+## Session 7: Scale-free Networks
+
+### Before class
+
+* :tv: Watch this 20-minutes [video on Zipf, Pareto, and power laws](https://www.youtube.com/watch?v=ViUqxEF4plA&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=10) by Lada Adamic. It is a great explanation of a phenomenon that goes well beyond networks.
+
+### During class
+
+* Lecture TT13: Network models: Scale-free (SF) networks [pdf](pdf/tt13-scale_free_networks.pdf)
+   * Exercise: compute nodes with an expected degree
+* Lecture TT14: Network models: distances in SF networks [pdf](pdf/tt14-distances_scale_free_nets.pdf)
+   * Exercise: compare average distances estimators for some networks
+
+### After class
+
+* Read the [chapter 4](http://networksciencebook.com/chapter/4) of the book by Barabási
+
 
 
 # Sources/credits
