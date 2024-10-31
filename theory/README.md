@@ -148,9 +148,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT11: Scale-free (SF) networks [pdf](pdf/tt13-scale_free_networks.pdf)
+* Lecture TT11: Scale-free (SF) networks [pdf](pdf/tt11-SFnetworks.pdf)
    * Exercise: compute nodes with an expected degree
-* Lecture TT12: Distances in SF networks [pdf](pdf/tt14-distances_scale_free_nets.pdf)
+* Lecture TT12: Distances in SF networks [pdf](pdf/tt12-distancesSFnets.pdf)
    * Exercise: compare average distances estimators for some networks
 
 ### After class
@@ -166,9 +166,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT13: Network models: Barabasi-Albert networks [pdf](pdf/tt16-preferential_attachment.pdf)
+* Lecture TT13: Network models: Barabasi-Albert networks [pdf](pdf/tt13-BAmodel.pdf)
    * Exercise: write formula for number of nodes and edges over time
-* Lecture TT14: Network models: Properties of BA networks [pdf](pdf/tt17-preferential_attachment_degree.pdf)
+* Lecture TT14: Network models: Properties of BA networks [pdf](pdf/tt14-propertiesBAnetworks.pdf)
 
 ### After class
 
