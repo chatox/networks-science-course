@@ -121,7 +121,7 @@ Study on your own, try to solve exams from past years.
 We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be from lectures TT01-TT07.
 
 
-## Session 6: The Erdos Renyi model
+## Session 6: Modelling homogeneous networks
 
 ### Before class
 
@@ -158,7 +158,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 * Read the [chapter 4](http://networksciencebook.com/chapter/4) of the book by Barabási
 
 
-## Session 8: Modelling SF networks
+## Session 8: Modelling heterogeneous networks
 
 ### Before class
 
