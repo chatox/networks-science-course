@@ -166,10 +166,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT13: Network models: preferential attachment [pdf](pdf/tt16-preferential_attachment.pdf)
-   * Exercise: guess slope of degree distribution, using NetLogo to run simulations (pin board)
+* Lecture TT13: Network models: Barabasi-Albert networks [pdf](pdf/tt16-preferential_attachment.pdf)
    * Exercise: write formula for number of nodes and edges over time
-* Lecture TT14: Degrees under preferential attachment [pdf](pdf/tt17-preferential_attachment_degree.pdf)
+* Lecture TT14: Network models: Properties of BA networks [pdf](pdf/tt17-preferential_attachment_degree.pdf)
 
 ### After class
 
