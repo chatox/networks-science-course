@@ -174,8 +174,37 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 * Read the [chapter 5](http://networksciencebook.com/chapter/5) of the book by Barabási
 
+
+## Session 9: Communities
+
+### Before class
+
+* :tv: Watch this 10-minutes video on [k-core decomposition](https://www.youtube.com/watch?v=rHVrgbc_3JA)
+* :tv: Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
+
+### During class
+
+* Lecture TT15: Community structure [pdf](pdf/tt15-community_structure.pdf)
+   * Exercise: perform a k-core decomposition
+   * Exercise: invent a variant of the ER model that generates graphs having two communities
+* Lecture TT16: Community detection [pdf](pdf/tt16-community_detection.pdf)
+   * Exercise: indicate if communities are strong or weak
+   * Exercise: compute cut size under two different partitions (pin board)
+   * Exercise: compute modularity
+
+### After class
+
+* Read the [sections 9.1 and 9.2](http://networksciencebook.com/chapter/9) of the book by Barabási
+
+### Optional/additional material
+
+* Read [sections 1 and 2 of this paper on the k-core decomposition](https://link.springer.com/article/10.1007/s00778-019-00587-4) -- do not worry if you cannot follow all details
+
+
 # Sources/credits
 
 Some theory topics closely follow the "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In all cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
 
 [<img src="../upf/cc-by-80x15.png" width="80" height="15" hspace="4"/>](https://creativecommons.org/licenses/by/4.0/) Slides available under a [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license unless specified otherwise.
+
+
