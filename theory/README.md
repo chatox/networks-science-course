@@ -12,6 +12,7 @@ There are 12 theory sessions of 2 hours each. They will all take place face-to-f
 
 **Exams.** After four sessions, a *midterm exam* will be taken. At the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class. You will be allowed to bring your notes to the exams. No laptops or phones will be allowed.
 
+
 ## Session 1: Why studying Network Science
 
 ### Before class
@@ -43,6 +44,7 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the 45-minutes documentary [The Emergence of Network Science](https://www.cornell.edu/video/emergence-of-network-science)
 * :tv: Watch the one-hour talk "[The Sociological Science Behind Social Networks and Social Influence](https://www.youtube.com/watch?v=wadBvDPeE4E)" by Nicholas Christakis (has subtitles in English).
 
+
 ## Session 2: We live in a small world
 
 ### Before class
@@ -64,6 +66,7 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the first 15-minutes of this 26-minutes video on [degree, betweenness, and closeness as centrality measures](https://www.youtube.com/watch?v=RXohUeNCJiU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=7) by Lada Adamic. The first half of the video is about degree, the second half about betweenness and closeness.
 * Read sections 10.2.3 on betweenness and 10.2.4 on the Girvan-Newman algorithm in [Mining Massive Datasets](http://infolab.stanford.edu/~ullman/mmds/book.pdf)
 * Read section 3.6 on betweenness and graph partitioning of [chapter 3](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch03.pdf) of the book by Easley and Kleinberg
+
 
 ## Session 3: Friends will be friends
 
@@ -87,6 +90,7 @@ Both of these are great to provide context for the course, and will help you sta
 ### Optional/additional material
 
 * If you are not sure whether you understood the friendship paradox or not, or if you want to learn more about it, watch this [half-hour explanation of the friendship paradox](https://www.youtube.com/watch?v=7ffzDepERnQ)
+
   
 ## Session 4: PageRank and case study
 
@@ -117,8 +121,90 @@ Study on your own, try to solve exams from past years.
 We will have a mid-term exam; there will be no lecture after the exam. The topics for the exam will be from lectures TT01-TT07.
 
 
+## Session 6: Modelling homogeneous networks
+
+### Before class
+
+* :tv: Watch the 17-minutes video on [the ER random graph model](https://www.youtube.com/watch?v=3PxteAgVf0o) by Lada Adamic (has subtitles in English)
+
+### During class
+
+* Lecture TT09: Network models: Erdos Renyi (ER) networks [pdf](pdf/tt09-ERmodel.pdf)
+   * Exercise: guess the formula for the expected number of links
+   * Exercise: compute the expected number of links and expected average degree
+* Lecture TT10: Network models: properties of ER networks [pdf](pdf/tt10-ERproperties.pdf)
+   * Exercise: guess the critical point at which a giant connected component emerges
+   * Exercise: find critical N for a graph to be connected
+
+### After class
+
+* Read [chapter 3](http://networksciencebook.com/chapter/3) of the book by Barabási
+
+## Session 7: Scale-free Networks
+
+### Before class
+
+* :tv: Watch this 20-minutes [video on Zipf, Pareto, and power laws](https://www.youtube.com/watch?v=ViUqxEF4plA&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=10) by Lada Adamic. It is a great explanation of a phenomenon that goes well beyond networks.
+
+### During class
+
+* Lecture TT11: Scale-free (SF) networks [pdf](pdf/tt11-SFnetworks.pdf)
+   * Exercise: compute nodes with an expected degree
+* Lecture TT12: Distances in SF networks [pdf](pdf/tt12-distancesSFnets.pdf)
+   * Exercise: compare average distances estimators for some networks
+
+### After class
+
+* Read the [chapter 4](http://networksciencebook.com/chapter/4) of the book by Barabási
+
+
+## Session 8: Modelling heterogeneous networks
+
+### Before class
+
+* :tv: Watch the 13-minutes video on [preferential attachment](https://www.youtube.com/watch?v=hgrJCBmdjws) from a course on fractals and scaling
+
+### During class
+
+* Lecture TT13: Network models: Barabasi-Albert networks [pdf](pdf/tt13-BAmodel.pdf)
+   * Exercise: write formula for number of nodes and edges over time
+* Lecture TT14: Network models: Properties of BA networks [pdf](pdf/tt14-propertiesBAnetworks.pdf)
+
+### After class
+
+* Read the [chapter 5](http://networksciencebook.com/chapter/5) of the book by Barabási
+
+
+## Session 9: Communities
+
+### Before class
+
+* :tv: Watch this 10-minutes video on [k-core decomposition](https://www.youtube.com/watch?v=rHVrgbc_3JA)
+* :tv: Watch the 10-minutes lecture on [why detecting communities](https://www.youtube.com/watch?v=INR0N3nA8uU&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=12) by Lada Adamic
+
+### During class
+
+* Lecture TT15: Community structure [pdf](pdf/tt15-community_structure.pdf)
+   * Exercise: perform a k-core decomposition
+   * Exercise: invent a variant of the ER model that generates graphs having two communities
+* Lecture TT16: Community detection [pdf](pdf/tt16-community_detection.pdf)
+   * Exercise: indicate if communities are strong or weak
+   * Exercise: compute cut size under two different partitions (pin board)
+   * Exercise: compute modularity
+
+### After class
+
+* Read the [sections 9.1 and 9.2](http://networksciencebook.com/chapter/9) of the book by Barabási
+
+### Optional/additional material
+
+* Read [sections 1 and 2 of this paper on the k-core decomposition](https://link.springer.com/article/10.1007/s00778-019-00587-4) -- do not worry if you cannot follow all details
+
+
 # Sources/credits
 
 Some theory topics closely follow the "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In all cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
 
 [<img src="../upf/cc-by-80x15.png" width="80" height="15" hspace="4"/>](https://creativecommons.org/licenses/by/4.0/) Slides available under a [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license unless specified otherwise.
+
+

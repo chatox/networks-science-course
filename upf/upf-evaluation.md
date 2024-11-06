@@ -40,7 +40,7 @@ In-class tests and exams are individual work.
 
 Not coming to an in-class test means a zero grade in that in-class test, unless you can justify your absence.
 
-You will be allowed to bring your notes to the exams. No laptops or phones will be allowed.
+You are not allowed to bring notes to the exams. No laptops or phones will be allowed.
 
 :warning: Copying during a test/exam, knowingly facilitating the copying of others, elaborating, lending, or facilitating instruments for copying during an exam, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the university regulations, with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
