@@ -186,11 +186,11 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 * Lecture TT15: Community structure [pdf](pdf/tt15-community_structure.pdf)
    * Exercise: perform a k-core decomposition
-   * Exercise: invent a variant of the ER model that generates graphs having two communities
-* Lecture TT16: Community detection [pdf](pdf/tt16-community_detection.pdf)
    * Exercise: indicate if communities are strong or weak
    * Exercise: compute cut size under two different partitions (pin board)
+* Lecture TT16: Community detection [pdf](pdf/tt16-community_detection.pdf)
    * Exercise: compute modularity
+   * Exercise: invent a variant of the ER model that generates graphs having two communities
 
 ### After class
 
