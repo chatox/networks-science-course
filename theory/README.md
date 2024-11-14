@@ -208,9 +208,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT17: spectral graph theory [pdf](pdf/tt22-spectral_graph_theory.pdf)
+* Lecture TT17: spectral graph theory [pdf](pdf/tt17-spectral_graph_theory.pdf)
    * Exercise: perform random 2D projection of a graph
-* Lecture TT18: spectral graph embedding [pdf](pdf/tt22-spectral_graph_embedding.pdf)
+* Lecture TT18: spectral graph embedding [pdf](pdf/tt18-spectral_graph_embedding.pdf)
    * Exercise: spectral projection of a graph
 
 ### After class
