@@ -200,6 +200,28 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 * Read [sections 1 and 2 of this paper on the k-core decomposition](https://link.springer.com/article/10.1007/s00778-019-00587-4) -- do not worry if you cannot follow all details
 
+## Session 10: Spectral graph embedding
+
+### Before class
+
+* :tv: Watch the lessons on [graph Laplacian](https://www.youtube.com/watch?v=Cedjf9G0otE) and [spectral graph partitioning](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec
+
+### During class
+
+* Lecture TT17: spectral graph theory [pdf](pdf/tt22-spectral_graph_theory.pdf)
+   * Exercise: perform random 2D projection of a graph
+* Lecture TT18: spectral graph embedding [pdf](pdf/tt22-spectral_graph_embedding.pdf)
+   * Exercise: spectral projection of a graph
+
+### After class
+
+* :tv: Watch the lesson on [partitioning in three or more communities](https://www.youtube.com/watch?v=siCPjpUtE0A) by Jure Leskovec at Stanford
+
+### Optional/additional materials
+
+* :tv: Watch the lessons on [heuristics for finding communities](https://www.youtube.com/watch?v=yz0oIMHOz_8&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=13), and [community finding algorithms](https://www.youtube.com/watch?v=MLmpyL1NdCs&list=PL2rR6Wa-StjYOW7v6J8_npck6EDOKEbCN&index=14) by Lada Adamic
+* :tv: Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
+
 
 # Sources/credits
 
