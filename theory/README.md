@@ -223,6 +223,26 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 * :tv: Watch the lessons on [detecting communities as clusters](https://www.youtube.com/watch?v=c0_vNfNZ4JM) and [what makes a good clustering](https://www.youtube.com/watch?v=zLuVrqlYKyg) by Jure Leskovec at Stanford
 
 
+## Session 11: Social Dynamics
+
+### Before class
+
+* :tv: Watch this 10 minutes [crash course on social influence](https://www.youtube.com/watch?v=UGxGDdQnC1Y) explaining some psychology concepts related to influence
+* :tv: Watch this 7 minutes [overview of network diffusion elements](https://www.youtube.com/watch?v=bTXUJQhEqL0)
+
+### During class
+
+* Lecture TT19: Introduction to Network Dynamics [pdf](pdf/tt19-network_dynamics.pdf)
+   * Exercise: indicate phenomena that spread virally (pin board)
+* Lecture TT20: Information diffusion [pdf](pdf/tt20-info_diffusion.pdf)
+   * Exercise: simulate linear threshold model (spreadsheet)
+   * Exercise: simulate independent cascade model (spreadsheet)
+
+### After class
+
+* Read [chapter 19](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf) of the book by Easley and Kleinberg
+
+
 # Sources/credits
 
 Some theory topics closely follow the "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In all cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
