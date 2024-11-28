@@ -243,6 +243,30 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 * Read [chapter 19](http://www.cs.cornell.edu/home/kleinber/networks-book/networks-book-ch19.pdf) of the book by Easley and Kleinberg
 
 
+## Session 12: Modelling Epidemics
+
+### Before class
+
+* :tv: Watch this 13-minutes [infection simulations](https://www.youtube.com/watch?v=7OLpKqTriio)
+* :tv: Watch this 24-minutes [explanation of the mathematics of the SIR model for COVID](https://www.youtube.com/watch?v=NKMHhm2Zbkw)
+
+### During class
+
+* Lecture TT21: Modelling Epidemics [pdf](pdf/tt21-epidemics.pdf)
+   * Exercise: How to reduce R0 of an epidemic
+* Lecture TT22: Epidemics on Networks [pdf](pdf/tt22-epi_netwroks.pdf)
+
+### After class
+
+* Read [chapter 10](http://networksciencebook.com/chapter/10) of the book by Barabási
+* Read [chapter 21](http://www.cs.cornell.edu/home/kleinber/networks-book/) of the work by Easley and Kleinberg
+
+
+## Final Exam (December 9th, 2023 at 15:00)
+
+The final exam will include the material seen in class after the midterm exam. 
+
+
 # Sources/credits
 
 Some theory topics closely follow the "[Networks Science](http://networksciencebook.com/)" book (2016) and course by Albert-László Barabási. In all cases, the sources are indicated either at the beginning or in the footer of the slides. Please feel free to use, copy, and adapt contents from these slides for whatever purposes, giving proper attribution.
