@@ -254,7 +254,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 * Lecture TT21: Modelling Epidemics [pdf](pdf/tt21-epidemics.pdf)
    * Exercise: How to reduce R0 of an epidemic
-* Lecture TT22: Epidemics on Networks [pdf](pdf/tt22-epi_netwroks.pdf)
+* Lecture TT22: Epidemics on Networks [pdf](pdf/tt22-epi_networks.pdf)
 
 ### After class
 
