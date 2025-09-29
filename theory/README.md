@@ -21,14 +21,14 @@ There are 12 theory sessions of 2 hours each. They will all take place face-to-f
 
 ### During class
 
-* Lecture TT01: Networks: Introduction [pdf](pdf/tt01-intro.pdf)
+* Lecture TT01: Introduction to Networks [pdf](pdf/tt01-intro.pdf)
    * :tv: First minute of [The hidden networks of everything](https://www.youtube.com/watch?v=RfgjHoVCZwU)
    * Exercise: find examples of networks (pin board)
 * Course overview
    * Overview of [theory topics](./)
    * Overview of [practice sessions](../practicum/README.md)
    * Overview of [evaluation rules](../upf/upf-evaluation.md)
-* Lecture TT02: Graph Theory: Basics [pdf](pdf/tt02-basics.pdf)
+* Lecture TT02: Basics of Graph Theory [pdf](pdf/tt02-basics.pdf)
    * Exercise: draw degree distribution (spreadsheet)
    * Exercise: left-project and right-project a graph
 
@@ -54,9 +54,9 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT03: Graph Theory: Connectivity [pdf](pdf/tt03-connectivity.pdf)
+* Lecture TT03: Connectivity in Graph Theory [pdf](pdf/tt03-connectivity.pdf)
    * Quick exercise: find strongly connected components
-* Lecture TT04: Graph Theory: Centrality [pdf](pdf/tt04-centrality.pdf)
+* Lecture TT04: Centrality in Graph Theory [pdf](pdf/tt04-centrality.pdf)
    * Exercise: compute closeness and harmonic closeness (spreadsheet)
    * Exercise: compute node betweenness (pin board)
    * Exercise: run the Brandes and Newman algorithm for betweenness
@@ -77,9 +77,9 @@ Both of these are great to provide context for the course, and will help you sta
 
 ### During class
 
-* Lecture TT05: Graph Theory: Degree Correlations  [pdf](pdf/tt05-assortativity.pdf)
+* Lecture TT05: Degree Correlations in Graph Theory [pdf](pdf/tt05-assortativity.pdf)
    * Exercise: average nearest neighbors' degree in uncorrelated networks (blackboard)
-* Lecture TT06: Graph Theory: Clustering, and Homophily  [pdf](pdf/tt06-clustering.pdf)
+* Lecture TT06: Clustering and Homophily in Graph Theory [pdf](pdf/tt06-clustering.pdf)
    * Exercise: compute local clustering coefficients (pin board)
    * Exercise: homophilic, heterophilic, or neutral (pin board)
 
