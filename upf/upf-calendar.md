@@ -5,5 +5,5 @@
 
 :warning: The exact date is subject to change if the course schedule changes.
 
-* Midterm EX01: Friday October 20th, 2023 from 18:30 to 20:30.
+* Midterm Exam: Wednesday October 22nd, 2025 from 16:30 to 18:30.
 * Final exam: to be scheduled by the school
