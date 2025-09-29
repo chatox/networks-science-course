@@ -110,7 +110,7 @@ Both of these are great to provide context for the course, and will help you sta
 * :tv: Watch the (10-minutes each) lessons on PageRank [2.5](https://www.youtube.com/watch?v=bK934gcJMS4), [2.6](https://www.youtube.com/watch?v=Nvb1WVWoYt4) by Jure Leskovec
 * :tv: Watch the lessons [matrix formulation of PageRank](https://www.youtube.com/watch?v=e2SZY3NbtQ8) and [PageRank and random walks](https://www.youtube.com/watch?v=CWzmnzB04eg) by Jure Leskovec
 
-## Session 5: Mid-term exam (October 23rd, 2024, 16:30)
+## Session 5: Mid-term exam (October 22nd, 2025, 16:30)
 
 ### Before class
 
