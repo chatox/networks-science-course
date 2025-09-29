@@ -34,6 +34,6 @@ Material specific to UPF students:
 
 This course is based on materials by [Carlos Castillo](https://chato.cl/).
 
-The course, particularly the second half, follows the [book and course on complex networks](https://www.barabasilab.com/course) by Albert-László Barabási.
+The course, particularly the second half, follows the [book and course on complex networks](http://networksciencebook.com/) by Albert-László Barabási.
 
 [<img src="upf/cc-by-80x15.png" width="80" height="15" hspace="4"/>](https://creativecommons.org/licenses/by/4.0/) Course materials are available under a [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license unless specified otherwise.
