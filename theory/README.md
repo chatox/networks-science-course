@@ -10,7 +10,7 @@ There are 12 theory sessions of 2 hours each. They will all take place face-to-f
 
 **After each session, there is some reading for you to do.** These readings will be much easier after you have attended each lecture, will bring depth to what you learn in class, and will help you remember these contents better. Think of these readings as continuous studying that will save time and effort when preparing for the exams.
 
-**Exams.** After four sessions, a *midterm exam* will be taken. At the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class. You will be allowed to bring your notes to the exams. No laptops or phones will be allowed.
+**Exams.** After four sessions, a *midterm exam* will be taken. At the end of the course, a *final exam* will be taken. The exam questions are based exclusively on the materials shown or discussed in the lectures during class. No laptops or phones will be allowed.
 
 
 ## Session 1: Why studying Network Science
