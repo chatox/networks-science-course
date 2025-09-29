@@ -24,8 +24,6 @@ To obtain a grade in the practical session, you must:
 * Deliver your work within the deadline.
 * Some practices will be delivered at the end of the session (i.e., they must be completed in two hours). 
 
-Extra points might be added to your grade, allowing you to have up to 12 points (instead of 10) in some practice sessions, however your total practice grade is capped at 10 points.
-
 Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence.
 
 :unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs, but each one should submit his/her own work individually and delivered practices must be different.
@@ -59,10 +57,6 @@ Identify the authorship and date of each report with a paragraph on the first pa
 All of your reports should end with the following statement:
 
 > **I hereby declare that, except for the code provided by the course instructors, all of my code, report, and figures were produced by myself.**
-
-or, in the case of work done in pairs/groups (if any):
-
-> **We hereby declare that, except for the code provided by the course instructors, all of our code, report, and figures were produced by ourselves.**
 
 These are some of the most common mistakes in reports, these deduct points from your grade:
 
@@ -109,7 +103,7 @@ As a data scientist your reports and code should be (among other things) correct
 
 * As a general rule, please, **do not e-mail theory or practice instructors**. One exception to this rule is to communicate a justified absence to a practice session to the practice instructor, attaching the related justification (e.g., a medical appointment).
 
-* If you need help installing software or packages in your computer, please ask your classmates, for instance through the Aula Global's forum. Instructors are not responsible for debugging your installation. As (future) data scientists, you should be able to install software on your own. **You are responsible for having the necessary software installed before the start of the practice session.**
+* If you need help installing software or packages in your computer, please ask your classmates, for instance, through the Aula Global's forum. Instructors are not responsible for debugging your installation. As (future) data scientists, you should be able to install software on your own. **You are responsible for having the necessary software installed before the start of the practice session.**
 
 * Please use the "Notice board" for general questions, and the forums "Questions about theory" and "Questions about practices" for questions on theory and practices. If any question is not answered in the forum, you can e-mail the instructors and ask for an appointment. 
 
