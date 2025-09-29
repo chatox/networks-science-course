@@ -22,7 +22,7 @@ You will need:
 
 Practice sessions are conducted with a computer.
 
-There are eight practice sessions in this course. The first two sessions have handouts that are documents, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
+There are eight practice sessions in this course. The first session's handout is a document, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
@@ -31,21 +31,21 @@ At the end of each handout there is a description of what you should deliver. Pl
 You are expected to deliver your work within the deadline. Deadlines vary: some practices may be delivered several days after the practice sessions, other are expected to be delivered **at the end of the session**, i.e., you will have to complete them within the two hours.
 
 
-| # | Handouts                                    | Contents | Session Date 101 | Deadline 101 | Session Date 201 |  Deadline 201 |
+| # | Handouts                                    | Contents | Session Date <br> 101/102 | Deadline <br> 101/102 | Session Date <br> 201 |  Deadline <br> 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
-| 1 | PS01                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Sept. 27th, 16:30 | Oct. 4th, 16:30 |  Sept. 27th, 14:30 | Oct. 4th, 16:30 |
-| 2 | PS02                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 2nd, 16:30 | Oct. 7th, 16:30 | Oct. 4th, 14:30 | Oct. 9th, 14:30 |
-| 3 | PS03       | NetworkX and Cytoscape: creating a network using textual data | Oct. 15th, 14:30 | Oct. 18th, 14:30 | Oct. 17th, 14:30 | Oct. 22th, 14:30 |
-| 4 | PS04         | NetworkX: weighted networks | Oct. 16th, 16:30 | Oct. 16th, 18:30 | Oct. 18th, 14:30 | Oct. 18th, 16:30 |
-| 5 | PS05                 | NetworkX: PageRank | Oct. 17th, 18:30 | Oct. 22th, 18:30 | Oct. 21th, 18:30 | Oct. 24th, 18:30 |
-| 6* | PS03+PS04+PS05                             | Wrap-up | Oct. 22th, 14:30 | ----- | Oct. 31st, 14:30 | ----- |
-| 7 | PS06           | NetworkX: network models | Nov. 6th, 16:30 | Nov. 11th, 16:30 | Nov. 8th, 14:30 | Nov. 13th, 13:30 |
-| 8 | PS07        | NetworkX: k-cores | Nov. 13th, 16:30 | Nov. 13th, 18:30 | Nov. 15th, 14:30 | Nov. 15th, 16:30 |
-| 9 | PS08              | NetworkX: community detection | Nov. 20th, 16:30 | Nov. 25th, 16:30 | Nov. 22th, 14:30 | Nov. 27th, 14:30 |
-| 10* | PS06+PS07+PS08                            | Wrap-up | Nov. 27th, 16:30 | ----- | Nov. 27th, 18:30 | -----
-| 11* | Old exams                                 | Old exams review | Nov. 28th, 18:30 | ----- | Nov. 29th, 14:30 | -----
+| 1 | PS01                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
+| 2 | PS02                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
+| 3 | PS03       | NetworkX and Cytoscape: creating a network using textual data | Oct. 14th, 14:30 | Oct. 21st, 14:30 | Oct. 16th, 14:30 | Oct. 23th, 14:30 |
+| 4 | PS04         | NetworkX: weighted networks | Oct. 15th, 16:30 | Oct. 15th, 18:30 | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
+| 5* | PS01-PS04                             | Wrap-up | Oct. 16th, 18:30 | ----- | Oct. 24th, 14:30 | ----- |
+| 6 | PS05                 | NetworkX: PageRank | Oct. 21st, 14:30 | Oct. 28th, 14:30 | Nov. 6th, 14:30 | Nov. 13th, 14:30 |
+| 7 | PS06           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 11th, 14:30 | Nov. 7th, 14:30 | Nov. 14th, 13:30 |
+| 8 | PS07        | NetworkX: k-cores | Nov. 14th, 16:30 | Nov. 14th, 18:30 | Nov. 17th, 18:30 | Nov. 17th, 20:30 |
+| 9 | PS08              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 28th, 16:30 | Nov. 24th, 18:30 | Dec. 1st, 18:30 |
+| 10* | PS05-PS08                            | Wrap-up | Nov. 25th, 14:30 | ----- | Nov. 27th, 14:30 | -----
+| 11* | Old exams                                 | Old exams review | Nov. 26th, 16:30 | ----- | Nov. 28th, 14:30 | -----
 
-\* Participation in wrap-up sessions (#6, #10) is **optional**.
+\* Participation in wrap-up sessions (#5, #10) is **optional**.
 
 ## Tutorials/reference
 
