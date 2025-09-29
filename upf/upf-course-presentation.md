@@ -1,6 +1,6 @@
 # <img src="upf_logo.png" align="right" width="80"/>24933 – Introduction to Networks Science
 
-Course presentation for the 2023 edition.
+Course presentation for the 2025 edition.
 
 ## Presentation
 
