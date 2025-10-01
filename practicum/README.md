@@ -45,7 +45,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 10* | PS05-PS08                            | Wrap-up | Nov. 25th, 14:30 | ----- | Nov. 27th, 14:30 | -----
 | 11* | Old exams                                 | Old exams review | Nov. 26th, 16:30 | ----- | Nov. 28th, 14:30 | -----
 
-\* Participation in wrap-up sessions (#5, #10) is **optional**.
+\* Participation in wrap-up sessions (#5, #10) and session #11 is **optional**.
 
 ## Tutorials/reference
 
