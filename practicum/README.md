@@ -35,7 +35,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
 | 1 | PS01                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
 | 2 | PS02                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
-| 3 | PS03       | NetworkX and Cytoscape: creating a network using textual data | Oct. 14th, 14:30 | Oct. 21st, 14:30 | Oct. 16th, 14:30 | Oct. 23th, 14:30 |
+| 3 | PS03       | NetworkX: creating a network from textual data | Oct. 14th, 14:30 | Oct. 21st, 14:30 | Oct. 16th, 14:30 | Oct. 23th, 14:30 |
 | 4 | PS04         | NetworkX: weighted networks | Oct. 15th, 16:30 | Oct. 15th, 18:30 | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
 | 5* | PS01-PS04                             | Wrap-up | Oct. 16th, 18:30 | ----- | Oct. 24th, 14:30 | ----- |
 | 6 | PS05                 | NetworkX: PageRank | Oct. 21st, 14:30 | Oct. 28th, 14:30 | Nov. 6th, 14:30 | Nov. 13th, 14:30 |
