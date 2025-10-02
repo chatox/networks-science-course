@@ -17,7 +17,7 @@ If, instead, you want to do this the hard way, you can download from GitHub's we
 |----------|--------|
 | starwars/ | [Evelina Gabasova 2016](https://github.com/evelinag/star-wars-network-data) |
 | karate-club/ | [Zachary 1977](http://www-personal.umich.edu/~mejn/netdata/karate.zip) |
-| reptilia-tortoise/ | [Sah et al. 2016](https://doi.org/10.1007/s00265-016-2136-9) |
+| student-cooperation.graphml | [Fire et al. 2012](https://doi.org/10.1007/978-3-642-35236-2_59) |
 | marvel-hero.csv | [Chang et al. 2011](http://syntagmatic.github.io/exposedata/marvel/) |
 | game-of-thrones/ | [Graph Drawing Contest](http://mozart.diei.unipg.it/gdcontest/contest2018/topics.html) |
 | flavor-network/ | [Ahn et al. 2011](https://doi.org/10.1038/srep00196) |
@@ -41,6 +41,7 @@ If, instead, you want to do this the hard way, you can download from GitHub's we
 | stocks_62_names.txt + stocks_62_pearson.net | [Latora, Nicosia, and Russo 2017](http://www.cambridge.org/ru/academic/subjects/physics/statistical-physics/complex-networks-principles-methods-and-applications?format=HB&isbn=9781107103184), Chapter 10 |
 | les_miserables/ | [Newman 2006](https://github.com/gephi/gephi-toolkit-demos/blob/master/src/main/resources/org/gephi/toolkit/demos/lesmiserables.gml); gender added |
 | sfhh-conference-2009.csv | [SocioPatterns Project](http://www.sociopatterns.org/datasets/sfhh-conference-data-set/) |
+| reptilia-tortoise/ | [Sah et al. 2016](https://doi.org/10.1007/s00265-016-2136-9) |
 
 ## Repositories of network datasets
 
@@ -50,3 +51,4 @@ If, instead, you want to do this the hard way, you can download from GitHub's we
 * [AMiner Datasets for Social Network Analysis](https://aminer.org/data-sna)
 * [Mark Newman's Network Datasets](http://www-personal.umich.edu/~mejn/netdata/)
 * [Gephi datasets](https://github.com/gephi/gephi/wiki/Datasets)
+* [Netzschleuder](https://networks.skewed.de/)
