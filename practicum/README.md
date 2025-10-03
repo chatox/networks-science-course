@@ -33,7 +33,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 
 | # | Handouts                                    | Contents | Session Date <br> 101/102 | Deadline <br> 101/102 | Session Date <br> 201 |  Deadline <br> 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
-| 1 | PS01                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
+| 1 | [PS01](ps01-cytoscape.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
 | 2 | PS02                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
 | 3 | PS03       | NetworkX: creating a network from textual data | Oct. 14th, 14:30 | Oct. 21st, 14:30 | Oct. 16th, 14:30 | Oct. 23th, 14:30 |
 | 4 | PS04         | NetworkX: weighted networks | Oct. 15th, 16:30 | Oct. 15th, 18:30 | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
