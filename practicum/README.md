@@ -53,7 +53,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 
 * [Cytoscape 8-minutes video tutorial](https://www.youtube.com/watch?v=iGpxX0Kd4Z0&list=PLFQS98nmv__wFmmSDePx9FtQ2TFRS6wdR)
 * [Cytoscape tutorial](https://github.com/cytoscape/cytoscape-tutorials/wiki)
-* [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0)
+* [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0) (old Cytoscape version)
 
 ### NetworkX
 
