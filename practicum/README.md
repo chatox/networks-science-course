@@ -38,10 +38,10 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 3 | PS03       | NetworkX: creating a network from textual data | Oct. 14th, 14:30 | Oct. 17st, 14:30 | Oct. 16th, 14:30 | Oct. 21st, 14:30 |
 | 4 | PS04         | NetworkX: weighted networks | Oct. 15th, 16:30 | Oct. 15th, 18:30 | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
 | 5* | PS01-PS04                             | Wrap-up | Oct. 16th, 18:30 | ----- | Oct. 24th, 14:30 | ----- |
-| 6 | PS05                 | NetworkX: PageRank | Oct. 21st, 14:30 | Oct. 28th, 14:30 | Nov. 6th, 14:30 | Nov. 13th, 14:30 |
-| 7 | PS06           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 11th, 14:30 | Nov. 7th, 14:30 | Nov. 14th, 13:30 |
+| 6 | PS05                 | NetworkX: PageRank | Oct. 21st, 14:30 | Oct. 24th, 14:30 | Nov. 6th, 14:30 | Nov. 11th, 14:30 |
+| 7 | PS06           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 7th, 14:30 | Nov. 7th, 14:30 | Nov. 12th, 13:30 |
 | 8 | PS07        | NetworkX: k-cores | Nov. 14th, 16:30 | Nov. 14th, 18:30 | Nov. 17th, 18:30 | Nov. 17th, 20:30 |
-| 9 | PS08              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 28th, 16:30 | Nov. 24th, 18:30 | Dec. 1st, 18:30 |
+| 9 | PS08              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 26th, 16:30 | Nov. 24th, 18:30 | Nov. 27th, 18:30 |
 | 10* | PS05-PS08                            | Wrap-up | Nov. 25th, 14:30 | ----- | Nov. 27th, 14:30 | -----
 | 11* | Old exams                                 | Old exams review | Nov. 26th, 16:30 | ----- | Nov. 28th, 14:30 | -----
 
