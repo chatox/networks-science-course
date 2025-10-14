@@ -4,19 +4,24 @@
 
 You will need:
 
-* [Cytoscape 3.10](https://cytoscape.org/download.html)
-* The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
-* Python 3.8 or higher.
+* [**Cytoscape**](https://cytoscape.org/download.html) (version 3.10 or higher)
+   * The [ClusterMaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
+* **Python 3.11** or higher
    * You can use the [Anaconda](https://www.anaconda.com/products/individual) package manager.
-* Several Python packages
-   * [networkx](https://networkx.github.io/)
+   * If you prefer, you can also use the [`pip`](https://packaging.python.org/en/latest/tutorials/installing-packages/) package manager and Python's built-in [virtual environments](https://docs.python.org/3/library/venv.html).
+* Several Python **packages**
+   * [networkx](https://networkx.github.io/) — **version 3.5 or higher!**
    * [matplotlib](https://matplotlib.org/)
    * [numpy](https://numpy.org/)
    * [scipy](https://scipy.org/)
-* Jupyter Notebooks.
+* **Jupyter Notebooks**
    * Follow [these instructions](https://jupyter.org/install.html).
 
-:warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice instructors, they absolutely do not have the bandwidth for this.
+Feel free to install the packages on your own, any relevant versions are mentioned above. If you want to be sure you have all the correct versions, you can install using the requirements files provided in this directory:
+* `requirements.txt` — can be used with `pip`, see [instructions](https://packaging.python.org/en/latest/tutorials/installing-packages/#requirements-files).
+* `environment.yaml` — can be used with `conda`, see [instructions](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+
+:warning: Please, if you run into problems installing this software, **ask your classmates or in the course forum**. Please do not ask the practice instructors, they absolutely do not have the bandwidth for this.
 
 ## Practice sessions
 
