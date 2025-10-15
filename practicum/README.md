@@ -4,19 +4,24 @@
 
 You will need:
 
-* [Cytoscape 3.10](https://cytoscape.org/download.html)
-* The [clustermaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
-* Python 3.8 or higher.
+* [**Cytoscape**](https://cytoscape.org/download.html) (version 3.10 or higher)
+   * The [ClusterMaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
+* **Python 3.11** or higher
    * You can use the [Anaconda](https://www.anaconda.com/products/individual) package manager.
-* Several Python packages
-   * [networkx](https://networkx.github.io/)
+   * If you prefer, you can also use the [`pip`](https://packaging.python.org/en/latest/tutorials/installing-packages/) package manager and Python's built-in [virtual environments](https://docs.python.org/3/library/venv.html).
+* Several Python **packages**
+   * [networkx](https://networkx.github.io/) — **version 3.5 or higher!**
    * [matplotlib](https://matplotlib.org/)
    * [numpy](https://numpy.org/)
    * [scipy](https://scipy.org/)
-* Jupyter Notebooks.
+* **Jupyter Notebooks**
    * Follow [these instructions](https://jupyter.org/install.html).
 
-:warning: Please, if you run into problems installing this software, **ask in the course forum**. Please do not ask the practice instructors, they absolutely do not have the bandwidth for this.
+Feel free to install the packages on your own, any relevant versions are mentioned above. If you want to be sure you have all the correct versions, you can install using the requirements files provided in this directory:
+* `requirements.txt` — can be used with `pip`, see [instructions](https://packaging.python.org/en/latest/tutorials/installing-packages/#requirements-files).
+* `environment.yaml` — can be used with `conda`, see [instructions](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+
+:warning: Please, if you run into problems installing this software, **ask your classmates or in the course forum**. Please do not ask the practice instructors, they absolutely do not have the bandwidth for this.
 
 ## Practice sessions
 
@@ -34,14 +39,14 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | # | Handouts                                    | Contents | Session Date <br> 101/102 | Deadline <br> 101/102 | Session Date <br> 201 |  Deadline <br> 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
 | 1 | [PS01](ps01-cytoscpe.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
-| 2 | PS02                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
-| 3 | PS03       | NetworkX: creating a network from textual data | Oct. 14th, 14:30 | Oct. 17st, 14:30 | Oct. 16th, 14:30 | Oct. 21st, 14:30 |
-| 4 | PS04         | NetworkX: weighted networks | Oct. 15th, 16:30 | Oct. 15th, 18:30 | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
+| 2 | [PS02](ps02-flavors-2025.ipynb)                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
+| 3 | [PS03](ps03-networks-from-text.ipynb)       | NetworkX: networks from text and networkx visualization | Oct. 14th, 14:30 | Oct. 20th, 14:30 | Oct. 16th, 14:30 | Oct. 22nd, 14:30 |
+| 4 | PS04         | NetworkX: weighted networks | Oct. 21st, 14:30 | Oct. 21st, 16:30  | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
 | 5* | PS01-PS04                             | Wrap-up | Oct. 16th, 18:30 | ----- | Oct. 24th, 14:30 | ----- |
-| 6 | PS05                 | NetworkX: PageRank | Oct. 21st, 14:30 | Oct. 28th, 14:30 | Nov. 6th, 14:30 | Nov. 13th, 14:30 |
-| 7 | PS06           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 11th, 14:30 | Nov. 7th, 14:30 | Nov. 14th, 13:30 |
+| 6 | PS05                 | NetworkX: PageRank | Oct. 15th, 16:30 | Oct. 22nd, 16:30 | Nov. 6th, 14:30 | Nov. 11th, 14:30 |
+| 7 | PS06           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 7th, 14:30 | Nov. 7th, 14:30 | Nov. 12th, 13:30 |
 | 8 | PS07        | NetworkX: k-cores | Nov. 14th, 16:30 | Nov. 14th, 18:30 | Nov. 17th, 18:30 | Nov. 17th, 20:30 |
-| 9 | PS08              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 28th, 16:30 | Nov. 24th, 18:30 | Dec. 1st, 18:30 |
+| 9 | PS08              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 26th, 16:30 | Nov. 24th, 18:30 | Nov. 27th, 18:30 |
 | 10* | PS05-PS08                            | Wrap-up | Nov. 25th, 14:30 | ----- | Nov. 27th, 14:30 | -----
 | 11* | Old exams                                 | Old exams review | Nov. 26th, 16:30 | ----- | Nov. 28th, 14:30 | -----
 
