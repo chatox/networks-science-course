@@ -41,7 +41,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 1 | [PS01](ps01-cytoscpe.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
 | 2 | [PS02](ps02-flavors-2025.ipynb)                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
 | 3 | [PS03](ps03-networks-from-text.ipynb)       | NetworkX: networks from text and networkx visualization | Oct. 14th, 14:30 | Oct. 20th, 14:30 | Oct. 16th, 14:30 | Oct. 22nd, 14:30 |
-| 4 | PS04 (Group 1, [Group 2](ps04-weighted_networks-2025V1.ipynb))         | NetworkX: weighted networks | Oct. 21st, 14:30 | Oct. 21st, 16:30  | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
+| 4 | PS04 ([Group 1](ps04-weighted_networks-2025v2.ipynb), [Group 2](ps04-weighted_networks-2025V1.ipynb))         | NetworkX: weighted networks | Oct. 21st, 14:30 | Oct. 21st, 16:30  | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
 | 5* | PS01-PS04                             | Wrap-up | Oct. 16th, 18:30 | ----- | Oct. 24th, 14:30 | ----- |
 | 6 | [PS05](ps05-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 15th, 16:30 | Oct. 22nd, 16:30 | Nov. 6th, 14:30 | Nov. 11th, 14:30 |
 | 7 | PS06           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 7th, 14:30 | Nov. 7th, 14:30 | Nov. 12th, 13:30 |
