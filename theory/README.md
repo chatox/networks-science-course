@@ -128,10 +128,10 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT09: Network models: Erdos Renyi (ER) networks [pdf](pdf/tt09-ERmodel.pdf)
+* Lecture TT09: The Erdos Renyi (ER) network model [pdf](pdf/tt09-ERmodel.pdf)
    * Exercise: guess the formula for the expected number of links
    * Exercise: compute the expected number of links and expected average degree
-* Lecture TT10: Network models: properties of ER networks [pdf](pdf/tt10-ERproperties.pdf)
+* Lecture TT10: Properties of ER networks [pdf](pdf/tt10-ERproperties.pdf)
    * Exercise: guess the critical point at which a giant connected component emerges
    * Exercise: find critical N for a graph to be connected
 
