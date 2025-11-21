@@ -46,7 +46,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 6 | [PS05](ps05-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 15th, 16:30 | Oct. 23nd, 18:30 | Nov. 6th, 14:30 | Nov. 11th, 14:30 |
 | 7 | [PS06](ps06-network-models.ipynb)           | NetworkX: network models | Nov. 4th, 14:30 | Nov. 11th, 14:30 | Nov. 7th, 14:30 | Nov. 14th, 14:30 |
 | 8 | PS07        | NetworkX: Connected components | Nov. 14th, 16:30 | Nov. 14th, 18:30 | Nov. 27th, 18:30 | Nov. 27th, 20:30 |
-| 9 | PS08              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 26th, 16:30 | Nov. 17th, 18:30 | Nov. 23th, 18:30 |
+| 9 | [PS08](ps08-communities.ipynb)              | NetworkX: community detection | Nov. 21st, 16:30 | Nov. 26th, 16:30 | Nov. 17th, 18:30 | Nov. 23th, 18:30 |
 | 10* | PS05-PS08                            | Wrap-up | Nov. 25th, 14:30 | ----- | Nov. 24th, 18:30 | -----
 | 11* | Old exams                                 | Old exams review | Nov. 26th, 16:30 | ----- | Nov. 28th, 14:30 | -----
 
