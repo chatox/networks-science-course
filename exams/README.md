@@ -4,7 +4,12 @@ The ordering of topics and the relative difficulty of exams may vary from year t
 
 **We do not provide answers to these exams. If you cannot solve a problem in one of the exams, please ask in the forum of the course.**
 
-## Exams from 2024
+## Exams from 2025
+
+* Midterm: [en](2025-ex01-en.pdf)
+* Final: [en](2025-exFF-en.pdf)
+
+* ## Exams from 2024
 
 * Midterm: [en](2024-ex01-en.pdf)
 * Final: [en](2024-exFF-en.pdf)
