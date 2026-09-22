@@ -39,12 +39,12 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 1 | [PS01](ps01-flavors-2025.ipynb)             | The flavors network (Management networks data) | Oct. 20th, 18:30 | Oct. 23rd, 16:30 |  Oct. 19th, 16:30 | Oct. 22nd, 14:30 |
 | 2 | [PS02](ps02-networks-from-text.ipynb)       | Networks from text and networkx visualization| Oct. 21st, 14:30 | Oct. 23rd, 16:30  | Oct. 21th, 18:30 | Oct. 22nd, 14:30 |
 | 3 | [PS03]                                      | Feedback session on PS01 and PS02             | Oct. 23rd, 16:30 |                 | Oct. 16th, 14:30 |               |
-| 4 | PS04 ([Group 1](ps04-weighted_networks-2025v2.ipynb), [Group 2](ps04-weighted_networks-2025V1.ipynb))         | Lab exam: Weighted networks | Oct. 27th, 18:30 | Oct. 27th, 20:30  | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
+| 4 | PS04 ([Group 1](), [Group 2]())             | Lab exam: Weighted networks | Oct. 27th, 18:30 | Oct. 27th, 20:30  | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
 | 5 | [PS05](ps05-pagerank.ipynb)                 | PageRank | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
 | 6 | [PS06](ps06-network-models.ipynb)           | Network models | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
-| 7 | PS07                                        | Lab exam: Connected components | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 |
-| 8 | [PS08](ps08-communities.ipynb)              | Community detection | Nov. 21st, 16:30 | Nov. 26th, 16:30 | Nov. 30th, 16:30 | Dec. 3rd, 14:30 |
-| 11* | Old exams                                 | Old exams review | Nov. 26th, 16:30 | ----- | Dec. 3rd, 14:30 | -----
+| 7 | PS07  ([Group 1](), [Group 2]())            | Lab exam: Connected components | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 |
+| 8 | [PS08](ps08-communities.ipynb)              | Community detection | Dec. 1st, 18:30 | Dec. 4th, 16:30 | Nov. 30th, 16:30 | Dec. 4th, 16:30 |
+| 11* | Old exams                                 | Old exams review | Dec. 2nd, 14:30 | ----- | Dec. 3rd, 14:30 | -----
 
 \* Participation in wrap-up sessions (#5, #10) and session #11 is **optional**.
 
