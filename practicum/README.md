@@ -4,8 +4,6 @@
 
 You will need:
 
-* [**Cytoscape**](https://cytoscape.org/download.html) (version 3.10 or higher)
-   * The [ClusterMaker2 plug-in](https://apps.cytoscape.org/apps/clustermaker2) for Cytoscape
 * **Python 3.11** or higher
    * You can use the [Anaconda](https://www.anaconda.com/products/individual) package manager.
    * If you prefer, you can also use the [`pip`](https://packaging.python.org/en/latest/tutorials/installing-packages/) package manager and Python's built-in [virtual environments](https://docs.python.org/3/library/venv.html).
@@ -27,7 +25,7 @@ Feel free to install the packages on your own, any relevant versions are mention
 
 Practice sessions are conducted with a computer.
 
-There are eight practice sessions in this course. The first session's handout is a document, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
+There are seven practice sessions in this course. Two of them are mandatory in-person classes. The first session's handout is a document, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
@@ -38,9 +36,9 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 
 | # | Handouts                                    | Contents | Session Date <br> 101/102 | Deadline <br> 101/102 | Session Date <br> 201 |  Deadline <br> 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
-| 1 | [PS01](ps01-cytoscpe.md)                          | Cytoscape: editing, visualizing, creating, importing and editing networks | Oct. 3rd, 16:30 | Oct. 10th, 16:30 |  Oct. 6th, 18:30 | Oct. 13th, 18:30 |
-| 2 | [PS02](ps02-flavors-2025.ipynb)                  | NetworkX and Cytoscape: the flavors network (Management networks data)| Oct. 10th, 16:30 | Oct. 17th, 16:30 | Oct. 13th, 18:30 | Oct. 20th, 18:30 |
-| 3 | [PS03](ps03-networks-from-text.ipynb)       | NetworkX: networks from text and networkx visualization | Oct. 14th, 14:30 | Oct. 20th, 14:30 | Oct. 16th, 14:30 | Oct. 22nd, 14:30 |
+| 1 | [PS01](ps01-flavors-2025.ipynb)             | The flavors network (Management networks data) | Oct. 20th, 18:30 | Oct. 23rd, 16:30 |  Oct. 19th, 16:30 | Oct. 22nd, 14:30 |
+| 2 | [PS02](ps02-networks-from-text.ipynb)       | Networks from text and networkx visualization| Oct. 21st, 14:30 | Oct. 23rd, 16:30  | Oct. 21th, 18:30 | Oct. 22nd, 14:30 |
+| 3 | [PS03]                                      | Feedback session on PS01 and PS02             | Oct. 23rd, 16:30 |                 | Oct. 16th, 14:30 |               |
 | 4 | PS04 ([Group 1](ps04-weighted_networks-2025v2.ipynb), [Group 2](ps04-weighted_networks-2025V1.ipynb))         | NetworkX: weighted networks | Oct. 21st, 14:30 | Oct. 21st, 16:30  | Oct. 17th, 14:30 | Oct. 17th, 16:30 |
 | 5* | PS01-PS04                             | Wrap-up | Oct. 16th, 18:30 | ----- | Oct. 24th, 14:30 | ----- |
 | 6 | [PS05](ps05-pagerank.ipynb)                 | NetworkX: PageRank | Oct. 15th, 16:30 | Oct. 23nd, 18:30 | Nov. 6th, 14:30 | Nov. 11th, 14:30 |
