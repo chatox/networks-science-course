@@ -4,10 +4,10 @@
 
 Continuous evaluation will be based in the following elements:
 
-* A1: Grade in the mid-term exam: 25%
-* A1: Grade in the final exam: 25%
-* B1: Average grade in 2 in-class practical sessions: 25%
-* B2: Average grade in 2 (randomly chosen) at-home practical sessions: 25%
+* A1 (Theory): Grade in the mid-term exam: 25%
+* A2 (Theory): Grade in the final exam: 25%
+* B1 (Practice): Average grade in 2 in-class practical sessions: 25%
+* B2 (Practice): Average grade in 2 (randomly chosen) at-home practical sessions: 25%
 
 To pass the course under continuous evaluation, all of the following must be true:
 
