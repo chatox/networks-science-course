@@ -4,27 +4,29 @@
 
 Continuous evaluation will be based in the following elements:
 
-* A: Average grade in the 8 practical sessions: 50%
-* B: Grade in the mid-term exam: 20%
-* C: Grade in the final exam: 30%
+* A1: Grade in the mid-term exam: 25%
+* A1: Grade in the final exam: 25%
+* B1: Average grade in 2 in-class practical sessions: 25%
+* B2: Average grade in 2 (randomly chosen) at-home practical sessions: 25%
 
 To pass the course under continuous evaluation, all of the following must be true:
 
-1. Practice grade, A ≥ 5.0
-1. Theory grade, 0.4 B + 0.6 C ≥ 5.0
-1. Final grade, 0.5 A + 0.2 B + 0.3 C ≥ 5.0
+1. Theory grade, A = 0.5 A1 + 0.5 A2 ≥ 5.0
+1. Practice grade,  B = 0.5 B1 + 0.5 B2 ≥ 5.0
+1. Final grade, 0.5 A + 0.5 B ≥ 5.0
 
-If you fail to pass, you will have to take the resit exam. The resit exam replaces the theory grade (C and D in the list above).
+If you fail to pass, you will have to take the resit exam. The resit exam replaces the theory grade (A1 and A2 in the list above).
 
 ### 1.1. Getting a grade in the practical sessions (PSxx, individual)
 
+Starting from this year, presence in the practice sessions is NO LONGER MANDATORY 
+
 To obtain a grade in the practical session, you must:
 
-* Attend the practical session
 * Deliver your work within the deadline.
-* Some practices will be delivered at the end of the session (i.e., they must be completed in two hours). 
+* Two practices will be delivered at the end of the session (i.e., they must be completed in two hours). 
 
-Not coming to a practice session or not delivering your work means a zero grade in that session, unless you can justify your absence.
+Not delivering your work means a zero grade in that session, unless you can justify your absence.
 
 :unamused: Do not work alone and isolated during the practice session. You can prevent simple mistakes by talking to someone else. You can work in pairs, but each one should submit his/her own work individually and delivered practices must be different.
 
@@ -38,7 +40,7 @@ In-class tests and exams are individual work.
 
 Not coming to an in-class test means a zero grade in that in-class test, unless you can justify your absence.
 
-You are not allowed to bring notes to the exams. No laptops or phones will be allowed.
+You might be allowed to bring notes to the exams. Ask for details. No laptops or phones will be allowed.
 
 :warning: Copying during a test/exam, knowingly facilitating the copying of others, elaborating, lending, or facilitating instruments for copying during an exam, are considered by the university as serious misconduct ("*falta grave*"). The instructor will make a case for the university to sanction this serious misconduct, as per the university regulations, with a **suspension from the university** for a minimum of six months and a maximum of four years.
 
