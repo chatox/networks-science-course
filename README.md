@@ -28,7 +28,6 @@ Material specific to UPF students:
 
 * :scroll: [Course presentation](upf/upf-course-presentation.md): general aspects of the course at UPF ("*plan docente*").
 * :mortar_board: [Evaluation rules](upf/upf-evaluation.md) for course at UPF.
-* :calendar: [Calendar](upf/upf-calendar.md) for course at UPF.
 
 ## Acknowledgments
 
