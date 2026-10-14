@@ -36,24 +36,18 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 
 | # | Handouts                                    | Contents | Session Date <br> 101/102 | Deadline <br> 101/102 | Session Date <br> 201 |  Deadline <br> 201 |
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
-| 1 | [PS01](ps01-flavors-2025.ipynb)             | The flavors network (Management networks data) | Oct. 20th, 18:30 | Oct. 23rd, 16:30 |  Oct. 19th, 16:30 | Oct. 22nd, 14:30 |
-| 2 | [PS02](ps02-networks-from-text.ipynb)       | Networks from text and networkx visualization| Oct. 21st, 14:30 | Oct. 23rd, 16:30  | Oct. 21th, 18:30 | Oct. 22nd, 14:30 |
-| 3 | [PS03]                                      | Feedback session on PS01 and PS02             | Oct. 23rd, 16:30 |                 | Oct. 16th, 14:30 |               |
+| 1 | [PS01]()             | The flavors network (Management networks data) | Oct. 20th, 18:30 | Oct. 23rd, 16:30 |  Oct. 19th, 16:30 | Oct. 22nd, 14:30 |
+| 2 | [PS02]()       | Networks from text and networkx visualization| Oct. 21st, 14:30 | Oct. 23rd, 16:30  | Oct. 21th, 18:30 | Oct. 22nd, 14:30 |
+| 3 | [PS03]()                                      | Feedback session on PS01 and PS02             | Oct. 23rd, 16:30 |                 | Oct. 16th, 14:30 |               |
 | 4 | PS04 ([Group 1](), [Group 2]())             | Lab exam                                     | Oct. 27th, 18:30 | Oct. 27th, 20:30  | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
-| 5 | [PS05](ps05-pagerank.ipynb)                 | PageRank | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
-| 6 | [PS06](ps06-network-models.ipynb)           | Network models | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
+| 5 | [PS05]()                 | PageRank | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
+| 6 | [PS06]()           | Network models | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
 | 7 | PS07  ([Group 1](), [Group 2]())            | Lab exam | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 |
-| 8 | [PS08](ps08-communities.ipynb)              | Community detection | Dec. 1st, 18:30 | Dec. 4th, 16:30 | Nov. 30th, 16:30 | Dec. 4th, 16:30 |
+| 8 | [PS08]()              | Community detection | Dec. 1st, 18:30 | Dec. 4th, 16:30 | Nov. 30th, 16:30 | Dec. 4th, 16:30 |
 | 9 | Old exams                                 | Old exams review | Dec. 2nd, 14:30 | ----- | Dec. 3rd, 14:30 | -----
 
 
 ## Tutorials/reference
-
-### Cytoscape
-
-* [Cytoscape 8-minutes video tutorial](https://www.youtube.com/watch?v=iGpxX0Kd4Z0&list=PLFQS98nmv__wFmmSDePx9FtQ2TFRS6wdR)
-* [Cytoscape tutorial](https://github.com/cytoscape/cytoscape-tutorials/wiki)
-* [Emma Towlson's slides](https://www.dropbox.com/s/37zleq3ynw6e0n6/Cytoscape_2017.pdf?dl=0) (old Cytoscape version)
 
 ### NetworkX
 
@@ -61,3 +55,11 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 * [NetworkX documentation](https://networkx.github.io/)
 * [Social network analysis with NetworkX](https://blog.dominodatalab.com/social-network-analysis-with-networkx/) by Manojit Nandi
 * [NetworkX: Network analysis with Python](https://www.cl.cam.ac.uk/~cm542/teaching/2010/stna-pdfs/stna-lecture8.pdf) by Salvatore Scellato
+
+### Pandas
+
+* [Pandas documentation](https://pandas.pydata.org/docs/index.html)
+  * [Intro to pandas](https://pandas.pydata.org/docs/getting_started/index.html#intro-to-pandas) (visual)
+  * [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html#min)
+  * [Tutorials](https://pandas.pydata.org/docs/getting_started/index.html#intro-to-pandas)
+  * [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
