@@ -38,7 +38,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
 | 1 | [PS01](ps01-networkx-pandas-2026.ipynb)     | The flavors network (Management networks data) | Oct. 20th, 18:30 | Oct. 23rd, 16:30 |  Oct. 19th, 16:30 | Oct. 22nd, 14:30 |
 | 2 | PS02                                        | Networks from text and networkx visualization| Oct. 21st, 14:30 | Oct. 23rd, 16:30  | Oct. 21th, 18:30 | Oct. 22nd, 14:30 |
-| 3 | PS03                                        | Feedback session on PS01 and PS02             | Oct. 23rd, 16:30 |                 | Oct. 16th, 14:30 |               |
+| 3 | PS03                                        | Feedback session on PS01 and PS02             | Oct. 23rd, 16:30 |                 | Oct. 22th, 14:30 |               |
 | 4 | PS04 (Group 1, Group 2)                     | Lab exam                                     | Oct. 27th, 18:30 | Oct. 27th, 20:30  | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
 | 5 | PS05                                        | PageRank | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
 | 6 | PS06                                        | Network models | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
