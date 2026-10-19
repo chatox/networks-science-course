@@ -25,7 +25,7 @@ Feel free to install the packages on your own, any relevant versions are mention
 
 Practice sessions are conducted with a computer.
 
-There are seven practice sessions in this course. Two of them are mandatory in-person classes. The first session's handout is a document, the remaining sessions have handouts that are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
+There are seven practice sessions in this course. Two of them are mandatory in-person classes. The handouts are Python notebooks. Download the notebooks, open them, and follow the instructions there (some instructions are in color and are not visible in the preview shown on the GitHub website). Each session starts with *psNN* and describe the activities that the students must perform during the practice session.
 
 At the end of each handout there is a description of what you should deliver. Please ask in the course forum or to your practice instructor ("*profesor/a de prácticas*") any questions you may have.
 
