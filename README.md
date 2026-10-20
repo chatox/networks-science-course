@@ -5,16 +5,6 @@ Instructor: [Michele Starnini](https://scholar.google.com/citations?user=duBif0o
 
 These are materials for an undergraduate course on **Network Science**, and include two-hour lectures and two-hour practice sessions every week. They were developed for second year students of the bachelor degree on *Mathematical Engineering on Data Science* at Universitat Pompeu Fabra, Barcelona.
 
-**Quotes from student evaluations (year)**
-
-* *"I liked the most the algorithms from the last topics (PageRank, community finding, and spectral graph clustering)."* (2023)
-* *"Despite being many practices and even some dense ones, I appreciated them because it helped you to consolidate the theory
-concepts."* (2022)
-* *"It is a very interesting subject, and it seems very useful for data scientists."* (2021)
-* *"This has been by far my favorite subject in the degree and the one in which I've learned the most."* (2020)
-* *"The most interesting subject so far ... the volume of work is quite a lot, but the topics are engaging."* (2019)
-* *"By far, the most interesting and fun subject of the trimester!"* (2018)
-
 ## Contents of this repository
 
 :construction: These materials should not be considered final until the end of the course.
