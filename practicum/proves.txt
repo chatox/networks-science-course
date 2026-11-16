@@ -1,0 +1,2 @@
+{"user": {"screen_name": "ana_01"}, "full_text": "hola @bob_02 i @carla_3"}
+{"user": {"screen_name": "bob_02"}, "full_text": "gràcies @ana_01"}
