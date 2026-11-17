@@ -38,11 +38,11 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 |---|---------------------------------------------|----------|------------------|--------------|------------------|--------------|
 | 1 | [PS01](ps01-networkx-pandas-2026.ipynb)     | Management of networks data. NetworkX and Pandas | Oct. 20th, 18:30 | Oct. 23rd, 16:30 | Oct. 19th, 16:30 | Oct. 22nd, 14:30 |
 | 2 | [PS02](ps02-networks-from-text-2026.ipynb)  | Networks from text                               | Oct. 21st, 14:30 | Oct. 23rd, 16:30 | Oct. 21th, 18:30 | Oct. 22nd, 14:30 |
-| 3 | PS03                                        | Feedback on PS01/02  + old exam review               | Oct. 23rd, 16:30 |                  | Oct. 22th, 14:30 |                  |
-| 4 | PS04 (Group 1, Group 2)                     | Lab exam                             | Oct. 27th, 18:30 | Oct. 27th, 20:30 | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
-| 5 | PS05                                        | PageRank                             | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
+| 3 | PS03                                        | Feedback on PS01/02  + old exam review           | Oct. 23rd, 16:30 |                  | Oct. 22th, 14:30 |                  |
+| 4 | PS04                                        | Lab exam                             | Oct. 27th, 18:30 | Oct. 27th, 20:30 | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
+| 5 | [PS05](ps05-pagerank-2026.ipynb)            | PageRank                             | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
 | 6 | PS06                                        | Network models                       | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
-| 7 | PS07 (Group 1, Group 2)                     | Lab exam                             | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 |
+| 7 | PS07                                        | Lab exam                             | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 |
 | 8 | PS08                                        | Community detection                  | Dec. 1st, 18:30  | Dec. 4th, 16:30  | Nov. 30th, 16:30 | Dec. 4th, 16:30  |
 | 9 | Old exams                                   | Old exams review                     | Dec. 2nd, 14:30  | -----            | Dec. 3rd, 14:30  | -----            |
 
