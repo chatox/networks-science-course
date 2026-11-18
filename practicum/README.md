@@ -41,7 +41,7 @@ You are expected to deliver your work within the deadline. Deadlines vary: some 
 | 3 | PS03                                        | Feedback on PS01/02  + old exam review           | Oct. 23rd, 16:30 |                  | Oct. 22th, 14:30 |                  |
 | 4 | PS04                                        | Lab exam                             | Oct. 27th, 18:30 | Oct. 27th, 20:30 | Oct. 27th, 18:30 | Oct. 27th, 20:30 |
 | 5 | [PS05](ps05-pagerank-2026.ipynb)            | PageRank                             | Nov. 17th, 18:30 | Nov. 23nd, 16:30 | Nov. 16th, 16:30 | Nov. 23nd, 16:30 |
-| 6 | PS06                                        | Network models                       | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
+| 6 | [PS06](ps06-network-models-2026.ipynb)      | Network models                       | Nov. 18th, 14:30 | Nov. 23nd, 16:30 | Nov. 18th, 18:30 | Nov. 23nd, 16:30 |
 | 7 | PS07                                        | Lab exam                             | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 | Nov. 23nd, 16:30 | Nov. 23nd, 18:30 |
 | 8 | PS08                                        | Community detection                  | Dec. 1st, 18:30  | Dec. 4th, 16:30  | Nov. 30th, 16:30 | Dec. 4th, 16:30  |
 | 9 | Old exams                                   | Old exams review                     | Dec. 2nd, 14:30  | -----            | Dec. 3rd, 14:30  | -----            |
