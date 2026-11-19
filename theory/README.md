@@ -168,9 +168,9 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
 
 ### During class
 
-* Lecture TT13: Network models: Barabasi-Albert networks [pdf](pdf/tt13-BAmodel.pdf)
+* Lecture TT13: Barabasi-Albert model [pdf](pdf/tt13-BAmodel.pdf)
    * Exercise: write formula for number of nodes and edges over time
-* Lecture TT14: Network models: Properties of BA networks [pdf](pdf/tt14-propertiesBAnetworks.pdf)
+* Lecture TT14: Properties of BA networks [pdf](pdf/tt14-propertiesBAnetworks.pdf)
 
 ### After class
 
