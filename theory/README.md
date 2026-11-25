@@ -190,7 +190,7 @@ We will have a mid-term exam; there will be no lecture after the exam. The topic
    * Exercise: perform a k-core decomposition
    * Exercise: indicate if communities are strong or weak
    * Exercise: compute cut size under two different partitions (pin board)
-* Lecture TT16: Community detection [pdf](pdf/tt16-community_detection.pdf)
+* Lecture TT16: Community detection [pdf](pdf/tt16-communities_detection.pdf)
    * Exercise: compute modularity
    * Exercise: invent a variant of the ER model that generates graphs having two communities
 
